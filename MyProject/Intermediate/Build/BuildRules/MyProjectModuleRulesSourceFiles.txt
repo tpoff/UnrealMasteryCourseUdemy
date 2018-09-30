@@ -1,0 +1,3 @@
+C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Source\MyProject\MyProject.Build.cs
+C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Source\MyProject.Target.cs
+C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Source\MyProjectEditor.Target.cs
