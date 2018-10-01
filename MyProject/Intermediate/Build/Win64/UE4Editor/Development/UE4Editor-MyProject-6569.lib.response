@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyProject-6569.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProject.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectCharacter.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectGameMode.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectHUD.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectProjectile.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProject.init.gen.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectCharacter.gen.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectGameMode.gen.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectHUD.gen.cpp.obj"
+"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\MyProjectProjectile.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\MyProject\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-6569.lib"

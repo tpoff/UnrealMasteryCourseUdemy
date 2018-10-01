@@ -3,6 +3,7 @@
 #include "MyProjectProjectile.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 AMyProjectProjectile::AMyProjectProjectile() 
 {
@@ -27,6 +28,9 @@ AMyProjectProjectile::AMyProjectProjectile()
 	ProjectileMovement->bRotationFollowsVelocity = true;
 	ProjectileMovement->bShouldBounce = true;
 
+
+
+
 	// Die after 3 seconds by default
 	InitialLifeSpan = 3.0f;
 }
@@ -40,4 +44,7 @@ void AMyProjectProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActo
 
 		Destroy();
 	}
+
+
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation());
 }
