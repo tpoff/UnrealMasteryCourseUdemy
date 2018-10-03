@@ -418,12 +418,14 @@
     <ClInclude Include="..\..\Source\FPSGame\FPSGame.h" />
     <ClCompile Include="..\..\Source\FPSGame\Private\BlackHole.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSCharacter.cpp" />
+    <ClCompile Include="..\..\Source\FPSGame\Private\FpsExtractionZone.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSGameMode.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSHUD.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSObjectiveActor.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSProjectile.cpp" />
     <ClInclude Include="..\..\Source\FPSGame\Public\BlackHole.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSCharacter.h" />
+    <ClInclude Include="..\..\Source\FPSGame\Public\FpsExtractionZone.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSGameMode.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSHUD.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\FPSObjectiveActor.h" />
