@@ -51,22 +51,33 @@ void ABlackHole::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	
+
+	/*
+	my initial solution
 	TArray<AActor*> overlappingActors;
 	GravityWell->GetOverlappingActors(overlappingActors);
-
-	
 	for (AActor* actor : overlappingActors)
 	{
 		TArray<UStaticMeshComponent*> Components;
 		actor->GetComponents<UStaticMeshComponent>(Components);
 		for (UStaticMeshComponent* mesh : Components) {
-			//esh->AddRadialForce(this->GetActorLocation(), 2000.0f, 200, ERadialImpulseFalloff::RIF_Constant);
 			mesh->AddRadialImpulse(GetActorLocation(), 2000.0f, -50.0, ERadialImpulseFalloff::RIF_Constant, true);
 		
 		}
-		//actor->Destroy();
-	}
 
+	}*/
+
+	TArray<UPrimitiveComponent*> overlappingComponents;
+	GravityWell->GetOverlappingComponents(overlappingComponents);
+	for (UPrimitiveComponent* component : overlappingComponents) {
+
+		if (component && component->IsSimulatingPhysics()) {
+			float sphereRadius = GravityWell->GetScaledSphereRadius();
+			float forceStrength = -2500;
+			component->AddRadialForce(GetActorLocation(), sphereRadius, forceStrength, ERadialImpulseFalloff::RIF_Constant, true);
+		}
+	}
 }
 
 
