@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPSGame",
 				PKG_CompiledIn | 0x00000000,
-				0x64CAD380,
+				0x24754B3D,
 				0xB4C1575A,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

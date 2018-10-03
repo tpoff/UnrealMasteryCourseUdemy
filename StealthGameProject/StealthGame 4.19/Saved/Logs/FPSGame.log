@@ -639,3 +639,585 @@ LogInit: Object subsystem initialized
 [2018.10.03-11.44.07:239][ 67]LogSavePackage: Save=71.96ms
 [2018.10.03-11.44.07:239][ 67]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData4A326DDB4A808B92F1FDE195A1484E9A.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.10.03-11.44.07:241][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.03-11.51.58:920][937]LogEditorViewport: Clicking on Actor (LMB): BP_Blackhole_C (BP_Blackhole)
+[2018.10.03-11.51.59:833][ 38]Cmd: DELETE
+[2018.10.03-11.51.59:833][ 38]Cmd: ACTOR DELETE
+[2018.10.03-11.51.59:835][ 38]LogEditorActor: Deleted Actor: BP_Blackhole_C
+[2018.10.03-11.51.59:843][ 38]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.10.03-11.52.01:569][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-11.52.01:816][252]LogSavePackage: Save=85.61ms
+[2018.10.03-11.52.01:816][252]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap26C926EC4BDA216B1400518E2F711C81.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.03-11.52.01:819][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.03-11.52.01:888][252]LogSavePackage: Save=45.61ms
+[2018.10.03-11.52.01:888][252]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData58F71FF14369CFB19ED10DAB9FB92C1C.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.03-11.52.01:890][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.03-11.53.53:325][  5]LogSlate: Took 0.001827 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.03-11.54.05:717][453]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame Win64 Development -editorrecompile "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" -invalidatemakefilesonly
+[2018.10.03-11.54.05:923][453]Invalidating makefiles only in this run.
+[2018.10.03-11.54.06:262][453]Candidate modules for hot reload:
+[2018.10.03-11.54.06:262][453]  FPSGame
+[2018.10.03-11.54.06:262][453]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,7577 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 1:54:21 AM
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Creating makefile for hot reloading FPSGame (no existing makefile)
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-11.54.21:522][453]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Reflection code generated for FPSGameEditor in 6.79685 seconds
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: FPSGame.init.gen.cpp
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: FpsExtractionZone.gen.cpp
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: [4/5] Link UE4Editor-FPSGame-7577.dll
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: [5/5] Link UE4Editor-FPSGame-7577.lib
+[2018.10.03-11.54.21:522][453]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7577.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7577.exp
+[2018.10.03-11.54.21:522][453]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7577.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-7577.suppressed.exp
+[2018.10.03-11.54.21:522][453]CompilerResultsLog: Total build time: 15.11 seconds (Local executor: 1.22 seconds)
+[2018.10.03-11.54.21:522][453]LogMainFrame: MainFrame: Module compiling took 15.293 seconds
+[2018.10.03-11.54.21:536][453]LogClass: Could not find existing class FpsExtractionZone in package /Script/FPSGame for HotReload, assuming new class
+[2018.10.03-11.54.21:544][453]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0011 seconds. Added 7 classes and 3 folders.
+[2018.10.03-11.54.21:547][453]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.03-11.54.21:579][453]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-11.54.21:579][453]Display: HotReload took 15.6s.
+[2018.10.03-11.54.21:580][453]Warning: HotReload operation took 15.6s.
+[2018.10.03-11.54.21:703][453]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Public/FpsExtractionZone.h'
+[2018.10.03-11.54.21:775][453]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Private/FpsExtractionZone.cpp'
+[2018.10.03-11.54.21:786][453]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.10.03-11.54.21:791][453]LogHotReload: New module detected: UE4Editor-FPSGame-7577.dll
+[2018.10.03-11.54.21:827][454]LogHotReload: Starting Hot-Reload from IDE
+[2018.10.03-11.54.21:895][454]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-11.54.21:896][454]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.10.03-11.54.21:914][454]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-11.54.21:945][454]Display: HotReload took  0.1s.
+[2018.10.03-12.00.50:602][ 91]Candidate modules for hot reload:
+[2018.10.03-12.00.50:602][ 91]  FPSGame
+[2018.10.03-12.00.50:602][ 91]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,2763 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.00.50:605][ 91]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:00:58 AM
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: Error: C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Public/FpsExtractionZone.h(24)  : LogCompile: Error: Unknown variable specifier 'VisableAnywhere'
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: Error: C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Public/FpsExtractionZone.h(25)  : LogCompile: Error: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
+[2018.10.03-12.00.58:850][ 68]CompilerResultsLog: UnrealHeaderTool failed for target 'FPSGameEditor' (platform: Win64, module info: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest).
+[2018.10.03-12.00.58:850][ 68]LogMainFrame: MainFrame: Module compiling took 8.281 seconds
+[2018.10.03-12.00.58:850][ 68]Warning: HotReload failed, recompile failed
+[2018.10.03-12.01.20:300][182]LogSlate: Window 'Message Log' being destroyed
+[2018.10.03-12.01.21:553][328]Candidate modules for hot reload:
+[2018.10.03-12.01.21:553][328]  FPSGame
+[2018.10.03-12.01.21:554][328]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,1585 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.01.21:556][328]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:01:30 AM
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-12.01.30:755][428]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Reflection code generated for FPSGameEditor in 7.2482483 seconds
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: FpsExtractionZone.gen.cpp
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: FPSGame.init.gen.cpp
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp(30) : error C2672: 'TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::__Internal_AddDynamic': no matching overloaded function found
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp(30) : error C2780: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::__Internal_AddDynamic(UserClass *,TBaseDynamicDelegate<FWeakObjectPtr,RetValType,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::TMethodPtrResolver<UserClass>::FMethodPtr,FName)': expects 3 arguments - 2 provided
+[2018.10.03-12.01.30:755][428]CompilerResultsLog:         with
+[2018.10.03-12.01.30:755][428]CompilerResultsLog:         [
+[2018.10.03-12.01.30:755][428]CompilerResultsLog:             RetValType=void
+[2018.10.03-12.01.30:755][428]CompilerResultsLog:         ]
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl(1131) : note: see declaration of 'TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::__Internal_AddDynamic'
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-1585.dll
+[2018.10.03-12.01.30:755][428]CompilerResultsLog: Total build time: 9.04 seconds (Local executor: 0.00 seconds)
+[2018.10.03-12.01.30:755][428]LogMainFrame: MainFrame: Module compiling took 9.231 seconds
+[2018.10.03-12.01.30:755][428]Warning: HotReload failed, recompile failed
+[2018.10.03-12.01.33:340][730]LogRenderer: Reallocating scene render targets to support 1064x592 Format 10 NumSamples 1 (Frame:33171).
+[2018.10.03-12.01.33:381][731]LogRenderer: Reallocating scene render targets to support 1120x592 Format 10 NumSamples 1 (Frame:33173).
+[2018.10.03-12.01.33:421][732]LogRenderer: Reallocating scene render targets to support 1228x592 Format 10 NumSamples 1 (Frame:33175).
+[2018.10.03-12.01.33:461][733]LogRenderer: Reallocating scene render targets to support 1296x592 Format 10 NumSamples 1 (Frame:33177).
+[2018.10.03-12.01.33:498][734]LogRenderer: Reallocating scene render targets to support 1300x592 Format 10 NumSamples 1 (Frame:33179).
+[2018.10.03-12.02.09:283][551]Candidate modules for hot reload:
+[2018.10.03-12.02.09:283][551]  FPSGame
+[2018.10.03-12.02.09:283][551]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,1929 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.02.09:287][551]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:02:10 AM
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp(30) : error C2664: 'void TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &>::__Internal_AddDynamic<AFpsExtractionZone>(UserClass *,void (__cdecl AFpsExtractionZone::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &),FName)': cannot convert argument 2 from 'void (__cdecl AFpsExtractionZone::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,FVector,const FHitResult &)' to 'void (__cdecl AFpsExtractionZone::* )(UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int32,bool,const FHitResult &)'
+[2018.10.03-12.02.10:934][737]CompilerResultsLog:         with
+[2018.10.03-12.02.10:934][737]CompilerResultsLog:         [
+[2018.10.03-12.02.10:934][737]CompilerResultsLog:             UserClass=AFpsExtractionZone
+[2018.10.03-12.02.10:934][737]CompilerResultsLog:         ]
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp(30) : note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-1929.dll
+[2018.10.03-12.02.10:934][737]CompilerResultsLog: Total build time: 1.45 seconds (Local executor: 0.00 seconds)
+[2018.10.03-12.02.10:934][737]LogMainFrame: MainFrame: Module compiling took 1.684 seconds
+[2018.10.03-12.02.10:934][737]Warning: HotReload failed, recompile failed
+[2018.10.03-12.05.03:013][657]Candidate modules for hot reload:
+[2018.10.03-12.05.03:013][657]  FPSGame
+[2018.10.03-12.05.03:013][657]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,6547 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.05.03:016][657]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:05:13 AM
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-12.05.13:140][855]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: Reflection code generated for FPSGameEditor in 7.2891391 seconds
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: FpsExtractionZone.gen.cpp
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: BlackHole.cpp
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: [4/5] Link UE4Editor-FPSGame-6547.dll
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: [5/5] Link UE4Editor-FPSGame-6547.lib
+[2018.10.03-12.05.13:140][855]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-6547.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-6547.exp
+[2018.10.03-12.05.13:140][855]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-6547.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-6547.suppressed.exp
+[2018.10.03-12.05.13:140][855]CompilerResultsLog: Total build time: 9.98 seconds (Local executor: 1.53 seconds)
+[2018.10.03-12.05.13:140][855]LogMainFrame: MainFrame: Module compiling took 10.157 seconds
+[2018.10.03-12.05.13:153][855]LogClass: Could not find existing class FpsExtractionZone in package /Script/FPSGame for HotReload, assuming new class
+[2018.10.03-12.05.13:158][855]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.03-12.05.13:191][855]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-12.05.13:193][855]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.03-12.05.13:224][855]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-12.05.13:224][855]Display: HotReload took 10.2s.
+[2018.10.03-12.07.01:974][497]Candidate modules for hot reload:
+[2018.10.03-12.07.01:974][497]  FPSGame
+[2018.10.03-12.07.01:974][497]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,8354 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.07.01:977][497]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:07:12 AM
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-12.07.12:143][705]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: Reflection code generated for FPSGameEditor in 7.3490271 seconds
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: FpsExtractionZone.gen.cpp
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: FPSGame.init.gen.cpp
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: [4/5] Link UE4Editor-FPSGame-8354.dll
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: [5/5] Link UE4Editor-FPSGame-8354.lib
+[2018.10.03-12.07.12:143][705]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-8354.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-8354.exp
+[2018.10.03-12.07.12:143][705]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-8354.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-8354.suppressed.exp
+[2018.10.03-12.07.12:143][705]CompilerResultsLog: Total build time: 10.00 seconds (Local executor: 1.52 seconds)
+[2018.10.03-12.07.12:143][705]LogMainFrame: MainFrame: Module compiling took 10.202 seconds
+[2018.10.03-12.07.12:154][705]LogClass: Could not find existing class FpsExtractionZone in package /Script/FPSGame for HotReload, assuming new class
+[2018.10.03-12.07.12:154][705]LogClass: Function HandleOverlap is new.
+[2018.10.03-12.07.12:159][705]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.03-12.07.12:192][705]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-12.07.12:194][705]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.03-12.07.12:221][705]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-12.07.12:221][705]Display: HotReload took 10.3s.
+[2018.10.03-12.07.15:148][ 48]LogEditor: Attempting to add actor of class 'FpsExtractionZone' to level at 180.00,160.00,1100.00
+[2018.10.03-12.07.15:242][ 57]LogEditor: Attempting to add actor of class 'FpsExtractionZone' to level at 180.00,160.00,1100.00
+[2018.10.03-12.07.16:818][244]LogEditor: Attempting to add actor of class 'FpsExtractionZone' to level at 180.00,160.00,1100.00
+[2018.10.03-12.07.20:244][630]Cmd: TRANSACTION UNDO
+[2018.10.03-12.07.20:244][630]LogEditorTransaction: Undo Create Actors
+[2018.10.03-12.07.21:356][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.07.21:425][761]LogEditor: Attempting to add actor of class 'FpsExtractionZone' to level at -170.00,1790.00,700.00
+[2018.10.03-12.07.22:068][836]LogEditor: Attempting to add actor of class 'FpsExtractionZone' to level at 10.00,-130.00,210.00
+[2018.10.03-12.07.25:846][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.07.27:256][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.07.27:256][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-12.07.27:257][448]PIE: New page: PIE session: FirstPersonExampleMap (Oct 3, 2018, 2:07:27 AM)
+[2018.10.03-12.07.27:257][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.03-12.07.27:274][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017431s)
+[2018.10.03-12.07.27:275][448]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.03-12.07.27:275][448]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2018.10.03-12.07.27:275][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018320s)
+[2018.10.03-12.07.27:309][448]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.03-12.07.27:316][448]LogInit: FAudioDevice initialized.
+[2018.10.03-12.07.27:350][448]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.03-12.07.27:352][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.03-07.07.27
+[2018.10.03-12.07.27:352][448]LogWorld: Bringing up level for play took: 0.001292
+[2018.10.03-12.07.27:353][448]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap -0.067
+[2018.10.03-12.07.27:353][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.07.29:240][672]LogTemp: Overlapped with extraction zone
+[2018.10.03-12.07.32:188][986]LogTemp: Overlapped with extraction zone
+[2018.10.03-12.07.34:169][165]LogTemp: Overlapped with extraction zone
+[2018.10.03-12.07.35:028][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.07.35:064][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.07.36:041][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.08.05:134][440]LogSavePackage: Save=85.00ms
+[2018.10.03-12.08.05:134][440]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_Auto11C9B71B84C1D68BF7C172B894EDC7836.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.10.03-12.08.05:136][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.10.03-12.08.05:138][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPersonExampleMap' took 0.111
+[2018.10.03-12.08.05:138][440]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.111
+[2018.10.03-12.08.19:692][485]Candidate modules for hot reload:
+[2018.10.03-12.08.19:692][485]  FPSGame
+[2018.10.03-12.08.19:692][485]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,9421 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.08.19:695][485]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:08:22 AM
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: [2/3] Link UE4Editor-FPSGame-9421.dll
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: [3/3] Link UE4Editor-FPSGame-9421.lib
+[2018.10.03-12.08.22:219][782]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-9421.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-9421.exp
+[2018.10.03-12.08.22:219][782]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-9421.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-9421.suppressed.exp
+[2018.10.03-12.08.22:219][782]CompilerResultsLog: Total build time: 2.36 seconds (Local executor: 1.43 seconds)
+[2018.10.03-12.08.22:219][782]LogMainFrame: MainFrame: Module compiling took 2.559 seconds
+[2018.10.03-12.08.22:236][782]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.03-12.08.22:301][782]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-12.08.22:303][782]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.10.03-12.08.22:330][782]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-12.08.22:330][782]Display: HotReload took  2.7s.
+[2018.10.03-12.08.23:514][924]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.03-12.08.23:523][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.08.23:524][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-12.08.23:524][924]PIE: New page: PIE session: FirstPersonExampleMap (Oct 3, 2018, 2:08:23 AM)
+[2018.10.03-12.08.23:524][924]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.03-12.08.23:538][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014539s)
+[2018.10.03-12.08.23:539][924]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.03-12.08.23:539][924]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2018.10.03-12.08.23:539][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015637s)
+[2018.10.03-12.08.23:571][924]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.03-12.08.23:578][924]LogInit: FAudioDevice initialized.
+[2018.10.03-12.08.23:608][924]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.03-12.08.23:609][924]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.03-07.08.23
+[2018.10.03-12.08.23:610][924]LogWorld: Bringing up level for play took: 0.001244
+[2018.10.03-12.08.23:610][924]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.191
+[2018.10.03-12.08.23:611][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.08.30:140][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.08.30:178][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.09.04:252][545]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-12.09.12:156][474]LogSlate: Took 0.004060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.10.03-12.09.13:952][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.09.14:043][690]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.03-12.09.14:053][690]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.09.14:053][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.03-12.09.14:053][690]PIE: New page: PIE session: FirstPersonExampleMap (Oct 3, 2018, 2:09:14 AM)
+[2018.10.03-12.09.14:054][690]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.03-12.09.14:070][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016339s)
+[2018.10.03-12.09.14:071][690]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.03-12.09.14:071][690]LogPlayLevel: PIE: World Init took: (0.000841s)
+[2018.10.03-12.09.14:071][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017710s)
+[2018.10.03-12.09.14:106][690]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.03-12.09.14:115][690]LogInit: FAudioDevice initialized.
+[2018.10.03-12.09.14:146][690]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.03-12.09.14:148][690]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.03-07.09.14
+[2018.10.03-12.09.14:148][690]LogWorld: Bringing up level for play took: 0.001401
+[2018.10.03-12.09.14:149][690]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap 0.73
+[2018.10.03-12.09.14:155][690]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.09.16:736][996]LogTemp: Overlapped with extraction zone
+[2018.10.03-12.09.21:045][420]LogTemp: Overlapped with extraction zone
+[2018.10.03-12.09.22:420][527]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.09.22:459][527]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.03-12.09.44:892][902]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.09.45:119][912]LogSavePackage: Save=82.87ms
+[2018.10.03-12.09.45:119][912]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap2C7864D640BFFFCA8F2D2D8329C8E382.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.03-12.09.45:123][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.03-12.09.45:192][912]LogSavePackage: Save=45.96ms
+[2018.10.03-12.09.45:192][912]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData3973AC6B4C13C7EE4C5812B9E8322DC2.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.03-12.09.45:194][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.03-12.09.46:034][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.25.11:072][411]LogTexture: Display: Building textures: T_DevPatterns (AutoDXT, 64X64)
+[2018.10.03-12.25.11:073][411]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.25.11:138][411]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-12.25.11:138][411]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.25.11:138][411]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.25.11:138][411]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-12.25.11:150][411]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.25.11:567][411]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.25.11:575][411]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.25.11:575][411]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.25.11:575][411]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.25.11:575][411]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.25.11:577][411]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.25.11:618][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.10.03-12.25.11:621][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-12.25.11:625][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-12.25.11:630][411]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-12.25.12:291][424]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.10.03-12.25.12:292][424]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.10.03-12.25.12:292][424]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.10.03-12.25.12:292][424]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.10.03-12.25.12:528][431]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.10.03-12.25.12:529][431]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.10.03-12.25.12:529][431]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.10.03-12.25.12:569][432]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.10.03-12.25.12:743][438]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.25.12:817][440]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.25.13:001][446]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.25.13:074][448]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.25.13:180][451]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.25.13:181][451]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-12.25.13:476][461]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-12.25.13:532][463]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-12.25.13:563][464]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-12.25.13:590][465]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-12.25.13:924][476]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.25.13:958][477]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-12.25.13:959][477]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-12.25.14:019][479]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-12.25.14:179][484]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-12.25.14:386][491]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-12.25.14:415][492]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-12.25.14:443][493]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-12.25.14:545][496]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-12.25.14:669][500]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-12.25.15:015][501]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-12.25.15:016][501]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-12.25.15:016][501]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-12.25.15:016][501]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-12.25.15:309][501]MaterialEditorStats: Base pass shader: 74 instructions
+[2018.10.03-12.25.15:309][501]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2018.10.03-12.25.15:309][501]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.10.03-12.25.15:309][501]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.03-12.25.15:309][501]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-12.26.05:178][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.26.05:412][480]LogRenderer: Reallocating scene render targets to support 1336x924 Format 10 NumSamples 1 (Frame:1).
+[2018.10.03-12.34.03:214][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.34.03:259][239]Candidate modules for hot reload:
+[2018.10.03-12.34.03:259][239]  FPSGame
+[2018.10.03-12.34.03:259][239]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,4867 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.34.03:263][239]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.34.07:341][588]LogSlate: Window 'SpawnBox_M_Inst' being destroyed
+[2018.10.03-12.34.07:346][588]LogSlate: Window 'SpawnBox_M_Inst' being destroyed
+[2018.10.03-12.34.12:657][172]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:34:12 AM
+[2018.10.03-12.34.12:657][172]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.34.12:657][172]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.03-12.34.12:657][172]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: Reflection code generated for FPSGameEditor in 7.3031939 seconds
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: FPSGame.init.gen.cpp
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp(3) : error C2001: newline in constant
+[2018.10.03-12.34.12:658][172]CompilerResultsLog: FpsExtractionZone.gen.cpp
+[2018.10.03-12.34.12:659][172]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4867.dll
+[2018.10.03-12.34.12:659][172]CompilerResultsLog: ERROR: UnrealBuildTool Exception: In C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsExtractionZone.cpp: An #include statement contains invalid characters.  You might be missing a double-quote character. ("FpsExtractionZone.h
+[2018.10.03-12.34.12:659][172]CompilerResultsLog:        #include")
+[2018.10.03-12.34.12:659][172]LogMainFrame: MainFrame: Module compiling took 9.435 seconds
+[2018.10.03-12.34.12:660][172]Warning: HotReload failed, recompile failed
+[2018.10.03-12.34.39:096][772]Candidate modules for hot reload:
+[2018.10.03-12.34.39:096][772]  FPSGame
+[2018.10.03-12.34.39:096][772]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,2940 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.34.39:100][772]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.34.42:311][139]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:34:42 AM
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: [2/3] Link UE4Editor-FPSGame-2940.dll
+[2018.10.03-12.34.42:312][139]CompilerResultsLog: [3/3] Link UE4Editor-FPSGame-2940.lib
+[2018.10.03-12.34.42:312][139]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2940.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2940.exp
+[2018.10.03-12.34.42:313][139]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2940.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2940.suppressed.exp
+[2018.10.03-12.34.42:313][139]CompilerResultsLog: Total build time: 3.02 seconds (Local executor: 1.42 seconds)
+[2018.10.03-12.34.42:313][139]LogMainFrame: MainFrame: Module compiling took 3.251 seconds
+[2018.10.03-12.34.42:330][139]LogClass: Could not find existing class FpsExtractionZone in package /Script/FPSGame for HotReload, assuming new class
+[2018.10.03-12.34.42:330][139]LogClass: Function HandleOverlap is new.
+[2018.10.03-12.34.42:337][139]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.03-12.34.42:404][139]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-12.34.42:406][139]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.10.03-12.34.42:433][139]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-12.34.42:434][139]Display: HotReload took  3.4s.
+[2018.10.03-12.34.55:244][376]Cmd: EDCALLBACK SURFPROPS
+[2018.10.03-12.34.57:348][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.35.33:114][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.36.24:151][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.37.11:511][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.37.22:150][113]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.22:150][113]LogEditorTransaction: Undo Move Actors
+[2018.10.03-12.37.22:685][172]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.22:686][172]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.03-12.37.23:163][229]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.23:163][229]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.03-12.37.23:685][289]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.23:686][289]LogEditorTransaction: Undo Select Brush Surface
+[2018.10.03-12.37.24:052][329]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.24:052][329]LogEditorTransaction: Undo Move Actors
+[2018.10.03-12.37.24:555][389]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.24:555][389]LogEditorTransaction: Undo Move Actors
+[2018.10.03-12.37.25:081][452]Cmd: TRANSACTION UNDO
+[2018.10.03-12.37.25:081][452]LogEditorTransaction: Undo Rotate Actors
+[2018.10.03-12.37.45:934][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.37.54:005][448]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.03-12.38.02:255][400]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.03-12.38.03:491][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.38.03:667][559]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2018.10.03-12.38.03:690][559]LogSavePackage: Save=8.98ms
+[2018.10.03-12.38.03:690][559]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/SpawnBox_M_Inst95274013460B1BA3704946893298CD82.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Materials/SpawnBox_M_Inst.uasset'
+[2018.10.03-12.38.03:694][559]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Materials/SpawnBox_M_Inst.uasset
+[2018.10.03-12.38.24:693][ 46]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.38.35:206][371]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.03-12.38.44:346][411]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.10.03-12.38.44:534][411]LogUObjectGlobals: Created PersistentFrame Addr=0x00000192c882b6e0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.03-12.38.44:534][411]LogUObjectGlobals: Created PersistentFrame Addr=0x00000192c882b6d8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.10.03-12.38.46:275][554]LogEditorActor: Deleted Actor: FpsExtractionZone
+[2018.10.03-12.38.46:288][554]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.10.03-12.38.50:727][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.39.07:532][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.39.07:640][ 13]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.10.03-12.39.07:813][ 13]LogSavePackage: Save=5.87ms
+[2018.10.03-12.39.07:813][ 13]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/BP_ExtractionZone6E115B184104E2555572589281255033.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.10.03-12.39.07:817][ 13]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.10.03-12.39.08:398][ 74]LogSavePackage: Save=4.71ms
+[2018.10.03-12.39.08:399][ 74]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/BP_ExtractionZoneC1F205B14DB0C1661D2028AEA852CAD3.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.10.03-12.39.08:400][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.10.03-12.39.26:125][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.39.27:058][547]LogEditorActor: Deleted Actor: BP_ExtractionZone_C
+[2018.10.03-12.39.27:071][547]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.10.03-12.39.29:853][873]Candidate modules for hot reload:
+[2018.10.03-12.39.29:853][873]  FPSGame
+[2018.10.03-12.39.29:853][873]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,2065 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.03-12.39.29:857][873]Warning: Starting HotReload took  0.0s.
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: New page: Compilation - Oct 3, 2018, 2:39:32 AM
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: FpsExtractionZone.cpp
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: [2/3] Link UE4Editor-FPSGame-2065.dll
+[2018.10.03-12.39.32:509][168]CompilerResultsLog: [3/3] Link UE4Editor-FPSGame-2065.lib
+[2018.10.03-12.39.32:509][168]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2065.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2065.exp
+[2018.10.03-12.39.32:510][168]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2065.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2065.suppressed.exp
+[2018.10.03-12.39.32:510][168]CompilerResultsLog: Total build time: 2.49 seconds (Local executor: 1.53 seconds)
+[2018.10.03-12.39.32:511][168]LogMainFrame: MainFrame: Module compiling took 2.688 seconds
+[2018.10.03-12.39.32:536][168]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.03-12.39.32:701][168]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0010 seconds. Added 7 classes and 3 folders.
+[2018.10.03-12.39.32:703][168]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.10.03-12.39.32:918][168]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2460 classes and 563 folders.
+[2018.10.03-12.39.32:918][168]Display: HotReload took  3.1s.
+[2018.10.03-12.39.34:293][327]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.10.03-12.39.43:799][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.40.15:671][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.40.22:702][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.40.28:035][214]BlueprintLog: New page: Compile BP_ExtractionZone
+[2018.10.03-12.40.28:301][214]LogSavePackage: Save=5.08ms
+[2018.10.03-12.40.28:301][214]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/BP_ExtractionZoneB1EC61E1465808233EBB5C832910E907.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.10.03-12.40.28:305][214]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.10.03-12.40.29:806][360]LogSavePackage: Save=4.58ms
+[2018.10.03-12.40.29:806][360]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/BP_ExtractionZoneB48B42B6462C605403DBE8A7494BB662.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset'
+[2018.10.03-12.40.29:808][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Blueprints/BP_ExtractionZone.uasset
+[2018.10.03-12.41.13:876][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.41.15:339][263]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.15:396][263]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.15:405][263]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-12.41.15:426][263]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-12.41.15:439][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.10.03-12.41.15:442][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.10.03-12.41.15:447][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.10.03-12.41.15:452][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.10.03-12.41.16:152][297]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.16:152][297]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.41.16:152][297]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.41.16:181][298]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.41.16:181][298]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.41.16:182][298]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-12.41.16:341][303]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-12.41.16:382][304]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-12.41.16:517][308]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-12.41.16:552][309]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-12.41.16:641][312]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.41.16:682][313]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-12.41.16:793][316]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-12.41.16:860][318]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-12.41.16:860][318]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-12.41.16:972][321]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-12.41.17:006][322]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-12.41.17:132][326]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-12.41.17:168][327]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-12.41.17:201][328]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-12.41.17:299][331]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-12.41.17:300][331]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-12.41.17:366][333]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-12.41.17:404][334]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-12.41.17:605][340]MaterialEditorStats: Base pass shader: 74 instructions
+[2018.10.03-12.41.17:606][340]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2018.10.03-12.41.17:606][340]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.10.03-12.41.17:606][340]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.03-12.41.17:606][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-12.41.31:377][949]LogSlate: Window 'Color Picker' being destroyed
+[2018.10.03-12.41.48:954][352]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.48:964][352]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.48:981][353]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.48:981][353]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.41.48:981][353]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.41.48:981][353]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.41.48:981][353]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.41.48:982][353]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-12.41.48:982][353]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-12.41.48:982][353]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-12.41.49:656][402]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-12.41.49:657][402]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-12.41.49:690][403]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.41.49:690][403]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-12.41.49:690][403]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-12.41.49:691][403]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-12.41.49:890][408]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-12.41.49:926][409]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-12.41.50:026][412]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-12.41.50:062][413]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-12.41.50:123][415]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-12.41.50:197][417]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-12.41.50:294][420]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-12.41.50:363][422]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.10.03-12.41.50:400][423]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.03-12.41.50:478][425]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.10.03-12.41.50:699][433]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.50:713][433]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.50:713][433]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.41.50:713][433]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.41.50:713][433]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.41.50:735][434]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.41.50:781][436]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.10.03-12.41.50:806][437]LogMaterialEditor: Applying material SpawnBox_M
+[2018.10.03-12.41.51:593][437]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.10.03-12.41.51:593][437]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.10.03-12.41.51:594][437]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.10.03-12.41.51:595][437]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.10.03-12.41.51:595][437]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.10.03-12.41.51:595][437]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.10.03-12.41.51:613][437]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.51:655][437]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.51:656][437]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.10.03-12.41.51:656][437]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.03-12.41.51:656][437]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.10.03-12.41.51:694][437]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.10.03-12.41.51:733][437]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.51:773][437]LogMaterial: Missing cached shader map for material SpawnBox_M, compiling. 
+[2018.10.03-12.41.51:868][437]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.10.03-12.41.51:868][437]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.10.03-12.41.51:870][437]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2018.10.03-12.41.51:895][437]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.10.03-12.41.51:896][437]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.10.03-12.41.51:939][438]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.10.03-12.41.51:939][438]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.10.03-12.41.51:939][438]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.10.03-12.41.52:019][439]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.10.03-12.41.52:069][440]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.10.03-12.41.52:250][445]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.10.03-12.41.52:338][448]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.10.03-12.41.52:369][449]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.10.03-12.41.52:398][450]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.10.03-12.41.52:399][450]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.10.03-12.41.52:430][451]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.10.03-12.41.52:664][457]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.10.03-12.41.52:698][458]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.10.03-12.41.52:732][459]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.10.03-12.41.52:775][460]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.10.03-12.41.52:776][460]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.10.03-12.41.52:887][463]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.10.03-12.41.52:966][465]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.10.03-12.41.53:076][468]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.10.03-12.41.55:848][645]MaterialEditorStats: Base pass shader: 74 instructions
+[2018.10.03-12.41.55:848][645]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2018.10.03-12.41.55:848][645]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.10.03-12.41.55:848][645]MaterialEditorStats: Texture samplers: 3/16
+[2018.10.03-12.41.55:848][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.10.03-12.42.18:580][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.03-12.42.18:868][347]LogSavePackage: Save=121.47ms
+[2018.10.03-12.42.18:868][347]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMapF4FFB69F41572C01FB3E308FF8B3FF8F.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.03-12.42.18:872][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.03-12.42.18:943][347]LogSavePackage: Save=45.97ms
+[2018.10.03-12.42.18:943][347]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData10F2C43642EFAAC3099A12A8482BE2E7.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.03-12.42.18:945][347]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.03-12.42.30:762][532]LogSlate: Window 'Save Content' being destroyed
+[2018.10.03-12.42.30:840][532]LogSavePackage: Save=10.87ms
+[2018.10.03-12.42.30:841][532]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/SpawnBox_M7EAFB6074E64789FF66EB5BEE1037C47.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Materials/SpawnBox_M.uasset'
+[2018.10.03-12.42.30:844][532]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Materials/SpawnBox_M.uasset

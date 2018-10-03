@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "FpsExtractionZone.h"
+#include "Components/DecalComponent.h"
 #include "Components/BoxComponent.h"
 
 // Sets default values
@@ -21,7 +22,9 @@ AFpsExtractionZone::AFpsExtractionZone()
 	RootComponent = overlapComp; 
 
 	
-
+	decalComponent = CreateDefaultSubobject<UDecalComponent>(TEXT("DecalComp"));
+	decalComponent->DecalSize = FVector(200.0f); 
+	decalComponent->SetupAttachment(RootComponent);
 
 
 }
