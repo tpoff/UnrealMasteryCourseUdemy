@@ -1,4 +1,16 @@
-﻿  Compiling game modules for hot reload
-  Target is up to date
+﻿  Creating makefile for hot reloading FPSGameEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Parsing headers for FPSGameEditor
+    Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSGameEditor in 7.252223 seconds
+  Performing 6 actions (9 in parallel)
+  FpsExtractionZone.cpp
+  FPSGameMode.cpp
+  FPSGameMode.gen.cpp
+  FPSGame.init.gen.cpp
+  [5/6] Link UE4Editor-FPSGame-2498.dll
+  [6/6] Link UE4Editor-FPSGame-2498.lib
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2498.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2498.exp
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2498.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-2498.suppressed.exp
   Deploying FPSGameEditor Win64 Development...
-  Total build time: 1.10 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 22.27 seconds (Local executor: 6.86 seconds)

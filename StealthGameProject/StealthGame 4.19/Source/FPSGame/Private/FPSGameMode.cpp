@@ -4,6 +4,7 @@
 #include "FPSHUD.h"
 #include "FPSCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "kismet/GameplayStatics.h"
 
 AFPSGameMode::AFPSGameMode()
 {
@@ -20,7 +21,38 @@ void AFPSGameMode::CompleteMission(APawn* instigatorPawn){
 
 	if (instigatorPawn) {
 		instigatorPawn->DisableInput(nullptr);
+
+		if (SpectatingViewpointClass != nullptr) {
+			TArray<AActor*> spectatingActors;
+			UGameplayStatics::GetAllActorsOfClass(this, SpectatingViewpointClass, spectatingActors);
+
+			if (spectatingActors.Num() > 0)
+			{
+				AActor* newViewTarget = spectatingActors[0];
+				APlayerController* playerController = Cast<APlayerController>(instigatorPawn->GetController());
+				if (playerController) {
+					playerController->SetViewTargetWithBlend(newViewTarget, .5f, EViewTargetBlendFunction::VTBlend_Cubic);
+				}
+
+			}
+		}
+		else {
+			UE_LOG(LogTemp, Warning, TEXT("GameMode spectator class is null. Cannot change spectate view target."))
+		}
+
+
+		
+
+
 	}
 
 	OnMissionCompleted(instigatorPawn);
+
+
+
+	
+
+
+
+
 }

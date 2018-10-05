@@ -68,7 +68,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSGameMode)
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FPSGameMode_h_12_PRIVATE_PROPERTY_OFFSET
+#define StealthGame_4_19_Source_FPSGame_Public_FPSGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpectatingViewpointClass() { return STRUCT_OFFSET(AFPSGameMode, SpectatingViewpointClass); }
+
+
 #define StealthGame_4_19_Source_FPSGame_Public_FPSGameMode_h_9_PROLOG \
 	StealthGame_4_19_Source_FPSGame_Public_FPSGameMode_h_12_EVENT_PARMS
 
