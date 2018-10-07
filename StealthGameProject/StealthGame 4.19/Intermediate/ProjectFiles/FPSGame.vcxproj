@@ -406,7 +406,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\FPSGame-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\FPSGame\Private\FpsAiGuard.cpp" />
     <ClCompile Include="..\..\Source\FPSGame\Private\LaunchPad.cpp" />
+    <ClInclude Include="..\..\Source\FPSGame\Public\FpsAiGuard.h" />
     <ClInclude Include="..\..\Source\FPSGame\Public\LaunchPad.h" />
     <None Include="..\..\FPSGame.uproject" />
     <None Include="..\..\Source\FPSGame.Target.cs" />

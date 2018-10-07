@@ -1,0 +1,1245 @@
+﻿Log file open, 10/07/18 01:20:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: FPSGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(589345021) SRandInit(589345021).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.392536
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.141s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Binaries/Win64/UE4Editor-FPSGame-9849.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-4VFF8DG (192.168.1.93:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.07-06.20.47:051][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.07-06.20.47:051][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.07-06.20.47:059][  0]LogInit: Computer: DESKTOP-4VFF8DG
+[2018.10.07-06.20.47:060][  0]LogInit: User: Tyler
+[2018.10.07-06.20.47:060][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.10.07-06.20.47:060][  0]LogInit: High frequency timer resolution =3.609372 MHz
+[2018.10.07-06.20.47:060][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.07-06.20.47:060][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.07-06.20.47:060][  0]LogMemory: Process Physical Memory: 274.93 MB used, 274.93 MB peak
+[2018.10.07-06.20.47:060][  0]LogMemory: Process Virtual Memory: 271.61 MB used, 271.61 MB peak
+[2018.10.07-06.20.47:060][  0]LogMemory: Physical Memory: 5846.98 MB used,  10460.36 MB free, 16307.34 MB total
+[2018.10.07-06.20.47:060][  0]LogMemory: Virtual Memory: 4815.90 MB used,  10460.36 MB free, 134217728.00 MB total
+[2018.10.07-06.20.47:079][  0]LogInit: Using OS detected language (en-US).
+[2018.10.07-06.20.47:080][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.07-06.20.47:083][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.07-06.20.47:427][  0]LogStreaming: Display: Took  0.347s to EndInitTextLocalization.
+[2018.10.07-06.20.47:427][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.07-06.20.47:495][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.07-06.20.47:495][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.07-06.20.47:677][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.07-06.20.47:734][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.10.07-06.20.47:734][  0]LogD3D11RHI:       11127/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2018.10.07-06.20.47:735][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.07-06.20.47:736][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.07-06.20.47:736][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.07-06.20.47:741][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.07-06.20.47:741][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.07-06.20.47:741][  0]LogWindows: EnumDisplayDevices:
+[2018.10.07-06.20.47:741][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.10.07-06.20.47:741][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.10.07-06.20.47:741][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.10.07-06.20.47:741][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.10.07-06.20.47:741][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.10.07-06.20.47:741][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.10.07-06.20.47:742][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.10.07-06.20.47:742][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.10.07-06.20.47:742][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.10.07-06.20.47:770][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.07-06.20.47:770][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.10.07-06.20.47:770][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.07-06.20.47:790][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.07-06.20.47:990][  0]LogShaderCompilers: Guid format shader working directory is -70 characters bigger than the processId version (../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Intermediate/Shaders/WorkingDirectory/15344/).
+[2018.10.07-06.20.47:990][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tyler/AppData/Local/Temp/UnrealShaderWorkingDir/EA0231374741F92492BACFBC30D8ED7E/'.
+[2018.10.07-06.20.48:182][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.07-06.20.48:196][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.07-06.20.48:208][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.07-06.20.48:219][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.07-06.20.48:231][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.07-06.20.48:242][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.07-06.20.48:253][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.07-06.20.48:264][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.07-06.20.48:270][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.07-06.20.48:280][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.10.07-06.20.48:290][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.10.07-06.20.48:299][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.10.07-06.20.48:309][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.10.07-06.20.48:318][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.10.07-06.20.48:328][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.10.07-06.20.48:347][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.10.07-06.20.48:347][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.10.07-06.20.48:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.07-06.20.48:358][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.07-06.20.48:392][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.07-06.20.48:401][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.07-06.20.48:412][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.07-06.20.48:421][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.07-06.20.48:431][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.07-06.20.48:441][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.07-06.20.48:441][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.07-06.20.48:546][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.07-06.20.48:546][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.07-06.20.48:546][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.07-06.20.49:096][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.07-06.20.49:161][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.07-06.20.49:161][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.10.07-06.20.49:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.07-06.20.49:162][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.07-06.20.49:162][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.07-06.20.49:162][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.07-06.20.49:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.07-06.20.49:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.07-06.20.49:186][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.07-06.20.49:186][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.07-06.20.49:193][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.07-06.20.49:194][  0]LogSlate: Using Freetype 2.6.0
+[2018.10.07-06.20.49:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.07-06.20.49:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.07-06.20.49:308][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.10.07-06.20.49:544][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.07-06.20.49:664][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.07-06.20.49:667][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.07-06.20.49:667][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.07-06.20.49:667][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.07-06.20.49:667][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.10.07-06.20.49:667][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.10.07-06.20.49:722][  0]LogNetVersion: FPSGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285328657)
+[2018.10.07-06.20.50:074][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.068576 seconds
+[2018.10.07-06.20.50:078][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.10.07-06.20.50:078][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.10.07-06.20.50:078][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.07-06.20.51:414][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.07-06.20.51:443][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.07-06.20.51:701][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b5ff616c0, Size=64, Default__FirstPerson_AnimBP_C Function /Game/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.07-06.20.51:707][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b5ff616c0, Size=64
+[2018.10.07-06.20.51:707][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b5ff616c0, Size=64, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.07-06.20.51:713][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b60947b00, Size=72, Default__FirstPerson_AnimBP_C Function /Game/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.10.07-06.20.51:734][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b5ffba3e0, Size=8, Default__BP_Player_C Function /Game/Blueprints/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+[2018.10.07-06.20.51:735][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b5ffba3e0, Size=8
+[2018.10.07-06.20.51:735][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b5ffba3e0, Size=8, Default__BP_Player_C Function /Engine/Transient.REINST_BP_Player_C_6:ExecuteUbergraph_BP_Player
+[2018.10.07-06.20.51:736][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b5ffba2f0, Size=8, Default__BP_Player_C Function /Game/Blueprints/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+[2018.10.07-06.20.51:763][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.667429ms] /Game/Weapon/SK_FPGun.SK_FPGun
+[2018.10.07-06.20.51:767][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.841421ms] /Game/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.10.07-06.20.51:901][  0]SourceControl: Source control is disabled
+[2018.10.07-06.20.51:901][  0]SourceControl: Source control is disabled
+[2018.10.07-06.20.51:919][  0]SourceControl: Source control is disabled
+[2018.10.07-06.20.51:936][  0]SourceControl: Source control is disabled
+[2018.10.07-06.20.52:420][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.07-06.20.52:600][  0]LogOcInput: OculusInput pre-init called
+[2018.10.07-06.20.52:698][  0]LogEngine: Initializing Engine...
+[2018.10.07-06.20.52:699][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.07-06.20.52:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.07-06.20.52:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.07-06.20.52:888][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.07-06.20.52:963][  0]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.07-06.20.52:974][  0]LogInit: FAudioDevice initialized.
+[2018.10.07-06.20.53:049][  0]LogDerivedDataCache: Saved boot cache 0.07s 76MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.10.07-06.20.53:061][  0]LogInit: Texture streaming: Enabled
+[2018.10.07-06.20.53:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.07-06.20.53:090][  0]LogInit: Transaction tracking system initialized
+[2018.10.07-06.20.53:111][  0]BlueprintLog: New page: Editor Load
+[2018.10.07-06.20.53:208][  0]LocalizationService: Localization service is disabled
+[2018.10.07-06.20.53:314][  0]LogConsoleResponse: Display: 
+[2018.10.07-06.20.53:436][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.07-06.20.53:436][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.07-06.20.53:436][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.07-06.20.53:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.07-06.20.53:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.07-06.20.53:787][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' took 0.01s
+[2018.10.07-06.20.53:787][  0]SourceControl: Source control is disabled
+[2018.10.07-06.20.53:787][  0]LightingResults: New page: Lighting Build
+[2018.10.07-06.20.53:790][  0]MapCheck: New page: Map Check
+[2018.10.07-06.20.53:790][  0]LightingResults: New page: Lighting Build
+[2018.10.07-06.20.53:798][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b5ff616c0, Size=64
+[2018.10.07-06.20.53:798][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b5ffba3e0, Size=8
+[2018.10.07-06.20.53:816][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f95ae90, Size=24, Default__BP_HUD_C Function /Game/Blueprints/BP_HUD.BP_HUD_C:ExecuteUbergraph_BP_HUD
+[2018.10.07-06.20.53:817][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f95ae90, Size=24
+[2018.10.07-06.20.53:817][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f95ae90, Size=24, Default__BP_HUD_C Function /Engine/Transient.REINST_BP_HUD_C_9:ExecuteUbergraph_BP_HUD
+[2018.10.07-06.20.53:818][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f95a518, Size=24, Default__BP_HUD_C Function /Game/Blueprints/BP_HUD.BP_HUD_C:ExecuteUbergraph_BP_HUD
+[2018.10.07-06.20.53:826][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f95b118, Size=24, Default__BP_GameMode_C Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode
+[2018.10.07-06.20.53:827][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f95b118, Size=24
+[2018.10.07-06.20.53:827][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f95b118, Size=24, Default__BP_GameMode_C Function /Engine/Transient.REINST_BP_GameMode_C_14:ExecuteUbergraph_BP_GameMode
+[2018.10.07-06.20.53:828][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000013b4f959d20, Size=24, Default__BP_GameMode_C Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode
+[2018.10.07-06.20.53:987][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.07-06.20.53:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.07-06.20.54:002][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f95b118, Size=24
+[2018.10.07-06.20.54:002][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f95ae90, Size=24
+[2018.10.07-06.20.54:002][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.07-06.20.54:064][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.831ms to complete.
+[2018.10.07-06.20.54:064][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.278
+[2018.10.07-06.20.54:281][  0]LogCollectionManager: Loaded 0 collections in 0.001834 seconds
+[2018.10.07-06.20.54:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Collections/' took 0.01s
+[2018.10.07-06.20.54:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Developers/Tyler/Collections/' took 0.01s
+[2018.10.07-06.20.54:346][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Collections/' took 0.01s
+[2018.10.07-06.20.54:346][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.07-06.20.54:354][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2461 classes and 561 folders.
+[2018.10.07-06.20.54:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.07-06.20.54:407][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.07-06.20.54:414][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.10.07-06.20.54:474][  0]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.07-06.20.54:475][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.07-06.20.54:480][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.07-06.20.54:555][  0]LogRenderer: Reallocating scene render targets to support 1156x592 Format 10 NumSamples 1 (Frame:1).
+[2018.10.07-06.20.54:676][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.10.07-06.20.54:676][  0]LogLoad: (Engine Initialization) Total time: 10.78 seconds
+[2018.10.07-06.20.54:676][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.07-06.20.55:031][  0]LogAssetRegistry: Asset discovery search completed in 5.7456 seconds
+[2018.10.07-06.20.55:032][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.07-06.20.55:032][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000228 seconds (updated 0 objects)
+[2018.10.07-06.20.55:035][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.07-06.20.55:075][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.07-06.20.59:017][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.07-06.21.18:948][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.18:948][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:948][382]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new : Can't find file for asset. /Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt
+[2018.10.07-06.21.18:948][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC'
+[2018.10.07-06.21.18:948][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:948][382]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new : Can't find file for asset. /Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC'
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton'
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:949][382]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new : Can't find file for asset. /Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton'
+[2018.10.07-06.21.18:949][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.uasset.
+[2018.10.07-06.21.18:950][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton'
+[2018.10.07-06.21.18:950][382]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton.DwarfGrunt_R_new_Skeleton Referenced by DwarfGrunt_R_new
+[2018.10.07-06.21.18:950][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new_Skeleton' while loading NULL.
+[2018.10.07-06.21.18:950][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.18:950][382]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt.M_Dwarf_Grunt Referenced by DwarfGrunt_R_new
+[2018.10.07-06.21.18:950][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading NULL.
+[2018.10.07-06.21.18:950][382]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC'
+[2018.10.07-06.21.18:950][382]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.Dwarf_Grunt_Equipment_Blue_MIC Referenced by DwarfGrunt_R_new
+[2018.10.07-06.21.18:951][382]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC' while loading NULL.
+[2018.10.07-06.21.18:952][382]LogSkeletalMesh: Building Skeletal Mesh DwarfGrunt_R_new...
+[2018.10.07-06.21.18:956][382]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/DwarfCharacter/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.DwarfGrunt_R_new
+[2018.10.07-06.21.18:958][382]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.19:004][382]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.19:802][466]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:408][136]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:416][137]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:425][138]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:433][139]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:441][140]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:450][141]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:458][142]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:466][143]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:475][144]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:482][145]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:490][146]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:499][147]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:507][148]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:515][149]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:524][150]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:532][151]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:541][152]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:549][153]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:557][154]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:566][155]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:574][156]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:582][157]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:591][158]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:599][159]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:607][160]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:616][161]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:624][162]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:642][163]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:655][164]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:664][165]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:674][166]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:684][167]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:692][168]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:700][169]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:709][170]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:717][171]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:725][172]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:736][173]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:745][174]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:754][175]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:763][176]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:771][177]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:780][178]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:790][179]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:800][180]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:811][181]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:820][182]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:829][183]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:840][184]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:847][185]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:855][186]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:863][187]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:872][188]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:880][189]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:888][190]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:896][191]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:905][192]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:913][193]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:922][194]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:930][195]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:938][196]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:947][197]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:956][198]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:965][199]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:972][200]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:980][201]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:989][202]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.25:997][203]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:005][204]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:014][205]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:022][206]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:031][207]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:039][208]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:047][209]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:056][210]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:064][211]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:072][212]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:081][213]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:088][214]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:097][215]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:105][216]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:113][217]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:123][218]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:130][219]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:138][220]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:146][221]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:155][222]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:163][223]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:172][224]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:180][225]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:188][226]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:197][227]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:205][228]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:213][229]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:222][230]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:230][231]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:238][232]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:247][233]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:255][234]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:263][235]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:272][236]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:280][237]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:288][238]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:297][239]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:305][240]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:313][241]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:322][242]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:330][243]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:339][244]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:347][245]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:355][246]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:364][247]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:372][248]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:380][249]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:389][250]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:397][251]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:406][252]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:414][253]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:423][254]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:430][255]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:438][256]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:455][258]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.26:464][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.07-06.21.30:005][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D'
+[2018.10.07-06.21.30:005][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:005][675]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D
+[2018.10.07-06.21.30:005][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M'
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:006][675]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N'
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:006][675]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D'
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M'
+[2018.10.07-06.21.30:006][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:007][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N'
+[2018.10.07-06.21.30:007][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/M_Dwarf_Grunt.uasset.
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M'
+[2018.10.07-06.21.30:008][675]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M.T_Dwarf_Grunt_M Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_M' while loading NULL.
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N'
+[2018.10.07-06.21.30:008][675]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N.T_Dwarf_Grunt_N Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_N' while loading NULL.
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D'
+[2018.10.07-06.21.30:008][675]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D.T_Dwarf_Grunt_Blue_D Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2018.10.07-06.21.30:008][675]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Blue_D' while loading NULL.
+[2018.10.07-06.21.30:010][675]LogMaterial: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2018.10.07-06.21.30:010][675]LogMaterial: Warning: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Content\DwarfCharacter\DwarfGrunt\Materials\M_Dwarf_Grunt.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.07-06.21.30:010][675]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.10.07-06.21.31:514][847]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:523][848]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:531][849]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:539][850]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:548][851]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:563][852]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:573][853]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:582][854]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:590][855]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:598][856]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:607][857]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:615][858]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:624][859]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:632][860]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:640][861]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:649][862]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:657][863]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:666][864]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:674][865]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:682][866]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:690][867]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:699][868]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:707][869]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:715][870]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:724][871]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:732][872]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:741][873]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:749][874]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:757][875]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:766][876]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:774][877]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:782][878]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:791][879]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:799][880]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:807][881]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:816][882]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:824][883]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:831][884]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:840][885]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:848][886]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:857][887]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:865][888]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:873][889]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:882][890]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:890][891]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:898][892]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:907][893]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:915][894]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:923][895]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:932][896]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:940][897]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:948][898]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:957][899]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:965][900]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:974][901]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:982][902]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:990][903]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.31:999][904]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:007][905]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:015][906]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:024][907]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:032][908]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:040][909]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:049][910]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:057][911]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:065][912]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:074][913]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:082][914]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:091][915]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:099][916]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:107][917]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:116][918]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:124][919]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:132][920]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:141][921]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:149][922]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:157][923]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:166][924]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:174][925]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:182][926]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:191][927]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:198][928]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:206][929]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:215][930]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:223][931]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:232][932]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:240][933]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:248][934]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:257][935]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:265][936]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:273][937]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:282][938]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:290][939]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:298][940]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:307][941]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:315][942]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:323][943]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:332][944]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:340][945]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:349][946]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:357][947]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:366][948]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:374][949]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:382][950]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:390][951]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:399][952]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:407][953]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:416][954]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:424][955]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:432][956]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:440][957]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:449][958]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:457][959]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:466][960]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:474][961]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:482][962]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:491][963]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:499][964]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:507][965]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:516][966]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:525][967]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:533][968]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:545][969]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:555][970]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:562][971]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:570][972]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:578][973]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:587][974]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:595][975]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:603][976]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:612][977]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:620][978]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:635][979]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:645][980]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:653][981]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:662][982]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:670][983]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:679][984]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:687][985]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:695][986]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:704][987]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:712][988]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:721][989]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:729][990]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:737][991]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:746][992]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:754][993]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:762][994]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:771][995]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:779][996]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:786][997]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:795][998]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:803][999]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:812][  0]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:820][  1]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:829][  2]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:838][  3]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:847][  4]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:855][  5]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:863][  6]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:872][  7]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:880][  8]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:889][  9]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:897][ 10]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:905][ 11]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:914][ 12]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:922][ 13]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:930][ 14]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:939][ 15]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:947][ 16]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:955][ 17]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:963][ 18]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:972][ 19]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:979][ 20]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:988][ 21]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.32:996][ 22]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:005][ 23]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:013][ 24]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:022][ 25]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:030][ 26]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:038][ 27]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:046][ 28]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:055][ 29]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:063][ 30]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:072][ 31]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:080][ 32]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:088][ 33]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:096][ 34]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:105][ 35]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:113][ 36]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:122][ 37]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:130][ 38]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:138][ 39]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:147][ 40]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:155][ 41]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:163][ 42]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:172][ 43]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:180][ 44]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:188][ 45]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:197][ 46]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:205][ 47]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:213][ 48]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:222][ 49]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:234][ 50]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:241][ 51]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:249][ 52]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:257][ 53]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:265][ 54]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.33:274][ 55]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:252][168]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC : Can't find file for asset. /Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D'
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:252][168]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N'
+[2018.10.07-06.21.34:252][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:253][168]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M'
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:253][168]LoadErrors: Error: /Game/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC : Can't find file for asset. /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D'
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N'
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M'
+[2018.10.07-06.21.34:253][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M' while loading ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/DwarfCharacter/DwarfGrunt/Materials/Dwarf_Grunt_Equipment_Blue_MIC.uasset.
+[2018.10.07-06.21.34:254][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt'
+[2018.10.07-06.21.34:254][168]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt.M_Dwarf_Grunt Referenced by Dwarf_Grunt_Equipment_Blue_MIC
+[2018.10.07-06.21.34:254][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Materials/M_Dwarf_Grunt' while loading NULL.
+[2018.10.07-06.21.34:254][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D'
+[2018.10.07-06.21.34:254][168]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D.T_Dwarf_Grunt_Equipment_Blue_D Referenced by Dwarf_Grunt_Equipment_Blue_MIC
+[2018.10.07-06.21.34:254][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_D' while loading NULL.
+[2018.10.07-06.21.34:254][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M'
+[2018.10.07-06.21.34:255][168]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M.T_Dwarf_Grunt_Equipment_M Referenced by Dwarf_Grunt_Equipment_Blue_MIC
+[2018.10.07-06.21.34:255][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_M' while loading NULL.
+[2018.10.07-06.21.34:255][168]LogLinker: Warning: Can't find file '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N'
+[2018.10.07-06.21.34:255][168]LoadErrors: Failed to load /Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N.T_Dwarf_Grunt_Equipment_Blue_N Referenced by Dwarf_Grunt_Equipment_Blue_MIC
+[2018.10.07-06.21.34:255][168]LogLinker: Warning: Can't find file for asset '/Game/Characters/DwarfGrunt/Textures/T_Dwarf_Grunt_Equipment_Blue_N' while loading NULL.
+[2018.10.07-06.21.35:073][258]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:083][259]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:091][260]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:105][261]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:114][262]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:122][263]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:130][264]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:138][265]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:147][266]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:155][267]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:164][268]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:172][269]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:180][270]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:190][271]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:198][272]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:206][273]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:214][274]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:223][275]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:231][276]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:240][277]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:248][278]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:256][279]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:265][280]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:275][281]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:285][282]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:296][283]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:306][284]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:314][285]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:321][286]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:330][287]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:339][288]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:347][289]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:355][290]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:363][291]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:373][292]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:381][293]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:389][294]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:398][295]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:406][296]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:415][297]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:423][298]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:432][299]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:440][300]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:449][301]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:457][302]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:465][303]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:474][304]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:482][305]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:490][306]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:499][307]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:507][308]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:515][309]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:523][310]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:531][311]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:539][312]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:548][313]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:557][314]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:565][315]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:573][316]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:582][317]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:590][318]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:599][319]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:607][320]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:615][321]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:624][322]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:632][323]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:640][324]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:649][325]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:659][326]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:666][327]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.35:674][328]LogAnimation: Warning: SkeletalMesh DwarfGrunt_R_new has no skeleton. This needs to fixed before an animation can be set
+[2018.10.07-06.21.39:469][780]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.07-06.21.39:619][794]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.07-06.21.39:632][794]LogMaterial: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2018.10.07-06.21.39:632][794]LogMaterial: Warning: /Engine/Transient.M_Dwarf_Grunt (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.07-06.21.39:632][794]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.10.07-06.21.39:911][794]LogMaterial: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2018.10.07-06.21.39:911][794]LogMaterial: Warning: /Engine/Transient.M_Dwarf_Grunt (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.07-06.21.39:911][794]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.10.07-06.21.39:913][794]LogMaterial: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2018.10.07-06.21.39:914][794]LogMaterial: Warning: /Engine/Transient.M_Dwarf_Grunt (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.10.07-06.21.39:914][794]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.10.07-06.21.39:946][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.10.07-06.21.39:947][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.10.07-06.21.39:948][794]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.10.07-06.21.39:953][794]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.10.07-06.21.39:960][794]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.07-06.21.41:020][873]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.07-06.21.46:512][373]LogRenderer: Reallocating scene render targets to support 1336x924 Format 10 NumSamples 1 (Frame:1).
+[2018.10.07-06.21.59:836][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.07-06.22.08:942][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.07-06.22.09:053][119]LogSlate: Window 'Dwarf_Grunt_Equipment_Blue_MIC' being destroyed
+[2018.10.07-06.22.09:059][119]LogSlate: Window 'Dwarf_Grunt_Equipment_Blue_MIC' being destroyed
+[2018.10.07-06.22.14:628][208]LogSlate: Window 'Save Content' being destroyed
+[2018.10.07-06.22.14:681][208]LogSlate: Window 'FPSGame - Unreal Editor' being destroyed
+[2018.10.07-06.22.14:867][209]Cmd: QUIT_EDITOR
+[2018.10.07-06.22.14:882][209]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.07-06.22.14:893][209]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.07-06.22.14:893][209]LogExit: Preparing to exit.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:519][209]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.07-06.22.15:522][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.07-06.22.15:533][209]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f95a518, Size=24
+[2018.10.07-06.22.15:533][209]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b60947b00, Size=72
+[2018.10.07-06.22.15:533][209]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b5ffba2f0, Size=8
+[2018.10.07-06.22.15:535][209]LogExit: Editor shut down
+[2018.10.07-06.22.15:537][209]LogExit: Transaction tracking system shut down
+[2018.10.07-06.22.15:538][209]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b4f959d20, Size=24
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.07-06.22.15:689][209]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.07-06.22.15:732][209]LogExit: Object subsystem successfully closed.
+[2018.10.07-06.22.15:751][209]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.07-06.22.15:754][209]LogD3D11RHI: Shutdown
+[2018.10.07-06.22.15:754][209]LogD3D11RHI: CleanupD3DDevice
+[2018.10.07-06.22.15:755][209]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.07-06.22.15:778][209]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.10.07-06.22.15:778][209]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.10.07-06.22.15:778][209]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.10.07-06.22.15:778][209]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.10.07-06.22.15:778][209]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.10.07-06.22.15:780][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Collections/' was aborted.
+[2018.10.07-06.22.15:780][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Developers/Tyler/Collections/' was aborted.
+[2018.10.07-06.22.15:780][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Collections/' was aborted.
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.10.07-06.22.15:780][209]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.10.07-06.22.15:781][209]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.10.07-06.22.16:305][209]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.10.07-06.22.16:306][209]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.10.07-06.22.16:359][209]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.10.07-06.22.16:360][209]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.10.07-06.22.16:360][209]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.10.07-06.22.16:360][209]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.10.07-06.22.16:360][209]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.10.07-06.22.16:361][209]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.10.07-06.22.16:578][209]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.10.07-06.22.16:579][209]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.10.07-06.22.16:588][209]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.10.07-06.22.16:589][209]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module FPSGame (290)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.10.07-06.22.16:590][209]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.10.07-06.22.16:692][209]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.10.07-06.22.16:792][209]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.10.07-06.22.16:793][209]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.10.07-06.22.16:793][209]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Binaries/Win64' was aborted.
+[2018.10.07-06.22.16:793][209]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.10.07-06.22.16:794][209]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.10.07-06.22.16:794][209]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.10.07-06.22.16:794][209]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.10.07-06.22.16:794][209]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.10.07-06.22.17:182][209]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.10.07-06.22.17:182][209]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.10.07-06.22.17:182][209]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.10.07-06.22.17:183][209]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.10.07-06.22.17:189][209]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.10.07-06.22.17:190][209]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.10.07-06.22.17:190][209]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.10.07-06.22.17:190][209]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.10.07-06.22.17:191][209]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.10.07-06.22.17:268][209]LogDerivedDataCache: Shutdown
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.10.07-06.22.17:268][209]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.07-06.22.17:269][209]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.07-06.22.17:269][209]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.07-06.22.17:269][209]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5302B35-4FED-5888-DBCC-638FB40907F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d145e9f94de4149c1ea6108100dda1c3%7Cd33b2c4c25dc4ec4a929c0fc2b9964ca%7C862a9022-a5df-4122-a053-0ff37dff48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.07-06.22.17:287][209]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.07-06.22.17:287][209]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.07-06.22.17:287][209]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.07-06.22.17:287][209]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.07-06.22.17:287][209]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.07-06.22.17:288][209]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.07-06.22.17:296][209]LogExit: Exiting.
+[2018.10.07-06.22.17:305][209]Log file closed, 10/07/18 01:22:17
