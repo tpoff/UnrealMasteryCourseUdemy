@@ -17,10 +17,40 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 	FPSGAME_API UClass* Z_Construct_UClass_AFpsAiGuard();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_FPSGame();
+	FPSGAME_API UFunction* Z_Construct_UFunction_AFpsAiGuard_OnPawnSeen();
+	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 // End Cross Module References
 	void AFpsAiGuard::StaticRegisterNativesAFpsAiGuard()
 	{
+		UClass* Class = AFpsAiGuard::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnPawnSeen", &AFpsAiGuard::execOnPawnSeen },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	UFunction* Z_Construct_UFunction_AFpsAiGuard_OnPawnSeen()
+	{
+		struct FpsAiGuard_eventOnPawnSeen_Parms
+		{
+			APawn* seenPawn;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_seenPawn = { UE4CodeGen_Private::EPropertyClass::Object, "seenPawn", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(FpsAiGuard_eventOnPawnSeen_Parms, seenPawn), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_seenPawn,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Public/FpsAiGuard.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFpsAiGuard, "OnPawnSeen", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, sizeof(FpsAiGuard_eventOnPawnSeen_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AFpsAiGuard_NoRegister()
 	{
@@ -34,6 +64,9 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 			static UObject* (*const DependentSingletons[])() = {
 				(UObject* (*)())Z_Construct_UClass_ACharacter,
 				(UObject* (*)())Z_Construct_UPackage__Script_FPSGame,
+			};
+			static const FClassFunctionLinkInfo FuncInfo[] = {
+				{ &Z_Construct_UFunction_AFpsAiGuard_OnPawnSeen, "OnPawnSeen" }, // 3397268528
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -60,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 				&AFpsAiGuard::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
 				0x00900080u,
-				nullptr, 0,
+				FuncInfo, ARRAY_COUNT(FuncInfo),
 				PropPointers, ARRAY_COUNT(PropPointers),
 				nullptr,
 				&StaticCppClassTypeInfo,
@@ -71,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFpsAiGuard, 4136253024);
+	IMPLEMENT_CLASS(AFpsAiGuard, 2933481903);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFpsAiGuard(Z_Construct_UClass_AFpsAiGuard, &AFpsAiGuard::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFpsAiGuard"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFpsAiGuard);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

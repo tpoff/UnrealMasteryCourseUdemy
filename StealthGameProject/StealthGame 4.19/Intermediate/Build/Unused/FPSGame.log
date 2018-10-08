@@ -1,8 +1,5 @@
-﻿  Creating makefile for hot reloading FPSGameEditor (changes to module files)
+﻿  Creating makefile for hot reloading FPSGameEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Parsing headers for FPSGameEditor
-    Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Public/FpsAiGuard.h(24) : LogCompile: Error: Unknown variable specifier 'VisableAnywhere'
-  C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Source/FPSGame/Public/FpsAiGuard.h(25) : LogCompile: Error: Property has a Category set but is not exposed to the editor or Blueprints with EditAnywhere, BlueprintReadWrite, VisibleAnywhere, BlueprintReadOnly, BlueprintAssignable, BlueprintCallable keywords.
-EXEC : error : UnrealHeaderTool failed for target 'FPSGameEditor' (platform: Win64, module info: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" FPSGameEditor Win64 Development "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Target is up to date
+  Deploying FPSGameEditor Win64 Development...
+  Total build time: 5.69 seconds (NoActionsToExecute executor: 0.00 seconds)
