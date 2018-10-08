@@ -20,6 +20,7 @@ void AFpsAiGuard::BeginPlay()
 {
 	Super::BeginPlay();
 	pawnSensingComponent->OnSeePawn.AddDynamic(this, &AFpsAiGuard::OnPawnSeen);
+	pawnSensingComponent->OnHearNoise.AddDynamic(this, &AFpsAiGuard::onNoiseHeard);
 	
 }
 
@@ -30,7 +31,17 @@ void AFpsAiGuard::OnPawnSeen(APawn * seenPawn)
 	if (seenPawn == nullptr) {
 		return; 
 	}
-	DrawDebugSphere(GetWorld(), seenPawn->GetActorLocation(), 32.0f, 12, FColor::Black, false, 10.0f);
+	DrawDebugSphere(GetWorld(), seenPawn->GetActorLocation(), 32.0f, 12, FColor::Red, false, 10.0f);
+}
+
+void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location, float volume)
+{
+	UE_LOG(LogTemp, Log, TEXT("Guard heard something!"));
+
+	
+	DrawDebugSphere(GetWorld(), location, 32.0f, 12, FColor::Green, false, 10.0f);
+
+
 }
 
 // Called every frame

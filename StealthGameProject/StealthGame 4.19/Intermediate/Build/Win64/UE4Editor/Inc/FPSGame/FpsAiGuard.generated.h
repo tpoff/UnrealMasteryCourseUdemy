@@ -9,12 +9,24 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class APawn;
+struct FVector;
 #ifdef FPSGAME_FpsAiGuard_generated_h
 #error "FpsAiGuard.generated.h already included, missing '#pragma once' in FpsAiGuard.h"
 #endif
 #define FPSGAME_FpsAiGuard_generated_h
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execonNoiseHeard) \
+	{ \
+		P_GET_OBJECT(APawn,Z_Param_instigatorPawn); \
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_volume); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->onNoiseHeard(Z_Param_instigatorPawn,Z_Param_Out_location,Z_Param_volume); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnPawnSeen) \
 	{ \
@@ -27,6 +39,17 @@ class APawn;
 
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execonNoiseHeard) \
+	{ \
+		P_GET_OBJECT(APawn,Z_Param_instigatorPawn); \
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_volume); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->onNoiseHeard(Z_Param_instigatorPawn,Z_Param_Out_location,Z_Param_volume); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnPawnSeen) \
 	{ \
