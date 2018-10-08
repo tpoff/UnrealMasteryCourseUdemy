@@ -3,6 +3,7 @@
 #include "FpsAiGuard.h"
 #include "Perception/PawnSensingComponent.h"
 #include "DrawDebugHelpers.h"
+#include "TimerManager.h"
 
 // Sets default values
 AFpsAiGuard::AFpsAiGuard()
@@ -21,6 +22,8 @@ void AFpsAiGuard::BeginPlay()
 	Super::BeginPlay();
 	pawnSensingComponent->OnSeePawn.AddDynamic(this, &AFpsAiGuard::OnPawnSeen);
 	pawnSensingComponent->OnHearNoise.AddDynamic(this, &AFpsAiGuard::onNoiseHeard);
+
+	originalRotation = GetActorRotation();
 	
 }
 
@@ -41,7 +44,23 @@ void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location,
 	
 	DrawDebugSphere(GetWorld(), location, 32.0f, 12, FColor::Green, false, 10.0f);
 
+	FVector direction = location - GetActorLocation();
+	direction.Normalize();
 
+	FRotator newLookAt = FRotationMatrix::MakeFromX(direction).Rotator();
+	newLookAt.Pitch = 0;
+	newLookAt.Roll = 0; 
+
+	SetActorRotation(newLookAt);
+
+	GetWorldTimerManager().ClearTimer(timerHandle_resetOrientation);
+	
+	GetWorldTimerManager().SetTimer(timerHandle_resetOrientation, this, &AFpsAiGuard::resetOrientation, 3.0f, false);
+}
+
+void AFpsAiGuard::resetOrientation()
+{
+	SetActorRotation(originalRotation);
 }
 
 // Called every frame

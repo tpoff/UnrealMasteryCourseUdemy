@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
 	FPSGAME_API UFunction* Z_Construct_UFunction_AFpsAiGuard_OnPawnSeen();
+	FPSGAME_API UFunction* Z_Construct_UFunction_AFpsAiGuard_resetOrientation();
 	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 // End Cross Module References
 	void AFpsAiGuard::StaticRegisterNativesAFpsAiGuard()
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "onNoiseHeard", &AFpsAiGuard::execonNoiseHeard },
 			{ "OnPawnSeen", &AFpsAiGuard::execOnPawnSeen },
+			{ "resetOrientation", &AFpsAiGuard::execresetOrientation },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -89,6 +91,21 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_AFpsAiGuard_resetOrientation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Public/FpsAiGuard.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_AFpsAiGuard, "resetOrientation", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AFpsAiGuard_NoRegister()
 	{
 		return AFpsAiGuard::StaticClass();
@@ -105,6 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_AFpsAiGuard_onNoiseHeard, "onNoiseHeard" }, // 58523187
 				{ &Z_Construct_UFunction_AFpsAiGuard_OnPawnSeen, "OnPawnSeen" }, // 3397268528
+				{ &Z_Construct_UFunction_AFpsAiGuard_resetOrientation, "resetOrientation" }, // 1299631656
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -142,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeFpsAiGuard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFpsAiGuard, 1230597933);
+	IMPLEMENT_CLASS(AFpsAiGuard, 580426585);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFpsAiGuard(Z_Construct_UClass_AFpsAiGuard, &AFpsAiGuard::StaticClass, TEXT("/Script/FPSGame"), TEXT("AFpsAiGuard"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFpsAiGuard);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
