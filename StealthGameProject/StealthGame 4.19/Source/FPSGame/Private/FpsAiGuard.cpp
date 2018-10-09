@@ -4,6 +4,9 @@
 #include "Perception/PawnSensingComponent.h"
 #include "DrawDebugHelpers.h"
 #include "TimerManager.h"
+#include "Runtime/Engine/Classes/Engine/TargetPoint.h"
+#include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
+#include "AI/Navigation/NavigationSystem.h"
 
 // Sets default values
 AFpsAiGuard::AFpsAiGuard()
@@ -13,6 +16,8 @@ AFpsAiGuard::AFpsAiGuard()
 
 
 	pawnSensingComponent = CreateAbstractDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensingComponent"));
+
+	patrolling = true;
 
 }
 
@@ -24,6 +29,12 @@ void AFpsAiGuard::BeginPlay()
 	pawnSensingComponent->OnHearNoise.AddDynamic(this, &AFpsAiGuard::onNoiseHeard);
 
 	originalRotation = GetActorRotation();
+
+	//get all the waypoints
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetPoint::StaticClass(), waypoints);
+
+	if (patrolling)
+		goToRandomWaypoint();
 	
 }
 
@@ -35,6 +46,14 @@ void AFpsAiGuard::OnPawnSeen(APawn * seenPawn)
 		return; 
 	}
 	DrawDebugSphere(GetWorld(), seenPawn->GetActorLocation(), 32.0f, 12, FColor::Red, false, 10.0f);
+
+
+	if (patrolling) {
+		AController* controller = GetController();
+		if (controller) {
+			controller->StopMovement();
+		}
+	}
 }
 
 void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location, float volume)
@@ -54,6 +73,13 @@ void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location,
 	SetActorRotation(newLookAt);
 
 	GetWorldTimerManager().ClearTimer(timerHandle_resetOrientation);
+
+	if (patrolling) {
+		AController* controller = GetController();
+		if (controller) {
+			controller->StopMovement();
+		}
+	}
 	
 	GetWorldTimerManager().SetTimer(timerHandle_resetOrientation, this, &AFpsAiGuard::resetOrientation, 3.0f, false);
 }
@@ -61,12 +87,41 @@ void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location,
 void AFpsAiGuard::resetOrientation()
 {
 	SetActorRotation(originalRotation);
+	if (patrolling)
+		goToRandomWaypoint();
+}
+
+ATargetPoint * AFpsAiGuard::getRandomWaypoint()
+{
+	auto index = FMath::RandRange(0, waypoints.Num() - 1);
+	return Cast<ATargetPoint>(waypoints[index]);
+}
+
+void AFpsAiGuard::goToRandomWaypoint()
+{
+	currentWaypoint = getRandomWaypoint();
+	UNavigationSystem::SimpleMoveToActor(GetController(), currentWaypoint);
 }
 
 // Called every frame
 void AFpsAiGuard::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+
+
+	if (currentWaypoint) {
+		FVector delta = GetActorLocation() - currentWaypoint->GetActorLocation();
+		float distanceToWaypoint = delta.Size();
+
+		if (distanceToWaypoint < 100) {
+			goToRandomWaypoint();
+			UE_LOG(LogTemp, Log, TEXT("dwarf found target"));
+		}
+	}
+
+
+	
 
 }
 

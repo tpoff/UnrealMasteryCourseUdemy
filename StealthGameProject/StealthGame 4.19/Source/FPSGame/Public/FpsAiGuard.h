@@ -7,6 +7,7 @@
 #include "FpsAiGuard.generated.h"
 
 class UPawnSensingComponent;
+class ATargetPoint;
 
 UCLASS()
 class FPSGAME_API AFpsAiGuard : public ACharacter
@@ -40,6 +41,27 @@ protected:
 
 
 	FTimerHandle timerHandle_resetOrientation;
+
+
+	UPROPERTY(EditInstanceOnly, Category = "Patrol")
+		bool patrolling;
+
+
+
+
+	UPROPERTY()
+		TArray<AActor*> waypoints;
+
+
+	UPROPERTY()
+		AActor* currentWaypoint;
+
+	UFUNCTION()
+		ATargetPoint* getRandomWaypoint();
+
+	UFUNCTION()
+		void goToRandomWaypoint();
+
 
 public:	
 	// Called every frame

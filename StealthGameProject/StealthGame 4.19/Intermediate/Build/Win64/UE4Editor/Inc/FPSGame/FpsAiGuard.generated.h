@@ -8,6 +8,7 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class ATargetPoint;
 class APawn;
 struct FVector;
 #ifdef FPSGAME_FpsAiGuard_generated_h
@@ -15,7 +16,23 @@ struct FVector;
 #endif
 #define FPSGAME_FpsAiGuard_generated_h
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execgoToRandomWaypoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->goToRandomWaypoint(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execgetRandomWaypoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ATargetPoint**)Z_Param__Result=P_THIS->getRandomWaypoint(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execresetOrientation) \
 	{ \
@@ -46,7 +63,23 @@ struct FVector;
 	}
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execgoToRandomWaypoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->goToRandomWaypoint(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execgetRandomWaypoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(ATargetPoint**)Z_Param__Result=P_THIS->getRandomWaypoint(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execresetOrientation) \
 	{ \
@@ -77,7 +110,7 @@ struct FVector;
 	}
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_INCLASS_NO_PURE_DECLS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFpsAiGuard(); \
 	friend FPSGAME_API class UClass* Z_Construct_UClass_AFpsAiGuard(); \
@@ -87,7 +120,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_INCLASS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAFpsAiGuard(); \
 	friend FPSGAME_API class UClass* Z_Construct_UClass_AFpsAiGuard(); \
@@ -97,7 +130,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_STANDARD_CONSTRUCTORS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFpsAiGuard(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFpsAiGuard) \
@@ -110,7 +143,7 @@ private: \
 public:
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_ENHANCED_CONSTRUCTORS \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFpsAiGuard(AFpsAiGuard&&); \
@@ -121,29 +154,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFpsAiGuard); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFpsAiGuard)
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__pawnSensingComponent() { return STRUCT_OFFSET(AFpsAiGuard, pawnSensingComponent); }
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__pawnSensingComponent() { return STRUCT_OFFSET(AFpsAiGuard, pawnSensingComponent); } \
+	FORCEINLINE static uint32 __PPO__patrolling() { return STRUCT_OFFSET(AFpsAiGuard, patrolling); } \
+	FORCEINLINE static uint32 __PPO__waypoints() { return STRUCT_OFFSET(AFpsAiGuard, waypoints); } \
+	FORCEINLINE static uint32 __PPO__currentWaypoint() { return STRUCT_OFFSET(AFpsAiGuard, currentWaypoint); }
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_11_PROLOG
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_GENERATED_BODY_LEGACY \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_12_PROLOG
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_INCLASS \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_STANDARD_CONSTRUCTORS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_RPC_WRAPPERS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_INCLASS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_GENERATED_BODY \
+#define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_PRIVATE_PROPERTY_OFFSET \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_INCLASS_NO_PURE_DECLS \
-	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_14_ENHANCED_CONSTRUCTORS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_PRIVATE_PROPERTY_OFFSET \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_INCLASS_NO_PURE_DECLS \
+	StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
