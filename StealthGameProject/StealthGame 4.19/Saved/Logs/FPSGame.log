@@ -2896,3 +2896,605 @@ LogInit: Object subsystem initialized
 [2018.10.09-12.37.06:072][332]LogSavePackage: Save=4.11ms
 [2018.10.09-12.37.06:072][332]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltDataAE808D9947B00B6A328FA6A7426B56EB.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.10.09-12.37.06:074][332]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.09-12.39.21:684][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-12.39.23:245][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-12.39.23:354][561]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.09-12.39.23:365][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.09-12.39.23:366][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.09-12.39.23:366][561]PIE: New page: PIE session: FirstPersonExampleMap (Oct 9, 2018, 2:39:23 AM)
+[2018.10.09-12.39.23:366][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.10.09-12.39.23:384][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017645s)
+[2018.10.09-12.39.23:385][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.09-12.39.23:385][561]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2018.10.09-12.39.23:385][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019018s)
+[2018.10.09-12.39.23:418][561]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.09-12.39.23:426][561]LogInit: FAudioDevice initialized.
+[2018.10.09-12.39.23:457][561]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.09-12.39.23:459][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.09-07.39.23
+[2018.10.09-12.39.23:460][561]LogWorld: Bringing up level for play took: 0.002011
+[2018.10.09-12.39.23:461][561]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_FirstPersonExampleMap -0.199
+[2018.10.09-12.39.23:461][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.09-12.39.24:440][676]LogTemp: dwarf found target
+[2018.10.09-12.39.24:448][677]LogTemp: dwarf found target
+[2018.10.09-12.39.24:457][678]LogTemp: dwarf found target
+[2018.10.09-12.39.24:465][679]LogTemp: dwarf found target
+[2018.10.09-12.39.24:473][680]LogTemp: dwarf found target
+[2018.10.09-12.39.25:065][751]LogTemp: dwarf found target
+[2018.10.09-12.39.25:556][810]LogTemp: dwarf found target
+[2018.10.09-12.39.25:581][813]LogTemp: dwarf found target
+[2018.10.09-12.39.25:590][814]LogTemp: dwarf found target
+[2018.10.09-12.39.25:598][815]LogTemp: dwarf found target
+[2018.10.09-12.39.26:397][910]LogTemp: dwarf found target
+[2018.10.09-12.39.26:939][970]LogTemp: dwarf found target
+[2018.10.09-12.39.26:948][971]LogTemp: dwarf found target
+[2018.10.09-12.39.26:976][974]LogTemp: dwarf found target
+[2018.10.09-12.39.26:986][975]LogTemp: dwarf found target
+[2018.10.09-12.39.27:789][ 57]LogTemp: dwarf found target
+[2018.10.09-12.39.28:989][167]LogTemp: dwarf found target
+[2018.10.09-12.39.29:001][168]LogTemp: dwarf found target
+[2018.10.09-12.39.29:339][197]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:339][197]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:339][197]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:446][206]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:446][206]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:446][206]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:553][215]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:554][215]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:554][215]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:661][224]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:661][224]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:661][224]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:771][233]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:771][233]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:772][233]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:882][242]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:882][242]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:882][242]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:994][251]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:994][251]LogTemp: Guard heard something!
+[2018.10.09-12.39.29:994][251]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:095][259]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:096][259]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:096][259]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:197][267]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:197][267]LogTemp: Guard heard something!
+[2018.10.09-12.39.30:198][267]LogTemp: Guard heard something!
+[2018.10.09-12.39.33:893][529]LogTemp: dwarf found target
+[2018.10.09-12.39.33:908][530]LogTemp: dwarf found target
+[2018.10.09-12.39.34:361][559]LogTemp: dwarf found target
+[2018.10.09-12.39.34:377][560]LogTemp: dwarf found target
+[2018.10.09-12.39.34:929][595]LogTemp: dwarf found target
+[2018.10.09-12.39.35:107][606]LogTemp: dwarf found target
+[2018.10.09-12.39.35:751][645]LogTemp: dwarf found target
+[2018.10.09-12.39.36:893][712]LogTemp: dwarf found target
+[2018.10.09-12.39.37:368][739]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:368][739]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:368][739]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:473][745]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:473][745]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:473][745]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:578][751]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:578][751]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:578][751]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:684][757]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:684][757]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:684][757]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:791][763]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:791][763]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:792][763]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:898][769]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:898][769]LogTemp: Guard heard something!
+[2018.10.09-12.39.37:898][769]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:008][775]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:009][775]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:009][775]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:119][781]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:119][781]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:120][781]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:236][787]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:236][787]LogTemp: Guard heard something!
+[2018.10.09-12.39.38:236][787]LogTemp: Guard heard something!
+[2018.10.09-12.39.41:342][950]LogTemp: dwarf found target
+[2018.10.09-12.39.41:361][951]LogTemp: dwarf found target
+[2018.10.09-12.39.42:263][996]LogTemp: dwarf found target
+[2018.10.09-12.39.42:424][  4]LogTemp: dwarf found target
+[2018.10.09-12.39.43:162][ 40]LogTemp: dwarf found target
+[2018.10.09-12.39.43:271][ 45]LogTemp: dwarf found target
+[2018.10.09-12.39.43:945][ 77]LogTemp: dwarf found target
+[2018.10.09-12.39.43:988][ 79]LogTemp: dwarf found target
+[2018.10.09-12.39.44:726][114]LogTemp: dwarf found target
+[2018.10.09-12.39.44:747][115]LogTemp: dwarf found target
+[2018.10.09-12.39.44:768][116]LogTemp: dwarf found target
+[2018.10.09-12.39.45:243][138]LogTemp: dwarf found target
+[2018.10.09-12.39.45:265][139]LogTemp: dwarf found target
+[2018.10.09-12.39.45:590][154]LogTemp: dwarf found target
+[2018.10.09-12.39.45:611][155]LogTemp: dwarf found target
+[2018.10.09-12.39.45:964][171]LogTemp: dwarf found target
+[2018.10.09-12.39.45:986][172]LogTemp: dwarf found target
+[2018.10.09-12.39.46:010][173]LogTemp: dwarf found target
+[2018.10.09-12.39.46:126][178]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:238][183]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:349][188]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:413][191]LogTemp: dwarf found target
+[2018.10.09-12.39.46:436][192]LogTemp: dwarf found target
+[2018.10.09-12.39.46:458][193]LogTemp: dwarf found target
+[2018.10.09-12.39.46:459][193]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:571][198]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:635][201]LogTemp: dwarf found target
+[2018.10.09-12.39.46:680][203]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:680][203]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:792][208]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:792][208]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:904][213]LogTemp: Guard saw something!
+[2018.10.09-12.39.46:904][213]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:018][218]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:018][218]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:132][223]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:132][223]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:153][224]LogTemp: dwarf found target
+[2018.10.09-12.39.47:245][228]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:245][228]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:358][233]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:359][233]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:474][238]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:474][238]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:590][243]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:590][243]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:702][248]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:702][248]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:816][253]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:816][253]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:862][255]LogTemp: dwarf found target
+[2018.10.09-12.39.47:885][256]LogTemp: dwarf found target
+[2018.10.09-12.39.47:908][257]LogTemp: dwarf found target
+[2018.10.09-12.39.47:931][258]LogTemp: dwarf found target
+[2018.10.09-12.39.47:932][258]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:932][258]LogTemp: Guard saw something!
+[2018.10.09-12.39.47:955][259]LogTemp: dwarf found target
+[2018.10.09-12.39.48:049][263]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:049][263]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:049][263]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:164][268]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:164][268]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:164][268]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:283][273]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:283][273]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:283][273]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:397][278]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:397][278]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:397][278]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:511][283]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:512][283]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:512][283]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:628][288]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:628][288]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:628][288]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:745][293]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:745][293]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:745][293]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:865][298]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:865][298]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:866][298]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:984][303]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:984][303]LogTemp: Guard saw something!
+[2018.10.09-12.39.48:984][303]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:104][308]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:104][308]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:104][308]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:224][313]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:225][313]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:225][313]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:344][318]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:345][318]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:345][318]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:468][323]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:468][323]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:468][323]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:592][328]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:592][328]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:593][328]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:692][332]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:692][332]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:692][332]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:792][336]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:792][336]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:896][340]LogTemp: Guard saw something!
+[2018.10.09-12.39.49:897][340]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:224][353]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:224][353]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:224][353]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:330][357]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:331][357]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:331][357]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:431][361]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:431][361]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:432][361]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:531][365]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:532][365]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:532][365]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:634][369]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:634][369]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:634][369]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:734][373]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:734][373]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:734][373]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:837][377]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:838][377]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:838][377]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:941][381]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:941][381]LogTemp: Guard saw something!
+[2018.10.09-12.39.50:942][381]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:088][385]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:089][385]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:089][385]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:194][389]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:195][389]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:195][389]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:301][393]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:301][393]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:301][393]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:405][397]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:405][397]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:405][397]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:510][401]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:510][401]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:510][401]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:614][405]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:615][405]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:615][405]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:720][409]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:720][409]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:720][409]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:825][413]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:825][413]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:826][413]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:931][417]LogTemp: Guard saw something!
+[2018.10.09-12.39.51:931][417]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:035][421]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:036][421]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:144][425]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:144][425]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:257][429]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:258][429]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:365][433]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:365][433]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:472][437]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:472][437]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:579][441]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:686][445]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:795][449]LogTemp: Guard saw something!
+[2018.10.09-12.39.52:823][450]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.09-12.39.52:870][450]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.09-12.40.43:596][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.09-12.40.45:089][461]LogSlate: Window 'Save Content' being destroyed
+[2018.10.09-12.40.45:333][461]LogSavePackage: Save=100.80ms
+[2018.10.09-12.40.45:333][461]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMapB24800064432F637B8DD4CAAAF8D95A5.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.09-12.40.45:336][461]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.09-12.40.45:361][461]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.221
+[2018.10.09-12.40.45:412][461]LogSlate: Window 'FPSGame - Unreal Editor' being destroyed
+[2018.10.09-12.40.45:413][461]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.09-12.40.45:610][462]Cmd: QUIT_EDITOR
+[2018.10.09-12.40.45:994][462]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.09-12.40.45:994][462]LogExit: Preparing to exit.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:233][462]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2018.10.09-12.40.46:250][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.09-12.40.46:284][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190d62ee380, Size=24
+[2018.10.09-12.40.46:285][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190d29024d0, Size=72
+[2018.10.09-12.40.46:285][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190d2d062c0, Size=8
+[2018.10.09-12.40.46:288][462]LogExit: Editor shut down
+[2018.10.09-12.40.46:304][462]LogExit: Transaction tracking system shut down
+[2018.10.09-12.40.46:306][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000190d62edb88, Size=24
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.09-12.40.46:481][462]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.09-12.40.46:534][462]LogExit: Object subsystem successfully closed.
+[2018.10.09-12.40.46:563][462]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.09-12.40.46:568][462]LogD3D11RHI: Shutdown
+[2018.10.09-12.40.46:568][462]LogD3D11RHI: CleanupD3DDevice
+[2018.10.09-12.40.46:571][462]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module FPSGame (586)
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.10.09-12.40.46:592][462]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.10.09-12.40.46:593][462]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.10.09-12.40.46:597][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Collections/' was aborted.
+[2018.10.09-12.40.46:597][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Developers/Tyler/Collections/' was aborted.
+[2018.10.09-12.40.46:597][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Collections/' was aborted.
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.10.09-12.40.46:597][462]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.10.09-12.40.46:598][462]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.10.09-12.40.47:558][462]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.10.09-12.40.47:612][462]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.10.09-12.40.47:613][462]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.10.09-12.40.47:613][462]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.10.09-12.40.47:613][462]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.10.09-12.40.47:613][462]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.10.09-12.40.47:760][462]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.10.09-12.40.47:763][462]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.10.09-12.40.47:764][462]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.10.09-12.40.47:865][462]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.10.09-12.40.47:966][462]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.10.09-12.40.47:967][462]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.10.09-12.40.47:967][462]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.10.09-12.40.47:967][462]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.10.09-12.40.47:967][462]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.10.09-12.40.47:967][462]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Binaries/Win64' was aborted.
+[2018.10.09-12.40.47:967][462]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.10.09-12.40.47:968][462]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.10.09-12.40.47:968][462]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.10.09-12.40.47:968][462]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.10.09-12.40.47:968][462]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.10.09-12.40.48:380][462]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.10.09-12.40.48:380][462]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.10.09-12.40.48:380][462]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.10.09-12.40.48:382][462]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.10.09-12.40.48:387][462]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.10.09-12.40.48:388][462]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.10.09-12.40.48:389][462]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.10.09-12.40.48:395][462]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.10.09-12.40.48:458][462]LogDerivedDataCache: Shutdown
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.10.09-12.40.48:458][462]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.09-12.40.48:459][462]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.09-12.40.48:460][462]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.09-12.40.48:460][462]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.09-12.40.48:460][462]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3247BD22-49D3-FAA9-1ABB-95A32C91D844%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d145e9f94de4149c1ea6108100dda1c3%7Cd33b2c4c25dc4ec4a929c0fc2b9964ca%7C862a9022-a5df-4122-a053-0ff37dff48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.09-12.40.48:478][462]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.09-12.40.48:479][462]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.09-12.40.48:479][462]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.09-12.40.48:479][462]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.09-12.40.48:479][462]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.09-12.40.48:480][462]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.09-12.40.48:480][462]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.09-12.40.48:480][462]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.09-12.40.48:481][462]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.09-12.40.48:490][462]LogExit: Exiting.
+[2018.10.09-12.40.48:503][462]Log file closed, 10/09/18 07:40:48
