@@ -20,6 +20,7 @@ class APawn;
 	struct FPSGameMode_eventOnMissionCompleted_Parms \
 	{ \
 		APawn* instigatorPawn; \
+		bool bMissionSuccess; \
 	};
 
 

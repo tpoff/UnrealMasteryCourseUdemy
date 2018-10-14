@@ -7,6 +7,7 @@
 #include "Runtime/Engine/Classes/Engine/TargetPoint.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "AI/Navigation/NavigationSystem.h"
+#include "FPSGameMode.h"
 
 // Sets default values
 AFpsAiGuard::AFpsAiGuard()
@@ -47,6 +48,13 @@ void AFpsAiGuard::OnPawnSeen(APawn * seenPawn)
 	}
 	DrawDebugSphere(GetWorld(), seenPawn->GetActorLocation(), 32.0f, 12, FColor::Red, false, 10.0f);
 
+
+
+
+	AFPSGameMode* gm = Cast<AFPSGameMode>(GetWorld()->GetAuthGameMode());
+	if (gm) {
+		gm->CompleteMission(seenPawn, false);
+	}
 
 	if (patrolling) {
 		AController* controller = GetController();
