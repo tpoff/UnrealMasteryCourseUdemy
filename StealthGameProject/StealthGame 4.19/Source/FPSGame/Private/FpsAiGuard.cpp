@@ -19,6 +19,7 @@ AFpsAiGuard::AFpsAiGuard()
 	pawnSensingComponent = CreateAbstractDefaultSubobject<UPawnSensingComponent>(TEXT("PawnSensingComponent"));
 
 	patrolling = true;
+	guardState = EAIState::Idle;
 
 }
 
@@ -36,6 +37,7 @@ void AFpsAiGuard::BeginPlay()
 
 	if (patrolling)
 		goToRandomWaypoint();
+	setGuardState(EAIState::Idle);
 	
 }
 
@@ -62,41 +64,56 @@ void AFpsAiGuard::OnPawnSeen(APawn * seenPawn)
 			controller->StopMovement();
 		}
 	}
+
+	setGuardState(EAIState::Alerted);
 }
 
 void AFpsAiGuard::onNoiseHeard(APawn * instigatorPawn, const FVector & location, float volume)
 {
-	UE_LOG(LogTemp, Log, TEXT("Guard heard something!"));
+	if (guardState != EAIState::Alerted)
+	{
+		UE_LOG(LogTemp, Log, TEXT("Guard heard something!"));
 
 	
-	DrawDebugSphere(GetWorld(), location, 32.0f, 12, FColor::Green, false, 10.0f);
+		DrawDebugSphere(GetWorld(), location, 32.0f, 12, FColor::Green, false, 10.0f);
 
-	FVector direction = location - GetActorLocation();
-	direction.Normalize();
+		FVector direction = location - GetActorLocation();
+		direction.Normalize();
 
-	FRotator newLookAt = FRotationMatrix::MakeFromX(direction).Rotator();
-	newLookAt.Pitch = 0;
-	newLookAt.Roll = 0; 
+		FRotator newLookAt = FRotationMatrix::MakeFromX(direction).Rotator();
+		newLookAt.Pitch = 0;
+		newLookAt.Roll = 0; 
 
-	SetActorRotation(newLookAt);
+		SetActorRotation(newLookAt);
 
-	GetWorldTimerManager().ClearTimer(timerHandle_resetOrientation);
+		GetWorldTimerManager().ClearTimer(timerHandle_resetOrientation);
 
-	if (patrolling) {
-		AController* controller = GetController();
-		if (controller) {
-			controller->StopMovement();
+		if (patrolling) {
+			AController* controller = GetController();
+			if (controller) {
+				controller->StopMovement();
+			}
 		}
-	}
 	
-	GetWorldTimerManager().SetTimer(timerHandle_resetOrientation, this, &AFpsAiGuard::resetOrientation, 3.0f, false);
+		GetWorldTimerManager().SetTimer(timerHandle_resetOrientation, this, &AFpsAiGuard::resetOrientation, 3.0f, false);
+
+
+	
+		setGuardState(EAIState::Suspicious);
+
+	}
+
 }
 
 void AFpsAiGuard::resetOrientation()
 {
-	SetActorRotation(originalRotation);
-	if (patrolling)
-		goToRandomWaypoint();
+	if (guardState != EAIState::Alerted)
+	{
+		setGuardState(EAIState::Idle);
+		SetActorRotation(originalRotation);
+		if (patrolling)
+			goToRandomWaypoint();
+	}
 }
 
 ATargetPoint * AFpsAiGuard::getRandomWaypoint()
@@ -109,6 +126,16 @@ void AFpsAiGuard::goToRandomWaypoint()
 {
 	currentWaypoint = getRandomWaypoint();
 	UNavigationSystem::SimpleMoveToActor(GetController(), currentWaypoint);
+}
+
+void AFpsAiGuard::setGuardState(EAIState newState)
+{
+	if (guardState != newState) {
+		guardState = newState; 
+		onStateChanged(guardState);
+	}
+
+
 }
 
 // Called every frame

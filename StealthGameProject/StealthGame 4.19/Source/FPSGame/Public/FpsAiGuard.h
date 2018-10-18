@@ -9,6 +9,14 @@
 class UPawnSensingComponent;
 class ATargetPoint;
 
+UENUM(BlueprintType)
+enum class EAIState : uint8 {
+	Idle,
+	Suspicious,
+	Alerted, 
+
+};
+
 UCLASS()
 class FPSGAME_API AFpsAiGuard : public ACharacter
 {
@@ -62,6 +70,15 @@ protected:
 	UFUNCTION()
 		void goToRandomWaypoint();
 
+
+
+
+	EAIState guardState; 
+
+	void setGuardState(EAIState newState);
+
+	UFUNCTION(BlueprintImplementableEvent, Category="AI" )
+	void onStateChanged(EAIState newState);
 
 public:	
 	// Called every frame
