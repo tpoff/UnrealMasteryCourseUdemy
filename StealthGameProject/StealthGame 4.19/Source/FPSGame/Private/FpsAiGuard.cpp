@@ -38,6 +38,7 @@ void AFpsAiGuard::BeginPlay()
 	if (patrolling)
 		goToRandomWaypoint();
 	setGuardState(EAIState::Idle);
+	onStateChanged(guardState);
 	
 }
 
