@@ -19,6 +19,14 @@ enum class EAIState : uint8;
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_23_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRep_GuardState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_GuardState(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execgoToRandomWaypoint) \
 	{ \
 		P_FINISH; \
@@ -65,6 +73,14 @@ enum class EAIState : uint8;
 
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnRep_GuardState) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_GuardState(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execgoToRandomWaypoint) \
 	{ \
@@ -126,7 +142,8 @@ private: \
 public: \
 	DECLARE_CLASS(AFpsAiGuard, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
 	DECLARE_SERIALIZER(AFpsAiGuard) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_23_INCLASS \
@@ -136,7 +153,8 @@ private: \
 public: \
 	DECLARE_CLASS(AFpsAiGuard, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/FPSGame"), NO_API) \
 	DECLARE_SERIALIZER(AFpsAiGuard) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_23_STANDARD_CONSTRUCTORS \
@@ -167,7 +185,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFpsAiGuard); \
 	FORCEINLINE static uint32 __PPO__pawnSensingComponent() { return STRUCT_OFFSET(AFpsAiGuard, pawnSensingComponent); } \
 	FORCEINLINE static uint32 __PPO__patrolling() { return STRUCT_OFFSET(AFpsAiGuard, patrolling); } \
 	FORCEINLINE static uint32 __PPO__waypoints() { return STRUCT_OFFSET(AFpsAiGuard, waypoints); } \
-	FORCEINLINE static uint32 __PPO__currentWaypoint() { return STRUCT_OFFSET(AFpsAiGuard, currentWaypoint); }
+	FORCEINLINE static uint32 __PPO__currentWaypoint() { return STRUCT_OFFSET(AFpsAiGuard, currentWaypoint); } \
+	FORCEINLINE static uint32 __PPO__guardState() { return STRUCT_OFFSET(AFpsAiGuard, guardState); }
 
 
 #define StealthGame_4_19_Source_FPSGame_Public_FpsAiGuard_h_20_PROLOG \

@@ -8,6 +8,7 @@
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 #include "AI/Navigation/NavigationSystem.h"
 #include "FPSGameMode.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 AFpsAiGuard::AFpsAiGuard()
@@ -129,11 +130,16 @@ void AFpsAiGuard::goToRandomWaypoint()
 	UNavigationSystem::SimpleMoveToActor(GetController(), currentWaypoint);
 }
 
+void AFpsAiGuard::OnRep_GuardState()
+{
+	onStateChanged(guardState);
+}
+
 void AFpsAiGuard::setGuardState(EAIState newState)
 {
 	if (guardState != newState) {
-		guardState = newState; 
-		onStateChanged(guardState);
+		guardState = newState;
+		OnRep_GuardState();
 	}
 
 
@@ -156,10 +162,13 @@ void AFpsAiGuard::Tick(float DeltaTime)
 		}
 	}
 
-
-	
-
 }
 
 
 
+void AFpsAiGuard::GetLifetimeReplicatedProps(TArray<FLifetimeProperty> & OutLifetimeProps)const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AFpsAiGuard, guardState);
+}
