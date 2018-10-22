@@ -1257,3 +1257,1423 @@ LogInit: Object subsystem initialized
 [2018.10.22-12.34.15:319][219]LogSavePackage: Save=3.46ms
 [2018.10.22-12.34.15:319][219]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData1BFAF9D24CA39D673E5C59A543DA36F7.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.10.22-12.34.15:321][219]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.22-12.44.17:582][864]Candidate modules for hot reload:
+[2018.10.22-12.44.17:582][864]  FPSGame
+[2018.10.22-12.44.17:582][864]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,3869 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.22-12.44.17:585][864]Warning: Starting HotReload took  0.0s.
+[2018.10.22-12.44.28:110][ 99]CompilerResultsLog: New page: Compilation - Oct 22, 2018, 2:44:28 AM
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\FPSGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Reflection code generated for FPSGameEditor in 7.2770589 seconds
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: FPSGame.init.gen.cpp
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: FpsAiGuard.cpp
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: FpsAiGuard.gen.cpp
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsAiGuard.cpp(173) : error C2275: 'AFpsAiGuard': illegal use of this type as an expression
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsAiGuard.cpp(173) : error C3861: 'DOREPLIFETIME': identifier not found
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3869.dll
+[2018.10.22-12.44.28:111][ 99]CompilerResultsLog: Total build time: 10.36 seconds (Local executor: 0.00 seconds)
+[2018.10.22-12.44.28:111][ 99]LogMainFrame: MainFrame: Module compiling took 10.561 seconds
+[2018.10.22-12.44.28:111][ 99]Warning: HotReload failed, recompile failed
+[2018.10.22-12.45.51:770][536]Candidate modules for hot reload:
+[2018.10.22-12.45.51:770][536]  FPSGame
+[2018.10.22-12.45.51:770][536]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,9200 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.22-12.45.51:774][536]Warning: Starting HotReload took  0.0s.
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: New page: Compilation - Oct 22, 2018, 2:45:54 AM
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: FpsAiGuard.cpp
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Source\FPSGame\Private\FpsAiGuard.cpp(173) : error C2065: 'OutLifetimeProps': undeclared identifier
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-9200.dll
+[2018.10.22-12.45.54:724][883]CompilerResultsLog: Total build time: 2.79 seconds (Local executor: 0.00 seconds)
+[2018.10.22-12.45.54:724][883]LogMainFrame: MainFrame: Module compiling took 2.987 seconds
+[2018.10.22-12.45.54:724][883]Warning: HotReload failed, recompile failed
+[2018.10.22-12.46.30:168][593]Candidate modules for hot reload:
+[2018.10.22-12.46.30:168][593]  FPSGame
+[2018.10.22-12.46.30:168][593]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe FPSGame -ModuleWithSuffix=FPSGame,1938 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/FPSGame.uproject" ]
+[2018.10.22-12.46.30:171][593]Warning: Starting HotReload took  0.0s.
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: New page: Compilation - Oct 22, 2018, 2:46:34 AM
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: Compiling game modules for hot reload
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: FpsAiGuard.cpp
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: [2/3] Link UE4Editor-FPSGame-1938.dll
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: [3/3] Link UE4Editor-FPSGame-1938.lib
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1938.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1938.exp
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1938.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame-1938.suppressed.exp
+[2018.10.22-12.46.34:181][ 67]CompilerResultsLog: Total build time: 3.85 seconds (Local executor: 2.83 seconds)
+[2018.10.22-12.46.34:181][ 67]LogMainFrame: MainFrame: Module compiling took 4.046 seconds
+[2018.10.22-12.46.34:200][ 67]LogClass: Could not find existing class FpsAiGuard in package /Script/FPSGame for HotReload, assuming new class
+[2018.10.22-12.46.34:200][ 67]LogClass: Function getRandomWaypoint is new.
+[2018.10.22-12.46.34:200][ 67]LogClass: Function goToRandomWaypoint is new.
+[2018.10.22-12.46.34:200][ 67]LogClass: Function onNoiseHeard is new.
+[2018.10.22-12.46.34:200][ 67]LogClass: Function OnPawnSeen is new.
+[2018.10.22-12.46.34:200][ 67]LogClass: Function OnRep_GuardState is new.
+[2018.10.22-12.46.34:200][ 67]LogClass: Function resetOrientation is new.
+[2018.10.22-12.46.34:207][ 67]LogClass: EAIState HotReload.
+[2018.10.22-12.46.34:211][ 67]LogHotReload: Re-instancing FpsAiGuard after hot-reload.
+[2018.10.22-12.46.34:216][ 67]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002026f35b560, Size=136
+[2018.10.22-12.46.34:216][ 67]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020212d6fc40, Size=136, Default__BP_Guard_C Function /Engine/Transient.REINST_BP_Guard_C_65:ExecuteUbergraph_BP_Guard
+[2018.10.22-12.46.34:217][ 67]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020212d6d1c0, Size=136, Default__BP_Guard_C Function /Game/Blueprints/BP_Guard.BP_Guard_C:ExecuteUbergraph_BP_Guard
+[2018.10.22-12.46.34:480][ 67]LogHotReload: Re-instancing FpsExtractionZone after hot-reload.
+[2018.10.22-12.46.34:646][ 67]LogHotReload: Re-instancing LaunchPad after hot-reload.
+[2018.10.22-12.46.34:849][ 67]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0011 seconds. Added 9 classes and 3 folders.
+[2018.10.22-12.46.34:851][ 67]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.10.22-12.46.35:056][ 67]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2462 classes and 563 folders.
+[2018.10.22-12.46.35:057][ 67]Display: HotReload took  4.9s.
+[2018.10.22-12.46.56:378][474]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-12.46.56:392][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.46.56:392][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.46.56:392][474]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:46:56 AM)
+[2018.10.22-12.46.56:392][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPersonExampleMap
+[2018.10.22-12.46.56:412][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019514s)
+[2018.10.22-12.46.56:413][474]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.46.56:413][474]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2018.10.22-12.46.56:413][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.020655s)
+[2018.10.22-12.46.56:458][474]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.22-12.46.56:460][474]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.46.56
+[2018.10.22-12.46.56:460][474]LogWorld: Bringing up level for play took: 0.001921
+[2018.10.22-12.46.56:461][474]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:461][474]LogTemp: Display: ParseSettings for IpNetDriver_19
+[2018.10.22-12.46.56:461][474]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:461][474]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.22-12.46.56:461][474]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.46.56:461][474]LogNet: GameNetDriver IpNetDriver_19 IpNetDriver listening on port 17777
+[2018.10.22-12.46.56:463][474]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_FirstPersonExampleMap -0.24
+[2018.10.22-12.46.56:494][474]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:46:56 AM)
+[2018.10.22-12.46.56:517][474]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.46.56:525][474]LogInit: FAudioDevice initialized.
+[2018.10.22-12.46.56:558][474]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.46.56:558][474]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:558][474]LogTemp: Display: ParseSettings for IpNetDriver_20
+[2018.10.22-12.46.56:558][474]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.46.56:558][474]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.46.56:558][474]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.46.56:559][474]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.46.56:559][474]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap -0.144
+[2018.10.22-12.46.56:585][474]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:46:56 AM)
+[2018.10.22-12.46.56:618][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.46.56:740][474]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.46.56:741][474]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:741][474]LogTemp: Display: ParseSettings for IpNetDriver_21
+[2018.10.22-12.46.56:741][474]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.46.56:741][474]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.46.56:741][474]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.46.56:741][474]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.46.56:744][474]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap 0.041
+[2018.10.22-12.46.56:778][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.46.56:778][474]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65139
+[2018.10.22-12.46.56:778][474]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 166130187161119218033162251149010243196079057132181183164153
+[2018.10.22-12.46.56:778][474]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65140
+[2018.10.22-12.46.56:778][474]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 088169016033093003174131215196213180181205158217131057169072
+[2018.10.22-12.46.56:779][474]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 166130187161119218033162251149010243196079057132181183164153
+[2018.10.22-12.46.56:780][474]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 088169016033093003174131215196213180181205158217131057169072
+[2018.10.22-12.46.56:829][475]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65139
+[2018.10.22-12.46.56:829][475]LogHandshake: SendChallengeAck. InCookie: 166130187161119218033162251149010243196079057132181183164153
+[2018.10.22-12.46.56:829][475]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65139
+[2018.10.22-12.46.56:829][475]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.46.56:829][475]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:46:56, [UNetConnection] RemoteAddr: 127.0.0.1:65139, Name: IpConnection_26, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:829][475]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65139, Name: IpConnection_26, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:829][475]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65140
+[2018.10.22-12.46.56:830][475]LogHandshake: SendChallengeAck. InCookie: 088169016033093003174131215196213180181205158217131057169072
+[2018.10.22-12.46.56:830][475]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65140
+[2018.10.22-12.46.56:830][475]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.46.56:830][475]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:46:56, [UNetConnection] RemoteAddr: 127.0.0.1:65140, Name: IpConnection_27, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:830][475]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65140, Name: IpConnection_27, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:830][475]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_24, Driver: PendingNetDriver IpNetDriver_20, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:830][475]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_25, Driver: PendingNetDriver IpNetDriver_21, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.46.56:840][476]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.46.56:840][476]LogNet: Remote platform little endian=1
+[2018.10.22-12.46.56:840][476]LogNet: This platform little endian=1
+[2018.10.22-12.46.56:840][476]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.46.56:840][476]LogNet: Remote platform little endian=1
+[2018.10.22-12.46.56:840][476]LogNet: This platform little endian=1
+[2018.10.22-12.46.56:848][477]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.46.56:848][477]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.46.56:849][477]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.46.56:849][477]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.46.56:891][477]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.46.56:891][477]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:893][477]LogWorld: Bringing World /Game/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.46.56
+[2018.10.22-12.46.56:894][477]LogWorld: Bringing up level for play took: 0.001809
+[2018.10.22-12.46.56:894][477]LogLoad: Took 0.044437 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.46.56:894][477]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.46.56:907][477]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.46.56:934][477]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.46.56:935][477]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.46.56:937][477]LogWorld: Bringing World /Game/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.46.56
+[2018.10.22-12.46.56:937][477]LogWorld: Bringing up level for play took: 0.001447
+[2018.10.22-12.46.56:937][477]LogLoad: Took 0.030687 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.46.56:952][478]LogNet: Client netspeed is 10000
+[2018.10.22-12.46.56:952][478]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.46.56:954][478]LogNet: Join succeeded: 271
+[2018.10.22-12.46.56:954][478]LogNet: Client netspeed is 10000
+[2018.10.22-12.46.56:954][478]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.46.56:954][478]LogNet: Join succeeded: 272
+[2018.10.22-12.46.56:983][480]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.46.56:983][480]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.46.57:004][482]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.46.57:005][482]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.46.57:785][562]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.46.57:785][562]LogTemp: dwarf found target
+[2018.10.22-12.46.57:794][563]LogTemp: dwarf found target
+[2018.10.22-12.46.58:782][648]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.46.58:782][648]LogTemp: dwarf found target
+[2018.10.22-12.46.58:794][649]LogTemp: dwarf found target
+[2018.10.22-12.46.58:795][649]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.46.58:795][649]LogTemp: dwarf found target
+[2018.10.22-12.46.58:808][650]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.46.58:808][650]LogTemp: dwarf found target
+[2018.10.22-12.46.58:938][660]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.46.58:938][660]LogTemp: dwarf found target
+[2018.10.22-12.46.58:949][661]LogTemp: dwarf found target
+[2018.10.22-12.46.59:922][732]LogTemp: dwarf found target
+[2018.10.22-12.47.00:081][742]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.00:081][742]LogTemp: dwarf found target
+[2018.10.22-12.47.00:099][743]LogTemp: dwarf found target
+[2018.10.22-12.47.00:995][801]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.00:996][801]LogTemp: dwarf found target
+[2018.10.22-12.47.00:996][801]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.00:996][801]LogTemp: dwarf found target
+[2018.10.22-12.47.01:010][802]LogTemp: dwarf found target
+[2018.10.22-12.47.01:011][802]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:011][802]LogTemp: dwarf found target
+[2018.10.22-12.47.01:012][802]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:012][802]LogTemp: dwarf found target
+[2018.10.22-12.47.01:027][803]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:027][803]LogTemp: dwarf found target
+[2018.10.22-12.47.01:446][829]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:446][829]LogTemp: dwarf found target
+[2018.10.22-12.47.01:447][829]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:447][829]LogTemp: dwarf found target
+[2018.10.22-12.47.01:462][830]LogTemp: dwarf found target
+[2018.10.22-12.47.01:463][830]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:463][830]LogTemp: dwarf found target
+[2018.10.22-12.47.01:464][830]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.47.01:464][830]LogTemp: dwarf found target
+[2018.10.22-12.47.01:478][831]LogTemp: dwarf found target
+[2018.10.22-12.47.02:149][872]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.02:150][872]LogTemp: dwarf found target
+[2018.10.22-12.47.02:166][873]LogTemp: dwarf found target
+[2018.10.22-12.47.02:168][873]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.47.02:168][873]LogTemp: dwarf found target
+[2018.10.22-12.47.02:664][902]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:664][902]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:771][908]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:771][908]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:877][914]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:877][914]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:981][920]LogTemp: Guard heard something!
+[2018.10.22-12.47.02:981][920]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:088][926]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:088][926]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:195][932]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:195][932]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:304][938]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:304][938]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:411][944]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:412][944]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:519][950]LogTemp: Guard heard something!
+[2018.10.22-12.47.03:519][950]LogTemp: Guard heard something!
+[2018.10.22-12.47.07:206][131]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:207][131]LogTemp: dwarf found target
+[2018.10.22-12.47.07:228][132]LogTemp: dwarf found target
+[2018.10.22-12.47.07:229][132]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:229][132]LogTemp: dwarf found target
+[2018.10.22-12.47.07:252][133]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:252][133]LogTemp: dwarf found target
+[2018.10.22-12.47.07:526][145]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:526][145]LogTemp: dwarf found target
+[2018.10.22-12.47.07:528][145]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:528][145]LogTemp: dwarf found target
+[2018.10.22-12.47.07:548][146]LogTemp: dwarf found target
+[2018.10.22-12.47.07:550][146]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.07:551][146]LogTemp: dwarf found target
+[2018.10.22-12.47.08:763][197]LogTemp: dwarf found target
+[2018.10.22-12.47.08:764][197]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.47.08:764][197]LogTemp: dwarf found target
+[2018.10.22-12.47.08:765][197]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.08:765][197]LogTemp: dwarf found target
+[2018.10.22-12.47.09:057][209]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.09:057][209]LogTemp: dwarf found target
+[2018.10.22-12.47.09:080][210]LogTemp: dwarf found target
+[2018.10.22-12.47.09:479][226]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.47.09:479][226]LogTemp: dwarf found target
+[2018.10.22-12.47.09:504][227]LogTemp: dwarf found target
+[2018.10.22-12.47.09:529][228]LogTemp: dwarf found target
+[2018.10.22-12.47.09:553][229]LogTemp: dwarf found target
+[2018.10.22-12.47.09:554][229]LogTemp: Guard heard something!
+[2018.10.22-12.47.09:554][229]LogTemp: Guard heard something!
+[2018.10.22-12.47.09:678][234]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:678][234]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:678][234]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:678][234]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:678][234]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:678][234]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:781][238]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:781][238]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:781][238]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:781][238]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:781][238]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:781][238]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:880][242]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:881][242]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:881][242]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:881][242]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:881][242]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:881][242]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:981][246]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:981][246]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:981][246]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.09:981][246]LogTemp: Guard saw something!
+[2018.10.22-12.47.09:981][246]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.09:982][246]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:106][251]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:106][251]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:106][251]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:107][251]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:107][251]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:107][251]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:207][255]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:207][255]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:207][255]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:207][255]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:207][255]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:207][255]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:309][259]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:309][259]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:310][259]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:310][259]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:310][259]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:310][259]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:412][263]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:412][263]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	BP_GameMode_C /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BP_GameMode_C_0
+	Function /Game/Blueprints/BP_GameMode.BP_GameMode_C:ExecuteUbergraph_BP_GameMode:008D
+[2018.10.22-12.47.10:412][263]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:412][263]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:412][263]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:513][267]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:513][267]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:513][267]LogTemp: Guard saw something!
+[2018.10.22-12.47.10:513][267]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.10:591][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.10:611][270]LogSlate: Window 'FPSGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.47.10:678][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65140, Name: IpConnection_27, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65140, Name: IpConnection_27, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.10
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65140, Name: IpConnection_27, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65139, Name: IpConnection_26, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65139, Name: IpConnection_26, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.10
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65139, Name: IpConnection_26, Driver: GameNetDriver IpNetDriver_19, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_25, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_25, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.10
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_25, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_24, Driver: GameNetDriver IpNetDriver_20, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:694][270]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_24, Driver: GameNetDriver IpNetDriver_20, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.10
+[2018.10.22-12.47.10:694][270]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_24, Driver: GameNetDriver IpNetDriver_20, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.10:698][270]LogExit: GameNetDriver None shut down
+[2018.10.22-12.47.10:698][270]LogExit: GameNetDriver None shut down
+[2018.10.22-12.47.10:699][270]LogExit: GameNetDriver None shut down
+[2018.10.22-12.47.14:316][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.47.42:616][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-12.47.42:628][ 51]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.42:628][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.47.42:628][ 51]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:47:42 AM)
+[2018.10.22-12.47.42:629][ 51]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPersonExampleMap
+[2018.10.22-12.47.42:649][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020392s)
+[2018.10.22-12.47.42:650][ 51]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.47.42:650][ 51]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2018.10.22-12.47.42:650][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.021823s)
+[2018.10.22-12.47.42:667][ 51]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.22-12.47.42:669][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.47.42
+[2018.10.22-12.47.42:670][ 51]LogWorld: Bringing up level for play took: 0.002074
+[2018.10.22-12.47.42:670][ 51]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.42:670][ 51]LogTemp: Display: ParseSettings for IpNetDriver_22
+[2018.10.22-12.47.42:670][ 51]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.42:670][ 51]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.22-12.47.42:670][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.47.42:670][ 51]LogNet: GameNetDriver IpNetDriver_22 IpNetDriver listening on port 17777
+[2018.10.22-12.47.42:671][ 51]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_FirstPersonExampleMap -0.032
+[2018.10.22-12.47.42:698][ 51]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:47:42 AM)
+[2018.10.22-12.47.42:721][ 51]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.47.42:728][ 51]LogInit: FAudioDevice initialized.
+[2018.10.22-12.47.42:757][ 51]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.47.42:757][ 51]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.42:757][ 51]LogTemp: Display: ParseSettings for IpNetDriver_23
+[2018.10.22-12.47.42:757][ 51]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.47.42:757][ 51]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.47.42:757][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.47.42:757][ 51]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.47.42:758][ 51]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap 0.054
+[2018.10.22-12.47.42:785][ 51]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:47:42 AM)
+[2018.10.22-12.47.42:816][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.47.42:906][ 51]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.47.42:906][ 51]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.42:906][ 51]LogTemp: Display: ParseSettings for IpNetDriver_24
+[2018.10.22-12.47.42:906][ 51]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.47.42:906][ 51]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.47.42:906][ 51]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.47.42:906][ 51]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.47.42:909][ 51]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap 0.207
+[2018.10.22-12.47.42:941][ 51]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.42:941][ 51]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57085
+[2018.10.22-12.47.42:941][ 51]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 073037005029130205205042191175140046111064116140064025198141
+[2018.10.22-12.47.42:942][ 51]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57086
+[2018.10.22-12.47.42:942][ 51]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 051039173143028077146238231111219188166022032111055218028201
+[2018.10.22-12.47.42:943][ 51]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 073037005029130205205042191175140046111064116140064025198141
+[2018.10.22-12.47.42:944][ 51]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 051039173143028077146238231111219188166022032111055218028201
+[2018.10.22-12.47.42:986][ 52]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57085
+[2018.10.22-12.47.42:986][ 52]LogHandshake: SendChallengeAck. InCookie: 073037005029130205205042191175140046111064116140064025198141
+[2018.10.22-12.47.42:986][ 52]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57085
+[2018.10.22-12.47.42:986][ 52]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.47.42:986][ 52]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:47:42, [UNetConnection] RemoteAddr: 127.0.0.1:57085, Name: IpConnection_30, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:986][ 52]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57085, Name: IpConnection_30, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:986][ 52]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57086
+[2018.10.22-12.47.42:986][ 52]LogHandshake: SendChallengeAck. InCookie: 051039173143028077146238231111219188166022032111055218028201
+[2018.10.22-12.47.42:986][ 52]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57086
+[2018.10.22-12.47.42:986][ 52]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.47.42:987][ 52]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:47:42, [UNetConnection] RemoteAddr: 127.0.0.1:57086, Name: IpConnection_31, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:987][ 52]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57086, Name: IpConnection_31, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:987][ 52]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_28, Driver: PendingNetDriver IpNetDriver_23, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:987][ 52]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_29, Driver: PendingNetDriver IpNetDriver_24, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.47.42:995][ 53]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.47.42:995][ 53]LogNet: Remote platform little endian=1
+[2018.10.22-12.47.42:995][ 53]LogNet: This platform little endian=1
+[2018.10.22-12.47.42:995][ 53]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.47.42:995][ 53]LogNet: Remote platform little endian=1
+[2018.10.22-12.47.42:995][ 53]LogNet: This platform little endian=1
+[2018.10.22-12.47.43:003][ 54]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.47.43:003][ 54]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.47.43:004][ 54]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.47.43:004][ 54]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.47.43:033][ 54]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.47.43:033][ 54]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.43:035][ 54]LogWorld: Bringing World /Game/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.47.43
+[2018.10.22-12.47.43:035][ 54]LogWorld: Bringing up level for play took: 0.001488
+[2018.10.22-12.47.43:035][ 54]LogLoad: Took 0.031121 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.47.43:036][ 54]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.47.43:046][ 54]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.47.43:074][ 54]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.47.43:074][ 54]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.47.43:076][ 54]LogWorld: Bringing World /Game/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.47.43
+[2018.10.22-12.47.43:076][ 54]LogWorld: Bringing up level for play took: 0.001476
+[2018.10.22-12.47.43:076][ 54]LogLoad: Took 0.030194 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.47.43:085][ 55]LogNet: Client netspeed is 10000
+[2018.10.22-12.47.43:085][ 55]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.47.43:086][ 55]LogNet: Join succeeded: 273
+[2018.10.22-12.47.43:086][ 55]LogNet: Client netspeed is 10000
+[2018.10.22-12.47.43:086][ 55]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.47.43:087][ 55]LogNet: Join succeeded: 274
+[2018.10.22-12.47.47:297][437]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:297][437]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:399][443]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:399][443]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:515][450]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:515][450]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:616][456]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:616][456]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:716][462]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:716][462]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:831][468]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:831][468]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:936][474]LogTemp: Guard heard something!
+[2018.10.22-12.47.47:936][474]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:045][480]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:045][480]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:150][486]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:151][486]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:938][528]LogTemp: Guard heard something!
+[2018.10.22-12.47.48:938][528]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:051][534]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:051][534]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:165][540]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:166][540]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:166][540]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:283][546]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:283][546]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:283][546]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:385][551]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:385][551]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:385][551]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:501][557]LogTemp: Guard heard something!
+[2018.10.22-12.47.49:501][557]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:501][557]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:618][563]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:618][563]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:733][569]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:733][569]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:733][569]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:733][569]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:851][575]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:851][575]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:851][575]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:852][575]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:952][580]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:952][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.49:952][580]LogTemp: Guard saw something!
+[2018.10.22-12.47.49:952][580]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:063][585]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:063][585]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:063][585]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:063][585]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:172][590]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:173][590]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:173][590]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:173][590]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:277][595]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:278][595]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:278][595]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:278][595]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:379][600]LogTemp: Guard saw something!
+[2018.10.22-12.47.50:380][600]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_BP_GameMode' from node: Add to Viewport in graph: EventGraph in object: BP_GameMode with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.10.22-12.47.50:382][600]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.50:401][600]LogSlate: Window 'FPSGame Game Preview Client 2 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.47.50:468][600]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.47.50:482][600]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57086, Name: IpConnection_31, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:482][600]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57086, Name: IpConnection_31, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.50
+[2018.10.22-12.47.50:482][600]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57086, Name: IpConnection_31, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:482][600]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57085, Name: IpConnection_30, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:483][600]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57085, Name: IpConnection_30, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.50
+[2018.10.22-12.47.50:483][600]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57085, Name: IpConnection_30, Driver: GameNetDriver IpNetDriver_22, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:483][600]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_29, Driver: GameNetDriver IpNetDriver_24, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:483][600]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_29, Driver: GameNetDriver IpNetDriver_24, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.50
+[2018.10.22-12.47.50:483][600]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_29, Driver: GameNetDriver IpNetDriver_24, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:483][600]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_28, Driver: GameNetDriver IpNetDriver_23, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:483][600]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_28, Driver: GameNetDriver IpNetDriver_23, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.47.50
+[2018.10.22-12.47.50:483][600]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_28, Driver: GameNetDriver IpNetDriver_23, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.47.50:487][600]LogExit: GameNetDriver None shut down
+[2018.10.22-12.47.50:487][600]LogExit: GameNetDriver None shut down
+[2018.10.22-12.47.50:488][600]LogExit: GameNetDriver None shut down
+[2018.10.22-12.48.16:118][795]LogSavePackage: Save=115.47ms
+[2018.10.22-12.48.16:118][795]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_Auto13F12AEB545639FBC0438048732F48AFA.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.10.22-12.48.16:120][795]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.10.22-12.48.16:121][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPersonExampleMap' took 0.150
+[2018.10.22-12.48.16:121][795]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2018.10.22-12.48.34:256][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-12.48.34:449][850]LogSavePackage: Save=124.20ms
+[2018.10.22-12.48.34:449][850]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMapA03C72A2404F5578D0A07D9E6B3C9C5A.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.48.34:451][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.22-12.48.34:484][850]LogSavePackage: Save=3.45ms
+[2018.10.22-12.48.34:484][850]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData62C823EE42B5987CA255D5AC61E0DC2C.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.48.34:486][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.22-12.48.36:836][125]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020212d6fc40, Size=136
+[2018.10.22-12.48.53:157][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.48.56:885][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.49.22:293][935]LogSlate: Window 'Save Content' being destroyed
+[2018.10.22-12.49.22:297][935]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2018.10.22-12.49.22:297][935]PIE: Warning: PIE failed because map save was canceled
+[2018.10.22-12.49.23:990][114]LogSavePackage: Save=112.31ms
+[2018.10.22-12.49.23:990][114]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap3EB28DFF4683086F1023208681448C98.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.49.23:993][114]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.22-12.49.24:022][114]LogSavePackage: Save=3.19ms
+[2018.10.22-12.49.24:023][114]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData54D48D2A4996DB60A59BB39505AB80B2.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.49.24:024][114]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.22-12.49.33:419][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.49.33:419][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.49.33:443][219]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:49:33 AM)
+[2018.10.22-12.49.33:444][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPersonExampleMap
+[2018.10.22-12.49.33:459][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015184s)
+[2018.10.22-12.49.33:459][219]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.49.33:460][219]LogPlayLevel: PIE: World Init took: (0.000572s)
+[2018.10.22-12.49.33:460][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.016031s)
+[2018.10.22-12.49.33:494][219]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.49.33:502][219]LogInit: FAudioDevice initialized.
+[2018.10.22-12.49.33:612][219]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.22-12.49.33:615][219]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.49.33
+[2018.10.22-12.49.33:616][219]LogWorld: Bringing up level for play took: 0.002094
+[2018.10.22-12.49.33:617][219]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.49.33:617][219]LogTemp: Display: ParseSettings for IpNetDriver_25
+[2018.10.22-12.49.33:617][219]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.49.33:617][219]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.22-12.49.33:617][219]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.49.33:617][219]LogNet: GameNetDriver IpNetDriver_25 IpNetDriver listening on port 17777
+[2018.10.22-12.49.33:621][219]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_FirstPersonExampleMap 0.918
+[2018.10.22-12.49.33:646][219]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:49:33 AM)
+[2018.10.22-12.49.33:679][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.49.33:763][219]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.49.33:764][219]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.49.33:764][219]LogTemp: Display: ParseSettings for IpNetDriver_26
+[2018.10.22-12.49.33:764][219]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.49.33:764][219]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.49.33:764][219]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.49.33:764][219]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.49.33:767][219]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap 1.065
+[2018.10.22-12.49.33:800][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.49.33:801][219]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61065
+[2018.10.22-12.49.33:801][219]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 054125119139195036158217241074034035121099104241246249071213
+[2018.10.22-12.49.33:802][219]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 054125119139195036158217241074034035121099104241246249071213
+[2018.10.22-12.49.33:819][219]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-12.49.33:914][220]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61065
+[2018.10.22-12.49.33:914][220]LogHandshake: SendChallengeAck. InCookie: 054125119139195036158217241074034035121099104241246249071213
+[2018.10.22-12.49.33:914][220]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61065
+[2018.10.22-12.49.33:915][220]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.49.33:915][220]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:49:33, [UNetConnection] RemoteAddr: 127.0.0.1:61065, Name: IpConnection_33, Driver: GameNetDriver IpNetDriver_25, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.49.33:915][220]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61065, Name: IpConnection_33, Driver: GameNetDriver IpNetDriver_25, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.49.33:916][220]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_32, Driver: PendingNetDriver IpNetDriver_26, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.49.33:927][221]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.49.33:927][221]LogNet: Remote platform little endian=1
+[2018.10.22-12.49.33:927][221]LogNet: This platform little endian=1
+[2018.10.22-12.49.33:935][222]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.49.33:936][222]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.49.33:936][222]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.49.33:965][222]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.49.33:966][222]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.49.33:968][222]LogWorld: Bringing World /Game/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.49.33
+[2018.10.22-12.49.33:968][222]LogWorld: Bringing up level for play took: 0.001513
+[2018.10.22-12.49.33:968][222]LogLoad: Took 0.032017 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.49.33:977][223]LogNet: Client netspeed is 10000
+[2018.10.22-12.49.33:977][223]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.49.33:979][223]LogNet: Join succeeded: 276
+[2018.10.22-12.49.34:075][234]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.34:075][234]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.34:617][299]LogTemp: dwarf found target
+[2018.10.22-12.49.34:625][300]LogTemp: dwarf found target
+[2018.10.22-12.49.35:421][387]LogTemp: dwarf found target
+[2018.10.22-12.49.35:869][429]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.35:869][429]LogTemp: dwarf found target
+[2018.10.22-12.49.35:879][430]LogTemp: dwarf found target
+[2018.10.22-12.49.36:579][489]LogTemp: dwarf found target
+[2018.10.22-12.49.36:951][518]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.36:951][518]LogTemp: dwarf found target
+[2018.10.22-12.49.36:963][519]LogTemp: dwarf found target
+[2018.10.22-12.49.36:964][519]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.36:964][519]LogTemp: dwarf found target
+[2018.10.22-12.49.36:977][520]LogTemp: dwarf found target
+[2018.10.22-12.49.37:891][585]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.37:891][585]LogTemp: dwarf found target
+[2018.10.22-12.49.37:905][586]LogTemp: dwarf found target
+[2018.10.22-12.49.37:906][586]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.37:906][586]LogTemp: dwarf found target
+[2018.10.22-12.49.37:921][587]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.37:921][587]LogTemp: dwarf found target
+[2018.10.22-12.49.38:510][624]LogTemp: dwarf found target
+[2018.10.22-12.49.39:315][673]LogTemp: dwarf found target
+[2018.10.22-12.49.39:625][691]LogTemp: dwarf found target
+[2018.10.22-12.49.39:643][692]LogTemp: dwarf found target
+[2018.10.22-12.49.40:020][713]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.40:020][713]LogTemp: dwarf found target
+[2018.10.22-12.49.40:038][714]LogTemp: dwarf found target
+[2018.10.22-12.49.40:055][715]LogTemp: dwarf found target
+[2018.10.22-12.49.41:155][773]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.41:155][773]LogTemp: dwarf found target
+[2018.10.22-12.49.41:173][774]LogTemp: dwarf found target
+[2018.10.22-12.49.41:569][794]LogTemp: dwarf found target
+[2018.10.22-12.49.42:498][839]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.42:498][839]LogTemp: dwarf found target
+[2018.10.22-12.49.42:517][840]LogTemp: dwarf found target
+[2018.10.22-12.49.42:539][841]LogTemp: dwarf found target
+[2018.10.22-12.49.42:560][842]LogTemp: dwarf found target
+[2018.10.22-12.49.42:945][860]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.42:945][860]LogTemp: dwarf found target
+[2018.10.22-12.49.42:966][861]LogTemp: dwarf found target
+[2018.10.22-12.49.44:040][909]LogTemp: dwarf found target
+[2018.10.22-12.49.44:041][909]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.44:041][909]LogTemp: dwarf found target
+[2018.10.22-12.49.44:062][910]LogTemp: dwarf found target
+[2018.10.22-12.49.44:727][939]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.44:727][939]LogTemp: dwarf found target
+[2018.10.22-12.49.44:750][940]LogTemp: dwarf found target
+[2018.10.22-12.49.45:196][959]LogTemp: dwarf found target
+[2018.10.22-12.49.45:488][971]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.45:488][971]LogTemp: dwarf found target
+[2018.10.22-12.49.45:510][972]LogTemp: dwarf found target
+[2018.10.22-12.49.45:535][973]LogTemp: dwarf found target
+[2018.10.22-12.49.46:340][  6]LogTemp: dwarf found target
+[2018.10.22-12.49.46:340][  6]LogTemp: dwarf found target
+[2018.10.22-12.49.47:119][ 37]LogTemp: dwarf found target
+[2018.10.22-12.49.47:448][ 50]LogTemp: dwarf found target
+[2018.10.22-12.49.48:526][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.49.49:599][118]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.49:599][118]LogTemp: dwarf found target
+[2018.10.22-12.49.49:625][119]LogTemp: dwarf found target
+[2018.10.22-12.49.49:626][119]LogTemp: Guard heard something!
+[2018.10.22-12.49.49:653][120]LogTemp: dwarf found target
+[2018.10.22-12.49.49:737][123]LogTemp: Guard heard something!
+[2018.10.22-12.49.49:847][127]LogTemp: Guard saw something!
+[2018.10.22-12.49.49:905][129]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.49:905][129]LogTemp: dwarf found target
+[2018.10.22-12.49.49:932][130]LogTemp: dwarf found target
+[2018.10.22-12.49.50:074][135]LogTemp: Guard saw something!
+[2018.10.22-12.49.50:185][139]LogTemp: Guard saw something!
+[2018.10.22-12.49.50:605][154]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.50:605][154]LogTemp: dwarf found target
+[2018.10.22-12.49.50:633][155]LogTemp: dwarf found target
+[2018.10.22-12.49.50:635][155]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.50:635][155]LogTemp: dwarf found target
+[2018.10.22-12.49.50:661][156]LogTemp: dwarf found target
+[2018.10.22-12.49.50:690][157]LogTemp: dwarf found target
+[2018.10.22-12.49.51:957][201]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.49.51:957][201]LogTemp: dwarf found target
+[2018.10.22-12.49.51:986][202]LogTemp: dwarf found target
+[2018.10.22-12.49.53:081][239]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.49.53:081][239]LogTemp: dwarf found target
+[2018.10.22-12.49.53:110][240]LogTemp: dwarf found target
+[2018.10.22-12.49.53:140][241]LogTemp: dwarf found target
+[2018.10.22-12.49.53:170][242]LogTemp: dwarf found target
+[2018.10.22-12.49.54:569][288]LogTemp: dwarf found target
+[2018.10.22-12.49.55:698][324]LogTemp: dwarf found target
+[2018.10.22-12.49.55:730][325]LogTemp: dwarf found target
+[2018.10.22-12.49.56:414][346]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.49.56:414][346]LogTemp: dwarf found target
+[2018.10.22-12.49.56:450][347]LogTemp: dwarf found target
+[2018.10.22-12.49.56:483][348]LogTemp: dwarf found target
+[2018.10.22-12.49.56:514][349]LogTemp: dwarf found target
+[2018.10.22-12.49.58:496][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.49.58:519][407]LogSlate: Window 'FPSGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.49.58:568][407]LogSlate: Window 'FPSGame Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.49.58:597][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.49.58:614][407]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61065, Name: IpConnection_33, Driver: GameNetDriver IpNetDriver_25, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.49.58:614][407]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61065, Name: IpConnection_33, Driver: GameNetDriver IpNetDriver_25, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.49.58
+[2018.10.22-12.49.58:614][407]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61065, Name: IpConnection_33, Driver: GameNetDriver IpNetDriver_25, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.49.58:614][407]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_32, Driver: GameNetDriver IpNetDriver_26, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.49.58:614][407]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_32, Driver: GameNetDriver IpNetDriver_26, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.49.58
+[2018.10.22-12.49.58:614][407]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_32, Driver: GameNetDriver IpNetDriver_26, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.49.58:618][407]LogExit: GameNetDriver None shut down
+[2018.10.22-12.49.58:619][407]LogExit: GameNetDriver None shut down
+[2018.10.22-12.50.00:209][595]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.22-12.50.00:221][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.50.00:221][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.50.00:247][595]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:50:00 AM)
+[2018.10.22-12.50.00:247][595]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPersonExampleMap
+[2018.10.22-12.50.00:268][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021549s)
+[2018.10.22-12.50.00:269][595]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.50.00:269][595]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2018.10.22-12.50.00:269][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.022680s)
+[2018.10.22-12.50.00:305][595]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.50.00:314][595]LogInit: FAudioDevice initialized.
+[2018.10.22-12.50.00:442][595]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.22-12.50.00:444][595]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.50.00
+[2018.10.22-12.50.00:445][595]LogWorld: Bringing up level for play took: 0.001828
+[2018.10.22-12.50.00:445][595]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.50.00:445][595]LogTemp: Display: ParseSettings for IpNetDriver_27
+[2018.10.22-12.50.00:446][595]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.50.00:446][595]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.22-12.50.00:446][595]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.50.00:446][595]LogNet: GameNetDriver IpNetDriver_27 IpNetDriver listening on port 17777
+[2018.10.22-12.50.00:449][595]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_FirstPersonExampleMap -0.253
+[2018.10.22-12.50.00:476][595]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:50:00 AM)
+[2018.10.22-12.50.00:509][595]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.50.00:595][595]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.50.00:595][595]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.50.00:595][595]LogTemp: Display: ParseSettings for IpNetDriver_28
+[2018.10.22-12.50.00:595][595]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.50.00:595][595]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.50.00:595][595]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.50.00:595][595]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.50.00:598][595]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap -0.105
+[2018.10.22-12.50.00:632][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.50.00:632][595]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55104
+[2018.10.22-12.50.00:632][595]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 026141201199226041021210140252093013231072212054215249114153
+[2018.10.22-12.50.00:634][595]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 026141201199226041021210140252093013231072212054215249114153
+[2018.10.22-12.50.00:708][596]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55104
+[2018.10.22-12.50.00:708][596]LogHandshake: SendChallengeAck. InCookie: 026141201199226041021210140252093013231072212054215249114153
+[2018.10.22-12.50.00:708][596]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55104
+[2018.10.22-12.50.00:708][596]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.50.00:708][596]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:50:00, [UNetConnection] RemoteAddr: 127.0.0.1:55104, Name: IpConnection_35, Driver: GameNetDriver IpNetDriver_27, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.50.00:708][596]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55104, Name: IpConnection_35, Driver: GameNetDriver IpNetDriver_27, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.50.00:709][596]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_34, Driver: PendingNetDriver IpNetDriver_28, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.50.00:718][597]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.50.00:718][597]LogNet: Remote platform little endian=1
+[2018.10.22-12.50.00:718][597]LogNet: This platform little endian=1
+[2018.10.22-12.50.00:727][598]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.50.00:728][598]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.50.00:728][598]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.50.00:755][598]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.50.00:756][598]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.50.00:758][598]LogWorld: Bringing World /Game/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.50.00
+[2018.10.22-12.50.00:758][598]LogWorld: Bringing up level for play took: 0.001535
+[2018.10.22-12.50.00:758][598]LogLoad: Took 0.029874 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.50.00:766][599]LogNet: Client netspeed is 10000
+[2018.10.22-12.50.00:766][599]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.50.00:768][599]LogNet: Join succeeded: 278
+[2018.10.22-12.50.00:846][608]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.00:846][608]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.01:401][673]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.01:401][673]LogTemp: dwarf found target
+[2018.10.22-12.50.01:409][674]LogTemp: dwarf found target
+[2018.10.22-12.50.02:202][760]LogTemp: dwarf found target
+[2018.10.22-12.50.02:554][793]LogTemp: dwarf found target
+[2018.10.22-12.50.03:324][859]LogTemp: dwarf found target
+[2018.10.22-12.50.03:387][864]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.03:387][864]LogTemp: dwarf found target
+[2018.10.22-12.50.03:398][865]LogTemp: dwarf found target
+[2018.10.22-12.50.03:400][865]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.03:400][865]LogTemp: dwarf found target
+[2018.10.22-12.50.05:134][988]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.05:134][988]LogTemp: dwarf found target
+[2018.10.22-12.50.05:148][989]LogTemp: dwarf found target
+[2018.10.22-12.50.05:165][990]LogTemp: dwarf found target
+[2018.10.22-12.50.05:229][994]LogTemp: dwarf found target
+[2018.10.22-12.50.05:936][ 38]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.05:936][ 38]LogTemp: dwarf found target
+[2018.10.22-12.50.05:952][ 39]LogTemp: dwarf found target
+[2018.10.22-12.50.05:968][ 40]LogTemp: dwarf found target
+[2018.10.22-12.50.05:985][ 41]LogTemp: dwarf found target
+[2018.10.22-12.50.06:320][ 61]LogTemp: dwarf found target
+[2018.10.22-12.50.06:792][ 88]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.06:792][ 88]LogTemp: dwarf found target
+[2018.10.22-12.50.06:809][ 89]LogTemp: dwarf found target
+[2018.10.22-12.50.07:135][107]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.07:135][107]LogTemp: dwarf found target
+[2018.10.22-12.50.07:152][108]LogTemp: dwarf found target
+[2018.10.22-12.50.07:171][109]LogTemp: dwarf found target
+[2018.10.22-12.50.07:862][129]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.50.07:873][129]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.07:873][129]LogTemp: dwarf found target
+[2018.10.22-12.50.07:990][135]LogTemp: dwarf found target
+[2018.10.22-12.50.08:144][143]LogTemp: dwarf found target
+[2018.10.22-12.50.08:766][174]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.08:766][174]LogTemp: dwarf found target
+[2018.10.22-12.50.08:785][175]LogTemp: dwarf found target
+[2018.10.22-12.50.08:786][175]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.08:786][175]LogTemp: dwarf found target
+[2018.10.22-12.50.08:805][176]LogTemp: dwarf found target
+[2018.10.22-12.50.08:824][177]LogTemp: dwarf found target
+[2018.10.22-12.50.08:844][178]LogTemp: dwarf found target
+[2018.10.22-12.50.08:864][179]LogTemp: dwarf found target
+[2018.10.22-12.50.09:234][197]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.09:234][197]LogTemp: dwarf found target
+[2018.10.22-12.50.09:254][198]LogTemp: dwarf found target
+[2018.10.22-12.50.09:255][198]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.09:255][198]LogTemp: dwarf found target
+[2018.10.22-12.50.09:586][214]LogTemp: dwarf found target
+[2018.10.22-12.50.10:373][251]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.10:373][251]LogTemp: dwarf found target
+[2018.10.22-12.50.10:394][252]LogTemp: dwarf found target
+[2018.10.22-12.50.10:416][253]LogTemp: dwarf found target
+[2018.10.22-12.50.11:474][300]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.11:474][300]LogTemp: dwarf found target
+[2018.10.22-12.50.11:495][301]LogTemp: dwarf found target
+[2018.10.22-12.50.11:496][301]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.11:496][301]LogTemp: dwarf found target
+[2018.10.22-12.50.11:518][302]LogTemp: dwarf found target
+[2018.10.22-12.50.12:282][335]LogTemp: dwarf found target
+[2018.10.22-12.50.12:879][360]LogTemp: dwarf found target
+[2018.10.22-12.50.13:413][382]LogTemp: dwarf found target
+[2018.10.22-12.50.13:589][389]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.13:589][389]LogTemp: dwarf found target
+[2018.10.22-12.50.13:613][390]LogTemp: dwarf found target
+[2018.10.22-12.50.13:640][391]LogTemp: dwarf found target
+[2018.10.22-12.50.14:701][433]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.14:701][433]LogTemp: dwarf found target
+[2018.10.22-12.50.14:725][434]LogTemp: dwarf found target
+[2018.10.22-12.50.14:726][434]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.14:726][434]LogTemp: dwarf found target
+[2018.10.22-12.50.14:751][435]LogTemp: dwarf found target
+[2018.10.22-12.50.14:751][435]LogTemp: dwarf found target
+[2018.10.22-12.50.14:777][436]LogTemp: dwarf found target
+[2018.10.22-12.50.14:802][437]LogTemp: dwarf found target
+[2018.10.22-12.50.15:856][477]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.15:856][477]LogTemp: dwarf found target
+[2018.10.22-12.50.15:882][478]LogTemp: dwarf found target
+[2018.10.22-12.50.16:124][487]LogTemp: dwarf found target
+[2018.10.22-12.50.17:024][520]LogTemp: dwarf found target
+[2018.10.22-12.50.17:498][537]LogTemp: dwarf found target
+[2018.10.22-12.50.17:526][538]LogTemp: dwarf found target
+[2018.10.22-12.50.17:555][539]LogTemp: dwarf found target
+[2018.10.22-12.50.18:379][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.50.19:160][583]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.19:161][583]LogTemp: dwarf found target
+[2018.10.22-12.50.19:189][584]LogTemp: dwarf found target
+[2018.10.22-12.50.19:190][584]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.19:190][584]LogTemp: dwarf found target
+[2018.10.22-12.50.19:756][603]LogTemp: dwarf found target
+[2018.10.22-12.50.19:786][604]LogTemp: dwarf found target
+[2018.10.22-12.50.20:535][629]LogTemp: dwarf found target
+[2018.10.22-12.50.20:870][640]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.20:870][640]LogTemp: dwarf found target
+[2018.10.22-12.50.20:900][641]LogTemp: dwarf found target
+[2018.10.22-12.50.21:892][673]LogTemp: dwarf found target
+[2018.10.22-12.50.21:986][676]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.21:986][676]LogTemp: dwarf found target
+[2018.10.22-12.50.22:323][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.50.22:345][677]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.22:345][677]LogTemp: dwarf found target
+[2018.10.22-12.50.22:440][680]LogTemp: dwarf found target
+[2018.10.22-12.50.22:597][685]LogTemp: dwarf found target
+[2018.10.22-12.50.23:362][709]LogTemp: dwarf found target
+[2018.10.22-12.50.23:394][710]LogTemp: dwarf found target
+[2018.10.22-12.50.23:556][715]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.23:556][715]LogTemp: dwarf found target
+[2018.10.22-12.50.23:587][716]LogTemp: dwarf found target
+[2018.10.22-12.50.23:588][716]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.23:588][716]LogTemp: dwarf found target
+[2018.10.22-12.50.24:386][722]LogTemp: dwarf found target
+[2018.10.22-12.50.24:720][723]LogTemp: dwarf found target
+[2018.10.22-12.50.25:061][724]LogTemp: dwarf found target
+[2018.10.22-12.50.25:388][725]LogTemp: dwarf found target
+[2018.10.22-12.50.25:389][725]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.25:389][725]LogTemp: dwarf found target
+[2018.10.22-12.50.25:720][726]LogTemp: dwarf found target
+[2018.10.22-12.50.25:720][726]LogTemp: dwarf found target
+[2018.10.22-12.50.26:729][729]LogTemp: dwarf found target
+[2018.10.22-12.50.27:098][740]LogTemp: dwarf found target
+[2018.10.22-12.50.27:805][761]LogTemp: dwarf found target
+[2018.10.22-12.50.27:807][761]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.27:807][761]LogTemp: dwarf found target
+[2018.10.22-12.50.27:839][762]LogTemp: dwarf found target
+[2018.10.22-12.50.28:576][784]LogTemp: dwarf found target
+[2018.10.22-12.50.28:951][795]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.28:951][795]LogTemp: dwarf found target
+[2018.10.22-12.50.28:983][796]LogTemp: dwarf found target
+[2018.10.22-12.50.28:985][796]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.28:985][796]LogTemp: dwarf found target
+[2018.10.22-12.50.29:020][797]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.29:020][797]LogTemp: dwarf found target
+[2018.10.22-12.50.29:054][798]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.29:054][798]LogTemp: dwarf found target
+[2018.10.22-12.50.29:535][812]LogTemp: dwarf found target
+[2018.10.22-12.50.29:880][822]LogTemp: dwarf found target
+[2018.10.22-12.50.30:297][834]LogTemp: dwarf found target
+[2018.10.22-12.50.31:076][856]LogTemp: dwarf found target
+[2018.10.22-12.50.31:152][858]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.31:152][858]LogTemp: dwarf found target
+[2018.10.22-12.50.31:186][859]LogTemp: dwarf found target
+[2018.10.22-12.50.31:222][860]LogTemp: dwarf found target
+[2018.10.22-12.50.32:569][897]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.32:569][897]LogTemp: dwarf found target
+[2018.10.22-12.50.32:604][898]LogTemp: dwarf found target
+[2018.10.22-12.50.32:751][902]LogTemp: dwarf found target
+[2018.10.22-12.50.32:753][902]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.32:753][902]LogTemp: dwarf found target
+[2018.10.22-12.50.32:790][903]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.32:790][903]LogTemp: dwarf found target
+[2018.10.22-12.50.32:826][904]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.32:826][904]LogTemp: dwarf found target
+[2018.10.22-12.50.33:458][921]LogTemp: dwarf found target
+[2018.10.22-12.50.33:918][933]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint3 (if any of these is None then there's your problem
+[2018.10.22-12.50.33:918][933]LogTemp: dwarf found target
+[2018.10.22-12.50.33:954][934]LogTemp: dwarf found target
+[2018.10.22-12.50.34:224][941]LogTemp: dwarf found target
+[2018.10.22-12.50.34:274][942]LogTemp: dwarf found target
+[2018.10.22-12.50.34:320][943]LogTemp: dwarf found target
+[2018.10.22-12.50.34:676][952]LogTemp: dwarf found target
+[2018.10.22-12.50.35:139][964]LogTemp: Guard heard something!
+[2018.10.22-12.50.35:254][967]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:372][970]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:372][970]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:606][976]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:606][976]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:722][979]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:954][985]LogTemp: Guard saw something!
+[2018.10.22-12.50.35:954][985]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:071][988]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:072][988]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:193][991]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:194][991]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:311][994]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:429][997]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:430][997]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:548][  0]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:667][  3]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:668][  3]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:789][  6]LogTemp: Guard saw something!
+[2018.10.22-12.50.36:909][  9]LogTemp: Guard saw something!
+[2018.10.22-12.50.37:027][ 12]LogTemp: Guard saw something!
+[2018.10.22-12.50.37:069][ 13]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.37:070][ 13]LogTemp: dwarf found target
+[2018.10.22-12.50.37:107][ 14]LogTemp: dwarf found target
+[2018.10.22-12.50.37:510][ 24]LogTemp: Guard saw something!
+[2018.10.22-12.50.37:631][ 27]LogTemp: Guard saw something!
+[2018.10.22-12.50.37:875][ 33]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:002][ 36]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:123][ 39]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:370][ 45]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:411][ 46]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.38:411][ 46]LogTemp: dwarf found target
+[2018.10.22-12.50.38:453][ 47]LogTemp: dwarf found target
+[2018.10.22-12.50.38:621][ 51]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:621][ 51]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:745][ 54]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:745][ 54]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:873][ 57]LogTemp: Guard saw something!
+[2018.10.22-12.50.38:874][ 57]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:123][ 63]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:123][ 63]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:124][ 63]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint_1 (if any of these is None then there's your problem
+[2018.10.22-12.50.39:124][ 63]LogTemp: dwarf found target
+[2018.10.22-12.50.39:164][ 64]LogTemp: dwarf found target
+[2018.10.22-12.50.39:253][ 66]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:253][ 66]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:382][ 69]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:383][ 69]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:513][ 72]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:514][ 72]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:639][ 75]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:768][ 78]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:770][ 78]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:859][ 80]LogNavigation: Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor TargetPoint2 (if any of these is None then there's your problem
+[2018.10.22-12.50.39:859][ 80]LogTemp: dwarf found target
+[2018.10.22-12.50.39:902][ 81]LogTemp: Guard saw something!
+[2018.10.22-12.50.39:944][ 82]LogTemp: dwarf found target
+[2018.10.22-12.50.40:029][ 84]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:030][ 84]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:161][ 87]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:162][ 87]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:292][ 90]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:423][ 93]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:424][ 93]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:554][ 96]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:686][ 99]LogTemp: Guard saw something!
+[2018.10.22-12.50.40:819][102]LogTemp: Guard saw something!
+[2018.10.22-12.50.41:257][112]LogTemp: dwarf found target
+[2018.10.22-12.50.41:738][123]LogTemp: Guard saw something!
+[2018.10.22-12.50.41:739][123]LogTemp: Guard saw something!
+[2018.10.22-12.50.41:876][126]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.50.41:903][126]LogSlate: Window 'FPSGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.50.41:955][126]LogSlate: Window 'FPSGame Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.50.41:988][126]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.50.42:007][126]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55104, Name: IpConnection_35, Driver: GameNetDriver IpNetDriver_27, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.50.42:007][126]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55104, Name: IpConnection_35, Driver: GameNetDriver IpNetDriver_27, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.50.42
+[2018.10.22-12.50.42:007][126]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55104, Name: IpConnection_35, Driver: GameNetDriver IpNetDriver_27, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.50.42:007][126]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_34, Driver: GameNetDriver IpNetDriver_28, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.50.42:007][126]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_34, Driver: GameNetDriver IpNetDriver_28, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.50.42
+[2018.10.22-12.50.42:007][126]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_34, Driver: GameNetDriver IpNetDriver_28, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.50.42:011][126]LogExit: GameNetDriver None shut down
+[2018.10.22-12.50.42:012][126]LogExit: GameNetDriver None shut down
+[2018.10.22-12.51.00:292][259]LogSavePackage: Save=117.81ms
+[2018.10.22-12.51.00:292][259]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMapD2FDE5D349E9F588D3017EBA342273DE.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap'
+[2018.10.22-12.51.00:295][259]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap.umap
+[2018.10.22-12.51.00:324][259]LogSavePackage: Save=3.32ms
+[2018.10.22-12.51.00:324][259]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/FirstPersonExampleMap_BuiltData1A26C358409D3B0B78515D8142D0F8B0.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.10.22-12.51.00:326][259]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.10.22-12.51.02:738][536]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.22-12.51.02:749][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.51.02:749][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-12.51.02:777][536]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:51:02 AM)
+[2018.10.22-12.51.02:777][536]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_FirstPersonExampleMap
+[2018.10.22-12.51.02:792][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015025s)
+[2018.10.22-12.51.02:792][536]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.51.02:792][536]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2018.10.22-12.51.02:792][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.015661s)
+[2018.10.22-12.51.02:832][536]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.22-12.51.02:838][536]LogInit: FAudioDevice initialized.
+[2018.10.22-12.51.02:958][536]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.22-12.51.02:960][536]LogWorld: Bringing World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.51.02
+[2018.10.22-12.51.02:961][536]LogWorld: Bringing up level for play took: 0.001815
+[2018.10.22-12.51.02:961][536]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.51.02:962][536]LogTemp: Display: ParseSettings for IpNetDriver_29
+[2018.10.22-12.51.02:962][536]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.51.02:962][536]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.10.22-12.51.02:962][536]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.51.02:962][536]LogNet: GameNetDriver IpNetDriver_29 IpNetDriver listening on port 17777
+[2018.10.22-12.51.02:965][536]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_FirstPersonExampleMap 0.262
+[2018.10.22-12.51.02:993][536]PIE: New page: PIE session: FirstPersonExampleMap (Oct 22, 2018, 2:51:02 AM)
+[2018.10.22-12.51.03:026][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-12.51.03:118][536]LogNet: Browse: 127.0.0.1:17777//Game/Maps/FirstPersonExampleMap
+[2018.10.22-12.51.03:118][536]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.51.03:118][536]LogTemp: Display: ParseSettings for IpNetDriver_30
+[2018.10.22-12.51.03:118][536]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.10.22-12.51.03:118][536]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.10.22-12.51.03:119][536]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.51.03:119][536]LogNet: Game client on port 17777, rate 10000
+[2018.10.22-12.51.03:121][536]PIE: Play in editor start time for /Game/Maps/FirstPersonExampleMap 0.419
+[2018.10.22-12.51.03:153][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.51.03:154][536]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50146
+[2018.10.22-12.51.03:154][536]LogHandshake: SendConnectChallenge. Timestamp: 0.008347, Cookie: 204241227048051103084212060243126051134143048170045060160008
+[2018.10.22-12.51.03:156][536]LogHandshake: SendChallengeResponse. Timestamp: 0.008347, Cookie: 204241227048051103084212060243126051134143048170045060160008
+[2018.10.22-12.51.03:236][537]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50146
+[2018.10.22-12.51.03:236][537]LogHandshake: SendChallengeAck. InCookie: 204241227048051103084212060243126051134143048170045060160008
+[2018.10.22-12.51.03:236][537]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50146
+[2018.10.22-12.51.03:237][537]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.10.22-12.51.03:237][537]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 10/22/18 07:51:03, [UNetConnection] RemoteAddr: 127.0.0.1:50146, Name: IpConnection_37, Driver: GameNetDriver IpNetDriver_29, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.51.03:237][537]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50146, Name: IpConnection_37, Driver: GameNetDriver IpNetDriver_29, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.51.03:238][537]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_36, Driver: PendingNetDriver IpNetDriver_30, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.10.22-12.51.03:246][538]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2018.10.22-12.51.03:246][538]LogNet: Remote platform little endian=1
+[2018.10.22-12.51.03:246][538]LogNet: This platform little endian=1
+[2018.10.22-12.51.03:256][539]LogNet: Login request: /Game/Maps/FirstPersonExampleMap userId: Invalid
+[2018.10.22-12.51.03:257][539]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2018.10.22-12.51.03:257][539]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2018.10.22-12.51.03:285][539]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.10.22-12.51.03:285][539]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.10.22-12.51.03:287][539]LogWorld: Bringing World /Game/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.10.22-07.51.03
+[2018.10.22-12.51.03:288][539]LogWorld: Bringing up level for play took: 0.001584
+[2018.10.22-12.51.03:288][539]LogLoad: Took 0.030396 seconds to LoadMap(/Game/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2018.10.22-12.51.03:295][540]LogNet: Client netspeed is 10000
+[2018.10.22-12.51.03:295][540]LogNet: Join request: /Game/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2018.10.22-12.51.03:297][540]LogNet: Join succeeded: 280
+[2018.10.22-12.51.15:990][331]LogTemp: Guard heard something!
+[2018.10.22-12.51.15:991][331]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:114][336]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:114][336]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:215][340]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:215][340]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:341][345]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:341][345]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:441][349]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:441][349]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:543][353]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:544][353]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:646][357]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:646][357]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:748][361]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:748][361]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:853][365]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:853][365]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:956][369]LogTemp: Guard heard something!
+[2018.10.22-12.51.16:957][369]LogTemp: Guard heard something!
+[2018.10.22-12.51.17:535][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.51.17:555][391]LogSlate: Window 'FPSGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.51.17:602][391]LogSlate: Window 'FPSGame Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.22-12.51.17:634][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.10.22-12.51.17:649][391]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50146, Name: IpConnection_37, Driver: GameNetDriver IpNetDriver_29, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.51.17:649][391]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:50146, Name: IpConnection_37, Driver: GameNetDriver IpNetDriver_29, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.51.17
+[2018.10.22-12.51.17:649][391]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:50146, Name: IpConnection_37, Driver: GameNetDriver IpNetDriver_29, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.51.17:650][391]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_36, Driver: GameNetDriver IpNetDriver_30, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.51.17:650][391]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_36, Driver: GameNetDriver IpNetDriver_30, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.10.22-12.51.17
+[2018.10.22-12.51.17:650][391]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_36, Driver: GameNetDriver IpNetDriver_30, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.10.22-12.51.17:654][391]LogExit: GameNetDriver None shut down
+[2018.10.22-12.51.17:654][391]LogExit: GameNetDriver None shut down
+[2018.10.22-12.51.20:523][726]LogSlate: Window 'FPSGame - Unreal Editor' being destroyed
+[2018.10.22-12.51.20:692][727]Cmd: QUIT_EDITOR
+[2018.10.22-12.51.21:675][727]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.22-12.51.21:690][727]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.10.22-12.51.21:690][727]LogExit: Preparing to exit.
+[2018.10.22-12.51.21:961][727]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.22-12.51.21:980][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002026c51e430, Size=72
+[2018.10.22-12.51.21:981][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002026bb562d0, Size=8
+[2018.10.22-12.51.21:982][727]LogExit: Editor shut down
+[2018.10.22-12.51.21:985][727]LogExit: Transaction tracking system shut down
+[2018.10.22-12.51.21:985][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002025a0c1b58, Size=24
+[2018.10.22-12.51.21:985][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002026baedec0, Size=32
+[2018.10.22-12.51.21:986][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000202051eb438, Size=4
+[2018.10.22-12.51.21:986][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000202051eb430, Size=4
+[2018.10.22-12.51.21:988][727]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020212d6d1c0, Size=136
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.10.22-12.51.22:097][727]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.10.22-12.51.22:177][727]LogExit: Object subsystem successfully closed.
+[2018.10.22-12.51.22:197][727]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.10.22-12.51.22:200][727]LogD3D11RHI: Shutdown
+[2018.10.22-12.51.22:201][727]LogD3D11RHI: CleanupD3DDevice
+[2018.10.22-12.51.22:203][727]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.10.22-12.51.22:223][727]LogModuleManager: Shutting down and abandoning module FPSGame (584)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module BlueprintGraph (583)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (581)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.10.22-12.51.22:224][727]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.10.22-12.51.22:224][727]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.10.22-12.51.22:224][727]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Collections/' was aborted.
+[2018.10.22-12.51.22:225][727]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Content/Developers/Tyler/Collections/' was aborted.
+[2018.10.22-12.51.22:225][727]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Saved/Collections/' was aborted.
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.10.22-12.51.22:225][727]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.10.22-12.51.22:226][727]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.10.22-12.51.22:226][727]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.10.22-12.51.22:226][727]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.10.22-12.51.22:226][727]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.10.22-12.51.22:226][727]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.10.22-12.51.22:687][727]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.10.22-12.51.22:739][727]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.10.22-12.51.22:745][727]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.10.22-12.51.22:932][727]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.10.22-12.51.22:932][727]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.10.22-12.51.22:932][727]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.10.22-12.51.22:932][727]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.10.22-12.51.22:932][727]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.10.22-12.51.22:933][727]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.10.22-12.51.22:944][727]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.10.22-12.51.22:945][727]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.10.22-12.51.22:946][727]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.10.22-12.51.22:947][727]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.10.22-12.51.23:048][727]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.10.22-12.51.23:149][727]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.10.22-12.51.23:152][727]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.10.22-12.51.23:152][727]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.10.22-12.51.23:152][727]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.10.22-12.51.23:153][727]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.10.22-12.51.23:153][727]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/StealthGameProject/StealthGame 4.19/Binaries/Win64' was aborted.
+[2018.10.22-12.51.23:154][727]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.10.22-12.51.23:154][727]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.10.22-12.51.23:154][727]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.10.22-12.51.23:154][727]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.10.22-12.51.23:154][727]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.10.22-12.51.23:689][727]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.10.22-12.51.23:689][727]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.10.22-12.51.23:690][727]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.10.22-12.51.23:693][727]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.10.22-12.51.23:701][727]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.10.22-12.51.23:702][727]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.10.22-12.51.23:703][727]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.10.22-12.51.23:703][727]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.10.22-12.51.23:703][727]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.10.22-12.51.23:703][727]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.10.22-12.51.23:707][727]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.10.22-12.51.23:746][727]LogDerivedDataCache: Shutdown
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.10.22-12.51.23:746][727]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.10.22-12.51.23:747][727]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.10.22-12.51.23:747][727]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.10.22-12.51.23:747][727]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB90667E5-4A42-D027-660E-65974461BB85%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d145e9f94de4149c1ea6108100dda1c3%7Cd33b2c4c25dc4ec4a929c0fc2b9964ca%7C862a9022-a5df-4122-a053-0ff37dff48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.10.22-12.51.23:776][727]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.10.22-12.51.23:778][727]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.10.22-12.51.23:778][727]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.10.22-12.51.23:778][727]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.10.22-12.51.23:779][727]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.10.22-12.51.23:779][727]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.10.22-12.51.23:779][727]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.10.22-12.51.23:779][727]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.10.22-12.51.23:780][727]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.10.22-12.51.23:781][727]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.10.22-12.51.23:787][727]LogExit: Exiting.
+[2018.10.22-12.51.23:797][727]Log file closed, 10/22/18 07:51:23
