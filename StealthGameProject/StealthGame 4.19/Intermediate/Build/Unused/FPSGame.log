@@ -1,5 +1,54 @@
-﻿  Creating makefile for hot reloading FPSGameEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Target is up to date
-  Deploying FPSGameEditor Win64 Development...
-  Total build time: 5.69 seconds (NoActionsToExecute executor: 0.00 seconds)
+﻿  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-1358.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-1358.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-173.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-173.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-2210.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-2210.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-2668.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-2668.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3150.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3150.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3207.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3207.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3566.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3566.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3578.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3578.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3899.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-3899.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4003.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4003.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4232.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4232.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4340.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4340.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4370.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4370.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4968.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-4968.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5061.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5061.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5374.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5374.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5537.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-5537.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-6376.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-6376.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-7284.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-7284.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-7410.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-7410.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-790.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-790.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-8102.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-8102.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-9200.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-9397.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-9397.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Binaries\Win64\UE4Editor-FPSGame-9849.dll".
+  Performing 2 actions (9 in parallel)
+  [1/2] Link UE4Editor-FPSGame.dll
+  [2/2] Link UE4Editor-FPSGame.lib
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame.exp
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\StealthGameProject\StealthGame 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPSGame.suppressed.exp
+  Total build time: 2.19 seconds (Local executor: 0.81 seconds)
