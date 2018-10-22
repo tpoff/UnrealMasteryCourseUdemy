@@ -49,6 +49,20 @@ void AFPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 }
 
+void AFPSCharacter::Tick(float deltaTime)
+{
+	Super::Tick(deltaTime);
+
+	if (!IsLocallyControlled()) {
+
+		FRotator newRot = CameraComponent->RelativeRotation;
+		newRot.Pitch = RemoteViewPitch*360.0f/255.0f;
+
+		CameraComponent->SetRelativeRotation(newRot);
+
+	}
+}
+
 
 void AFPSCharacter::Fire()
 {
