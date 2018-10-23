@@ -85,6 +85,12 @@
     <ClInclude Include="..\..\Source\FPSGame\Public\FpsAiGuard.h">
       <Filter>Source\FPSGame\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\FpsGameState.h">
+      <Filter>Source\FPSGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\FpsPlayerController.h">
+      <Filter>Source\FPSGame\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\FPSGame\Private\FPSObjectiveActor.cpp">
@@ -100,6 +106,12 @@
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\FPSGame\Private\FpsAiGuard.cpp">
+      <Filter>Source\FPSGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\FpsGameState.cpp">
+      <Filter>Source\FPSGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\FpsPlayerController.cpp">
       <Filter>Source\FPSGame\Private</Filter>
     </ClCompile>
   </ItemGroup>

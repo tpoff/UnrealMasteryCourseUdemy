@@ -55,7 +55,7 @@ public:
 
 	
 
-	UPROPERTY(BlueprintReadOnly, Category = "Gameplay")
+	UPROPERTY(Replicated, BlueprintReadOnly, Category = "Gameplay")
 	bool bIsCarryingObjective; 
 
 
@@ -75,6 +75,9 @@ protected:
 	void MoveRight(float Val);
 
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;
+
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty> & OutLifetimeProps)const;
+
 
 public:
 	/** Returns Mesh1P subobject **/

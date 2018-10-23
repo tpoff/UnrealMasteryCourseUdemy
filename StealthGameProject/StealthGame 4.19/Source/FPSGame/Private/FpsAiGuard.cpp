@@ -161,7 +161,6 @@ void AFpsAiGuard::Tick(float DeltaTime)
 			UE_LOG(LogTemp, Log, TEXT("dwarf found target"));
 		}
 	}
-
 }
 
 
