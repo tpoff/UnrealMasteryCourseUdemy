@@ -407,7 +407,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp" />
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SWeapon.cpp" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SCharacter.h" />
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SWeapon.h" />
     <None Include="..\..\CoopShooterGame.uproject" />
     <None Include="..\..\Source\CoopShooterGame.Target.cs" />
     <None Include="..\..\Source\CoopShooterGameEditor.Target.cs" />
