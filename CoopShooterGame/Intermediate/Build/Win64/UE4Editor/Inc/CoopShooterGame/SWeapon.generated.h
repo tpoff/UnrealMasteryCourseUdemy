@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPSHOOTERGAME_SWeapon_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -35,7 +35,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASWeapon(); \
@@ -45,7 +45,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASWeapon(); \
@@ -55,7 +55,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASWeapon) \
@@ -68,7 +68,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASWeapon(ASWeapon&&); \
@@ -79,29 +79,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASWeapon)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(ASWeapon, meshComponent); }
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(ASWeapon, meshComponent); } \
+	FORCEINLINE static uint32 __PPO__damageType() { return STRUCT_OFFSET(ASWeapon, damageType); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_11_PROLOG
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_12_PROLOG
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
