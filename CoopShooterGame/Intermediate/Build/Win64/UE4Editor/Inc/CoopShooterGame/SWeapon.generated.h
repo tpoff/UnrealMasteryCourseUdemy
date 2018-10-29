@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPSHOOTERGAME_SWeapon_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Fire(); \
+		P_NATIVE_END; \
+	}
+
+
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
