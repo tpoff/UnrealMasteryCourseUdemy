@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CoopShooterGame();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASWeapon_Fire();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -69,6 +70,27 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_impactEffect_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_impactEffect = { UE4CodeGen_Private::EPropertyClass::Object, "impactEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010015, 1, nullptr, STRUCT_OFFSET(ASWeapon, impactEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(NewProp_impactEffect_MetaData, ARRAY_COUNT(NewProp_impactEffect_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_muzzleFlashEffect_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_muzzleFlashEffect = { UE4CodeGen_Private::EPropertyClass::Object, "muzzleFlashEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010015, 1, nullptr, STRUCT_OFFSET(ASWeapon, muzzleFlashEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(NewProp_muzzleFlashEffect_MetaData, ARRAY_COUNT(NewProp_muzzleFlashEffect_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_muzzleSocketName_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FNamePropertyParams NewProp_muzzleSocketName = { UE4CodeGen_Private::EPropertyClass::Name, "muzzleSocketName", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000030015, 1, nullptr, STRUCT_OFFSET(ASWeapon, muzzleSocketName), METADATA_PARAMS(NewProp_muzzleSocketName_MetaData, ARRAY_COUNT(NewProp_muzzleSocketName_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageType_MetaData[] = {
 				{ "Category", "Weapon" },
 				{ "ModuleRelativePath", "Public/SWeapon.h" },
@@ -84,6 +106,9 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASWeapon, meshComponent), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_impactEffect,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_muzzleFlashEffect,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_muzzleSocketName,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_damageType,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_meshComponent,
 			};
@@ -105,7 +130,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 3122385886);
+	IMPLEMENT_CLASS(ASWeapon, 758383971);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASWeapon(Z_Construct_UClass_ASWeapon, &ASWeapon::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

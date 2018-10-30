@@ -4,6 +4,7 @@
 #include "../Public/SWeapon.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystem.h"
 
 
 // Sets default values
@@ -15,6 +16,8 @@ ASWeapon::ASWeapon()
 
 	meshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("MeshComp"));
 	RootComponent = meshComponent; 
+
+	muzzleSocketName = "MuzzleSocket";
 }
 
 // Called when the game starts or when spawned
@@ -27,8 +30,6 @@ void ASWeapon::BeginPlay()
 void ASWeapon::Fire()
 {
 	//trace the world from pawn eyes to crosshair location. 
-
-
 	AActor* owner = GetOwner();
 	if (owner) {
 		FVector eyeLocation;
@@ -47,16 +48,25 @@ void ASWeapon::Fire()
 		FHitResult hit;
 		bool blockingHit =GetWorld()->LineTraceSingleByChannel(hit, eyeLocation, traceEnd, ECC_Visibility, queryParams);
 		if (blockingHit) {
-
-
-
 			AActor* hitActor = hit.GetActor();
 
 
 			UGameplayStatics::ApplyPointDamage(hitActor, 20.0f, shotDirection, hit, owner->GetInstigatorController(), this, damageType);
+		
+			if (impactEffect) {
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, hit.ImpactPoint, hit.ImpactNormal.Rotation());
+
+			}
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, hit.ImpactPoint, hit.ImpactNormal.Rotation());
 		}
 
 		DrawDebugLine(GetWorld(), eyeLocation, traceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
+
+		//add muzzle flash
+		if (muzzleFlashEffect) {
+			UGameplayStatics::SpawnEmitterAttached(muzzleFlashEffect, meshComponent, muzzleSocketName);
+
+		}
 	}
 
 }
