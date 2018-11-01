@@ -84,7 +84,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__damageType() { return STRUCT_OFFSET(ASWeapon, damageType); } \
 	FORCEINLINE static uint32 __PPO__muzzleSocketName() { return STRUCT_OFFSET(ASWeapon, muzzleSocketName); } \
 	FORCEINLINE static uint32 __PPO__muzzleFlashEffect() { return STRUCT_OFFSET(ASWeapon, muzzleFlashEffect); } \
-	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(ASWeapon, impactEffect); }
+	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(ASWeapon, impactEffect); } \
+	FORCEINLINE static uint32 __PPO__tracerEffect() { return STRUCT_OFFSET(ASWeapon, tracerEffect); } \
+	FORCEINLINE static uint32 __PPO__tracerTargetName() { return STRUCT_OFFSET(ASWeapon, tracerTargetName); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_13_PROLOG
