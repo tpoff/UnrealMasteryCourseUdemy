@@ -1,0 +1,9 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Performing 3 actions (9 in parallel)
+  SGrenadeLauncher.cpp
+  [2/3] Link UE4Editor-CoopShooterGame.dll
+  [3/3] Link UE4Editor-CoopShooterGame.lib
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.exp
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.exp
+  Deploying CoopShooterGameEditor Win64 Development...
+  Total build time: 2.36 seconds (Local executor: 1.12 seconds)

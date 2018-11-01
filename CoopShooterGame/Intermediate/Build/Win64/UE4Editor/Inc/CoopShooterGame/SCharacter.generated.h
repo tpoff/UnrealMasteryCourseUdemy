@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPSHOOTERGAME_SCharacter_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_RPC_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_RPC_WRAPPERS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -59,30 +59,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASCharacter)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASCharacter, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__springArmComponent() { return STRUCT_OFFSET(ASCharacter, springArmComponent); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_12_PROLOG
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_13_PROLOG
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

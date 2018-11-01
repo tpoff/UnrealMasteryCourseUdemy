@@ -78,9 +78,6 @@ void ASWeapon::Fire()
 			UParticleSystemComponent* tracerComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), tracerEffect, muzzleLocation);
 			if (tracerComponent) {
 				tracerComponent->SetVectorParameter(tracerTargetName, traceEnd);
-
-
-
 			}
 
 
@@ -95,6 +92,5 @@ void ASWeapon::Fire()
 void ASWeapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

@@ -8,6 +8,7 @@
 
 class UCameraComponent;
 class USpringArmComponent;
+class UParticleSystem;
 
 UCLASS()
 class COOPSHOOTERGAME_API ASCharacter : public ACharacter
@@ -38,6 +39,8 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* springArmComponent;
+
+
 
 public:	
 	// Called every frame

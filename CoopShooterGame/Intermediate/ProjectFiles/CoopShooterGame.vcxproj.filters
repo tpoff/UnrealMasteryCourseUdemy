@@ -57,12 +57,24 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SWeapon.h">
       <Filter>Source\CoopShooterGame\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\Projectile.h">
+      <Filter>Source\CoopShooterGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SGrenadeLauncher.h">
+      <Filter>Source\CoopShooterGame\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp">
       <Filter>Source\CoopShooterGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SWeapon.cpp">
+      <Filter>Source\CoopShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\Projectile.cpp">
+      <Filter>Source\CoopShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SGrenadeLauncher.cpp">
       <Filter>Source\CoopShooterGame\Private</Filter>
     </ClCompile>
   </ItemGroup>
