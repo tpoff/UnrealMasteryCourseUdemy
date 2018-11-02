@@ -56,6 +56,8 @@ void AProjectile::OnHit(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("...I TOUCHED SOMETHING!"));
 		Destroy();
+		TArray<AActor*> ignore = TArray<AActor*>();
+		UGameplayStatics::ApplyRadialDamage(GetWorld(), 20.0f, GetActorLocation(), 500, damageType, ignore, this, player->GetInstigatorController());
 
 	}
 }
@@ -67,6 +69,9 @@ void AProjectile::onDestroy(AActor* actor)
 		UParticleSystemComponent* tracerComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, GetActorLocation());
 
 	}
+	
+	//UGameplayStatics::ApplyPointDamage(hitActor, 20.0f, shotDirection, hit, owner->GetInstigatorController(), this, damageType);
+	
 	
 }
 

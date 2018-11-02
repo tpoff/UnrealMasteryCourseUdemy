@@ -116,7 +116,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectile); \
 	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AProjectile, CollisionComp); } \
 	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(AProjectile, meshComponent); } \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AProjectile, ProjectileMovement); } \
-	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(AProjectile, impactEffect); }
+	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(AProjectile, impactEffect); } \
+	FORCEINLINE static uint32 __PPO__damageType() { return STRUCT_OFFSET(AProjectile, damageType); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_Projectile_h_16_PROLOG
