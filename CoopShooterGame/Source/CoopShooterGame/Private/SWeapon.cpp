@@ -8,6 +8,12 @@
 #include "Components/MeshComponent.h"
 #include"Particles/ParticleSystemComponent.h"
 
+static int32 debugWeaponDrawing = 0;
+FAutoConsoleVariableRef CVARDebugWeaponDrawing(
+	TEXT("COOP.DebugWeapons"), 
+	debugWeaponDrawing, 
+	TEXT("Draw Debug Lines For Weapons"), 
+	ECVF_Cheat);
 
 // Sets default values
 ASWeapon::ASWeapon()
@@ -62,8 +68,10 @@ void ASWeapon::Fire()
 
 			}
 		}
+		if (debugWeaponDrawing>0) {
+			DrawDebugLine(GetWorld(), eyeLocation, traceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
 
-		//DrawDebugLine(GetWorld(), eyeLocation, traceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
+		}
 
 		//add muzzle flash
 		if (muzzleFlashEffect) {
