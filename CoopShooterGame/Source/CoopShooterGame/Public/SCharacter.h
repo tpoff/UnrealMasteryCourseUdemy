@@ -40,7 +40,18 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* springArmComponent;
 
+	bool bWantsToZoom;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	float zoomFieldOfView;
+	float defaultFieldOfView; 
+
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player", meta=(ClampMin=0.1, ClampMax=100))
+		float zoomSpeed;
+
+	void BeginZoom();
+	void EndZoom();
 
 public:	
 	// Called every frame

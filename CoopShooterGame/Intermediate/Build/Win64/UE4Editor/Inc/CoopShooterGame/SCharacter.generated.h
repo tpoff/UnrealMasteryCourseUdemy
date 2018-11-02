@@ -61,7 +61,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASCharacter, CameraComponent); } \
-	FORCEINLINE static uint32 __PPO__springArmComponent() { return STRUCT_OFFSET(ASCharacter, springArmComponent); }
+	FORCEINLINE static uint32 __PPO__springArmComponent() { return STRUCT_OFFSET(ASCharacter, springArmComponent); } \
+	FORCEINLINE static uint32 __PPO__zoomFieldOfView() { return STRUCT_OFFSET(ASCharacter, zoomFieldOfView); } \
+	FORCEINLINE static uint32 __PPO__zoomSpeed() { return STRUCT_OFFSET(ASCharacter, zoomSpeed); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_13_PROLOG

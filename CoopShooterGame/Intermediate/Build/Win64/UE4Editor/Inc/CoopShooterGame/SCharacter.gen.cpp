@@ -44,6 +44,22 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zoomSpeed_MetaData[] = {
+				{ "Category", "Player" },
+				{ "ClampMax", "100" },
+				{ "ClampMin", "0.100000" },
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_zoomSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "zoomSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASCharacter, zoomSpeed), METADATA_PARAMS(NewProp_zoomSpeed_MetaData, ARRAY_COUNT(NewProp_zoomSpeed_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zoomFieldOfView_MetaData[] = {
+				{ "Category", "Player" },
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_zoomFieldOfView = { UE4CodeGen_Private::EPropertyClass::Float, "zoomFieldOfView", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASCharacter, zoomFieldOfView), METADATA_PARAMS(NewProp_zoomFieldOfView_MetaData, ARRAY_COUNT(NewProp_zoomFieldOfView_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_springArmComponent_MetaData[] = {
 				{ "Category", "Components" },
 				{ "EditInline", "true" },
@@ -60,6 +76,8 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASCharacter, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(NewProp_CameraComponent_MetaData, ARRAY_COUNT(NewProp_CameraComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zoomSpeed,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zoomFieldOfView,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_springArmComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CameraComponent,
 			};
@@ -81,7 +99,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASCharacter, 3278240290);
+	IMPLEMENT_CLASS(ASCharacter, 1783502068);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASCharacter(Z_Construct_UClass_ASCharacter, &ASCharacter::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -25,13 +25,16 @@ ASCharacter::ASCharacter()
 
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
-
+	zoomFieldOfView = 65;
+	zoomSpeed = 20.0f;
 }
 
 // Called when the game starts or when spawned
 void ASCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	defaultFieldOfView=CameraComponent->FieldOfView;
 
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 	
@@ -67,10 +70,26 @@ void ASCharacter::BeginJump()
 	}
 }
 
+void ASCharacter::BeginZoom()
+{
+	bWantsToZoom = true;
+}
+void ASCharacter::EndZoom()
+{
+	bWantsToZoom = false;
+}
+
 // Called every frame
 void ASCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+
+	float targetFieldOfView = bWantsToZoom ? zoomFieldOfView : defaultFieldOfView;
+
+	float newFieldOfView = FMath::FInterpTo(CameraComponent->FieldOfView, targetFieldOfView, DeltaTime, zoomSpeed);
+
+	CameraComponent->SetFieldOfView(newFieldOfView);
 }
 
 // Called to bind functionality to input
@@ -88,6 +107,10 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &ASCharacter::BeginCrouch);
 	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &ASCharacter::EndCrouch);
+
+
+	PlayerInputComponent->BindAction("Zoom", IE_Pressed, this, &ASCharacter::BeginZoom);
+	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &ASCharacter::EndZoom);
 
 
 
