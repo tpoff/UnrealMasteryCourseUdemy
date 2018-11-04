@@ -7,6 +7,8 @@
 #include "Particles/ParticleSystem.h"
 #include "Components/MeshComponent.h"
 #include"Particles/ParticleSystemComponent.h"
+#include "../CoopShooterGame.h"
+#include "PhysicalMaterials/PhysicalMaterial.h"
 
 static int32 debugWeaponDrawing = 0;
 FAutoConsoleVariableRef CVARDebugWeaponDrawing(
@@ -42,6 +44,7 @@ void ASWeapon::Fire()
 		queryParams.AddIgnoredActor(owner);
 		queryParams.AddIgnoredActor(this);
 		queryParams.bTraceComplex = true;
+		queryParams.bReturnPhysicalMaterial = true;
 
 
 		FHitResult hit;
@@ -52,11 +55,25 @@ void ASWeapon::Fire()
 
 
 			UGameplayStatics::ApplyPointDamage(hitActor, 20.0f, shotDirection, hit, owner->GetInstigatorController(), this, damageType);
-		
-			if (impactEffect) {
-				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, hit.ImpactPoint, hit.ImpactNormal.Rotation());
+
+
+			UParticleSystem* selectedEffect = nullptr;
+			EPhysicalSurface surfaceType = UPhysicalMaterial::DetermineSurfaceType(hit.PhysMaterial.Get());
+
+			switch (surfaceType) {
+			case SURFACE_FLESH_DEFAULT:
+			case SURFACE_FLESH_VULNERABLE:
+				selectedEffect = fleshImpactEffect;
+					break;
+			default:
+				selectedEffect = defaultImpactEffect;
+				break;
+			}
+			if (selectedEffect) {
+				UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), selectedEffect, hit.ImpactPoint, hit.ImpactNormal.Rotation());
 
 			}
+		
 		}
 		if (debugWeaponDrawing>0) {
 			DrawDebugLine(GetWorld(), eyeLocation, traceEnd, FColor::Red, false, 1.0f, 0, 1.0f);

@@ -100,7 +100,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__damageType() { return STRUCT_OFFSET(ASWeapon, damageType); } \
 	FORCEINLINE static uint32 __PPO__muzzleSocketName() { return STRUCT_OFFSET(ASWeapon, muzzleSocketName); } \
 	FORCEINLINE static uint32 __PPO__muzzleFlashEffect() { return STRUCT_OFFSET(ASWeapon, muzzleFlashEffect); } \
-	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(ASWeapon, impactEffect); } \
+	FORCEINLINE static uint32 __PPO__defaultImpactEffect() { return STRUCT_OFFSET(ASWeapon, defaultImpactEffect); } \
+	FORCEINLINE static uint32 __PPO__fleshImpactEffect() { return STRUCT_OFFSET(ASWeapon, fleshImpactEffect); } \
 	FORCEINLINE static uint32 __PPO__tracerEffect() { return STRUCT_OFFSET(ASWeapon, tracerEffect); } \
 	FORCEINLINE static uint32 __PPO__tracerTargetName() { return STRUCT_OFFSET(ASWeapon, tracerTargetName); } \
 	FORCEINLINE static uint32 __PPO__fireCamShake() { return STRUCT_OFFSET(ASWeapon, fireCamShake); }
