@@ -48,7 +48,7 @@ void ASWeapon::Fire()
 
 
 		FHitResult hit;
-		bool blockingHit =GetWorld()->LineTraceSingleByChannel(hit, eyeLocation, traceEnd, ECC_Visibility, queryParams);
+		bool blockingHit =GetWorld()->LineTraceSingleByChannel(hit, eyeLocation, traceEnd, COLLISION_WEAPON, ECC_Visibility, queryParams);
 		if (blockingHit) {
 			traceEnd = hit.ImpactPoint;
 			AActor* hitActor = hit.GetActor();
