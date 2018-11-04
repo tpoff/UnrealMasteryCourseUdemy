@@ -53,7 +53,16 @@ protected:
 
 
 	void playFireEffects(FVector traceEnd);
+
+
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	TSubclassOf<UCameraShake> fireCamShake;
+
 public:
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 		virtual void Fire();
+
+	UFUNCTION(BlueprintCallable, Category = "Weapon")
+		virtual void shakePlayerCamera();
 };

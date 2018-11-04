@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeSGrenadeLauncher() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASGrenadeLauncher, 2070833424);
+	IMPLEMENT_CLASS(ASGrenadeLauncher, 288746683);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASGrenadeLauncher(Z_Construct_UClass_ASGrenadeLauncher, &ASGrenadeLauncher::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASGrenadeLauncher"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASGrenadeLauncher);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

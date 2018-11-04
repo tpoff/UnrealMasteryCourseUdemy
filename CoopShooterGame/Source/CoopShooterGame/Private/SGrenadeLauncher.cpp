@@ -27,5 +27,6 @@ void ASGrenadeLauncher::Fire()
 
 		}
 	}
+	shakePlayerCamera();
 }
 

@@ -44,7 +44,7 @@ AProjectile::AProjectile()
 void AProjectile::BeginPlay()
 {
 	Super::BeginPlay();
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Grenade out!"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("Grenade out!"));
 	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &AProjectile::OnHit);	// set up a notification for when this component hits something blocking
 	OnDestroyed.AddDynamic(this, &AProjectile::onDestroy);
 }
@@ -54,7 +54,7 @@ void AProjectile::OnHit(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 	if (player != NULL && weapon != NULL &&
 		OtherActor != player && OtherActor != weapon) {
 
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("...I TOUCHED SOMETHING!"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("...I TOUCHED SOMETHING!"));
 		Destroy();
 		TArray<AActor*> ignore = TArray<AActor*>();
 		UGameplayStatics::ApplyRadialDamage(GetWorld(), 20.0f, GetActorLocation(), 500, damageType, ignore, this, player->GetInstigatorController());
@@ -64,7 +64,7 @@ void AProjectile::OnHit(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 
 void AProjectile::onDestroy(AActor* actor)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("exploding"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Yellow, TEXT("exploding"));
 	if (impactEffect) {
 		UParticleSystemComponent* tracerComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, GetActorLocation());
 

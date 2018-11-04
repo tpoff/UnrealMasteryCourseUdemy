@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execshakePlayerCamera) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shakePlayerCamera(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execFire) \
 	{ \
 		P_FINISH; \
@@ -25,6 +33,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execshakePlayerCamera) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shakePlayerCamera(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execFire) \
 	{ \
@@ -86,7 +102,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__muzzleFlashEffect() { return STRUCT_OFFSET(ASWeapon, muzzleFlashEffect); } \
 	FORCEINLINE static uint32 __PPO__impactEffect() { return STRUCT_OFFSET(ASWeapon, impactEffect); } \
 	FORCEINLINE static uint32 __PPO__tracerEffect() { return STRUCT_OFFSET(ASWeapon, tracerEffect); } \
-	FORCEINLINE static uint32 __PPO__tracerTargetName() { return STRUCT_OFFSET(ASWeapon, tracerTargetName); }
+	FORCEINLINE static uint32 __PPO__tracerTargetName() { return STRUCT_OFFSET(ASWeapon, tracerTargetName); } \
+	FORCEINLINE static uint32 __PPO__fireCamShake() { return STRUCT_OFFSET(ASWeapon, fireCamShake); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_13_PROLOG
