@@ -28,5 +28,8 @@ void ASGrenadeLauncher::Fire()
 		}
 	}
 	shakePlayerCamera();
+	lastFireTime = GetWorld()->TimeSeconds;
+
+
 }
 

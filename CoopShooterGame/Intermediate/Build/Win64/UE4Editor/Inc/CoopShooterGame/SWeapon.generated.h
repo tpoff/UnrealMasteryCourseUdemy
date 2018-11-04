@@ -21,14 +21,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->shakePlayerCamera(); \
 		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Fire(); \
-		P_NATIVE_END; \
 	}
 
 
@@ -39,14 +31,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->shakePlayerCamera(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->Fire(); \
 		P_NATIVE_END; \
 	}
 
@@ -105,7 +89,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__tracerEffect() { return STRUCT_OFFSET(ASWeapon, tracerEffect); } \
 	FORCEINLINE static uint32 __PPO__tracerTargetName() { return STRUCT_OFFSET(ASWeapon, tracerTargetName); } \
 	FORCEINLINE static uint32 __PPO__fireCamShake() { return STRUCT_OFFSET(ASWeapon, fireCamShake); } \
-	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(ASWeapon, baseDamage); }
+	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(ASWeapon, baseDamage); } \
+	FORCEINLINE static uint32 __PPO__loopFire() { return STRUCT_OFFSET(ASWeapon, loopFire); } \
+	FORCEINLINE static uint32 __PPO__rateOfFire() { return STRUCT_OFFSET(ASWeapon, rateOfFire); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_13_PROLOG

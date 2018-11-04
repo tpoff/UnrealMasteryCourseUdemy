@@ -20,6 +20,9 @@ public:
 	ASWeapon();
 
 protected:
+	virtual void BeginPlay() override;
+
+	
 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
@@ -67,9 +70,27 @@ protected:
 	float baseDamage;
 
 
+	virtual void Fire();
+
+	FTimerHandle timerHandle_timeBetweenShots;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	bool loopFire;
+
+	float lastFireTime;
+
+	//rpm - bullets per minute. 
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	float rateOfFire;
+
+	//to be calculated from rate of fire. 
+	float timeBetweenShots;
+
 public:
-	UFUNCTION(BlueprintCallable, Category = "Weapon")
-		virtual void Fire();
+
+	virtual void startFire();
+
+	virtual void stopFire();
 
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 		virtual void shakePlayerCamera();

@@ -9,6 +9,7 @@
 #include"Particles/ParticleSystemComponent.h"
 #include "../CoopShooterGame.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
+#include "TimerManager.h"
 
 static int32 debugWeaponDrawing = 0;
 FAutoConsoleVariableRef CVARDebugWeaponDrawing(
@@ -26,6 +27,16 @@ ASWeapon::ASWeapon()
 	muzzleSocketName = "MuzzleSocket";
 	tracerTargetName = "BeamEnd";
 	baseDamage = 20.0f;
+	loopFire = true;
+	rateOfFire = 600;
+}
+void ASWeapon::BeginPlay()
+{
+	Super::BeginPlay();
+	timeBetweenShots = 60 / rateOfFire;
+	lastFireTime = 0.0f;
+
+
 }
 
 
@@ -88,8 +99,22 @@ void ASWeapon::Fire()
 		
 		playFireEffects(traceEnd);
 		shakePlayerCamera();
+		lastFireTime = GetWorld()->TimeSeconds;
 	}
 
+}
+
+void ASWeapon::startFire()
+{
+	float fireDelay = lastFireTime + timeBetweenShots - GetWorld()->TimeSeconds; 
+	if (fireDelay < 0)
+		fireDelay = 0;
+	GetWorldTimerManager().SetTimer(timerHandle_timeBetweenShots, this, &ASWeapon::Fire, timeBetweenShots, loopFire, fireDelay);
+	
+}
+void ASWeapon::stopFire()
+{
+	GetWorldTimerManager().ClearTimer(timerHandle_timeBetweenShots);
 }
 
 void ASWeapon::shakePlayerCamera()
