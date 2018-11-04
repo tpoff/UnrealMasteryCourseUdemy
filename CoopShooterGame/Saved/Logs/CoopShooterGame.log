@@ -765,3 +765,1156 @@ LogInit: Object subsystem initialized
 [2018.11.04-08.08.01:179][606]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default58C71D2643ECECEB7560AEB3943D9FD6.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
 [2018.11.04-08.08.01:182][606]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
 [2018.11.04-08.08.01:208][606]LogFileHelpers: Saving map 'Minimal_Default' took 0.250
+[2018.11.04-09.03.40:227][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.03.40:279][746]Candidate modules for hot reload:
+[2018.11.04-09.03.40:279][746]  CoopShooterGame
+[2018.11.04-09.03.40:279][746]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,2363 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.03.40:283][746]Warning: Starting HotReload took  0.1s.
+[2018.11.04-09.03.56:953][151]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:03:56 PM
+[2018.11.04-09.03.56:953][151]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.03.56:953][151]CompilerResultsLog: Creating makefile for hot reloading CoopShooterGame (ini files are newer than UBTMakefile)
+[2018.11.04-09.03.56:953][151]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.03.56:953][151]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.04-09.03.56:953][151]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.646863 seconds
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: Performing 9 actions (9 in parallel)
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: SCharacter.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: CoopShooterGame.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: SGrenadeLauncher.gen.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: SWeapon.gen.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: SGrenadeLauncher.cpp
+[2018.11.04-09.03.56:954][151]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.03.56:955][151]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : error C2664: 'bool UWorld::LineTraceSingleByChannel(FHitResult &,const FVector &,const FVector &,ECollisionChannel,const FCollisionQueryParams &,const FCollisionResponseParams &) const': cannot convert argument 6 from 'FCollisionQueryParams' to 'const FCollisionResponseParams &'
+[2018.11.04-09.03.56:955][151]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : note: Reason: cannot convert from 'FCollisionQueryParams' to 'const FCollisionResponseParams'
+[2018.11.04-09.03.56:955][151]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2018.11.04-09.03.56:956][151]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-2363.dll
+[2018.11.04-09.03.56:956][151]CompilerResultsLog: Total build time: 16.48 seconds (Local executor: 0.00 seconds)
+[2018.11.04-09.03.56:956][151]LogMainFrame: MainFrame: Module compiling took 16.719 seconds
+[2018.11.04-09.03.56:956][151]Warning: HotReload failed, recompile failed
+[2018.11.04-09.04.04:542][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.04.32:483][ 46]Candidate modules for hot reload:
+[2018.11.04-09.04.32:483][ 46]  CoopShooterGame
+[2018.11.04-09.04.32:484][ 46]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,5410 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.04.32:488][ 46]Warning: Starting HotReload took  0.1s.
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:04:34 PM
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.04.34:890][225]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : error C2664: 'bool UWorld::LineTraceSingleByChannel(FHitResult &,const FVector &,const FVector &,ECollisionChannel,const FCollisionQueryParams &,const FCollisionResponseParams &) const': cannot convert argument 6 from 'FCollisionQueryParams' to 'const FCollisionResponseParams &'
+[2018.11.04-09.04.34:891][225]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : note: Reason: cannot convert from 'FCollisionQueryParams' to 'const FCollisionResponseParams'
+[2018.11.04-09.04.34:891][225]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(52) : note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2018.11.04-09.04.34:891][225]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-5410.dll
+[2018.11.04-09.04.34:892][225]CompilerResultsLog: Total build time: 2.19 seconds (Local executor: 0.00 seconds)
+[2018.11.04-09.04.34:892][225]LogMainFrame: MainFrame: Module compiling took 2.448 seconds
+[2018.11.04-09.04.34:892][225]Warning: HotReload failed, recompile failed
+[2018.11.04-09.05.01:931][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.05.02:094][299]Candidate modules for hot reload:
+[2018.11.04-09.05.02:094][299]  CoopShooterGame
+[2018.11.04-09.05.02:094][299]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,1021 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.05.02:097][299]Warning: Starting HotReload took  0.0s.
+[2018.11.04-09.05.05:401][664]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:05:05 PM
+[2018.11.04-09.05.05:401][664]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.05.05:401][664]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.05.05:401][664]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.04-09.05.05:402][664]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.05.05:402][664]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-1021.dll
+[2018.11.04-09.05.05:402][664]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-1021.lib
+[2018.11.04-09.05.05:402][664]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1021.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1021.exp
+[2018.11.04-09.05.05:402][664]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1021.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1021.suppressed.exp
+[2018.11.04-09.05.05:403][664]CompilerResultsLog: Total build time: 3.10 seconds (Local executor: 2.12 seconds)
+[2018.11.04-09.05.05:403][664]LogMainFrame: MainFrame: Module compiling took 3.348 seconds
+[2018.11.04-09.05.05:436][664]LogClass: Could not find existing class SGrenadeLauncher in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.05.05:436][664]LogClass: Could not find existing class SWeapon in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.05.05:436][664]LogClass: Function Fire is new.
+[2018.11.04-09.05.05:436][664]LogClass: Function shakePlayerCamera is new.
+[2018.11.04-09.05.05:436][664]LogClass: Function Fire is new.
+[2018.11.04-09.05.05:442][664]LogHotReload: Re-instancing SGrenadeLauncher after hot-reload.
+[2018.11.04-09.05.05:729][664]LogHotReload: Re-instancing SWeapon after hot-reload.
+[2018.11.04-09.05.06:020][664]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2018.11.04-09.05.06:023][664]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.11.04-09.05.06:244][664]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2458 classes and 563 folders.
+[2018.11.04-09.05.06:244][664]Display: HotReload took  4.2s.
+[2018.11.04-09.05.07:370][773]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.05.07:396][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.07:397][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.05.07:397][773]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:05:07 PM)
+[2018.11.04-09.05.07:397][773]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.05.07:400][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002325s)
+[2018.11.04-09.05.07:400][773]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.05.07:400][773]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2018.11.04-09.05.07:401][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003405s)
+[2018.11.04-09.05.07:455][773]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.05.07:462][773]LogInit: FAudioDevice initialized.
+[2018.11.04-09.05.07:491][773]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.05.07:493][773]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.05.07
+[2018.11.04-09.05.07:493][773]LogWorld: Bringing up level for play took: 0.001513
+[2018.11.04-09.05.07:495][773]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.22
+[2018.11.04-09.05.07:495][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.13:035][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.13:072][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.14:604][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.05.41:890][210]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.05.44:212][435]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-09.05.44:652][435]LogSavePackage: Save=10.54ms
+[2018.11.04-09.05.44:652][435]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle6AB0D9FA469E3CC43F00EC9A5861E14D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-09.05.44:656][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-09.05.46:161][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.05.46:291][581]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.05.46:312][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.46:312][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.05.46:312][581]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:05:46 PM)
+[2018.11.04-09.05.46:313][581]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.05.46:315][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002001s)
+[2018.11.04-09.05.46:315][581]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.05.46:315][581]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2018.11.04-09.05.46:316][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002989s)
+[2018.11.04-09.05.46:357][581]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.05.46:364][581]LogInit: FAudioDevice initialized.
+[2018.11.04-09.05.46:393][581]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.05.46:395][581]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.05.46
+[2018.11.04-09.05.46:395][581]LogWorld: Bringing up level for play took: 0.001472
+[2018.11.04-09.05.46:396][581]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.682
+[2018.11.04-09.05.46:396][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.48:813][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.48:851][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.05.51:050][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.04-09.06.05:560][510]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-09.06.05:919][510]LogSavePackage: Save=10.85ms
+[2018.11.04-09.06.05:919][510]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle98614A0048058D0EBB21AD8EA1CA997E.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-09.06.05:923][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-09.06.07:074][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.06.07:180][617]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.06.07:200][617]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.07:201][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.06.07:201][617]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:06:07 PM)
+[2018.11.04-09.06.07:201][617]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.06.07:203][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002034s)
+[2018.11.04-09.06.07:204][617]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.06.07:204][617]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2018.11.04-09.06.07:204][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003408s)
+[2018.11.04-09.06.07:248][617]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.06.07:254][617]LogInit: FAudioDevice initialized.
+[2018.11.04-09.06.07:284][617]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.06.07:286][617]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.06.07
+[2018.11.04-09.06.07:286][617]LogWorld: Bringing up level for play took: 0.001477
+[2018.11.04-09.06.07:287][617]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.427
+[2018.11.04-09.06.07:288][617]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.18:349][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.18:389][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.25:062][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.06.39:360][896]BlueprintLog: New page: Compile BP_TargetDummy
+[2018.11.04-09.06.39:367][896]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e390f6480, Size=560
+[2018.11.04-09.06.39:367][896]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e3125b100, Size=560, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_89:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.06.39:369][896]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e31259300, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.06.39:817][896]LogSavePackage: Save=19.08ms
+[2018.11.04-09.06.39:817][896]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TargetDummy1B5CB1744B7BEE51C84B96AA5B6E80FE.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset'
+[2018.11.04-09.06.39:821][896]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset
+[2018.11.04-09.06.41:365][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.06.41:445][ 34]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.06.41:470][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.41:470][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.06.41:470][ 34]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:06:41 PM)
+[2018.11.04-09.06.41:470][ 34]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.06.41:472][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002226s)
+[2018.11.04-09.06.41:472][ 34]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.06.41:473][ 34]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2018.11.04-09.06.41:473][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003215s)
+[2018.11.04-09.06.41:493][ 34]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e3125b100, Size=560
+[2018.11.04-09.06.41:515][ 34]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.06.41:522][ 34]LogInit: FAudioDevice initialized.
+[2018.11.04-09.06.41:549][ 34]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.06.41:551][ 34]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.06.41
+[2018.11.04-09.06.41:551][ 34]LogWorld: Bringing up level for play took: 0.001505
+[2018.11.04-09.06.41:552][ 34]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.162
+[2018.11.04-09.06.41:552][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.42:584][139]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.43:198][210]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.43:605][257]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.45:628][494]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.46:184][559]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.46:594][607]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.47:309][690]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.47:537][716]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.47:703][735]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.47:845][751]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.48:021][771]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.48:403][814]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.48:546][830]LogBlueprintUserMessages: [BP_TargetDummy_68] 80.0
+[2018.11.04-09.06.49:669][959]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.49:963][993]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.50:188][ 19]LogBlueprintUserMessages: [BP_TargetDummy_68] 20.0
+[2018.11.04-09.06.50:692][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.50:729][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.06.52:302][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.06.52:593][235]LogSavePackage: Save=113.97ms
+[2018.11.04-09.06.52:593][235]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default330C292C44E9A17C6E2274ADC3A2CD37.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.04-09.06.52:596][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.04-09.06.52:656][235]LogSavePackage: Save=17.70ms
+[2018.11.04-09.06.52:656][235]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData0A7D77CD4995E4B5077B0CBC91C8276A.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.04-09.06.52:658][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.04-09.06.53:517][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.08.00:488][687]BlueprintLog: New page: Compile BP_TargetDummy
+[2018.11.04-09.08.00:494][687]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e31259300, Size=576
+[2018.11.04-09.08.00:494][687]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e73ff9a80, Size=576, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_97:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.08.00:497][687]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e29e8f880, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.08.00:959][687]LogSavePackage: Save=20.72ms
+[2018.11.04-09.08.00:960][687]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TargetDummy7EBB8F34468CE970F7EAA5B3AFE5D8C9.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset'
+[2018.11.04-09.08.00:964][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset
+[2018.11.04-09.08.02:832][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.08.02:955][878]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.08.02:981][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.02:982][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.08.02:982][878]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:08:02 PM)
+[2018.11.04-09.08.02:982][878]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.08.02:985][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002062s)
+[2018.11.04-09.08.02:985][878]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.08.02:985][878]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.11.04-09.08.02:986][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003043s)
+[2018.11.04-09.08.03:006][878]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e73ff9a80, Size=576
+[2018.11.04-09.08.03:028][878]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.08.03:035][878]LogInit: FAudioDevice initialized.
+[2018.11.04-09.08.03:074][878]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.08.03:081][878]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.08.03
+[2018.11.04-09.08.03:083][878]LogWorld: Bringing up level for play took: 0.006086
+[2018.11.04-09.08.03:086][878]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.628
+[2018.11.04-09.08.03:087][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.07:733][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.07:771][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.09:100][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.08.22:598][293]BlueprintLog: New page: Compile BP_TargetDummy
+[2018.11.04-09.08.22:604][293]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e29e8f880, Size=576
+[2018.11.04-09.08.22:604][293]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e323a7d80, Size=576, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_101:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.08.22:606][293]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e73ff8b80, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.08.23:062][293]LogSavePackage: Save=20.10ms
+[2018.11.04-09.08.23:062][293]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TargetDummy14F7E6774D44425BC4CB75A88AD0D0A5.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset'
+[2018.11.04-09.08.23:065][293]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset
+[2018.11.04-09.08.24:461][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.08.24:565][431]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.08.24:590][431]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.24:591][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.08.24:591][431]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:08:24 PM)
+[2018.11.04-09.08.24:591][431]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.08.24:593][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002072s)
+[2018.11.04-09.08.24:594][431]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.08.24:594][431]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.11.04-09.08.24:594][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003040s)
+[2018.11.04-09.08.24:615][431]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e323a7d80, Size=576
+[2018.11.04-09.08.24:637][431]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.08.24:644][431]LogInit: FAudioDevice initialized.
+[2018.11.04-09.08.24:674][431]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.08.24:676][431]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.08.24
+[2018.11.04-09.08.24:676][431]LogWorld: Bringing up level for play took: 0.001497
+[2018.11.04-09.08.24:677][431]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.962
+[2018.11.04-09.08.24:677][431]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.34:846][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.34:885][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.08.40:136][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.08.41:097][  2]LogSavePackage: Save=117.26ms
+[2018.11.04-09.08.41:097][  2]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default155B846548C602763EDB96A1F48B622F.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.04-09.08.41:100][  2]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.04-09.08.41:158][  2]LogSavePackage: Save=18.56ms
+[2018.11.04-09.08.41:158][  2]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltDataA2FCF60E4188658F6693F08AA6AAD6F0.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.04-09.08.41:161][  2]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.04-09.34.37:478][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.34.44:306][390]BlueprintLog: New page: Compile BP_TargetDummy
+[2018.11.04-09.34.44:314][390]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e73ff8b80, Size=576
+[2018.11.04-09.34.44:314][390]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e46733880, Size=576, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_109:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.34.44:316][390]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e46731a80, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.04-09.34.44:779][390]LogSavePackage: Save=20.82ms
+[2018.11.04-09.34.44:779][390]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TargetDummy9F7FFE1F4776F76B126837BFAEF0CC49.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset'
+[2018.11.04-09.34.44:783][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TargetDummy.uasset
+[2018.11.04-09.35.10:196][889]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e46733880, Size=576
+[2018.11.04-09.35.10:338][889]LogSavePackage: Save=117.15ms
+[2018.11.04-09.35.10:338][889]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_Auto2151874D64872D6D7517767ADAAE2BDD6.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2018.11.04-09.35.10:340][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2018.11.04-09.35.10:342][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.169
+[2018.11.04-09.35.10:342][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2018.11.04-09.45.56:787][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.45.56:838][829]Candidate modules for hot reload:
+[2018.11.04-09.45.56:838][829]  CoopShooterGame
+[2018.11.04-09.45.56:838][829]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,2640 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.45.56:842][829]Warning: Starting HotReload took  0.1s.
+[2018.11.04-09.46.06:320][974]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:46:06 PM
+[2018.11.04-09.46.06:320][974]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.46.06:320][974]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.46.06:320][974]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.04-09.46.06:320][974]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 6.4825514 seconds
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: Performing 9 actions (9 in parallel)
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SCharacter.gen.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SCharacter.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SGrenadeLauncher.gen.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SGrenadeLauncher.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SWeapon.gen.cpp
+[2018.11.04-09.46.06:321][974]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.46.06:322][974]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SCharacter.cpp(136) : error C2039: 'stopFire': is not a member of 'ASCharacter'
+[2018.11.04-09.46.06:322][974]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Public\SCharacter.h(15) : note: see declaration of 'ASCharacter'
+[2018.11.04-09.46.06:322][974]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SCharacter.cpp(136) : error C2065: 'stopFire': undeclared identifier
+[2018.11.04-09.46.06:322][974]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-2640.dll
+[2018.11.04-09.46.06:323][974]CompilerResultsLog: Total build time: 9.21 seconds (Local executor: 0.00 seconds)
+[2018.11.04-09.46.06:323][974]LogMainFrame: MainFrame: Module compiling took 9.527 seconds
+[2018.11.04-09.46.06:323][974]Warning: HotReload failed, recompile failed
+[2018.11.04-09.47.17:110][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.47.17:237][934]Candidate modules for hot reload:
+[2018.11.04-09.47.17:237][934]  CoopShooterGame
+[2018.11.04-09.47.17:237][934]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,780 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.47.17:241][934]Warning: Starting HotReload took  0.0s.
+[2018.11.04-09.47.28:329][983]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:47:28 PM
+[2018.11.04-09.47.28:329][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.47.28:329][983]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.47.28:329][983]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.04-09.47.28:329][983]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.3145815 seconds
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: Performing 4 actions (9 in parallel)
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: SCharacter.cpp
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: SCharacter.gen.cpp
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: [3/4] Link UE4Editor-CoopShooterGame-780.dll
+[2018.11.04-09.47.28:330][983]CompilerResultsLog: [4/4] Link UE4Editor-CoopShooterGame-780.lib
+[2018.11.04-09.47.28:330][983]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-780.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-780.exp
+[2018.11.04-09.47.28:331][983]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-780.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-780.suppressed.exp
+[2018.11.04-09.47.28:331][983]CompilerResultsLog: Total build time: 10.90 seconds (Local executor: 2.42 seconds)
+[2018.11.04-09.47.28:331][983]LogMainFrame: MainFrame: Module compiling took 11.136 seconds
+[2018.11.04-09.47.28:363][983]LogClass: Could not find existing class SGrenadeLauncher in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.47.28:363][983]LogClass: Could not find existing class SWeapon in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.47.28:363][983]LogClass: Function shakePlayerCamera is new.
+[2018.11.04-09.47.28:364][983]LogClass: Function Fire is new.
+[2018.11.04-09.47.28:369][983]LogHotReload: Re-instancing SGrenadeLauncher after hot-reload.
+[2018.11.04-09.47.28:783][983]LogHotReload: Re-instancing SWeapon after hot-reload.
+[2018.11.04-09.47.29:114][983]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2018.11.04-09.47.29:117][983]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.11.04-09.47.29:339][983]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2458 classes and 563 folders.
+[2018.11.04-09.47.29:339][983]Display: HotReload took 12.1s.
+[2018.11.04-09.47.30:145][ 55]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.47.30:173][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.47.30:174][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.47.30:174][ 55]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:47:30 PM)
+[2018.11.04-09.47.30:174][ 55]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.47.30:176][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002357s)
+[2018.11.04-09.47.30:177][ 55]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.47.30:178][ 55]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2018.11.04-09.47.30:178][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003870s)
+[2018.11.04-09.47.30:249][ 55]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.47.30:257][ 55]LogInit: FAudioDevice initialized.
+[2018.11.04-09.47.30:287][ 55]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.47.30:289][ 55]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.47.30
+[2018.11.04-09.47.30:289][ 55]LogWorld: Bringing up level for play took: 0.001599
+[2018.11.04-09.47.30:290][ 55]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.576
+[2018.11.04-09.47.30:291][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.47.33:500][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.47.33:539][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.47.34:838][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.47.56:656][578]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-09.47.57:099][578]LogSavePackage: Save=10.61ms
+[2018.11.04-09.47.57:099][578]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle5B3D587E4B96B67502130B8D560F9767.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-09.47.57:103][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-09.47.58:472][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.47.58:571][703]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.47.58:592][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.47.58:593][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.47.58:593][703]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:47:58 PM)
+[2018.11.04-09.47.58:593][703]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.47.58:596][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002326s)
+[2018.11.04-09.47.58:596][703]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.47.58:597][703]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.11.04-09.47.58:597][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003446s)
+[2018.11.04-09.47.58:639][703]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.47.58:650][703]LogInit: FAudioDevice initialized.
+[2018.11.04-09.47.58:681][703]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.47.58:682][703]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.47.58
+[2018.11.04-09.47.58:683][703]LogWorld: Bringing up level for play took: 0.001415
+[2018.11.04-09.47.58:684][703]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.969
+[2018.11.04-09.47.58:684][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.48.11:337][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.48.11:378][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.48.20:471][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.48.46:082][178]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.48.51:284][751]BlueprintLog: New page: Compile BP_Grenade_Launcher
+[2018.11.04-09.48.51:813][751]LogSavePackage: Save=10.66ms
+[2018.11.04-09.48.51:814][751]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Grenade_LauncherD7A169494A951B07AD43549E3F92317A.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset'
+[2018.11.04-09.48.51:817][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset
+[2018.11.04-09.48.53:175][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.48.56:044][ 81]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.49.01:535][578]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.04-09.49.01:538][578]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9de1aba0, Size=16
+[2018.11.04-09.49.01:538][578]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e31a74a70, Size=16, PlayerPawn_C_7 Function /Engine/Transient.REINST_PlayerPawn_C_133:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.49.01:539][578]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e31a74f00, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.49.02:257][578]LogSavePackage: Save=14.95ms
+[2018.11.04-09.49.02:257][578]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawnC6CB2ECF49C7E98E0AB97E9AEBD36297.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.04-09.49.02:261][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.04-09.49.02:689][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.49.02:806][611]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.49.02:831][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.49.02:831][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.49.02:832][611]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:49:02 PM)
+[2018.11.04-09.49.02:832][611]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.49.02:834][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002026s)
+[2018.11.04-09.49.02:835][611]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.49.02:835][611]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2018.11.04-09.49.02:835][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003065s)
+[2018.11.04-09.49.02:878][611]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.49.02:885][611]LogInit: FAudioDevice initialized.
+[2018.11.04-09.49.02:918][611]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.49.02:920][611]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.49.02
+[2018.11.04-09.49.02:920][611]LogWorld: Bringing up level for play took: 0.001473
+[2018.11.04-09.49.02:921][611]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.793
+[2018.11.04-09.49.02:921][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.49.04:015][717]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.04:516][771]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.05:520][879]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.06:665][  1]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.07:660][107]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.08:671][215]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.09:673][322]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.10:673][429]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.11:673][536]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.12:668][642]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.13:878][771]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.49.14:238][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.49.14:278][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.49.16:581][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.04-09.49.16:592][ 20]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.49.19:408][278]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.04-09.49.19:411][278]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e31a74f00, Size=16
+[2018.11.04-09.49.19:411][278]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e0b0fabe0, Size=16, PlayerPawn_C_9 Function /Engine/Transient.REINST_PlayerPawn_C_137:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.49.19:412][278]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e0b0fa8e0, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.49.20:197][278]LogSavePackage: Save=15.58ms
+[2018.11.04-09.49.20:198][278]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawn795155724342B6093ECF42B2F07313DE.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.04-09.49.20:201][278]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.04-09.49.44:141][404]LogSavePackage: Save=111.49ms
+[2018.11.04-09.49.44:142][404]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_Auto30D2868274133E1C11FC308A5E49574CB.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2018.11.04-09.49.44:144][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2018.11.04-09.49.44:146][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.158
+[2018.11.04-09.49.44:146][404]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2018.11.04-09.56.31:933][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.56.32:055][634]Candidate modules for hot reload:
+[2018.11.04-09.56.32:055][634]  CoopShooterGame
+[2018.11.04-09.56.32:055][634]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,4531 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.56.32:059][634]Warning: Starting HotReload took  0.1s.
+[2018.11.04-09.56.42:753][379]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:56:42 PM
+[2018.11.04-09.56.42:753][379]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.56.42:753][379]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.56.42:753][379]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.04-09.56.42:753][379]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.2729224 seconds
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: Performing 8 actions (9 in parallel)
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: SCharacter.cpp
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: SWeapon.gen.cpp
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: SGrenadeLauncher.gen.cpp
+[2018.11.04-09.56.42:754][379]CompilerResultsLog: SGrenadeLauncher.cpp
+[2018.11.04-09.56.42:755][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : error C2672: 'FGenericPlatformMath::Max': no matching overloaded function found
+[2018.11.04-09.56.42:755][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : error C2784: 'T FGenericPlatformMath::Max(const TArray<T,FDefaultAllocator> &,int32 *)': could not deduce template argument for 'const TArray<T,FDefaultAllocator> &' from 'int'
+[2018.11.04-09.56.42:755][379]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h(584) : note: see declaration of 'FGenericPlatformMath::Max'
+[2018.11.04-09.56.42:756][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : error C2782: 'T FGenericPlatformMath::Max(const T,const T)': template parameter 'T' is ambiguous
+[2018.11.04-09.56.42:756][379]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h(528) : note: see declaration of 'FGenericPlatformMath::Max'
+[2018.11.04-09.56.42:756][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : note: could be 'float'
+[2018.11.04-09.56.42:756][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : note: or       'int'
+[2018.11.04-09.56.42:756][379]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\SWeapon.cpp(109) : error C2784: 'T FGenericPlatformMath::Max(const T,const T)': could not deduce template argument for 'const T' from 'float'
+[2018.11.04-09.56.42:757][379]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h(528) : note: see declaration of 'FGenericPlatformMath::Max'
+[2018.11.04-09.56.42:757][379]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-4531.dll
+[2018.11.04-09.56.42:757][379]CompilerResultsLog: Total build time: 10.51 seconds (Local executor: 0.00 seconds)
+[2018.11.04-09.56.42:757][379]LogMainFrame: MainFrame: Module compiling took 10.744 seconds
+[2018.11.04-09.56.42:758][379]Warning: HotReload failed, recompile failed
+[2018.11.04-09.56.44:103][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.57.23:527][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.57.23:671][158]Candidate modules for hot reload:
+[2018.11.04-09.57.23:671][158]  CoopShooterGame
+[2018.11.04-09.57.23:671][158]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,1448 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-09.57.23:675][158]Warning: Starting HotReload took  0.1s.
+[2018.11.04-09.57.26:975][416]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 10:57:26 PM
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: SWeapon.cpp
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-1448.dll
+[2018.11.04-09.57.26:976][416]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-1448.lib
+[2018.11.04-09.57.26:976][416]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1448.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1448.exp
+[2018.11.04-09.57.26:977][416]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1448.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1448.suppressed.exp
+[2018.11.04-09.57.26:977][416]CompilerResultsLog: Total build time: 3.10 seconds (Local executor: 2.12 seconds)
+[2018.11.04-09.57.26:977][416]LogMainFrame: MainFrame: Module compiling took 3.350 seconds
+[2018.11.04-09.57.27:010][416]LogClass: Could not find existing class SGrenadeLauncher in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.57.27:010][416]LogClass: Could not find existing class SWeapon in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.04-09.57.27:010][416]LogClass: Function shakePlayerCamera is new.
+[2018.11.04-09.57.27:010][416]LogClass: Function Fire is new.
+[2018.11.04-09.57.27:016][416]LogHotReload: Re-instancing SGrenadeLauncher after hot-reload.
+[2018.11.04-09.57.27:353][416]LogHotReload: Re-instancing SWeapon after hot-reload.
+[2018.11.04-09.57.27:687][416]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0011 seconds. Added 5 classes and 3 folders.
+[2018.11.04-09.57.27:691][416]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2018.11.04-09.57.27:917][416]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2458 classes and 563 folders.
+[2018.11.04-09.57.27:917][416]Display: HotReload took  4.3s.
+[2018.11.04-09.57.51:810][673]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-09.57.52:330][673]LogSavePackage: Save=10.56ms
+[2018.11.04-09.57.52:330][673]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_RifleF15CA4824867A579B5E0478A4E3C3194.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-09.57.52:333][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-09.57.53:417][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.04-09.57.53:428][763]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.57.57:185][135]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-09.57.57:595][135]LogSavePackage: Save=11.62ms
+[2018.11.04-09.57.57:595][135]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle37E4B3C54A92FEA0712FD58A4A352876.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-09.57.57:599][135]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-09.57.58:688][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.57.59:219][268]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.57.59:244][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.57.59:245][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.57.59:245][268]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:57:59 PM)
+[2018.11.04-09.57.59:245][268]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.57.59:247][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2018.11.04-09.57.59:248][268]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.57.59:248][268]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2018.11.04-09.57.59:248][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003335s)
+[2018.11.04-09.57.59:291][268]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.57.59:298][268]LogInit: FAudioDevice initialized.
+[2018.11.04-09.57.59:330][268]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.57.59:332][268]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.57.59
+[2018.11.04-09.57.59:332][268]LogWorld: Bringing up level for play took: 0.001551
+[2018.11.04-09.57.59:333][268]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.381
+[2018.11.04-09.57.59:334][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.09:389][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.09:425][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.12:082][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.58.13:298][706]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.58.15:383][897]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.04-09.58.15:386][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0b0fa8e0, Size=16
+[2018.11.04-09.58.15:386][897]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019d9de193c0, Size=16, PlayerPawn_C_11 Function /Engine/Transient.REINST_PlayerPawn_C_161:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.58.15:387][897]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019d9de18a10, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.04-09.58.16:241][897]LogSavePackage: Save=14.99ms
+[2018.11.04-09.58.16:241][897]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawn61125C7F4927586518A0D18A65FC52E9.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.04-09.58.16:244][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.04-09.58.29:495][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.58.29:553][372]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.58.29:583][372]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.29:583][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.58.29:584][372]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:58:29 PM)
+[2018.11.04-09.58.29:584][372]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.58.29:586][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002049s)
+[2018.11.04-09.58.29:586][372]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.58.29:587][372]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2018.11.04-09.58.29:587][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003233s)
+[2018.11.04-09.58.29:634][372]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.58.29:641][372]LogInit: FAudioDevice initialized.
+[2018.11.04-09.58.29:676][372]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.58.29:678][372]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.58.29
+[2018.11.04-09.58.29:678][372]LogWorld: Bringing up level for play took: 0.001480
+[2018.11.04-09.58.29:679][372]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.036
+[2018.11.04-09.58.29:680][372]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.38:201][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.38:237][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.38:476][375]Cmd: SELECT NONE
+[2018.11.04-09.58.39:684][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.58.39:800][512]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.58.39:821][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.39:822][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.58.39:822][512]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:58:39 PM)
+[2018.11.04-09.58.39:822][512]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.58.39:824][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002169s)
+[2018.11.04-09.58.39:825][512]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.58.39:825][512]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2018.11.04-09.58.39:825][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003251s)
+[2018.11.04-09.58.39:870][512]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.58.39:877][512]LogInit: FAudioDevice initialized.
+[2018.11.04-09.58.39:908][512]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.58.39:910][512]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.58.39
+[2018.11.04-09.58.39:911][512]LogWorld: Bringing up level for play took: 0.001525
+[2018.11.04-09.58.39:911][512]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.197
+[2018.11.04-09.58.39:912][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.42:420][787]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.42:455][787]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.58.45:387][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.58.47:726][298]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-09.59.08:985][464]BlueprintLog: New page: Compile BP_Grenade_Launcher
+[2018.11.04-09.59.09:433][464]LogSavePackage: Save=11.13ms
+[2018.11.04-09.59.09:433][464]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Grenade_Launcher730F79EB410A0AEA3C06229B28B56262.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset'
+[2018.11.04-09.59.09:436][464]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset
+[2018.11.04-09.59.15:437][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.59.15:529][118]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.59.15:550][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.15:551][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.59.15:552][118]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:59:15 PM)
+[2018.11.04-09.59.15:552][118]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.59.15:556][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003990s)
+[2018.11.04-09.59.15:558][118]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.59.15:558][118]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2018.11.04-09.59.15:558][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006029s)
+[2018.11.04-09.59.15:605][118]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.59.15:612][118]LogInit: FAudioDevice initialized.
+[2018.11.04-09.59.15:645][118]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.59.15:647][118]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.59.15
+[2018.11.04-09.59.15:647][118]LogWorld: Bringing up level for play took: 0.001466
+[2018.11.04-09.59.15:648][118]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.066
+[2018.11.04-09.59.15:648][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.21:372][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.21:412][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.23:049][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.59.24:161][ 38]BlueprintLog: New page: Compile BP_Grenade_Launcher
+[2018.11.04-09.59.24:539][ 38]LogSavePackage: Save=10.66ms
+[2018.11.04-09.59.24:539][ 38]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Grenade_LauncherCDD2132B47EFE331D981E9B0600F1D42.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset'
+[2018.11.04-09.59.24:542][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset
+[2018.11.04-09.59.29:297][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.59.29:395][544]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.59.29:416][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.29:417][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.59.29:417][544]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:59:29 PM)
+[2018.11.04-09.59.29:417][544]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.59.29:420][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002413s)
+[2018.11.04-09.59.29:420][544]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.59.29:421][544]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2018.11.04-09.59.29:421][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003931s)
+[2018.11.04-09.59.29:467][544]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.59.29:474][544]LogInit: FAudioDevice initialized.
+[2018.11.04-09.59.29:507][544]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.59.29:509][544]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.59.29
+[2018.11.04-09.59.29:509][544]LogWorld: Bringing up level for play took: 0.001454
+[2018.11.04-09.59.29:510][544]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.204
+[2018.11.04-09.59.29:510][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.40:903][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.40:940][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.42:360][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.59.44:616][265]BlueprintLog: New page: Compile BP_Grenade_Launcher
+[2018.11.04-09.59.44:978][265]LogSavePackage: Save=10.81ms
+[2018.11.04-09.59.44:978][265]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Grenade_LauncherF7C00EC840DDC2C5EAA95A8310B4D67D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset'
+[2018.11.04-09.59.44:981][265]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Grenade_Launcher.uasset
+[2018.11.04-09.59.46:839][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-09.59.55:678][366]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-09.59.55:699][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.55:700][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-09.59.55:700][366]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 10:59:55 PM)
+[2018.11.04-09.59.55:700][366]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-09.59.55:703][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002331s)
+[2018.11.04-09.59.55:703][366]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-09.59.55:704][366]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2018.11.04-09.59.55:704][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003452s)
+[2018.11.04-09.59.55:748][366]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-09.59.55:756][366]LogInit: FAudioDevice initialized.
+[2018.11.04-09.59.55:787][366]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-09.59.55:789][366]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-03.59.55
+[2018.11.04-09.59.55:789][366]LogWorld: Bringing up level for play took: 0.001461
+[2018.11.04-09.59.55:790][366]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.076
+[2018.11.04-09.59.55:791][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-09.59.57:119][514]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.59.57:489][558]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.59.58:486][677]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.59.59:604][809]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.59.59:786][830]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-09.59.59:976][852]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:162][870]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:310][881]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:487][900]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:654][919]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:806][936]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.00:987][956]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.01:149][974]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.02:116][ 82]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.02:305][103]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.03:310][216]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.04:309][333]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.04:729][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.04:764][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.05:781][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.00.09:752][870]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-10.00.10:127][870]LogSavePackage: Save=10.69ms
+[2018.11.04-10.00.10:127][870]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle1802E2DF48DC12AA389A9C9757B548C2.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-10.00.10:130][870]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-10.00.11:446][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.00.11:542][982]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-10.00.11:563][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.11:564][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-10.00.11:564][982]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 11:00:11 PM)
+[2018.11.04-10.00.11:564][982]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-10.00.11:567][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002156s)
+[2018.11.04-10.00.11:567][982]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-10.00.11:568][982]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2018.11.04-10.00.11:568][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003296s)
+[2018.11.04-10.00.11:610][982]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-10.00.11:617][982]LogInit: FAudioDevice initialized.
+[2018.11.04-10.00.11:648][982]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-10.00.11:650][982]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-04.00.11
+[2018.11.04-10.00.11:650][982]LogWorld: Bringing up level for play took: 0.001503
+[2018.11.04-10.00.11:651][982]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.063
+[2018.11.04-10.00.11:651][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.12:832][110]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.00.13:427][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.13:467][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.14:369][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.00.15:440][347]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-10.00.17:231][499]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.04-10.00.17:234][499]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9de18a10, Size=16
+[2018.11.04-10.00.17:234][499]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e0bea3d50, Size=16, PlayerPawn_C_13 Function /Engine/Transient.REINST_PlayerPawn_C_181:ExecuteUbergraph_PlayerPawn
+[2018.11.04-10.00.17:235][499]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e0bea0980, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.04-10.00.18:193][499]LogSavePackage: Save=14.97ms
+[2018.11.04-10.00.18:193][499]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawn8D4A04B44F8C6A94EDB09FA27A728FAB.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.04-10.00.18:196][499]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.04-10.00.19:338][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.00.19:453][607]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-10.00.19:478][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.19:479][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-10.00.19:479][607]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 11:00:19 PM)
+[2018.11.04-10.00.19:479][607]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-10.00.19:482][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002076s)
+[2018.11.04-10.00.19:482][607]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-10.00.19:482][607]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.11.04-10.00.19:482][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003050s)
+[2018.11.04-10.00.19:525][607]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-10.00.19:532][607]LogInit: FAudioDevice initialized.
+[2018.11.04-10.00.19:564][607]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-10.00.19:566][607]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-04.00.19
+[2018.11.04-10.00.19:566][607]LogWorld: Bringing up level for play took: 0.001455
+[2018.11.04-10.00.19:567][607]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.147
+[2018.11.04-10.00.19:567][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.29:322][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.00.29:361][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.01:107][501]LogSavePackage: Save=116.74ms
+[2018.11.04-10.01.01:107][501]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_Auto4B5FD73914EA13A07B9A1C88292B0F2AD.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2018.11.04-10.01.01:109][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2018.11.04-10.01.01:110][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.160
+[2018.11.04-10.01.01:111][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.160
+[2018.11.04-10.01.02:239][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.01.02:306][506]Candidate modules for hot reload:
+[2018.11.04-10.01.02:306][506]  CoopShooterGame
+[2018.11.04-10.01.02:306][506]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,1415 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.04-10.01.02:310][506]Warning: Starting HotReload took  0.1s.
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: New page: Compilation - Nov 3, 2018, 11:01:04 PM
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: SGrenadeLauncher.cpp
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-1415.dll
+[2018.11.04-10.01.04:846][684]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-1415.lib
+[2018.11.04-10.01.04:846][684]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1415.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1415.exp
+[2018.11.04-10.01.04:847][684]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1415.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-1415.suppressed.exp
+[2018.11.04-10.01.04:847][684]CompilerResultsLog: Total build time: 2.33 seconds (Local executor: 1.32 seconds)
+[2018.11.04-10.01.04:847][684]LogMainFrame: MainFrame: Module compiling took 2.582 seconds
+[2018.11.04-10.01.04:886][684]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2018.11.04-10.01.04:890][684]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.11.04-10.01.05:110][684]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2458 classes and 563 folders.
+[2018.11.04-10.01.05:111][684]Display: HotReload took  2.9s.
+[2018.11.04-10.01.05:763][738]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-10.01.05:785][738]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.05:786][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-10.01.05:786][738]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 11:01:05 PM)
+[2018.11.04-10.01.05:786][738]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-10.01.05:788][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002097s)
+[2018.11.04-10.01.05:789][738]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-10.01.05:789][738]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2018.11.04-10.01.05:789][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003071s)
+[2018.11.04-10.01.05:847][738]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-10.01.05:854][738]LogInit: FAudioDevice initialized.
+[2018.11.04-10.01.05:882][738]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-10.01.05:884][738]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-04.01.05
+[2018.11.04-10.01.05:884][738]LogWorld: Bringing up level for play took: 0.001414
+[2018.11.04-10.01.05:885][738]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.17
+[2018.11.04-10.01.05:885][738]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.10:496][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.10:538][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.12:791][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.01.17:047][853]BlueprintLog: New page: Compile BP_Rifle
+[2018.11.04-10.01.17:454][853]LogSavePackage: Save=10.60ms
+[2018.11.04-10.01.17:454][853]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_Rifle0AF85E8F4B1805E82C9C7E850133B24B.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset'
+[2018.11.04-10.01.17:458][853]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_Rifle.uasset
+[2018.11.04-10.01.19:210][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.01.28:332][ 16]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-10.01.28:354][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.28:355][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-10.01.28:355][ 16]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 11:01:28 PM)
+[2018.11.04-10.01.28:355][ 16]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-10.01.28:358][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002334s)
+[2018.11.04-10.01.28:358][ 16]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-10.01.28:359][ 16]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2018.11.04-10.01.28:359][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003427s)
+[2018.11.04-10.01.28:406][ 16]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-10.01.28:412][ 16]LogInit: FAudioDevice initialized.
+[2018.11.04-10.01.28:442][ 16]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-10.01.28:445][ 16]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-04.01.28
+[2018.11.04-10.01.28:445][ 16]LogWorld: Bringing up level for play took: 0.001519
+[2018.11.04-10.01.28:446][ 16]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.732
+[2018.11.04-10.01.28:447][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.29:860][171]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.29:898][171]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.32:018][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.01.33:393][456]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.04-10.01.35:384][628]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.04-10.01.35:387][628]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0bea0980, Size=16
+[2018.11.04-10.01.35:387][628]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e2f35ac90, Size=16, PlayerPawn_C_15 Function /Engine/Transient.REINST_PlayerPawn_C_193:ExecuteUbergraph_PlayerPawn
+[2018.11.04-10.01.35:389][628]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019e2f35ae40, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.04-10.01.36:561][628]LogSavePackage: Save=15.56ms
+[2018.11.04-10.01.36:561][628]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawnDA9C7BFC457F80E91A39AD89B3655350.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.04-10.01.36:564][628]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.04-10.01.37:869][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.01.38:386][776]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.04-10.01.38:412][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.38:413][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.04-10.01.38:413][776]PIE: New page: PIE session: Minimal_Default (Nov 3, 2018, 11:01:38 PM)
+[2018.11.04-10.01.38:413][776]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.04-10.01.38:415][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002017s)
+[2018.11.04-10.01.38:416][776]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.04-10.01.38:416][776]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2018.11.04-10.01.38:416][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002967s)
+[2018.11.04-10.01.38:463][776]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.04-10.01.38:470][776]LogInit: FAudioDevice initialized.
+[2018.11.04-10.01.38:499][776]LogLoad: Game class is 'GameModeBase'
+[2018.11.04-10.01.38:501][776]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-04.01.38
+[2018.11.04-10.01.38:501][776]LogWorld: Bringing up level for play took: 0.001519
+[2018.11.04-10.01.38:502][776]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.788
+[2018.11.04-10.01.38:503][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.39:816][915]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.40:817][ 28]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.41:822][139]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.42:825][250]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.43:932][372]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.44:940][483]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.45:944][595]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.46:805][690]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.47:942][816]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.48:950][928]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.49:890][ 31]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.50:850][137]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.51:843][246]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.04-10.01.53:353][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.01.53:394][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.04-10.06.12:076][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.06.12:157][118]LogSlate: Window 'BP_Grenade_Launcher' being destroyed
+[2018.11.04-10.06.12:168][118]LogSlate: Window 'BP_Grenade_Launcher' being destroyed
+[2018.11.04-10.06.12:400][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.04-10.06.12:496][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.04-10.06.12:591][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.11.04-10.06.13:437][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.06.13:835][211]LogSavePackage: Save=120.06ms
+[2018.11.04-10.06.13:835][211]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default6F35955D422A173F13976CB213AFF920.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.04-10.06.13:838][211]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.04-10.06.13:900][211]LogSavePackage: Save=19.54ms
+[2018.11.04-10.06.13:901][211]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData7528194C467173D00E058EBFC9D88704.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.04-10.06.13:904][211]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.04-10.06.15:018][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.04-10.06.18:238][666]LogSlate: Window 'CoopShooterGame - Unreal Editor' being destroyed
+[2018.11.04-10.06.18:238][666]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.04-10.06.18:491][667]Cmd: QUIT_EDITOR
+[2018.11.04-10.06.18:594][667]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.04-10.06.18:594][667]LogExit: Preparing to exit.
+[2018.11.04-10.06.18:949][667]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' was aborted.
+[2018.11.04-10.06.19:023][667]LogExit: Editor shut down
+[2018.11.04-10.06.19:047][667]LogExit: Transaction tracking system shut down
+[2018.11.04-10.06.19:048][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d8064f8e0, Size=88
+[2018.11.04-10.06.19:049][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9ddc0fb0, Size=16
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9ddc0790, Size=16
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e46731a80, Size=576
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0ede92f0, Size=4
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0ede92e8, Size=4
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e2f35ae40, Size=16
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0b0fabe0, Size=16
+[2018.11.04-10.06.19:053][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9de193c0, Size=16
+[2018.11.04-10.06.19:054][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019d9de1a870, Size=16
+[2018.11.04-10.06.19:054][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e31a74a70, Size=16
+[2018.11.04-10.06.19:054][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e2f35ac90, Size=16
+[2018.11.04-10.06.19:055][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019e0bea3d50, Size=16
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' was aborted.
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.11.04-10.06.19:185][667]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.11.04-10.06.19:186][667]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.11.04-10.06.19:186][667]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.11.04-10.06.19:294][667]LogExit: Object subsystem successfully closed.
+[2018.11.04-10.06.19:322][667]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.04-10.06.19:328][667]LogD3D11RHI: Shutdown
+[2018.11.04-10.06.19:328][667]LogD3D11RHI: CleanupD3DDevice
+[2018.11.04-10.06.19:334][667]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.04-10.06.19:355][667]LogModuleManager: Shutting down and abandoning module CoopShooterGame (588)
+[2018.11.04-10.06.19:355][667]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (584)
+[2018.11.04-10.06.19:355][667]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (581)
+[2018.11.04-10.06.19:356][667]LogModuleManager: Shutting down and abandoning module BlueprintGraph (579)
+[2018.11.04-10.06.19:356][667]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.11.04-10.06.19:356][667]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2018.11.04-10.06.19:356][667]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.11.04-10.06.19:356][667]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.11.04-10.06.19:356][667]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.11.04-10.06.19:361][667]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.11.04-10.06.19:361][667]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.11.04-10.06.19:361][667]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.11.04-10.06.19:362][667]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Collections/' was aborted.
+[2018.11.04-10.06.19:362][667]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Developers/Tyler/Collections/' was aborted.
+[2018.11.04-10.06.19:362][667]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Collections/' was aborted.
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.11.04-10.06.19:362][667]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.11.04-10.06.19:363][667]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.11.04-10.06.19:929][667]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.11.04-10.06.19:930][667]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.11.04-10.06.19:996][667]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.11.04-10.06.20:001][667]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.11.04-10.06.20:001][667]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.11.04-10.06.20:002][667]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.11.04-10.06.20:143][667]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.11.04-10.06.20:146][667]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.11.04-10.06.20:146][667]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.11.04-10.06.20:146][667]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.11.04-10.06.20:146][667]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.11.04-10.06.20:146][667]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.11.04-10.06.20:147][667]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.11.04-10.06.20:248][667]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.11.04-10.06.20:349][667]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.11.04-10.06.20:350][667]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.11.04-10.06.20:350][667]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.11.04-10.06.20:350][667]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.11.04-10.06.20:350][667]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.11.04-10.06.20:350][667]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Binaries/Win64' was aborted.
+[2018.11.04-10.06.20:351][667]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.11.04-10.06.20:352][667]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.11.04-10.06.20:352][667]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.11.04-10.06.20:352][667]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.11.04-10.06.20:352][667]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.11.04-10.06.21:012][667]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.11.04-10.06.21:012][667]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.11.04-10.06.21:012][667]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.11.04-10.06.21:014][667]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.11.04-10.06.21:020][667]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.11.04-10.06.21:021][667]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.11.04-10.06.21:021][667]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.11.04-10.06.21:021][667]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.11.04-10.06.21:021][667]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.11.04-10.06.21:021][667]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.11.04-10.06.21:022][667]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.11.04-10.06.21:023][667]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.11.04-10.06.21:029][667]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.11.04-10.06.21:071][667]LogDerivedDataCache: Shutdown
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.11.04-10.06.21:071][667]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.11.04-10.06.21:072][667]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.11.04-10.06.21:072][667]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.04-10.06.21:072][667]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6694EAA6-4CA6-9D4E-1613-35AF49908AC0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d145e9f94de4149c1ea6108100dda1c3%7Cd33b2c4c25dc4ec4a929c0fc2b9964ca%7C862a9022-a5df-4122-a053-0ff37dff48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.04-10.06.21:092][667]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.11.04-10.06.21:093][667]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.04-10.06.21:094][667]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.04-10.06.21:099][667]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.04-10.06.21:108][667]LogExit: Exiting.
+[2018.11.04-10.06.21:125][667]Log file closed, 11/04/18 04:06:21
