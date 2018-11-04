@@ -90,6 +90,13 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_baseDamage_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_baseDamage = { UE4CodeGen_Private::EPropertyClass::Float, "baseDamage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASWeapon, baseDamage), METADATA_PARAMS(NewProp_baseDamage_MetaData, ARRAY_COUNT(NewProp_baseDamage_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fireCamShake_MetaData[] = {
 				{ "Category", "Weapon" },
 				{ "ModuleRelativePath", "Public/SWeapon.h" },
@@ -154,6 +161,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASWeapon, meshComponent), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_baseDamage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_fireCamShake,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_tracerTargetName,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_tracerEffect,
@@ -182,7 +190,7 @@ void EmptyLinkFunctionForGeneratedCodeSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 2838532553);
+	IMPLEMENT_CLASS(ASWeapon, 1855372636);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASWeapon(Z_Construct_UClass_ASWeapon, &ASWeapon::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
