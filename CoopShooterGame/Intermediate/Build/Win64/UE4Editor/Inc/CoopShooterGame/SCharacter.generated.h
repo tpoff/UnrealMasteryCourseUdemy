@@ -8,14 +8,50 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class USHealthComponent;
+class UDamageType;
+class AController;
+class AActor;
 #ifdef COOPSHOOTERGAME_SCharacter_generated_h
 #error "SCharacter.generated.h already included, missing '#pragma once' in SCharacter.h"
 #endif
 #define COOPSHOOTERGAME_SCharacter_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_RPC_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execonHealthChanged) \
+	{ \
+		P_GET_OBJECT(USHealthComponent,Z_Param_OwningHealthComponent); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_healthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_damageType); \
+		P_GET_OBJECT(AController,Z_Param_instigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_damageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->onHealthChanged(Z_Param_OwningHealthComponent,Z_Param_health,Z_Param_healthDelta,Z_Param_damageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execonHealthChanged) \
+	{ \
+		P_GET_OBJECT(USHealthComponent,Z_Param_OwningHealthComponent); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_health); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_healthDelta); \
+		P_GET_OBJECT(UDamageType,Z_Param_damageType); \
+		P_GET_OBJECT(AController,Z_Param_instigatedBy); \
+		P_GET_OBJECT(AActor,Z_Param_damageCauser); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->onHealthChanged(Z_Param_OwningHealthComponent,Z_Param_health,Z_Param_healthDelta,Z_Param_damageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
+		P_NATIVE_END; \
+	}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -25,7 +61,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesASCharacter(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASCharacter(); \
@@ -35,7 +71,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASCharacter) \
@@ -48,7 +84,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASCharacter(ASCharacter&&); \
@@ -59,34 +95,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASCharacter)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASCharacter, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__springArmComponent() { return STRUCT_OFFSET(ASCharacter, springArmComponent); } \
 	FORCEINLINE static uint32 __PPO__zoomFieldOfView() { return STRUCT_OFFSET(ASCharacter, zoomFieldOfView); } \
 	FORCEINLINE static uint32 __PPO__zoomSpeed() { return STRUCT_OFFSET(ASCharacter, zoomSpeed); } \
 	FORCEINLINE static uint32 __PPO__starterWeaponClass() { return STRUCT_OFFSET(ASCharacter, starterWeaponClass); } \
-	FORCEINLINE static uint32 __PPO__weaponAttachSocketName() { return STRUCT_OFFSET(ASCharacter, weaponAttachSocketName); }
+	FORCEINLINE static uint32 __PPO__weaponAttachSocketName() { return STRUCT_OFFSET(ASCharacter, weaponAttachSocketName); } \
+	FORCEINLINE static uint32 __PPO__healthComponent() { return STRUCT_OFFSET(ASCharacter, healthComponent); } \
+	FORCEINLINE static uint32 __PPO__bDied() { return STRUCT_OFFSET(ASCharacter, bDied); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_14_PROLOG
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_15_PROLOG
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_17_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

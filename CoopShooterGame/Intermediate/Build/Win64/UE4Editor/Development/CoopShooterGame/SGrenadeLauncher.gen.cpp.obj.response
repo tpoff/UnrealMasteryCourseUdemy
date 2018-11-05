@@ -25,6 +25,7 @@
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
 /I C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source
 /I C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Public
+/I C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Public\Components
 /I C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Inc\CoopShooterGame
 /I C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"

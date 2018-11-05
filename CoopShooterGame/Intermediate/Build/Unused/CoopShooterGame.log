@@ -1,6 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading CoopShooterGameEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Target is up to date
-  Deploying CoopShooterGameEditor Win64 Development...
-  Total build time: 6.40 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-3587.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-3587.pdb".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-9905.dll".
+  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-9905.pdb".
+  Performing 2 actions (9 in parallel)
+  [1/2] Link UE4Editor-CoopShooterGame.dll
+  [2/2] Link UE4Editor-CoopShooterGame.lib
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.exp
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.exp
+  Total build time: 2.08 seconds (Local executor: 0.81 seconds)

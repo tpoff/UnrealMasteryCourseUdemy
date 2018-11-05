@@ -49,6 +49,12 @@
     <Filter Include="Source\CoopShooterGame\Private">
       <UniqueIdentifier>{9e609863-c797-444a-97c3-0e3fb5b54d9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\CoopShooterGame\Public\Components">
+      <UniqueIdentifier>{8fa48f12-3097-4cb9-a475-e361e1d24224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CoopShooterGame\Private\Components">
+      <UniqueIdentifier>{dc1f347e-52c5-453d-a910-5f4b1d5fcb2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SCharacter.h">
@@ -63,6 +69,9 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SGrenadeLauncher.h">
       <Filter>Source\CoopShooterGame\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\Components\SHealthComponent.h">
+      <Filter>Source\CoopShooterGame\Public\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp">
@@ -76,6 +85,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SGrenadeLauncher.cpp">
       <Filter>Source\CoopShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp">
+      <Filter>Source\CoopShooterGame\Private\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

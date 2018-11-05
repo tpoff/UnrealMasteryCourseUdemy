@@ -1,0 +1,1105 @@
+﻿Log file open, 11/04/18 22:27:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CoopShooterGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1485689046) SRandInit(1485689046).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.397315
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.114s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Warning: Incompatible or missing module: UE4Editor-CoopShooterGame.dll
+Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame Development Win64 -project="C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+Creating makefile for CoopShooterGame (no existing makefile)
+@progress push 5%
+Parsing headers for CoopShooterGameEditor
+  Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for CoopShooterGameEditor in 6.4150762 seconds
+@progress pop
+Performing 3 actions (9 in parallel)
+CoopShooterGame.init.gen.cpp
+[2/3] Link UE4Editor-CoopShooterGame.dll
+[3/3] Link UE4Editor-CoopShooterGame.lib
+   Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.exp
+   Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.exp
+Total build time: 12.93 seconds (Local executor: 1.11 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Binaries/Win64/UE4Editor-CoopShooterGame.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-4VFF8DG (192.168.1.93:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.05-04.28.18:049][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-04.28.18:049][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.05-04.28.18:056][  0]LogInit: Computer: DESKTOP-4VFF8DG
+[2018.11.05-04.28.18:056][  0]LogInit: User: Tyler
+[2018.11.05-04.28.18:056][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.11.05-04.28.18:056][  0]LogInit: High frequency timer resolution =3.609373 MHz
+[2018.11.05-04.28.18:057][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.05-04.28.18:057][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.05-04.28.18:057][  0]LogMemory: Process Physical Memory: 280.57 MB used, 280.57 MB peak
+[2018.11.05-04.28.18:057][  0]LogMemory: Process Virtual Memory: 276.22 MB used, 276.22 MB peak
+[2018.11.05-04.28.18:057][  0]LogMemory: Physical Memory: 6504.91 MB used,  9802.43 MB free, 16307.34 MB total
+[2018.11.05-04.28.18:057][  0]LogMemory: Virtual Memory: 4856.27 MB used,  9802.43 MB free, 134217728.00 MB total
+[2018.11.05-04.28.18:073][  0]LogInit: Using OS detected language (en-US).
+[2018.11.05-04.28.18:073][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.05-04.28.18:076][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.05-04.28.18:388][  0]LogStreaming: Display: Took  0.315s to EndInitTextLocalization.
+[2018.11.05-04.28.18:388][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.05-04.28.18:451][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.05-04.28.18:451][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.05-04.28.18:636][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.05-04.28.18:685][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.11.05-04.28.18:685][  0]LogD3D11RHI:       11127/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2018.11.05-04.28.18:687][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.05-04.28.18:687][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.05-04.28.18:687][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.05-04.28.18:693][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.05-04.28.18:693][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.05-04.28.18:693][  0]LogWindows: EnumDisplayDevices:
+[2018.11.05-04.28.18:694][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.11.05-04.28.18:694][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.05-04.28.18:694][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.05-04.28.18:694][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.05-04.28.18:694][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.05-04.28.18:694][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.11.05-04.28.18:694][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.05-04.28.18:694][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.05-04.28.18:694][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.11.05-04.28.18:721][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.11.05-04.28.18:721][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.11.05-04.28.18:721][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.05-04.28.18:737][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.05-04.28.18:941][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Intermediate/Shaders/WorkingDirectory/13224/).
+[2018.11.05-04.28.18:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tyler/AppData/Local/Temp/UnrealShaderWorkingDir/578686F34C7849FEC914C3BD71A5F155/'.
+[2018.11.05-04.28.19:118][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.05-04.28.19:129][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.05-04.28.19:140][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.05-04.28.19:152][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.05-04.28.19:163][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.05-04.28.19:174][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.05-04.28.19:185][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.05-04.28.19:198][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.05-04.28.19:203][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.05-04.28.19:212][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.05-04.28.19:222][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.05-04.28.19:231][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.05-04.28.19:241][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.11.05-04.28.19:251][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.05-04.28.19:260][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.05-04.28.19:281][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.05-04.28.19:281][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.05-04.28.19:290][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.05-04.28.19:292][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.05-04.28.19:326][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.05-04.28.19:336][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.05-04.28.19:346][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.05-04.28.19:355][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.05-04.28.19:365][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.05-04.28.19:375][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.05-04.28.19:375][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.05-04.28.19:482][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.05-04.28.19:482][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.05-04.28.19:482][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.05-04.28.20:020][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.05-04.28.20:084][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.05-04.28.20:096][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.05-04.28.20:109][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.05-04.28.20:109][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.05-04.28.20:109][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.05-04.28.20:117][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.05-04.28.20:118][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.05-04.28.20:118][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.05-04.28.20:118][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.05-04.28.20:229][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.11.05-04.28.20:472][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.05-04.28.20:590][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.05-04.28.20:592][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.05-04.28.20:592][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.05-04.28.20:592][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.05-04.28.20:592][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.11.05-04.28.20:592][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.11.05-04.28.20:644][  0]LogNetVersion: CoopShooterGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4095294733)
+[2018.11.05-04.28.20:993][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.062828 seconds
+[2018.11.05-04.28.20:997][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.11.05-04.28.20:997][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.11.05-04.28.20:997][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.05-04.28.22:311][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.05-04.28.22:341][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.05-04.28.22:709][  0]SourceControl: Source control is disabled
+[2018.11.05-04.28.22:709][  0]SourceControl: Source control is disabled
+[2018.11.05-04.28.22:727][  0]SourceControl: Source control is disabled
+[2018.11.05-04.28.22:744][  0]SourceControl: Source control is disabled
+[2018.11.05-04.28.23:213][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.05-04.28.23:397][  0]LogOcInput: OculusInput pre-init called
+[2018.11.05-04.28.23:497][  0]LogEngine: Initializing Engine...
+[2018.11.05-04.28.23:498][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.05-04.28.23:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-04.28.23:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-04.28.23:704][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.05-04.28.23:735][  0]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.05-04.28.23:747][  0]LogInit: FAudioDevice initialized.
+[2018.11.05-04.28.23:821][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.11.05-04.28.23:833][  0]LogInit: Texture streaming: Enabled
+[2018.11.05-04.28.23:850][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.05-04.28.23:861][  0]LogInit: Transaction tracking system initialized
+[2018.11.05-04.28.23:882][  0]BlueprintLog: New page: Editor Load
+[2018.11.05-04.28.23:950][  0]LocalizationService: Localization service is disabled
+[2018.11.05-04.28.24:061][  0]LogConsoleResponse: Display: 
+[2018.11.05-04.28.24:185][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.05-04.28.24:185][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.05-04.28.24:185][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.05-04.28.24:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.05-04.28.24:185][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.05-04.28.24:533][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' took 0.02s
+[2018.11.05-04.28.24:533][  0]SourceControl: Source control is disabled
+[2018.11.05-04.28.24:533][  0]LightingResults: New page: Lighting Build
+[2018.11.05-04.28.24:536][  0]MapCheck: New page: Map Check
+[2018.11.05-04.28.24:536][  0]LightingResults: New page: Lighting Build
+[2018.11.05-04.28.24:570][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ef5d36fe0, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.05-04.28.24:579][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ef5d36fe0, Size=88
+[2018.11.05-04.28.24:579][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e829b32e0, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_0:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.05-04.28.24:589][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e835138e0, Size=88, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.05-04.28.24:663][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e83585d70, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.28.24:665][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e83585d70, Size=16
+[2018.11.05-04.28.24:665][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e83585d70, Size=16, Default__PlayerPawn_C Function /Engine/Transient.REINST_PlayerPawn_C_3:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.28.24:665][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e83585da0, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.28.24:734][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e82dc1f80, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.05-04.28.24:737][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e82dc1f80, Size=576
+[2018.11.05-04.28.24:737][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e82dc1f80, Size=576, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_9:ExecuteUbergraph_BP_TargetDummy
+[2018.11.05-04.28.24:739][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021e83dd3b00, Size=576, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.05-04.28.24:913][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [3.236019ms] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.11.05-04.28.24:922][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.955464ms] /Game/Weapons/Launcher.Launcher
+[2018.11.05-04.28.25:020][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.05-04.28.25:031][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.05-04.28.25:042][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e829b32e0, Size=88
+[2018.11.05-04.28.25:043][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e83585d70, Size=16
+[2018.11.05-04.28.25:043][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e82dc1f80, Size=576
+[2018.11.05-04.28.25:044][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.05-04.28.25:111][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.066ms to complete.
+[2018.11.05-04.28.25:111][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.578
+[2018.11.05-04.28.25:331][  0]LogCollectionManager: Loaded 0 collections in 0.001582 seconds
+[2018.11.05-04.28.25:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Collections/' took 0.01s
+[2018.11.05-04.28.25:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Developers/Tyler/Collections/' took 0.01s
+[2018.11.05-04.28.25:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Collections/' took 0.01s
+[2018.11.05-04.28.25:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.05-04.28.25:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2457 classes and 561 folders.
+[2018.11.05-04.28.25:415][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.11.05-04.28.25:458][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.11.05-04.28.25:466][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.11.05-04.28.25:520][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.05-04.28.25:522][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.05-04.28.25:527][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.05-04.28.25:598][  0]LogRenderer: Reallocating scene render targets to support 1340x592 Format 10 NumSamples 1 (Frame:1).
+[2018.11.05-04.28.25:729][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.11.05-04.28.25:729][  0]LogLoad: (Engine Initialization) Total time: 27.51 seconds
+[2018.11.05-04.28.25:730][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.05-04.28.25:741][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.05-04.28.25:756][  0]LogAssetRegistry: Asset discovery search completed in 5.5494 seconds
+[2018.11.05-04.28.25:758][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.05-04.28.25:758][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2018.11.05-04.28.25:761][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.05-04.28.25:811][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-04.28.26:791][102]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.05-04.28.27:042][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.28.30:329][486]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2018.11.05-04.28.30:537][486]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ea00edcb0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.11.05-04.28.30:538][486]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ea00edca8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.11.05-04.28.30:848][486]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.05-04.29.05:835][577]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame Win64 Development -editorrecompile "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" -invalidatemakefilesonly
+[2018.11.05-04.29.06:041][577]Invalidating makefiles only in this run.
+[2018.11.05-04.29.06:203][577]Candidate modules for hot reload:
+[2018.11.05-04.29.06:203][577]  CoopShooterGame
+[2018.11.05-04.29.06:203][577]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,360 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:29:19 PM
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Creating makefile for hot reloading CoopShooterGame (no existing makefile)
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.05-04.29.19:937][577]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 6.8254364 seconds
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: SHealthComponent.gen.cpp
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: [4/5] Link UE4Editor-CoopShooterGame-360.dll
+[2018.11.05-04.29.19:937][577]CompilerResultsLog: [5/5] Link UE4Editor-CoopShooterGame-360.lib
+[2018.11.05-04.29.19:937][577]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-360.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-360.exp
+[2018.11.05-04.29.19:938][577]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-360.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-360.suppressed.exp
+[2018.11.05-04.29.19:938][577]CompilerResultsLog: Total build time: 13.59 seconds (Local executor: 1.21 seconds)
+[2018.11.05-04.29.19:938][577]LogMainFrame: MainFrame: Module compiling took 13.767 seconds
+[2018.11.05-04.29.19:966][577]LogClass: Could not find existing class SHealthComponent in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.05-04.29.19:971][577]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 6 classes and 4 folders.
+[2018.11.05-04.29.19:973][577]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.11.05-04.29.20:337][577]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2459 classes and 564 folders.
+[2018.11.05-04.29.20:337][577]Display: HotReload took 14.2s.
+[2018.11.05-04.29.20:339][577]Warning: HotReload operation took 14.2s.
+[2018.11.05-04.29.20:498][577]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/Components/SHealthComponent.h'
+[2018.11.05-04.29.20:501][577]LogVSAccessor: Warning: Couldn't open file 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Private/Components/SHealthComponent.cpp'.
+[2018.11.05-04.29.20:512][577]LogSlate: Window 'Add C++ Class' being destroyed
+[2018.11.05-04.29.20:519][577]LogHotReload: New module detected: UE4Editor-CoopShooterGame-360.dll
+[2018.11.05-04.29.20:556][578]LogHotReload: Starting Hot-Reload from IDE
+[2018.11.05-04.29.20:667][578]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0012 seconds. Added 6 classes and 4 folders.
+[2018.11.05-04.29.20:670][578]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.11.05-04.29.20:886][578]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2459 classes and 564 folders.
+[2018.11.05-04.29.20:920][578]Display: HotReload took  0.4s.
+[2018.11.05-04.31.05:539][ 85]Candidate modules for hot reload:
+[2018.11.05-04.31.05:539][ 85]  CoopShooterGame
+[2018.11.05-04.31.05:539][ 85]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,4481 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.31.05:542][ 85]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.31.08:090][354]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:31:15 PM
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.4928077 seconds
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: SHealthComponent.gen.cpp
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp(10) : error C2065: 'heatlh': undeclared identifier
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp(26) : error C2509: 'TickComponent': member function not declared in 'USHealthComponent'
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Public\Components\SHealthComponent.h(11) : note: see declaration of 'USHealthComponent'
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-4481.dll
+[2018.11.05-04.31.15:004][ 37]CompilerResultsLog: Total build time: 9.30 seconds (Local executor: 0.00 seconds)
+[2018.11.05-04.31.15:004][ 37]LogMainFrame: MainFrame: Module compiling took 9.501 seconds
+[2018.11.05-04.31.15:004][ 37]Warning: HotReload failed, recompile failed
+[2018.11.05-04.31.33:220][689]Candidate modules for hot reload:
+[2018.11.05-04.31.33:220][689]  CoopShooterGame
+[2018.11.05-04.31.33:220][689]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,5545 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.31.33:223][689]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:31:34 PM
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp(26) : error C2509: 'TickComponent': member function not declared in 'USHealthComponent'
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Public\Components\SHealthComponent.h(11) : note: see declaration of 'USHealthComponent'
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-5545.dll
+[2018.11.05-04.31.34:927][859]CompilerResultsLog: Total build time: 1.54 seconds (Local executor: 0.00 seconds)
+[2018.11.05-04.31.34:927][859]LogMainFrame: MainFrame: Module compiling took 1.739 seconds
+[2018.11.05-04.31.34:927][859]Warning: HotReload failed, recompile failed
+[2018.11.05-04.31.43:061][218]Candidate modules for hot reload:
+[2018.11.05-04.31.43:061][218]  CoopShooterGame
+[2018.11.05-04.31.43:061][218]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,9864 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.31.43:064][218]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:31:45 PM
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-9864.dll
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-9864.lib
+[2018.11.05-04.31.45:204][326]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-9864.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-9864.exp
+[2018.11.05-04.31.45:204][326]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-9864.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-9864.suppressed.exp
+[2018.11.05-04.31.45:204][326]CompilerResultsLog: Total build time: 1.97 seconds (Local executor: 1.01 seconds)
+[2018.11.05-04.31.45:204][326]LogMainFrame: MainFrame: Module compiling took 2.177 seconds
+[2018.11.05-04.31.45:254][326]LogClass: Could not find existing class SHealthComponent in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.05-04.31.45:259][326]LogHotReload: Re-instancing SHealthComponent after hot-reload.
+[2018.11.05-04.31.45:327][326]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0012 seconds. Added 6 classes and 4 folders.
+[2018.11.05-04.31.45:330][326]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.11.05-04.31.45:559][326]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2459 classes and 564 folders.
+[2018.11.05-04.31.45:559][326]Display: HotReload took  2.5s.
+[2018.11.05-04.31.51:347][654]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021f04ab02f8, Size=4, Default__SKEL_PlayerPawn_C Function /Game/BluePrints/PlayerPawn.SKEL_PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.34.50:187][514]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.05-04.34.50:188][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021f04ab02f8, Size=4
+[2018.11.05-04.34.50:188][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021f0771edf8, Size=4, Default__SKEL_PlayerPawn_C Function /Engine/Transient.REINST_SKEL_PlayerPawn_C_25:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.34.50:190][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e83585da0, Size=16
+[2018.11.05-04.34.50:190][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ef9dd8c40, Size=16, Default__PlayerPawn_C Function /Engine/Transient.REINST_PlayerPawn_C_27:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.34.50:191][514]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ef9dd8910, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.34.50:465][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021f0771edf8, Size=4
+[2018.11.05-04.34.50:598][514]LogSavePackage: Save=17.43ms
+[2018.11.05-04.34.50:598][514]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/PlayerPawnD46A93B84487C43E4FE288B0410D2F87.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset'
+[2018.11.05-04.34.50:601][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/PlayerPawn.uasset
+[2018.11.05-04.38.41:916][867]LogSavePackage: Save=102.33ms
+[2018.11.05-04.38.41:916][867]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_Auto1BDC481124D6EBEB71C8666890DDE450D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.11.05-04.38.41:918][867]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2018.11.05-04.38.41:920][867]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.161
+[2018.11.05-04.38.41:920][867]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.161
+[2018.11.05-04.46.49:083][329]Candidate modules for hot reload:
+[2018.11.05-04.46.49:083][329]  CoopShooterGame
+[2018.11.05-04.46.49:083][329]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,7829 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.46.49:086][329]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:46:59 PM
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.05-04.46.59:281][514]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.4587541 seconds
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: SHealthComponent.gen.cpp
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: [4/5] Link UE4Editor-CoopShooterGame-7829.dll
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: [5/5] Link UE4Editor-CoopShooterGame-7829.lib
+[2018.11.05-04.46.59:281][514]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-7829.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-7829.exp
+[2018.11.05-04.46.59:281][514]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-7829.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-7829.suppressed.exp
+[2018.11.05-04.46.59:281][514]CompilerResultsLog: ERROR: UnrealBuildTool Exception: In C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp: #include "..\..\Public\Components\SHealthComponent.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2018.11.05-04.46.59:281][514]LogMainFrame: MainFrame: Module compiling took 10.235 seconds
+[2018.11.05-04.46.59:282][514]Warning: HotReload failed, recompile failed
+[2018.11.05-04.47.09:958][765]Candidate modules for hot reload:
+[2018.11.05-04.47.09:959][765]  CoopShooterGame
+[2018.11.05-04.47.09:959][765]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,7180 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.47.09:962][765]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.47.11:758][957]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:47:11 PM
+[2018.11.05-04.47.11:758][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.47.11:758][957]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.47.11:758][957]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2018.11.05-04.47.11:758][957]CompilerResultsLog: ERROR: In C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp: #include "..\..\Public\Components\SHealthComponent.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2018.11.05-04.47.11:758][957]LogMainFrame: MainFrame: Module compiling took 1.832 seconds
+[2018.11.05-04.47.11:759][957]Warning: HotReload failed, recompile failed
+[2018.11.05-04.47.34:526][ 44]Candidate modules for hot reload:
+[2018.11.05-04.47.34:526][ 44]  CoopShooterGame
+[2018.11.05-04.47.34:527][ 44]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,8799 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.47.34:530][ 44]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:47:37 PM
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: SHealthComponent.cpp
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-8799.dll
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-8799.lib
+[2018.11.05-04.47.37:022][320]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8799.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8799.exp
+[2018.11.05-04.47.37:022][320]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8799.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8799.suppressed.exp
+[2018.11.05-04.47.37:022][320]CompilerResultsLog: Total build time: 2.34 seconds (Local executor: 1.32 seconds)
+[2018.11.05-04.47.37:022][320]LogMainFrame: MainFrame: Module compiling took 2.532 seconds
+[2018.11.05-04.47.37:052][320]LogClass: Could not find existing class SHealthComponent in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.05-04.47.37:057][320]LogHotReload: Re-instancing SHealthComponent after hot-reload.
+[2018.11.05-04.47.37:140][320]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 6 classes and 4 folders.
+[2018.11.05-04.47.37:143][320]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.11.05-04.47.37:371][320]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2459 classes and 564 folders.
+[2018.11.05-04.47.37:371][320]Display: HotReload took  2.9s.
+[2018.11.05-04.47.46:821][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.47.52:170][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.47.52:292][421]LogEditor: Attempting to add actor of class 'SCharacter' to level at 600.00,520.00,118.00
+[2018.11.05-04.47.53:174][508]LogEditor: Attempting to add actor of class 'SCharacter' to level at 965.00,120.00,118.00
+[2018.11.05-04.47.58:952][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.47.59:231][139]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/SCharacter.h'
+[2018.11.05-04.47.59:304][139]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Private/SCharacter.cpp'
+[2018.11.05-04.48.02:390][288]LogRenderer: Reallocating scene render targets to support 1340x712 Format 10 NumSamples 1 (Frame:1).
+[2018.11.05-04.48.05:321][584]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.05-04.48.05:343][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.05-04.48.05:343][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.05-04.48.05:345][584]PIE: New page: PIE session: Minimal_Default (Nov 4, 2018, 4:48:05 PM)
+[2018.11.05-04.48.05:345][584]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.05-04.48.05:348][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003431s)
+[2018.11.05-04.48.05:349][584]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.05-04.48.05:349][584]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.11.05-04.48.05:349][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004361s)
+[2018.11.05-04.48.05:445][584]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.05-04.48.05:453][584]LogInit: FAudioDevice initialized.
+[2018.11.05-04.48.05:500][584]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/CoopShooterGame.CoopShooterGameGameMode'
+[2018.11.05-04.48.05:500][584]LogLoad: Game class is 'GameModeBase'
+[2018.11.05-04.48.05:512][584]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.04-22.48.05
+[2018.11.05-04.48.05:519][584]LogWorld: Bringing up level for play took: 0.012870
+[2018.11.05-04.48.05:555][584]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.11.05-04.48.06:041][584]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.485 s
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: 
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1058]
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: Unable to bind delegate to 'handleTakeAnyDamage' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: Stack: 
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000006735B706 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000670BAE3A UE4Editor-Core.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000670CECD6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000C000703E UE4Editor-CoopShooterGame-8799.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,AActor *,float,UDamageType const *,AController *,AActor *>::__Internal_AddDynamic<USHealthComponent>() [c:\program files\epic games\ue_4.19\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1138]
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000C00074DA UE4Editor-CoopShooterGame-8799.dll!USHealthComponent::BeginPlay() [c:\users\tyler\desktop\repository_files\unrealmasterycourseudemy\coopshootergame\source\coopshootergame\private\components\shealthcomponent.cpp:24]
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000063F2A269 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000C000493E UE4Editor-CoopShooterGame-8799.dll!ASCharacter::BeginPlay() [c:\users\tyler\desktop\repository_files\unrealmasterycourseudemy\coopshootergame\source\coopshootergame\private\scharacter.cpp:40]
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000063F372FB UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000651EAE33 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000646AF731 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000651D414E UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000646D443E UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000062A927E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000062AB1246 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000062ACBBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000006253C961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x0000000062DD9626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000003D3B5EAC UE4Editor.exe!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000003D3C6BD0 UE4Editor.exe!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000003D3C6C4A UE4Editor.exe!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000003D3D4177 UE4Editor.exe!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x000000003D3D5B87 UE4Editor.exe!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000CB8E3034 KERNEL32.DLL!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: [Callstack] 0x00000000CC8C1461 ntdll.dll!UnknownFunction []
+[2018.11.05-04.48.06:041][584]LogOutputDevice: Error: 
+[2018.11.05-04.48.06:043][584]LogStats:                SubmitErrorReport -  0.000 s
+[2018.11.05-04.48.06:530][584]LogStats:                    SendNewReport -  0.488 s
+[2018.11.05-04.48.06:530][584]LogStats:             FDebug::EnsureFailed -  0.975 s
+[2018.11.05-04.48.06:534][584]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2018.11.05-04.48.06:534][584]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.344
+[2018.11.05-04.48.06:535][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.05-04.48.08:004][744]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.05-04.48.08:043][744]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.05-04.48.09:994][968]Cmd: TRANSACTION UNDO
+[2018.11.05-04.48.09:994][968]LogEditorTransaction: Undo Rotate Actors
+[2018.11.05-04.48.10:413][999]Cmd: TRANSACTION UNDO
+[2018.11.05-04.48.10:414][999]LogEditorTransaction: Undo Create Actors
+[2018.11.05-04.48.15:613][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.48.15:772][589]LogEditor: Attempting to add actor of class 'SCharacter' to level at 670.00,590.00,118.00
+[2018.11.05-04.48.16:454][652]LogEditor: Attempting to add actor of class 'SCharacter' to level at 985.00,170.00,118.00
+[2018.11.05-04.48.21:164][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.48.50:716][744]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.05-04.49.02:621][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.49.12:510][528]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.05-04.49.13:464][613]LogEditorViewport: Clicking on Actor (LMB): SCharacter (SCharacter3)
+[2018.11.05-04.49.14:769][712]Cmd: DELETE
+[2018.11.05-04.49.14:769][712]Cmd: ACTOR DELETE
+[2018.11.05-04.49.14:776][712]LogEditorActor: Deleted Actor: SCharacter
+[2018.11.05-04.49.14:820][712]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2018.11.05-04.49.16:913][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.49.17:014][934]BlueprintLog: New page: Compile PlayerPawn
+[2018.11.05-04.49.17:018][934]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ef9dd8910, Size=16
+[2018.11.05-04.49.17:018][934]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021f07578fa0, Size=16, PlayerPawn_C_9 Function /Engine/Transient.REINST_PlayerPawn_C_35:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.49.17:019][934]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021f0757b050, Size=16, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.05-04.49.23:745][598]LogEditor: Attempting to add actor of class 'SCharacter' to level at 640.00,695.00,118.00
+[2018.11.05-04.49.24:477][665]LogEditor: Attempting to add actor of class 'SCharacter' to level at 830.00,370.00,118.00
+[2018.11.05-04.49.32:376][391]Cmd: DELETE
+[2018.11.05-04.49.32:376][391]Cmd: ACTOR DELETE
+[2018.11.05-04.49.32:377][391]LogEditorActor: Deleted Actor: SCharacter
+[2018.11.05-04.49.32:434][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021f07578fa0, Size=16
+[2018.11.05-04.49.32:435][391]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2018.11.05-04.49.33:223][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.49.33:517][486]LogSavePackage: Save=95.00ms
+[2018.11.05-04.49.33:517][486]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default5A67D14D47668E3E220E2CA389C44D96.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.05-04.49.33:519][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.05-04.49.33:594][486]LogSavePackage: Save=27.74ms
+[2018.11.05-04.49.33:594][486]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltDataF596DEF8466FCC58460D5E84909A9D28.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.05-04.49.33:595][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.05-04.49.34:176][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.05-04.49.35:840][712]Candidate modules for hot reload:
+[2018.11.05-04.49.35:840][712]  CoopShooterGame
+[2018.11.05-04.49.35:840][712]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,7554 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.05-04.49.35:843][712]Warning: Starting HotReload took  0.0s.
+[2018.11.05-04.49.36:981][812]CompilerResultsLog: New page: Compilation - Nov 4, 2018, 4:49:36 PM
+[2018.11.05-04.49.36:981][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.05-04.49.36:981][812]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.05-04.49.36:981][812]CompilerResultsLog: Target is up to date
+[2018.11.05-04.49.36:981][812]CompilerResultsLog: Total build time: 0.97 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.11.05-04.49.36:981][812]LogMainFrame: MainFrame: Module compiling took 1.175 seconds
+[2018.11.05-04.49.37:195][812]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2459 classes and 564 folders.
+[2018.11.05-04.49.37:195][812]Display: HotReload took  1.4s.
+[2018.11.05-04.49.38:693][958]LogSlate: Window 'PlayerPawn' being destroyed
+[2018.11.05-04.49.38:749][958]LogSlate: Window 'CoopShooterGame - Unreal Editor' being destroyed
+[2018.11.05-04.49.38:750][958]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.05-04.49.38:938][959]Cmd: QUIT_EDITOR
+[2018.11.05-04.49.39:477][959]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.11.05-04.49.39:477][959]LogExit: Preparing to exit.
+[2018.11.05-04.49.39:992][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' was aborted.
+[2018.11.05-04.49.40:024][959]LogExit: Editor shut down
+[2018.11.05-04.49.40:027][959]LogExit: Transaction tracking system shut down
+[2018.11.05-04.49.40:027][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e835138e0, Size=88
+[2018.11.05-04.49.40:028][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ef9dd8c40, Size=16
+[2018.11.05-04.49.40:028][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021e83dd3b00, Size=576
+[2018.11.05-04.49.40:030][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ea00edcb0, Size=4
+[2018.11.05-04.49.40:030][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ea00edca8, Size=4
+[2018.11.05-04.49.40:032][959]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021f0757b050, Size=16
+[2018.11.05-04.49.40:205][959]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.11.05-04.49.40:205][959]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' was aborted.
+[2018.11.05-04.49.40:205][959]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.11.05-04.49.40:205][959]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.11.05-04.49.40:205][959]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.11.05-04.49.40:206][959]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.11.05-04.49.40:206][959]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.11.05-04.49.40:206][959]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.11.05-04.49.40:284][959]LogExit: Object subsystem successfully closed.
+[2018.11.05-04.49.40:304][959]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.11.05-04.49.40:306][959]LogD3D11RHI: Shutdown
+[2018.11.05-04.49.40:306][959]LogD3D11RHI: CleanupD3DDevice
+[2018.11.05-04.49.40:308][959]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (584)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module CoopShooterGame (582)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module BlueprintGraph (578)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module SceneOutliner (574)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
+[2018.11.05-04.49.40:329][959]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module EditorWidgets (568)
+[2018.11.05-04.49.40:329][959]LogModuleManager: Shutting down and abandoning module CollectionManager (566)
+[2018.11.05-04.49.40:329][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Collections/' was aborted.
+[2018.11.05-04.49.40:329][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Developers/Tyler/Collections/' was aborted.
+[2018.11.05-04.49.40:329][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Collections/' was aborted.
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module StatsViewer (564)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module BspMode (548)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SessionServices (502)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
+[2018.11.05-04.49.40:330][959]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module MergeActors (470)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module XmlParser (458)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module Blutility (456)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
+[2018.11.05-04.49.40:689][959]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
+[2018.11.05-04.49.40:690][959]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module AutomationController (436)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module Layers (432)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module Persona (424)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
+[2018.11.05-04.49.40:755][959]LogModuleManager: Shutting down and abandoning module Kismet (418)
+[2018.11.05-04.49.40:762][959]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
+[2018.11.05-04.49.40:762][959]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module Toolbox (412)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module OutputLog (406)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module GammaUI (404)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module Documentation (402)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module MovieScene (398)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module PortalServices (390)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module AIModule (384)
+[2018.11.05-04.49.40:763][959]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
+[2018.11.05-04.49.40:764][959]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
+[2018.11.05-04.49.40:764][959]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module SteamVRController (374)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (372)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module OculusInput (368)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (364)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module CableComponent (362)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module AudioCapture (360)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (358)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module AndroidPermission (356)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
+[2018.11.05-04.49.40:960][959]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module SourceControl (307)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2018.11.05-04.49.40:963][959]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2018.11.05-04.49.41:064][959]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module DataValidation (264)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2018.11.05-04.49.41:164][959]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
+[2018.11.05-04.49.41:167][959]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
+[2018.11.05-04.49.41:167][959]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
+[2018.11.05-04.49.41:167][959]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2018.11.05-04.49.41:168][959]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2018.11.05-04.49.41:168][959]LogDirectoryWatcher: A directory notification for 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Binaries/Win64' was aborted.
+[2018.11.05-04.49.41:169][959]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2018.11.05-04.49.41:169][959]LogModuleManager: Shutting down and abandoning module TreeMap (249)
+[2018.11.05-04.49.41:169][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2018.11.05-04.49.41:169][959]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
+[2018.11.05-04.49.41:169][959]LogModuleManager: Shutting down and abandoning module LiveLink (242)
+[2018.11.05-04.49.41:729][959]LogModuleManager: Shutting down and abandoning module Paper2D (240)
+[2018.11.05-04.49.41:729][959]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
+[2018.11.05-04.49.41:729][959]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
+[2018.11.05-04.49.41:733][959]LogModuleManager: Shutting down and abandoning module Media (235)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module Overlay (224)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
+[2018.11.05-04.49.41:740][959]LogModuleManager: Shutting down and abandoning module VREditor (220)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module UMG (206)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
+[2018.11.05-04.49.41:741][959]LogModuleManager: Shutting down and abandoning module Sequencer (204)
+[2018.11.05-04.49.41:742][959]LogModuleManager: Shutting down and abandoning module MessageLog (201)
+[2018.11.05-04.49.41:742][959]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
+[2018.11.05-04.49.41:742][959]LogModuleManager: Shutting down and abandoning module Slate (194)
+[2018.11.05-04.49.41:742][959]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2018.11.05-04.49.41:745][959]LogModuleManager: Shutting down and abandoning module MRMesh (190)
+[2018.11.05-04.49.41:745][959]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module Networking (182)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module Core (180)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2018.11.05-04.49.41:746][959]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2018.11.05-04.49.41:778][959]LogDerivedDataCache: Shutdown
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2018.11.05-04.49.41:778][959]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2018.11.05-04.49.41:779][959]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2018.11.05-04.49.41:779][959]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.11.05-04.49.41:779][959]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7DF7B288-40EB-13EC-0372-0293F3818736%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d145e9f94de4149c1ea6108100dda1c3%7Cd33b2c4c25dc4ec4a929c0fc2b9964ca%7C862a9022-a5df-4122-a053-0ff37dff48eb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.11.05-04.49.41:792][959]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.11.05-04.49.41:793][959]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.11.05-04.49.41:794][959]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.11.05-04.49.41:802][959]LogExit: Exiting.
+[2018.11.05-04.49.41:816][959]Log file closed, 11/04/18 22:49:41

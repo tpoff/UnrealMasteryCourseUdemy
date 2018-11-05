@@ -8,7 +8,10 @@
 #include "GameFramework/PawnMovementComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include"Components/CapsuleComponent.h"
+#include"../CoopShooterGame.h"
 #include"Particles/ParticleSystemComponent.h"
+#include"../Public/Components/SHealthComponent.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -26,10 +29,18 @@ ASCharacter::ASCharacter()
 
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 
+	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore);
+
 	zoomFieldOfView = 65;
 	zoomSpeed = 20.0f;
 
 	weaponAttachSocketName = "WeaponSocket";
+
+
+
+	healthComponent = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComponent"));
+	healthComponent->onHealthChanged.AddDynamic(this, &ASCharacter::onHealthChanged);
+	bDied = false;
 }
 
 // Called when the game starts or when spawned
@@ -158,5 +169,21 @@ FVector ASCharacter::GetPawnViewLocation() const{
 
 
 	return Super::GetPawnViewLocation();
+}
+
+
+
+
+void ASCharacter::onHealthChanged(USHealthComponent* OwningHealthComponent, float health, float healthDelta, const class UDamageType* damageType, class AController* instigatedBy, AActor* damageCauser) {
+	if (health <= 0 && !bDied) {
+		bDied = true;
+		//die die DIE!
+		GetMovementComponent()->StopMovementImmediately();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		DetachFromControllerPendingDestroy();
+		SetLifeSpan(10.0f);
+
+	}
 }
 
