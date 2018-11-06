@@ -184,6 +184,8 @@ void ASCharacter::onHealthChanged(USHealthComponent* OwningHealthComponent, floa
 		DetachFromControllerPendingDestroy();
 		SetLifeSpan(10.0f);
 
+		currentWeapon->stopFire();
+
 	}
 }
 

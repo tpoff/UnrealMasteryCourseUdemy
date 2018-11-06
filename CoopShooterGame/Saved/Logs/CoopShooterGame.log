@@ -4123,3 +4123,540 @@ LogInit: Object subsystem initialized
 [2018.11.06-02.00.20:814][885]LogSavePackage: Save=30.76ms
 [2018.11.06-02.00.20:814][885]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData46E34225409515531AEF74B37CAD6DA8.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
 [2018.11.06-02.00.20:816][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.06-02.00.47:536][610]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.00.47:559][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.00.47:560][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.00.47:560][610]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:00:47 PM)
+[2018.11.06-02.00.47:560][610]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.00.47:563][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003542s)
+[2018.11.06-02.00.47:564][610]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.00.47:564][610]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2018.11.06-02.00.47:565][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004779s)
+[2018.11.06-02.00.47:614][610]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.00.47:621][610]LogInit: FAudioDevice initialized.
+[2018.11.06-02.00.47:654][610]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.00.47:656][610]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.00.47
+[2018.11.06-02.00.47:657][610]LogWorld: Bringing up level for play took: 0.002129
+[2018.11.06-02.00.47:658][610]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.612
+[2018.11.06-02.00.47:658][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.00.47:704][611]LogTemp: Health Changed: 97.5
+[2018.11.06-02.00.47:704][611]LogTemp: Health Changed: 95.0
+[2018.11.06-02.00.47:704][611]LogTemp: Health Changed: 92.5
+[2018.11.06-02.00.47:751][614]LogTemp: Health Changed: 90.0
+[2018.11.06-02.00.47:784][618]LogTemp: Health Changed: 87.5
+[2018.11.06-02.00.47:834][624]LogTemp: Health Changed: 85.0
+[2018.11.06-02.00.47:884][630]LogTemp: Health Changed: 82.5
+[2018.11.06-02.00.47:934][636]LogTemp: Health Changed: 80.0
+[2018.11.06-02.00.47:984][642]LogTemp: Health Changed: 77.5
+[2018.11.06-02.00.48:036][648]LogTemp: Health Changed: 75.0
+[2018.11.06-02.00.48:085][654]LogTemp: Health Changed: 72.5
+[2018.11.06-02.00.48:134][660]LogTemp: Health Changed: 70.0
+[2018.11.06-02.00.48:184][666]LogTemp: Health Changed: 67.5
+[2018.11.06-02.00.48:234][672]LogTemp: Health Changed: 65.0
+[2018.11.06-02.00.48:285][678]LogTemp: Health Changed: 62.5
+[2018.11.06-02.00.48:334][684]LogTemp: Health Changed: 60.0
+[2018.11.06-02.00.48:384][690]LogTemp: Health Changed: 57.5
+[2018.11.06-02.00.48:435][696]LogTemp: Health Changed: 55.0
+[2018.11.06-02.00.48:484][702]LogTemp: Health Changed: 52.5
+[2018.11.06-02.00.48:534][708]LogTemp: Health Changed: 50.0
+[2018.11.06-02.00.48:584][714]LogTemp: Health Changed: 47.5
+[2018.11.06-02.00.48:634][720]LogTemp: Health Changed: 45.0
+[2018.11.06-02.00.48:685][726]LogTemp: Health Changed: 42.5
+[2018.11.06-02.00.48:735][732]LogTemp: Health Changed: 40.0
+[2018.11.06-02.00.48:785][738]LogTemp: Health Changed: 37.5
+[2018.11.06-02.00.48:835][744]LogTemp: Health Changed: 35.0
+[2018.11.06-02.00.48:884][750]LogTemp: Health Changed: 32.5
+[2018.11.06-02.00.48:934][756]LogTemp: Health Changed: 30.0
+[2018.11.06-02.00.48:984][762]LogTemp: Health Changed: 27.5
+[2018.11.06-02.00.49:034][768]LogTemp: Health Changed: 25.0
+[2018.11.06-02.00.49:084][774]LogTemp: Health Changed: 22.5
+[2018.11.06-02.00.49:134][780]LogTemp: Health Changed: 20.0
+[2018.11.06-02.00.49:184][786]LogTemp: Health Changed: 17.5
+[2018.11.06-02.00.49:235][792]LogTemp: Health Changed: 15.0
+[2018.11.06-02.00.49:285][798]LogTemp: Health Changed: 12.5
+[2018.11.06-02.00.49:326][803]LogTemp: Health Changed: 20.0
+[2018.11.06-02.00.49:335][804]LogTemp: Health Changed: 10.0
+[2018.11.06-02.00.49:384][810]LogTemp: Health Changed: 7.5
+[2018.11.06-02.00.49:417][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 6.78577
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 41.299126
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 10.249083
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:418][814]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:434][816]LogTemp: Health Changed: 4.28577
+[2018.11.06-02.00.49:485][822]LogTemp: Health Changed: 1.78577
+[2018.11.06-02.00.49:535][828]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:617][838]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:718][850]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:818][862]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.49:918][874]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.50:018][886]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.50:118][898]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.50:218][910]LogTemp: Health Changed: 0.0
+[2018.11.06-02.00.53:343][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.00.53:381][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.00.55:402][516]LogEditorViewport: Clicking on Actor (LMB): BP_ExplosiveBarrel_C (BP_ExplosiveBarrel)
+[2018.11.06-02.01.00:430][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.01.00:546][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.01.00:567][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.01.00:567][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.01.00:567][ 83]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:01:00 PM)
+[2018.11.06-02.01.00:567][ 83]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.01.00:570][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
+[2018.11.06-02.01.00:571][ 83]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.01.00:571][ 83]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.11.06-02.01.00:571][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004195s)
+[2018.11.06-02.01.00:619][ 83]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.01.00:627][ 83]LogInit: FAudioDevice initialized.
+[2018.11.06-02.01.00:661][ 83]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.01.00:664][ 83]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.01.00
+[2018.11.06-02.01.00:664][ 83]LogWorld: Bringing up level for play took: 0.002151
+[2018.11.06-02.01.00:665][ 83]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.395
+[2018.11.06-02.01.00:666][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.01.00:697][ 84]LogTemp: Health Changed: 97.5
+[2018.11.06-02.01.00:697][ 84]LogTemp: Health Changed: 95.0
+[2018.11.06-02.01.00:705][ 85]LogTemp: Health Changed: 92.5
+[2018.11.06-02.01.00:755][ 91]LogTemp: Health Changed: 90.0
+[2018.11.06-02.01.00:805][ 97]LogTemp: Health Changed: 87.5
+[2018.11.06-02.01.00:855][103]LogTemp: Health Changed: 85.0
+[2018.11.06-02.01.00:905][109]LogTemp: Health Changed: 82.5
+[2018.11.06-02.01.00:955][115]LogTemp: Health Changed: 80.0
+[2018.11.06-02.01.01:005][121]LogTemp: Health Changed: 77.5
+[2018.11.06-02.01.01:056][127]LogTemp: Health Changed: 75.0
+[2018.11.06-02.01.01:106][133]LogTemp: Health Changed: 72.5
+[2018.11.06-02.01.01:155][139]LogTemp: Health Changed: 70.0
+[2018.11.06-02.01.01:197][144]LogTemp: Health Changed: 67.5
+[2018.11.06-02.01.01:247][150]LogTemp: Health Changed: 65.0
+[2018.11.06-02.01.01:297][156]LogTemp: Health Changed: 62.5
+[2018.11.06-02.01.01:347][162]LogTemp: Health Changed: 60.0
+[2018.11.06-02.01.01:397][168]LogTemp: Health Changed: 57.5
+[2018.11.06-02.01.01:447][174]LogTemp: Health Changed: 55.0
+[2018.11.06-02.01.01:497][180]LogTemp: Health Changed: 52.5
+[2018.11.06-02.01.01:547][186]LogTemp: Health Changed: 50.0
+[2018.11.06-02.01.01:597][192]LogTemp: Health Changed: 47.5
+[2018.11.06-02.01.01:647][198]LogTemp: Health Changed: 45.0
+[2018.11.06-02.01.01:697][204]LogTemp: Health Changed: 42.5
+[2018.11.06-02.01.01:747][210]LogTemp: Health Changed: 40.0
+[2018.11.06-02.01.01:797][216]LogTemp: Health Changed: 37.5
+[2018.11.06-02.01.01:847][222]LogTemp: Health Changed: 35.0
+[2018.11.06-02.01.01:897][228]LogTemp: Health Changed: 32.5
+[2018.11.06-02.01.01:947][234]LogTemp: Health Changed: 30.0
+[2018.11.06-02.01.01:997][240]LogTemp: Health Changed: 27.5
+[2018.11.06-02.01.02:047][246]LogTemp: Health Changed: 25.0
+[2018.11.06-02.01.02:097][252]LogTemp: Health Changed: 22.5
+[2018.11.06-02.01.02:147][258]LogTemp: Health Changed: 20.0
+[2018.11.06-02.01.02:197][264]LogTemp: Health Changed: 17.5
+[2018.11.06-02.01.02:247][270]LogTemp: Health Changed: 15.0
+[2018.11.06-02.01.02:297][276]LogTemp: Health Changed: 12.5
+[2018.11.06-02.01.02:347][282]LogTemp: Health Changed: 10.0
+[2018.11.06-02.01.02:398][288]LogTemp: Health Changed: 7.5
+[2018.11.06-02.01.02:447][294]LogTemp: Health Changed: 5.0
+[2018.11.06-02.01.02:497][300]LogTemp: Health Changed: 2.5
+[2018.11.06-02.01.02:547][306]LogTemp: Health Changed: 0.0
+[2018.11.06-02.01.05:815][696]LogTemp: Health Changed: 20.0
+[2018.11.06-02.01.05:907][707]LogTemp: Health Changed: 0.0
+[2018.11.06-02.01.05:909][707]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.06-02.01.05:909][707]LogTemp: Health Changed: 0.0
+[2018.11.06-02.01.06:008][719]LogTemp: Health Changed: 0.0
+[2018.11.06-02.01.07:117][852]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.01.07:155][852]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.01.09:380][114]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2018.11.06-02.01.13:573][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.01.23:183][744]LogEditorViewport: Clicking on Actor (LMB): BP_ExplosiveBarrel_C (BP_ExplosiveBarrel)
+[2018.11.06-02.01.32:286][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.01.59:394][ 32]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn2)
+[2018.11.06-02.02.03:081][432]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2018.11.06-02.02.08:652][ 82]LogEditorViewport: Clicking on Actor (LMB): BP_ExplosiveBarrel_C (BP_ExplosiveBarrel)
+[2018.11.06-02.02.14:906][814]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.06-02.02.37:447][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.11.06-02.02.38:045][537]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2018.11.06-02.02.47:616][667]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.06-02.02.53:466][359]LogEditorViewport: Clicking on Actor (LMB): BP_ExplosiveBarrel_C (BP_ExplosiveBarrel)
+[2018.11.06-02.03.12:043][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.03.12:122][398]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.03.12:145][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.03.12:145][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.03.12:145][398]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:03:12 PM)
+[2018.11.06-02.03.12:145][398]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.03.12:149][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003455s)
+[2018.11.06-02.03.12:149][398]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.03.12:150][398]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2018.11.06-02.03.12:150][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004289s)
+[2018.11.06-02.03.12:197][398]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.03.12:204][398]LogInit: FAudioDevice initialized.
+[2018.11.06-02.03.12:234][398]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.03.12:237][398]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.03.12
+[2018.11.06-02.03.12:237][398]LogWorld: Bringing up level for play took: 0.002190
+[2018.11.06-02.03.12:239][398]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.031
+[2018.11.06-02.03.12:239][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.03.12:270][399]LogTemp: Health Changed: 97.5
+[2018.11.06-02.03.12:270][399]LogTemp: Health Changed: 95.0
+[2018.11.06-02.03.12:278][400]LogTemp: Health Changed: 92.5
+[2018.11.06-02.03.12:328][406]LogTemp: Health Changed: 90.0
+[2018.11.06-02.03.12:377][412]LogTemp: Health Changed: 87.5
+[2018.11.06-02.03.12:427][418]LogTemp: Health Changed: 85.0
+[2018.11.06-02.03.12:479][424]LogTemp: Health Changed: 82.5
+[2018.11.06-02.03.12:527][430]LogTemp: Health Changed: 80.0
+[2018.11.06-02.03.12:578][436]LogTemp: Health Changed: 77.5
+[2018.11.06-02.03.12:627][442]LogTemp: Health Changed: 75.0
+[2018.11.06-02.03.12:678][448]LogTemp: Health Changed: 72.5
+[2018.11.06-02.03.12:728][454]LogTemp: Health Changed: 70.0
+[2018.11.06-02.03.12:778][460]LogTemp: Health Changed: 67.5
+[2018.11.06-02.03.12:827][466]LogTemp: Health Changed: 65.0
+[2018.11.06-02.03.12:877][472]LogTemp: Health Changed: 62.5
+[2018.11.06-02.03.12:927][478]LogTemp: Health Changed: 60.0
+[2018.11.06-02.03.12:977][484]LogTemp: Health Changed: 57.5
+[2018.11.06-02.03.13:027][490]LogTemp: Health Changed: 55.0
+[2018.11.06-02.03.13:078][496]LogTemp: Health Changed: 52.5
+[2018.11.06-02.03.13:128][502]LogTemp: Health Changed: 50.0
+[2018.11.06-02.03.13:178][508]LogTemp: Health Changed: 47.5
+[2018.11.06-02.03.13:227][514]LogTemp: Health Changed: 45.0
+[2018.11.06-02.03.13:277][520]LogTemp: Health Changed: 42.5
+[2018.11.06-02.03.13:327][526]LogTemp: Health Changed: 40.0
+[2018.11.06-02.03.13:377][532]LogTemp: Health Changed: 37.5
+[2018.11.06-02.03.13:427][538]LogTemp: Health Changed: 35.0
+[2018.11.06-02.03.13:478][544]LogTemp: Health Changed: 32.5
+[2018.11.06-02.03.13:527][550]LogTemp: Health Changed: 30.0
+[2018.11.06-02.03.13:577][556]LogTemp: Health Changed: 27.5
+[2018.11.06-02.03.13:628][562]LogTemp: Health Changed: 25.0
+[2018.11.06-02.03.13:678][568]LogTemp: Health Changed: 22.5
+[2018.11.06-02.03.13:728][574]LogTemp: Health Changed: 20.0
+[2018.11.06-02.03.13:777][580]LogTemp: Health Changed: 17.5
+[2018.11.06-02.03.13:827][586]LogTemp: Health Changed: 15.0
+[2018.11.06-02.03.13:878][592]LogTemp: Health Changed: 12.5
+[2018.11.06-02.03.13:928][598]LogTemp: Health Changed: 10.0
+[2018.11.06-02.03.13:977][604]LogTemp: Health Changed: 7.5
+[2018.11.06-02.03.14:028][610]LogTemp: Health Changed: 5.0
+[2018.11.06-02.03.14:078][616]LogTemp: Health Changed: 2.5
+[2018.11.06-02.03.14:128][622]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.15:694][810]LogTemp: Health Changed: 20.0
+[2018.11.06-02.03.16:252][877]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.16:252][877]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.06-02.03.16:252][877]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.18:970][202]LogTemp: Health Changed: 20.0
+[2018.11.06-02.03.19:062][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 45.999107
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 5.944122
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:063][213]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:262][237]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:362][249]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:462][261]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:562][273]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:663][285]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:761][297]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.19:862][309]LogTemp: Health Changed: 0.0
+[2018.11.06-02.03.21:490][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.03.21:525][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.03.34:780][972]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.06-02.04.05:206][614]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2018.11.06-02.06.13:494][680]LogEditorViewport: Clicking on Actor (LMB): PainCausingVolume (PainCausingVolume)
+[2018.11.06-02.06.25:187][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.06.25:291][593]LogActorFactory: Actor Factory created Cube
+[2018.11.06-02.06.26:249][661]LogActorFactory: Actor Factory created Cube
+[2018.11.06-02.06.31:823][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.06.45:895][175]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.06.45:918][175]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.45:918][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.06.45:918][175]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:06:45 PM)
+[2018.11.06-02.06.45:918][175]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.06.45:922][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003283s)
+[2018.11.06-02.06.45:922][175]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.06.45:922][175]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2018.11.06-02.06.45:923][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004249s)
+[2018.11.06-02.06.45:973][175]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.06.45:981][175]LogInit: FAudioDevice initialized.
+[2018.11.06-02.06.46:013][175]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.06.46:016][175]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.06.46
+[2018.11.06-02.06.46:016][175]LogWorld: Bringing up level for play took: 0.002361
+[2018.11.06-02.06.46:018][175]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.252
+[2018.11.06-02.06.46:018][175]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.46:057][176]LogTemp: Health Changed: 97.5
+[2018.11.06-02.06.46:057][176]LogTemp: Health Changed: 95.0
+[2018.11.06-02.06.46:057][176]LogTemp: Health Changed: 92.5
+[2018.11.06-02.06.46:105][180]LogTemp: Health Changed: 90.0
+[2018.11.06-02.06.46:150][184]LogTemp: Health Changed: 87.5
+[2018.11.06-02.06.46:205][189]LogTemp: Health Changed: 85.0
+[2018.11.06-02.06.46:249][193]LogTemp: Health Changed: 82.5
+[2018.11.06-02.06.46:298][197]LogTemp: Health Changed: 80.0
+[2018.11.06-02.06.46:354][202]LogTemp: Health Changed: 77.5
+[2018.11.06-02.06.46:399][206]LogTemp: Health Changed: 75.0
+[2018.11.06-02.06.46:454][211]LogTemp: Health Changed: 72.5
+[2018.11.06-02.06.46:499][215]LogTemp: Health Changed: 70.0
+[2018.11.06-02.06.46:553][220]LogTemp: Health Changed: 67.5
+[2018.11.06-02.06.46:609][225]LogTemp: Health Changed: 65.0
+[2018.11.06-02.06.46:652][229]LogTemp: Health Changed: 62.5
+[2018.11.06-02.06.46:705][234]LogTemp: Health Changed: 60.0
+[2018.11.06-02.06.46:749][238]LogTemp: Health Changed: 57.5
+[2018.11.06-02.06.46:803][243]LogTemp: Health Changed: 55.0
+[2018.11.06-02.06.46:857][248]LogTemp: Health Changed: 52.5
+[2018.11.06-02.06.46:900][252]LogTemp: Health Changed: 50.0
+[2018.11.06-02.06.46:955][257]LogTemp: Health Changed: 47.5
+[2018.11.06-02.06.46:998][261]LogTemp: Health Changed: 45.0
+[2018.11.06-02.06.47:059][266]LogTemp: Health Changed: 42.5
+[2018.11.06-02.06.47:104][270]LogTemp: Health Changed: 40.0
+[2018.11.06-02.06.47:148][274]LogTemp: Health Changed: 37.5
+[2018.11.06-02.06.47:202][279]LogTemp: Health Changed: 35.0
+[2018.11.06-02.06.47:257][284]LogTemp: Health Changed: 32.5
+[2018.11.06-02.06.47:301][288]LogTemp: Health Changed: 30.0
+[2018.11.06-02.06.47:356][293]LogTemp: Health Changed: 27.5
+[2018.11.06-02.06.47:399][297]LogTemp: Health Changed: 25.0
+[2018.11.06-02.06.47:455][302]LogTemp: Health Changed: 22.5
+[2018.11.06-02.06.47:501][306]LogTemp: Health Changed: 20.0
+[2018.11.06-02.06.47:557][311]LogTemp: Health Changed: 17.5
+[2018.11.06-02.06.47:602][315]LogTemp: Health Changed: 15.0
+[2018.11.06-02.06.47:656][320]LogTemp: Health Changed: 12.5
+[2018.11.06-02.06.47:701][324]LogTemp: Health Changed: 10.0
+[2018.11.06-02.06.47:756][329]LogTemp: Health Changed: 7.5
+[2018.11.06-02.06.47:800][333]LogTemp: Health Changed: 5.0
+[2018.11.06-02.06.47:856][338]LogTemp: Health Changed: 2.5
+[2018.11.06-02.06.47:898][342]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:241][466]LogTemp: Health Changed: 20.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 5.944176
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:337][475]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.49:435][484]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.50:744][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.50:785][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.52:276][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.11.06-02.06.54:882][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.06.55:014][930]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.06.55:034][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.55:034][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.06.55:035][930]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:06:55 PM)
+[2018.11.06-02.06.55:035][930]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.06.55:038][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002963s)
+[2018.11.06-02.06.55:038][930]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.06.55:038][930]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2018.11.06-02.06.55:038][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003756s)
+[2018.11.06-02.06.55:090][930]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.06.55:097][930]LogInit: FAudioDevice initialized.
+[2018.11.06-02.06.55:130][930]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.06.55:133][930]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.06.55
+[2018.11.06-02.06.55:133][930]LogWorld: Bringing up level for play took: 0.002195
+[2018.11.06-02.06.55:135][930]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.865
+[2018.11.06-02.06.55:135][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.55:172][931]LogTemp: Health Changed: 97.5
+[2018.11.06-02.06.55:172][931]LogTemp: Health Changed: 95.0
+[2018.11.06-02.06.55:172][931]LogTemp: Health Changed: 92.5
+[2018.11.06-02.06.55:217][935]LogTemp: Health Changed: 90.0
+[2018.11.06-02.06.55:274][940]LogTemp: Health Changed: 87.5
+[2018.11.06-02.06.55:317][944]LogTemp: Health Changed: 85.0
+[2018.11.06-02.06.55:371][949]LogTemp: Health Changed: 82.5
+[2018.11.06-02.06.55:425][954]LogTemp: Health Changed: 80.0
+[2018.11.06-02.06.55:470][958]LogTemp: Health Changed: 77.5
+[2018.11.06-02.06.55:515][962]LogTemp: Health Changed: 75.0
+[2018.11.06-02.06.55:572][967]LogTemp: Health Changed: 72.5
+[2018.11.06-02.06.55:617][971]LogTemp: Health Changed: 70.0
+[2018.11.06-02.06.55:670][976]LogTemp: Health Changed: 67.5
+[2018.11.06-02.06.55:724][981]LogTemp: Health Changed: 65.0
+[2018.11.06-02.06.55:768][985]LogTemp: Health Changed: 62.5
+[2018.11.06-02.06.55:825][990]LogTemp: Health Changed: 60.0
+[2018.11.06-02.06.55:868][994]LogTemp: Health Changed: 57.5
+[2018.11.06-02.06.55:921][999]LogTemp: Health Changed: 55.0
+[2018.11.06-02.06.55:965][  3]LogTemp: Health Changed: 52.5
+[2018.11.06-02.06.56:019][  8]LogTemp: Health Changed: 50.0
+[2018.11.06-02.06.56:075][ 13]LogTemp: Health Changed: 47.5
+[2018.11.06-02.06.56:120][ 17]LogTemp: Health Changed: 45.0
+[2018.11.06-02.06.56:172][ 21]LogTemp: Health Changed: 42.5
+[2018.11.06-02.06.56:217][ 25]LogTemp: Health Changed: 40.0
+[2018.11.06-02.06.56:272][ 30]LogTemp: Health Changed: 37.5
+[2018.11.06-02.06.56:326][ 35]LogTemp: Health Changed: 35.0
+[2018.11.06-02.06.56:370][ 39]LogTemp: Health Changed: 32.5
+[2018.11.06-02.06.56:424][ 44]LogTemp: Health Changed: 30.0
+[2018.11.06-02.06.56:468][ 48]LogTemp: Health Changed: 27.5
+[2018.11.06-02.06.56:522][ 53]LogTemp: Health Changed: 25.0
+[2018.11.06-02.06.56:566][ 57]LogTemp: Health Changed: 22.5
+[2018.11.06-02.06.56:625][ 62]LogTemp: Health Changed: 20.0
+[2018.11.06-02.06.56:670][ 66]LogTemp: Health Changed: 17.5
+[2018.11.06-02.06.56:716][ 70]LogTemp: Health Changed: 15.0
+[2018.11.06-02.06.56:772][ 75]LogTemp: Health Changed: 12.5
+[2018.11.06-02.06.56:815][ 79]LogTemp: Health Changed: 10.0
+[2018.11.06-02.06.56:871][ 84]LogTemp: Health Changed: 7.5
+[2018.11.06-02.06.56:915][ 88]LogTemp: Health Changed: 5.0
+[2018.11.06-02.06.56:969][ 93]LogTemp: Health Changed: 2.5
+[2018.11.06-02.06.57:022][ 98]LogTemp: Health Changed: 0.0
+[2018.11.06-02.06.58:671][249]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.06.58:709][249]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.07.00:319][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.07.00:470][380]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.07.00:492][380]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.07.00:492][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.07.00:492][380]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:07:00 PM)
+[2018.11.06-02.07.00:492][380]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.07.00:495][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002814s)
+[2018.11.06-02.07.00:496][380]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.07.00:496][380]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.11.06-02.07.00:496][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003638s)
+[2018.11.06-02.07.00:548][380]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.07.00:555][380]LogInit: FAudioDevice initialized.
+[2018.11.06-02.07.00:588][380]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.07.00:591][380]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.07.00
+[2018.11.06-02.07.00:591][380]LogWorld: Bringing up level for play took: 0.002079
+[2018.11.06-02.07.00:592][380]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.323
+[2018.11.06-02.07.00:593][380]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.07.00:635][381]LogTemp: Health Changed: 97.5
+[2018.11.06-02.07.00:635][381]LogTemp: Health Changed: 95.0
+[2018.11.06-02.07.00:635][381]LogTemp: Health Changed: 92.5
+[2018.11.06-02.07.00:672][384]LogTemp: Health Changed: 90.0
+[2018.11.06-02.07.00:728][389]LogTemp: Health Changed: 87.5
+[2018.11.06-02.07.00:774][393]LogTemp: Health Changed: 85.0
+[2018.11.06-02.07.00:828][398]LogTemp: Health Changed: 82.5
+[2018.11.06-02.07.00:871][402]LogTemp: Health Changed: 80.0
+[2018.11.06-02.07.00:926][407]LogTemp: Health Changed: 77.5
+[2018.11.06-02.07.00:972][411]LogTemp: Health Changed: 75.0
+[2018.11.06-02.07.01:027][416]LogTemp: Health Changed: 72.5
+[2018.11.06-02.07.01:071][420]LogTemp: Health Changed: 70.0
+[2018.11.06-02.07.01:127][425]LogTemp: Health Changed: 67.5
+[2018.11.06-02.07.01:171][429]LogTemp: Health Changed: 65.0
+[2018.11.06-02.07.01:227][434]LogTemp: Health Changed: 62.5
+[2018.11.06-02.07.01:279][438]LogTemp: Health Changed: 60.0
+[2018.11.06-02.07.01:325][442]LogTemp: Health Changed: 57.5
+[2018.11.06-02.07.01:382][447]LogTemp: Health Changed: 55.0
+[2018.11.06-02.07.01:427][451]LogTemp: Health Changed: 52.5
+[2018.11.06-02.07.01:472][455]LogTemp: Health Changed: 50.0
+[2018.11.06-02.07.01:528][460]LogTemp: Health Changed: 47.5
+[2018.11.06-02.07.01:573][464]LogTemp: Health Changed: 45.0
+[2018.11.06-02.07.01:623][468]LogTemp: Health Changed: 42.5
+[2018.11.06-02.07.01:673][472]LogTemp: Health Changed: 40.0
+[2018.11.06-02.07.01:728][477]LogTemp: Health Changed: 37.5
+[2018.11.06-02.07.01:773][481]LogTemp: Health Changed: 35.0
+[2018.11.06-02.07.01:827][486]LogTemp: Health Changed: 32.5
+[2018.11.06-02.07.01:872][490]LogTemp: Health Changed: 30.0
+[2018.11.06-02.07.01:928][495]LogTemp: Health Changed: 27.5
+[2018.11.06-02.07.01:973][499]LogTemp: Health Changed: 25.0
+[2018.11.06-02.07.02:029][504]LogTemp: Health Changed: 22.5
+[2018.11.06-02.07.02:075][508]LogTemp: Health Changed: 20.0
+[2018.11.06-02.07.02:129][513]LogTemp: Health Changed: 17.5
+[2018.11.06-02.07.02:173][517]LogTemp: Health Changed: 15.0
+[2018.11.06-02.07.02:230][522]LogTemp: Health Changed: 12.5
+[2018.11.06-02.07.02:274][526]LogTemp: Health Changed: 10.0
+[2018.11.06-02.07.02:326][531]LogTemp: Health Changed: 7.5
+[2018.11.06-02.07.02:372][535]LogTemp: Health Changed: 5.0
+[2018.11.06-02.07.02:427][540]LogTemp: Health Changed: 2.5
+[2018.11.06-02.07.02:482][545]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:144][606]LogTemp: Health Changed: 20.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 5.944111
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:243][615]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.03:342][624]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.04:706][747]LogTemp: Health Changed: 20.0
+[2018.11.06-02.07.04:804][756]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.04:804][756]LogBlueprintUserMessages: [BP_TargetDummy_68] WE GOT HIT
+[2018.11.06-02.07.04:804][756]LogTemp: Health Changed: 0.0
+[2018.11.06-02.07.04:804][756]LogTemp: Health Changed: 86.346283
+[2018.11.06-02.07.06:401][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.07.06:439][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.08.04:288][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.06-02.08.04:330][864]Candidate modules for hot reload:
+[2018.11.06-02.08.04:330][864]  CoopShooterGame
+[2018.11.06-02.08.04:330][864]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,8870 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.06-02.08.04:334][864]Warning: Starting HotReload took  0.0s.
+[2018.11.06-02.08.09:282][236]CompilerResultsLog: New page: Compilation - Nov 5, 2018, 2:08:09 PM
+[2018.11.06-02.08.09:282][236]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.06-02.08.09:282][236]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.06-02.08.09:283][236]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.06-02.08.09:283][236]CompilerResultsLog: SCharacter.cpp
+[2018.11.06-02.08.09:283][236]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-8870.dll
+[2018.11.06-02.08.09:283][236]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-8870.lib
+[2018.11.06-02.08.09:283][236]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8870.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8870.exp
+[2018.11.06-02.08.09:283][236]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8870.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-8870.suppressed.exp
+[2018.11.06-02.08.09:283][236]CompilerResultsLog: Total build time: 4.77 seconds (Local executor: 3.63 seconds)
+[2018.11.06-02.08.09:283][236]LogMainFrame: MainFrame: Module compiling took 4.987 seconds
+[2018.11.06-02.08.09:332][236]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 7 classes and 4 folders.
+[2018.11.06-02.08.09:337][236]Display: HotReload successful (7 functions remapped  0 scriptstructs remapped)
+[2018.11.06-02.08.09:592][236]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2469 classes and 571 folders.
+[2018.11.06-02.08.09:592][236]Display: HotReload took  5.3s.
+[2018.11.06-02.08.10:273][291]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.06-02.08.10:295][291]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.08.10:295][291]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.06-02.08.10:296][291]PIE: New page: PIE session: Minimal_Default (Nov 5, 2018, 2:08:10 PM)
+[2018.11.06-02.08.10:296][291]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.06-02.08.10:299][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002861s)
+[2018.11.06-02.08.10:299][291]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.06-02.08.10:299][291]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2018.11.06-02.08.10:299][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003639s)
+[2018.11.06-02.08.10:360][291]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.06-02.08.10:367][291]LogInit: FAudioDevice initialized.
+[2018.11.06-02.08.10:400][291]LogLoad: Game class is 'GameModeBase'
+[2018.11.06-02.08.10:402][291]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.05-20.08.10
+[2018.11.06-02.08.10:403][291]LogWorld: Bringing up level for play took: 0.002206
+[2018.11.06-02.08.10:404][291]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.134
+[2018.11.06-02.08.10:404][291]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.08.10:444][292]LogTemp: Health Changed: 97.5
+[2018.11.06-02.08.10:444][292]LogTemp: Health Changed: 95.0
+[2018.11.06-02.08.10:444][292]LogTemp: Health Changed: 92.5
+[2018.11.06-02.08.10:479][295]LogTemp: Health Changed: 90.0
+[2018.11.06-02.08.10:530][299]LogTemp: Health Changed: 87.5
+[2018.11.06-02.08.10:581][303]LogTemp: Health Changed: 85.0
+[2018.11.06-02.08.10:626][307]LogTemp: Health Changed: 82.5
+[2018.11.06-02.08.10:686][312]LogTemp: Health Changed: 80.0
+[2018.11.06-02.08.10:735][316]LogTemp: Health Changed: 77.5
+[2018.11.06-02.08.10:780][320]LogTemp: Health Changed: 75.0
+[2018.11.06-02.08.10:832][324]LogTemp: Health Changed: 72.5
+[2018.11.06-02.08.10:881][328]LogTemp: Health Changed: 70.0
+[2018.11.06-02.08.10:927][332]LogTemp: Health Changed: 67.5
+[2018.11.06-02.08.10:987][337]LogTemp: Health Changed: 65.0
+[2018.11.06-02.08.11:031][341]LogTemp: Health Changed: 62.5
+[2018.11.06-02.08.11:076][345]LogTemp: Health Changed: 60.0
+[2018.11.06-02.08.11:131][350]LogTemp: Health Changed: 57.5
+[2018.11.06-02.08.11:178][354]LogTemp: Health Changed: 55.0
+[2018.11.06-02.08.11:235][359]LogTemp: Health Changed: 52.5
+[2018.11.06-02.08.11:279][363]LogTemp: Health Changed: 50.0
+[2018.11.06-02.08.11:335][368]LogTemp: Health Changed: 47.5
+[2018.11.06-02.08.11:378][372]LogTemp: Health Changed: 45.0
+[2018.11.06-02.08.11:424][376]LogTemp: Health Changed: 42.5
+[2018.11.06-02.08.11:480][381]LogTemp: Health Changed: 40.0
+[2018.11.06-02.08.11:525][385]LogTemp: Health Changed: 37.5
+[2018.11.06-02.08.11:580][390]LogTemp: Health Changed: 35.0
+[2018.11.06-02.08.11:626][394]LogTemp: Health Changed: 32.5
+[2018.11.06-02.08.11:682][399]LogTemp: Health Changed: 30.0
+[2018.11.06-02.08.11:726][403]LogTemp: Health Changed: 27.5
+[2018.11.06-02.08.11:779][408]LogTemp: Health Changed: 25.0
+[2018.11.06-02.08.11:835][413]LogTemp: Health Changed: 22.5
+[2018.11.06-02.08.11:879][417]LogTemp: Health Changed: 20.0
+[2018.11.06-02.08.11:934][422]LogTemp: Health Changed: 17.5
+[2018.11.06-02.08.11:982][426]LogTemp: Health Changed: 15.0
+[2018.11.06-02.08.12:027][430]LogTemp: Health Changed: 12.5
+[2018.11.06-02.08.12:073][434]LogTemp: Health Changed: 20.0
+[2018.11.06-02.08.12:085][435]LogTemp: Health Changed: 10.0
+[2018.11.06-02.08.12:130][439]LogTemp: Health Changed: 7.5
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 37.840065
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 5.944138
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:164][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:165][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:165][442]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.12:177][443]LogTemp: Health Changed: 5.0
+[2018.11.06-02.08.12:235][448]LogTemp: Health Changed: 2.5
+[2018.11.06-02.08.12:281][452]LogTemp: Health Changed: 0.0
+[2018.11.06-02.08.16:366][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.06-02.08.16:403][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
