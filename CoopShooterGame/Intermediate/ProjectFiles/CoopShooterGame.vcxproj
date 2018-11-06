@@ -407,11 +407,13 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\Components\SHealthComponent.cpp" />
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\ExplosiveBarrel.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\Projectile.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SGrenadeLauncher.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SWeapon.cpp" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\Components\SHealthComponent.h" />
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\ExplosiveBarrel.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\Projectile.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SCharacter.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SGrenadeLauncher.h" />
