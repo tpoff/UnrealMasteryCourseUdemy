@@ -58,7 +58,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_INCLASS \
@@ -68,7 +69,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASCharacter, ACharacter, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASCharacter) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_STANDARD_CONSTRUCTORS \
@@ -100,6 +102,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	FORCEINLINE static uint32 __PPO__springArmComponent() { return STRUCT_OFFSET(ASCharacter, springArmComponent); } \
 	FORCEINLINE static uint32 __PPO__zoomFieldOfView() { return STRUCT_OFFSET(ASCharacter, zoomFieldOfView); } \
 	FORCEINLINE static uint32 __PPO__zoomSpeed() { return STRUCT_OFFSET(ASCharacter, zoomSpeed); } \
+	FORCEINLINE static uint32 __PPO__currentWeapon() { return STRUCT_OFFSET(ASCharacter, currentWeapon); } \
 	FORCEINLINE static uint32 __PPO__starterWeaponClass() { return STRUCT_OFFSET(ASCharacter, starterWeaponClass); } \
 	FORCEINLINE static uint32 __PPO__weaponAttachSocketName() { return STRUCT_OFFSET(ASCharacter, weaponAttachSocketName); } \
 	FORCEINLINE static uint32 __PPO__healthComponent() { return STRUCT_OFFSET(ASCharacter, healthComponent); } \

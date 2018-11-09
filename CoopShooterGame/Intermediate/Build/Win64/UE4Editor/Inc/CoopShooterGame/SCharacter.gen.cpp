@@ -137,6 +137,12 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_starterWeaponClass = { UE4CodeGen_Private::EPropertyClass::Class, "starterWeaponClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000010001, 1, nullptr, STRUCT_OFFSET(ASCharacter, starterWeaponClass), Z_Construct_UClass_ASWeapon_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_starterWeaponClass_MetaData, ARRAY_COUNT(NewProp_starterWeaponClass_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentWeapon_MetaData[] = {
+				{ "ModuleRelativePath", "Public/SCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_currentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "currentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000020, 1, nullptr, STRUCT_OFFSET(ASCharacter, currentWeapon), Z_Construct_UClass_ASWeapon_NoRegister, METADATA_PARAMS(NewProp_currentWeapon_MetaData, ARRAY_COUNT(NewProp_currentWeapon_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zoomSpeed_MetaData[] = {
 				{ "Category", "Player" },
 				{ "ClampMax", "100" },
@@ -173,6 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_healthComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_weaponAttachSocketName,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_starterWeaponClass,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_currentWeapon,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zoomSpeed,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_zoomFieldOfView,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_springArmComponent,
@@ -196,7 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASCharacter, 3769860985);
+	IMPLEMENT_CLASS(ASCharacter, 32141116);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASCharacter(Z_Construct_UClass_ASCharacter, &ASCharacter::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

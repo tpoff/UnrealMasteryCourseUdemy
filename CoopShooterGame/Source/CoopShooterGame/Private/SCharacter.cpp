@@ -12,6 +12,7 @@
 #include"../CoopShooterGame.h"
 #include"Particles/ParticleSystemComponent.h"
 #include"../Public/Components/SHealthComponent.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -40,6 +41,8 @@ ASCharacter::ASCharacter()
 
 	healthComponent = CreateDefaultSubobject<USHealthComponent>(TEXT("HealthComponent"));
 	healthComponent->onHealthChanged.AddDynamic(this, &ASCharacter::onHealthChanged);
+
+	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 	bDied = false;
 }
 
@@ -50,17 +53,21 @@ void ASCharacter::BeginPlay()
 
 	defaultFieldOfView=CameraComponent->FieldOfView;
 
-	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
+	if (Role == ROLE_Authority) {
+		//spawn a default weapon. 
+		FActorSpawnParameters spawnParams;
+		spawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	//spawn a default weapon. 
-	FActorSpawnParameters spawnParams;
-	spawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+		currentWeapon = GetWorld()->SpawnActor <ASWeapon>(starterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, spawnParams);
+		if (currentWeapon) {
+			currentWeapon->SetOwner(this);
+			currentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, weaponAttachSocketName);
+		}
 
-	currentWeapon = GetWorld()->SpawnActor <ASWeapon>(starterWeaponClass, FVector::ZeroVector, FRotator::ZeroRotator, spawnParams);
-	if (currentWeapon) {
-		currentWeapon->SetOwner(this);
-		currentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, weaponAttachSocketName);
 	}
+
+
+	
 }
 
 void ASCharacter::MoveForward(float value)
@@ -189,3 +196,12 @@ void ASCharacter::onHealthChanged(USHealthComponent* OwningHealthComponent, floa
 	}
 }
 
+void ASCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps)const {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+
+	DOREPLIFETIME(ASCharacter, currentWeapon);
+
+
+
+}

@@ -29,6 +29,8 @@ ASWeapon::ASWeapon()
 	baseDamage = 20.0f;
 	loopFire = true;
 	rateOfFire = 600;
+
+	SetReplicates(true);
 }
 void ASWeapon::BeginPlay()
 {
