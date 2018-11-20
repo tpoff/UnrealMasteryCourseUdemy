@@ -13,7 +13,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPSHOOTERGAME_SWeapon_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_GENERATED_BODY \
+	friend COOPSHOOTERGAME_API class UScriptStruct* Z_Construct_UScriptStruct_FHitScanTrace(); \
+	COOPSHOOTERGAME_API static class UScriptStruct* StaticStruct();
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_RPC_WRAPPERS \
+	virtual bool ServerFire_Validate(); \
+	virtual void ServerFire_Implementation(); \
  \
 	DECLARE_FUNCTION(execshakePlayerCamera) \
 	{ \
@@ -21,10 +28,33 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->shakePlayerCamera(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_HitScanTrace) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_HitScanTrace(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServerFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerFire_Validate()) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerFire_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerFire_Implementation(); \
+		P_NATIVE_END; \
 	}
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool ServerFire_Validate(); \
+	virtual void ServerFire_Implementation(); \
  \
 	DECLARE_FUNCTION(execshakePlayerCamera) \
 	{ \
@@ -32,30 +62,55 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->shakePlayerCamera(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_HitScanTrace) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_HitScanTrace(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execServerFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		if (!P_THIS->ServerFire_Validate()) \
+		{ \
+			RPC_ValidateFailed(TEXT("ServerFire_Validate")); \
+			return; \
+		} \
+		P_THIS->ServerFire_Implementation(); \
+		P_NATIVE_END; \
 	}
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_EVENT_PARMS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_CALLBACK_WRAPPERS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASWeapon(); \
 public: \
 	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_INCLASS \
 private: \
 	static void StaticRegisterNativesASWeapon(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASWeapon(); \
 public: \
 	DECLARE_CLASS(ASWeapon, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASWeapon) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASWeapon) \
@@ -68,7 +123,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASWeapon(ASWeapon&&); \
@@ -79,7 +134,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASWeapon)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(ASWeapon, meshComponent); } \
 	FORCEINLINE static uint32 __PPO__damageType() { return STRUCT_OFFSET(ASWeapon, damageType); } \
 	FORCEINLINE static uint32 __PPO__muzzleSocketName() { return STRUCT_OFFSET(ASWeapon, muzzleSocketName); } \
@@ -91,28 +146,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__fireCamShake() { return STRUCT_OFFSET(ASWeapon, fireCamShake); } \
 	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(ASWeapon, baseDamage); } \
 	FORCEINLINE static uint32 __PPO__loopFire() { return STRUCT_OFFSET(ASWeapon, loopFire); } \
-	FORCEINLINE static uint32 __PPO__rateOfFire() { return STRUCT_OFFSET(ASWeapon, rateOfFire); }
+	FORCEINLINE static uint32 __PPO__rateOfFire() { return STRUCT_OFFSET(ASWeapon, rateOfFire); } \
+	FORCEINLINE static uint32 __PPO__hitScanTrace() { return STRUCT_OFFSET(ASWeapon, hitScanTrace); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_13_PROLOG
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_27_PROLOG \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_EVENT_PARMS
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_CALLBACK_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_16_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_CALLBACK_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SWeapon_h_30_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

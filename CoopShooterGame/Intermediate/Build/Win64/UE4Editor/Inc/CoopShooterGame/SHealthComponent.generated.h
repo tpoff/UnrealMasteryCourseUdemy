@@ -79,7 +79,8 @@ private: \
 public: \
 	DECLARE_CLASS(USHealthComponent, UActorComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(USHealthComponent) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_Components_SHealthComponent_h_15_INCLASS \
@@ -89,7 +90,8 @@ private: \
 public: \
 	DECLARE_CLASS(USHealthComponent, UActorComponent, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(USHealthComponent) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_Components_SHealthComponent_h_15_STANDARD_CONSTRUCTORS \
