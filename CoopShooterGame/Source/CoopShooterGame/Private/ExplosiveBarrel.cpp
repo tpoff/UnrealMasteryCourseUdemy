@@ -9,6 +9,7 @@
 #include"../Public/Components/SHealthComponent.h"
 #include "Materials/MaterialInterface.h"
 #include "PhysicsEngine/RadialForceComponent.h"
+#include "Net/UnrealNetwork.h"
 
 
 // Sets default values
@@ -33,6 +34,8 @@ AExplosiveBarrel::AExplosiveBarrel()
 	radialForceComponent->bImpulseVelChange = true;
 	radialForceComponent->bIgnoreOwningActor = true;
 	radialForceComponent->bAutoActivate = false;
+	SetReplicates(true);
+	SetReplicateMovement(true);
 }
 
 // Called when the game starts or when spawned
@@ -42,12 +45,20 @@ void AExplosiveBarrel::BeginPlay()
 	
 }
 
+void AExplosiveBarrel::OnRep_Exploded()
+{
+	//change material
+	meshComponent->SetMaterial(0, explodedMaterial);
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, GetActorLocation());
+	
+}
+
 void AExplosiveBarrel::onHealthChanged(USHealthComponent* OwningHealthComponent, float health, float healthDelta, const class UDamageType* fromDamageType, class AController* instigatedBy, AActor* damageCauser) {
+	
 	if (health <= 0 && !bDied) {
 		//
 		bDied = true;
-		//play explosion effect,
-		UParticleSystemComponent* tracerComponent = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), impactEffect, GetActorLocation());
+		OnRep_Exploded();
 
 		//boost mesh up		
 		meshComponent->AddImpulse(FVector::UpVector*500, NAME_None, true);
@@ -59,8 +70,16 @@ void AExplosiveBarrel::onHealthChanged(USHealthComponent* OwningHealthComponent,
 		//apply radial force
 		radialForceComponent->FireImpulse();
 
-		//change material
-		meshComponent->SetMaterial(0, explodedMaterial);
-
 	}
+}
+
+
+void AExplosiveBarrel::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps)const {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+
+	DOREPLIFETIME(AExplosiveBarrel, bDied);
+
+
+
 }

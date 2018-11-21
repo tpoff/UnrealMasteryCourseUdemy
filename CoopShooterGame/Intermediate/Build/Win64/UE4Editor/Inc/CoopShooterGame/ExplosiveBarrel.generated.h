@@ -31,6 +31,14 @@ class AActor;
 		P_NATIVE_BEGIN; \
 		P_THIS->onHealthChanged(Z_Param_OwningHealthComponent,Z_Param_health,Z_Param_healthDelta,Z_Param_fromDamageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Exploded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Exploded(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -48,6 +56,14 @@ class AActor;
 		P_NATIVE_BEGIN; \
 		P_THIS->onHealthChanged(Z_Param_OwningHealthComponent,Z_Param_health,Z_Param_healthDelta,Z_Param_fromDamageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Exploded) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Exploded(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -58,7 +74,8 @@ private: \
 public: \
 	DECLARE_CLASS(AExplosiveBarrel, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(AExplosiveBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_ExplosiveBarrel_h_19_INCLASS \
@@ -68,7 +85,8 @@ private: \
 public: \
 	DECLARE_CLASS(AExplosiveBarrel, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(AExplosiveBarrel) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_ExplosiveBarrel_h_19_STANDARD_CONSTRUCTORS \

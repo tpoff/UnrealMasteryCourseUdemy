@@ -48,8 +48,11 @@ protected:
 	UPROPERTY(VisibleAnywhere,  Category = "Components")
 	URadialForceComponent* radialForceComponent;
 
-	UPROPERTY(BlueprintReadOnly, Category = "Player")
+	UPROPERTY(ReplicatedUsing=OnRep_Exploded, BlueprintReadOnly, Category = "Barrel")
 	bool bDied;
+
+	UFUNCTION()
+	void OnRep_Exploded();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 		TSubclassOf<UDamageType> damageType;
