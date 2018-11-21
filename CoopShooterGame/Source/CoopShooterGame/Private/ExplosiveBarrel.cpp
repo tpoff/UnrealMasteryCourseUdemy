@@ -24,6 +24,7 @@ AExplosiveBarrel::AExplosiveBarrel()
 	meshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	meshComponent->SetCollisionObjectType(ECC_PhysicsBody);
 	meshComponent->SetSimulatePhysics(true);
+	meshComponent->SetCanEverAffectNavigation(false);
 
 	RootComponent = meshComponent;
 	explosionImpulse = 400;
