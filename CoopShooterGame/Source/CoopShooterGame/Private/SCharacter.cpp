@@ -91,13 +91,7 @@ void ASCharacter::EndCrouch()
 
 void ASCharacter::BeginJump()
 {
-	UCharacterMovementComponent* movementComp = GetCharacterMovement();
-	if (movementComp) {
-		if (movementComp->MovementMode != EMovementMode::MOVE_Falling) {
-			Jump();
-
-		}
-	}
+	Jump();
 }
 
 void ASCharacter::BeginZoom()
@@ -198,12 +192,7 @@ void ASCharacter::onHealthChanged(USHealthComponent* OwningHealthComponent, floa
 
 void ASCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps)const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
-
-
 	DOREPLIFETIME(ASCharacter, currentWeapon);
 
 	DOREPLIFETIME(ASCharacter, bDied);
-
-
-
 }
