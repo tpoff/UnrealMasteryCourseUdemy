@@ -43,6 +43,28 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUseVelocityChange_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			auto NewProp_bUseVelocityChange_SetBit = [](void* Obj){ ((ASTrackerBot*)Obj)->bUseVelocityChange = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUseVelocityChange = { UE4CodeGen_Private::EPropertyClass::Bool, "bUseVelocityChange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASTrackerBot), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_bUseVelocityChange_SetBit)>::SetBit, METADATA_PARAMS(NewProp_bUseVelocityChange_MetaData, ARRAY_COUNT(NewProp_bUseVelocityChange_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_requiredDistanceToTarget_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_requiredDistanceToTarget = { UE4CodeGen_Private::EPropertyClass::Float, "requiredDistanceToTarget", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, requiredDistanceToTarget), METADATA_PARAMS(NewProp_requiredDistanceToTarget_MetaData, ARRAY_COUNT(NewProp_requiredDistanceToTarget_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movementForce_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_movementForce = { UE4CodeGen_Private::EPropertyClass::Float, "movementForce", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, movementForce), METADATA_PARAMS(NewProp_movementForce_MetaData, ARRAY_COUNT(NewProp_movementForce_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_meshComponent_MetaData[] = {
 				{ "Category", "Components" },
 				{ "EditInline", "true" },
@@ -51,6 +73,9 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000b0009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, meshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bUseVelocityChange,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_requiredDistanceToTarget,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_movementForce,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_meshComponent,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -71,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 3735699979);
+	IMPLEMENT_CLASS(ASTrackerBot, 2319913034);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

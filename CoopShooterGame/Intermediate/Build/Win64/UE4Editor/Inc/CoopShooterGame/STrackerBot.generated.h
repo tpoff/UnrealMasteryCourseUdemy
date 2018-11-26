@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTrackerBot); \
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_STrackerBot_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(ASTrackerBot, meshComponent); }
+	FORCEINLINE static uint32 __PPO__meshComponent() { return STRUCT_OFFSET(ASTrackerBot, meshComponent); } \
+	FORCEINLINE static uint32 __PPO__movementForce() { return STRUCT_OFFSET(ASTrackerBot, movementForce); } \
+	FORCEINLINE static uint32 __PPO__requiredDistanceToTarget() { return STRUCT_OFFSET(ASTrackerBot, requiredDistanceToTarget); } \
+	FORCEINLINE static uint32 __PPO__bUseVelocityChange() { return STRUCT_OFFSET(ASTrackerBot, bUseVelocityChange); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_STrackerBot_h_12_PROLOG

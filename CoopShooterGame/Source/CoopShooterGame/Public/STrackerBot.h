@@ -26,6 +26,20 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category="Components")
 	UStaticMeshComponent* meshComponent; 
 
+
+	FVector getNextPathPoint();
+
+	FVector nextPathPoint;
+
+	UPROPERTY(EditDefaultsOnly, Category="TrackerBot")
+	float movementForce;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	float requiredDistanceToTarget;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	bool bUseVelocityChange;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
