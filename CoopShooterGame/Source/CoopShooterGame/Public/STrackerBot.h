@@ -6,7 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "STrackerBot.generated.h"
 
-
+class USHealthComponent;
 class UStaticMeshComponent;
 
 UCLASS()
@@ -27,6 +27,9 @@ protected:
 	UStaticMeshComponent* meshComponent; 
 
 
+	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
+	USHealthComponent* healthComponent; 
+
 	FVector getNextPathPoint();
 
 	FVector nextPathPoint;
@@ -39,6 +42,9 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
 	bool bUseVelocityChange;
+
+	UFUNCTION()
+	void HandleTakeDamage(USHealthComponent* OwningHealthComponent, float health, float healthDelta, const class UDamageType* damageType, class AController* instigatedBy, AActor* damageCauser);
 
 public:	
 	// Called every frame

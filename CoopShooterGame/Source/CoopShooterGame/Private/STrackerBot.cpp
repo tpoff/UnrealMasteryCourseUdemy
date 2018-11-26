@@ -7,6 +7,7 @@
 #include "AI/Navigation/NavigationPath.h"
 #include "GameFramework//Character.h"
 #include "DrawDebugHelpers.h"
+#include"../Public/Components/SHealthComponent.h"
 
 
 // Sets default values
@@ -19,7 +20,10 @@ ASTrackerBot::ASTrackerBot()
 	meshComponent->SetSimulatePhysics(true);
 	RootComponent = meshComponent;
 
-	bUseVelocityChange = false;
+	healthComponent = CreateDefaultSubobject<USHealthComponent>(TEXT("healthComponent"));
+	healthComponent->onHealthChanged.AddDynamic(this, &ASTrackerBot::HandleTakeDamage);
+
+	bUseVelocityChange = true;
 	movementForce = 1000;
 	requiredDistanceToTarget = 100;
 }
@@ -44,6 +48,16 @@ FVector ASTrackerBot::getNextPathPoint()
 	navPath->PathPoints[1];
 
 	return navPath->PathPoints[0];
+}
+
+void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwningHealthComponent, float health, float healthDelta, const UDamageType * damageType, AController * instigatedBy, AActor * damageCauser)
+{
+	//explode on hitpoints == 0
+
+	//@todo: pulse the material on hit. 
+
+	UE_LOG(LogTemp, Log, TEXT("Trackerbot Hit: Health %s for pawn: %s"), *FString::SanitizeFloat(health), *GetName());
+
 }
 
 // Called every frame
