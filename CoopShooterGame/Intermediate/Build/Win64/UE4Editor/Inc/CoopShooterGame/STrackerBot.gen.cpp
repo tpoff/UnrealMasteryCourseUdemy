@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	COOPSHOOTERGAME_API UClass* Z_Construct_UClass_USHealthComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASTrackerBot::StaticRegisterNativesASTrackerBot()
@@ -104,6 +105,27 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionDamage_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_explosionDamage = { UE4CodeGen_Private::EPropertyClass::Float, "explosionDamage", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, explosionDamage), METADATA_PARAMS(NewProp_explosionDamage_MetaData, ARRAY_COUNT(NewProp_explosionDamage_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionRadius_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_explosionRadius = { UE4CodeGen_Private::EPropertyClass::Float, "explosionRadius", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, explosionRadius), METADATA_PARAMS(NewProp_explosionRadius_MetaData, ARRAY_COUNT(NewProp_explosionRadius_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionEffect_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_explosionEffect = { UE4CodeGen_Private::EPropertyClass::Object, "explosionEffect", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, explosionEffect), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(NewProp_explosionEffect_MetaData, ARRAY_COUNT(NewProp_explosionEffect_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUseVelocityChange_MetaData[] = {
 				{ "Category", "TrackerBot" },
 				{ "ModuleRelativePath", "Public/STrackerBot.h" },
@@ -142,6 +164,9 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000b0009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, meshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionDamage,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionRadius,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionEffect,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bUseVelocityChange,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_requiredDistanceToTarget,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_movementForce,
@@ -166,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 2016013139);
+	IMPLEMENT_CLASS(ASTrackerBot, 2740178700);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

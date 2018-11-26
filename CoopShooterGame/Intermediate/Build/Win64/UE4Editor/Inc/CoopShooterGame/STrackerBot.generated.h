@@ -100,7 +100,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTrackerBot); \
 	FORCEINLINE static uint32 __PPO__healthComponent() { return STRUCT_OFFSET(ASTrackerBot, healthComponent); } \
 	FORCEINLINE static uint32 __PPO__movementForce() { return STRUCT_OFFSET(ASTrackerBot, movementForce); } \
 	FORCEINLINE static uint32 __PPO__requiredDistanceToTarget() { return STRUCT_OFFSET(ASTrackerBot, requiredDistanceToTarget); } \
-	FORCEINLINE static uint32 __PPO__bUseVelocityChange() { return STRUCT_OFFSET(ASTrackerBot, bUseVelocityChange); }
+	FORCEINLINE static uint32 __PPO__bUseVelocityChange() { return STRUCT_OFFSET(ASTrackerBot, bUseVelocityChange); } \
+	FORCEINLINE static uint32 __PPO__explosionEffect() { return STRUCT_OFFSET(ASTrackerBot, explosionEffect); } \
+	FORCEINLINE static uint32 __PPO__explosionRadius() { return STRUCT_OFFSET(ASTrackerBot, explosionRadius); } \
+	FORCEINLINE static uint32 __PPO__explosionDamage() { return STRUCT_OFFSET(ASTrackerBot, explosionDamage); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_STrackerBot_h_12_PROLOG
