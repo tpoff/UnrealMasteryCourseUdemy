@@ -58,6 +58,14 @@ void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwningHealthComponent, f
 
 	UE_LOG(LogTemp, Log, TEXT("Trackerbot Hit: Health %s for pawn: %s"), *FString::SanitizeFloat(health), *GetName());
 
+	if (matInst == nullptr) {
+		matInst = meshComponent->CreateAndSetMaterialInstanceDynamicFromMaterial(0, meshComponent->GetMaterial(0));
+
+	}
+	if (matInst != nullptr) {
+		matInst->SetScalarParameterValue("LastTimeDamageTaken", GetWorld()->TimeSeconds);
+
+	}
 }
 
 // Called every frame
