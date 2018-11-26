@@ -9,6 +9,7 @@
 class USHealthComponent;
 class UStaticMeshComponent;
 class USphereComponent;
+class USoundCue;
 
 UCLASS()
 class COOPSHOOTERGAME_API ASTrackerBot : public APawn
@@ -65,10 +66,19 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
 		float explosionDamage;
 
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+		float selfDamageInterval;
+
 	void SelfDestruct();
 
 	FTimerHandle timerHandle_selfDamage;
 	void damageSelf();
+
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	USoundCue* selfDestructSound;
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	USoundCue* explosionSound;
 
 
 public:	

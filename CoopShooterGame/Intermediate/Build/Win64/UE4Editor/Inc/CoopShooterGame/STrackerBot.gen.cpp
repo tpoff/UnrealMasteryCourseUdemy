@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	COOPSHOOTERGAME_API UClass* Z_Construct_UClass_USHealthComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -106,6 +107,20 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionSound_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_explosionSound = { UE4CodeGen_Private::EPropertyClass::Object, "explosionSound", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, explosionSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(NewProp_explosionSound_MetaData, ARRAY_COUNT(NewProp_explosionSound_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_selfDestructSound_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_selfDestructSound = { UE4CodeGen_Private::EPropertyClass::Object, "selfDestructSound", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, selfDestructSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(NewProp_selfDestructSound_MetaData, ARRAY_COUNT(NewProp_selfDestructSound_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionDamage_MetaData[] = {
 				{ "Category", "TrackerBot" },
 				{ "ModuleRelativePath", "Public/STrackerBot.h" },
@@ -173,6 +188,8 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000b0009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, meshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionSound,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_selfDestructSound,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionDamage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionRadius,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionEffect,
@@ -201,7 +218,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 478801642);
+	IMPLEMENT_CLASS(ASTrackerBot, 2354262214);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

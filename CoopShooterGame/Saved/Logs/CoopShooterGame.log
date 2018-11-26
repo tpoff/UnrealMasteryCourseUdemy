@@ -34875,3 +34875,765 @@ LogInit: Object subsystem initialized
 [2018.11.26-06.00.12:300][987]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
 [2018.11.26-06.00.13:899][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
 [2018.11.26-06.00.13:937][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.02.22:927][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.21.40:217][423]Candidate modules for hot reload:
+[2018.11.26-06.21.40:217][423]  CoopShooterGame
+[2018.11.26-06.21.40:217][423]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,2063 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.21.40:221][423]Warning: Starting HotReload took  0.1s.
+[2018.11.26-06.21.51:844][800]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:21:51 PM
+[2018.11.26-06.21.51:845][800]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.21.51:845][800]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.21.51:845][800]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.26-06.21.51:845][800]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.2239816 seconds
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: STrackerBot.cpp
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: STrackerBot.gen.cpp
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: [4/5] Link UE4Editor-CoopShooterGame-2063.dll
+[2018.11.26-06.21.51:846][800]CompilerResultsLog: [5/5] Link UE4Editor-CoopShooterGame-2063.lib
+[2018.11.26-06.21.51:846][800]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2063.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2063.exp
+[2018.11.26-06.21.51:847][800]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2063.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2063.suppressed.exp
+[2018.11.26-06.21.51:847][800]CompilerResultsLog: Total build time: 11.44 seconds (Local executor: 2.93 seconds)
+[2018.11.26-06.21.51:847][800]LogMainFrame: MainFrame: Module compiling took 11.674 seconds
+[2018.11.26-06.21.51:878][800]LogClass: Could not find existing class STrackerBot in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.26-06.21.51:878][800]LogClass: Function HandleTakeDamage is new.
+[2018.11.26-06.21.51:878][800]LogClass: HitScanTrace HotReload.
+[2018.11.26-06.21.51:884][800]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2018.11.26-06.21.51:886][800]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000196475650f0, Size=4
+[2018.11.26-06.21.51:886][800]LogUObjectGlobals: Created PersistentFrame Addr=0x000001963cf305a8, Size=4, Default__BP_TrackerBot_C Function /Engine/Transient.REINST_BP_TrackerBot_C_168:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.21.51:887][800]LogUObjectGlobals: Created PersistentFrame Addr=0x000001963cf31a68, Size=4, Default__BP_TrackerBot_C Function /Game/BluePrints/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.21.52:397][800]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 8 classes and 4 folders.
+[2018.11.26-06.21.52:400][800]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.11.26-06.21.52:436][800]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001963cf305a8, Size=4
+[2018.11.26-06.21.52:628][800]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2462 classes and 566 folders.
+[2018.11.26-06.21.52:628][800]Display: HotReload took 12.5s.
+[2018.11.26-06.21.54:139][972]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.21.54:161][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.21.54:162][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.21.54:162][972]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:21:54 PM)
+[2018.11.26-06.21.54:162][972]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.21.54:166][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004098s)
+[2018.11.26-06.21.54:167][972]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.21.54:167][972]LogPlayLevel: PIE: World Init took: (0.000857s)
+[2018.11.26-06.21.54:168][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005418s)
+[2018.11.26-06.21.54:232][972]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.21.54:240][972]LogInit: FAudioDevice initialized.
+[2018.11.26-06.21.54:273][972]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.21.54:275][972]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.21.54
+[2018.11.26-06.21.54:275][972]LogWorld: Bringing up level for play took: 0.001705
+[2018.11.26-06.21.54:277][972]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.807
+[2018.11.26-06.21.54:277][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.21.58:004][416]LogTemp: Health Changed: 80.0
+[2018.11.26-06.21.58:004][416]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.21.58:497][475]LogTemp: Health Changed: 60.0
+[2018.11.26-06.21.58:497][475]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.21.58:996][535]LogTemp: Health Changed: 40.0
+[2018.11.26-06.21.58:997][535]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.21.59:497][595]LogTemp: Health Changed: 20.0
+[2018.11.26-06.21.59:497][595]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.21.59:997][655]LogTemp: Health Changed: 0.0
+[2018.11.26-06.21.59:997][655]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.21.59:997][655]LogTemp: Health Changed: 60.0
+[2018.11.26-06.21.59:997][655]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.02:469][949]LogTemp: Health Changed: 40.0
+[2018.11.26-06.22.02:470][949]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.02:726][980]LogTemp: Health Changed: 80.0
+[2018.11.26-06.22.02:726][980]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.02:959][  8]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.02:959][  8]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.03:218][ 39]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.03:218][ 39]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.03:460][ 68]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.03:460][ 68]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.03:460][ 68]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.03:460][ 68]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.03:460][ 68]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.03:718][ 99]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.03:718][ 99]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.03:718][ 99]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.05:643][330]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.22.05:679][330]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.22.13:172][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.22.20:325][227]LogSavePackage: Save=10.63ms
+[2018.11.26-06.22.20:325][227]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBot9B1A636F4646A3F6ED4BCCB67215A0AB.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset'
+[2018.11.26-06.22.20:329][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset
+[2018.11.26-06.22.29:817][237]BlueprintLog: New page: Compile BP_TrackerBot
+[2018.11.26-06.22.29:819][237]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001963cf31a68, Size=4
+[2018.11.26-06.22.29:819][237]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019699159d18, Size=4, Default__BP_TrackerBot_C Function /Engine/Transient.REINST_BP_TrackerBot_C_172:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.22.29:820][237]LogUObjectGlobals: Created PersistentFrame Addr=0x000001969915bb00, Size=4, Default__BP_TrackerBot_C Function /Game/BluePrints/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.22.30:428][237]LogSavePackage: Save=10.36ms
+[2018.11.26-06.22.30:428][237]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBot0500301740894FB9B60C2AB57D0D5968.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset'
+[2018.11.26-06.22.30:432][237]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset
+[2018.11.26-06.22.32:176][420]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.22.32:197][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.22.32:198][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.22.32:198][420]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:22:32 PM)
+[2018.11.26-06.22.32:198][420]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.22.32:203][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004465s)
+[2018.11.26-06.22.32:204][420]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.22.32:204][420]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.11.26-06.22.32:204][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005677s)
+[2018.11.26-06.22.32:242][420]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.22.32:250][420]LogInit: FAudioDevice initialized.
+[2018.11.26-06.22.32:278][420]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.22.32:280][420]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.22.32
+[2018.11.26-06.22.32:281][420]LogWorld: Bringing up level for play took: 0.001909
+[2018.11.26-06.22.32:283][420]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.812
+[2018.11.26-06.22.32:283][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.22.37:593][ 14]LogTemp: Health Changed: 80.0
+[2018.11.26-06.22.37:593][ 14]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.22.38:088][ 71]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.38:088][ 71]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.22.38:586][127]LogTemp: Health Changed: 40.0
+[2018.11.26-06.22.38:586][127]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.22.39:093][184]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.39:093][184]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.22.39:593][241]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.39:593][241]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.22.39:593][241]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.39:611][243]LogTemp: Health Changed: 80.0
+[2018.11.26-06.22.39:612][243]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.40:111][299]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.40:111][299]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.40:611][355]LogTemp: Health Changed: 40.0
+[2018.11.26-06.22.40:611][355]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.40:878][385]LogTemp: Health Changed: 80.0
+[2018.11.26-06.22.40:878][385]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.41:110][411]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.41:110][411]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.41:375][441]LogTemp: Health Changed: 60.0
+[2018.11.26-06.22.41:375][441]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.41:612][467]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.41:612][467]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.22.41:612][467]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.41:612][467]LogTemp: Health Changed: 20.0
+[2018.11.26-06.22.41:612][467]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.41:877][496]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.41:877][496]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.22.41:877][496]LogTemp: Health Changed: 0.0
+[2018.11.26-06.22.42:757][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.22.42:791][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.23.08:204][ 71]LogSavePackage: Save=112.34ms
+[2018.11.26-06.23.08:204][ 71]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_Auto75D0FDA254F13DDFD5CE581A033A61A56.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap'
+[2018.11.26-06.23.08:206][ 71]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap
+[2018.11.26-06.23.08:208][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.167
+[2018.11.26-06.23.08:208][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.167
+[2018.11.26-06.23.34:989][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.23.54:339][120]LogSavePackage: Save=8.72ms
+[2018.11.26-06.23.54:339][120]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/TrackerModel947DA8FC43A08D3910D3AAA870DFC77D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerModel.uasset'
+[2018.11.26-06.23.54:342][120]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerModel.uasset
+[2018.11.26-06.23.54:366][120]LogSavePackage: Save=11.42ms
+[2018.11.26-06.23.54:366][120]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/M_TrackerBot8A0FCDD24B31413E7B6641BE26740AC3.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/M_TrackerBot.uasset'
+[2018.11.26-06.23.54:369][120]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/M_TrackerBot.uasset
+[2018.11.26-06.23.54:733][120]LogSavePackage: Save=10.14ms
+[2018.11.26-06.23.54:733][120]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBotC39128A842218F42AB6C6FBDC6F9BA9C.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset'
+[2018.11.26-06.23.54:736][120]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset
+[2018.11.26-06.24.03:110][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:110][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.SKEL_BP_TrackerBot_C' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:111][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.SKEL_BP_TrackerBot_C:UserConstructionScript' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:112][995]LogMetaData: Removing '/Game/TrackerBot/BP_TrackerBot.SKEL_BP_TrackerBot_C:ReceiveBeginPlay' ref from Metadata '/Game/BluePrints/BP_TrackerBot.PackageMetaData'
+[2018.11.26-06.24.03:192][995]LogSavePackage: Save=15.35ms
+[2018.11.26-06.24.03:192][995]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBotAA53D6A940BC959E856590AF063079A1.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2018.11.26-06.24.03:195][995]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2018.11.26-06.24.03:228][995]LogSavePackage: Save=1.29ms
+[2018.11.26-06.24.03:228][995]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBotFB8303CE49F77A2621ACA6A488544FA8.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset'
+[2018.11.26-06.24.03:231][995]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/BluePrints/BP_TrackerBot.uasset
+[2018.11.26-06.24.07:714][480]BlueprintLog: New page: Compile BP_TrackerBot
+[2018.11.26-06.24.07:716][480]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001969915bb00, Size=4
+[2018.11.26-06.24.07:716][480]LogUObjectGlobals: Created PersistentFrame Addr=0x000001967a992b78, Size=4, BP_TrackerBot_C_114 Function /Engine/Transient.REINST_BP_TrackerBot_C_180:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.24.07:717][480]LogUObjectGlobals: Created PersistentFrame Addr=0x000001967a992aa0, Size=4, Default__BP_TrackerBot_C Function /Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.24.08:252][480]LogSavePackage: Save=10.43ms
+[2018.11.26-06.24.08:252][480]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBot628B60594DC8FC2013CA9889080F45DF.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2018.11.26-06.24.08:256][480]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2018.11.26-06.24.33:637][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.24.47:895][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\ball_roll_01g.wav)
+[2018.11.26-06.24.47:903][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\ball_roll_02_loop.wav)
+[2018.11.26-06.24.47:914][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\ball_roll_03_loop.wav)
+[2018.11.26-06.24.47:928][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\ball_roll_04_loop.wav)
+[2018.11.26-06.24.47:934][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\DroneTracker_explodewarning.wav)
+[2018.11.26-06.24.47:939][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\DroneTracker_idle.wav)
+[2018.11.26-06.24.47:945][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\DroneTracker_spotted.wav)
+[2018.11.26-06.24.47:952][245]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\downloadedAsssetsForCourse\TrackerSounds\Explosion01.wav)
+[2018.11.26-06.25.10:355][363]LogSavePackage: Save=112.85ms
+[2018.11.26-06.25.10:356][363]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_DefaultBEDF42994D3A0B1B78E4F3AD8AC2D458.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.26-06.25.10:359][363]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.26-06.25.10:442][363]LogSavePackage: Save=18.84ms
+[2018.11.26-06.25.10:442][363]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData27CC75374EFE01262EEFED986A1ED845.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.26-06.25.10:444][363]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.26-06.35.10:667][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.022
+[2018.11.26-06.35.10:669][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/ball_roll_01g] ([1] browsable assets)...
+[2018.11.26-06.35.10:674][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_01g.ball_roll_01g]
+[2018.11.26-06.35.10:674][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/ball_roll_01g]
+[2018.11.26-06.35.10:681][571]LogSavePackage: Save=4.20ms
+[2018.11.26-06.35.10:681][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_01g_Auto8E042F1074328BC52AB7E19A9C946ED21.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_01g_Auto8.uasset'
+[2018.11.26-06.35.10:683][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_01g_Auto8.uasset
+[2018.11.26-06.35.10:684][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop] ([1] browsable assets)...
+[2018.11.26-06.35.10:688][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop.ball_roll_02_loop]
+[2018.11.26-06.35.10:689][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop]
+[2018.11.26-06.35.10:695][571]LogSavePackage: Save=4.90ms
+[2018.11.26-06.35.10:695][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_02_loop_Auto80B8120B54CAFF61AB336FC969970B124.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop_Auto8.uasset'
+[2018.11.26-06.35.10:697][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop_Auto8.uasset
+[2018.11.26-06.35.10:698][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop] ([1] browsable assets)...
+[2018.11.26-06.35.10:703][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop.ball_roll_03_loop]
+[2018.11.26-06.35.10:703][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop]
+[2018.11.26-06.35.10:709][571]LogSavePackage: Save=3.98ms
+[2018.11.26-06.35.10:709][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_03_loop_Auto84EE3F1E94C12CCE02C0D11AF62267D7D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop_Auto8.uasset'
+[2018.11.26-06.35.10:712][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop_Auto8.uasset
+[2018.11.26-06.35.10:713][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop] ([1] browsable assets)...
+[2018.11.26-06.35.10:718][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop.ball_roll_04_loop]
+[2018.11.26-06.35.10:718][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop]
+[2018.11.26-06.35.10:723][571]LogSavePackage: Save=3.54ms
+[2018.11.26-06.35.10:723][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_04_loop_Auto885BA1B00426B89674308978379D9D4B5.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop_Auto8.uasset'
+[2018.11.26-06.35.10:726][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop_Auto8.uasset
+[2018.11.26-06.35.10:727][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning] ([1] browsable assets)...
+[2018.11.26-06.35.10:731][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning.DroneTracker_explodewarning]
+[2018.11.26-06.35.10:732][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning]
+[2018.11.26-06.35.10:737][571]LogSavePackage: Save=3.39ms
+[2018.11.26-06.35.10:737][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_explodewarning_Auto0BBDB31943E7D901EBF886A0AED8A8F3.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning_Auto8.uasset'
+[2018.11.26-06.35.10:738][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning_Auto8.uasset
+[2018.11.26-06.35.10:739][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_idle] ([1] browsable assets)...
+[2018.11.26-06.35.10:743][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/DroneTracker_idle.DroneTracker_idle]
+[2018.11.26-06.35.10:744][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_idle]
+[2018.11.26-06.35.10:749][571]LogSavePackage: Save=3.62ms
+[2018.11.26-06.35.10:749][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_idle_Auto807E96571423AC41652A62DB5E54DF753.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_idle_Auto8.uasset'
+[2018.11.26-06.35.10:750][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_idle_Auto8.uasset
+[2018.11.26-06.35.10:751][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_spotted] ([1] browsable assets)...
+[2018.11.26-06.35.10:755][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/DroneTracker_spotted.DroneTracker_spotted]
+[2018.11.26-06.35.10:755][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/DroneTracker_spotted]
+[2018.11.26-06.35.10:761][571]LogSavePackage: Save=3.62ms
+[2018.11.26-06.35.10:761][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_spotted_Auto8E24BFCAB45AA741E1B5670A70671A40A.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_spotted_Auto8.uasset'
+[2018.11.26-06.35.10:762][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/DroneTracker_spotted_Auto8.uasset
+[2018.11.26-06.35.10:763][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrackerBot/TrackerBotSounds/Explosion01] ([1] browsable assets)...
+[2018.11.26-06.35.10:768][571]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/TrackerBot/TrackerBotSounds/Explosion01.Explosion01]
+[2018.11.26-06.35.10:768][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrackerBot/TrackerBotSounds/Explosion01]
+[2018.11.26-06.35.10:773][571]LogSavePackage: Save=3.45ms
+[2018.11.26-06.35.10:773][571]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Explosion01_Auto86362ED1142630438A3A3659912DC07BF.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/Explosion01_Auto8.uasset'
+[2018.11.26-06.35.10:775][571]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Autosaves/Game/TrackerBot/TrackerBotSounds/Explosion01_Auto8.uasset
+[2018.11.26-06.35.10:775][571]LogFileHelpers: Auto-saving content packages took 0.107
+[2018.11.26-06.39.24:088][788]LogAudioDerivedData: Display: Building compressed audio format OGG wave DroneTracker_idle...
+[2018.11.26-06.39.24:117][788]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/DroneTracker_idle.DroneTracker_idle.
+[2018.11.26-06.39.28:269][268]LogAudioDerivedData: Display: Building compressed audio format OGG wave DroneTracker_explodewarning...
+[2018.11.26-06.39.28:280][268]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning.DroneTracker_explodewarning.
+[2018.11.26-06.39.30:760][554]LogAudioDerivedData: Display: Building compressed audio format OGG wave Explosion01...
+[2018.11.26-06.39.30:780][554]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/Explosion01.Explosion01.
+[2018.11.26-06.39.32:936][800]LogAudioDerivedData: Display: Building compressed audio format OGG wave ball_roll_01g...
+[2018.11.26-06.39.32:940][800]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_01g.ball_roll_01g.
+[2018.11.26-06.39.33:937][915]LogAudioDerivedData: Display: Building compressed audio format OGG wave ball_roll_02_loop...
+[2018.11.26-06.39.33:967][915]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_02_loop.ball_roll_02_loop.
+[2018.11.26-06.39.36:819][252]LogAudioDerivedData: Display: Building compressed audio format OGG wave ball_roll_03_loop...
+[2018.11.26-06.39.36:891][252]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_03_loop.ball_roll_03_loop.
+[2018.11.26-06.39.38:980][497]LogAudioDerivedData: Display: Building compressed audio format OGG wave ball_roll_04_loop...
+[2018.11.26-06.39.39:029][497]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/TrackerBot/TrackerBotSounds/ball_roll_04_loop.ball_roll_04_loop.
+[2018.11.26-06.46.15:466][323]Candidate modules for hot reload:
+[2018.11.26-06.46.15:466][323]  CoopShooterGame
+[2018.11.26-06.46.15:466][323]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,751 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.46.15:469][323]Warning: Starting HotReload took  0.0s.
+[2018.11.26-06.46.25:424][ 70]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:46:25 PM
+[2018.11.26-06.46.25:424][ 70]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.46.25:425][ 70]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.46.25:425][ 70]CompilerResultsLog: Parsing headers for CoopShooterGameEditor
+[2018.11.26-06.46.25:425][ 70]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: Reflection code generated for CoopShooterGameEditor in 7.0726692 seconds
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: STrackerBot.gen.cpp
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: STrackerBot.cpp
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: CoopShooterGame.init.gen.cpp
+[2018.11.26-06.46.25:426][ 70]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\STrackerBot.cpp(150) : error C2039: 'PlaySoundAttached': is not a member of 'UGameplayStatics'
+[2018.11.26-06.46.25:427][ 70]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(38) : note: see declaration of 'UGameplayStatics'
+[2018.11.26-06.46.25:427][ 70]CompilerResultsLog: Error: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\STrackerBot.cpp(150) : error C3861: 'PlaySoundAttached': identifier not found
+[2018.11.26-06.46.25:427][ 70]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-751.dll
+[2018.11.26-06.46.25:427][ 70]CompilerResultsLog: Total build time: 9.78 seconds (Local executor: 0.00 seconds)
+[2018.11.26-06.46.25:427][ 70]LogMainFrame: MainFrame: Module compiling took 9.999 seconds
+[2018.11.26-06.46.25:427][ 70]Warning: HotReload failed, recompile failed
+[2018.11.26-06.47.06:283][137]Candidate modules for hot reload:
+[2018.11.26-06.47.06:283][137]  CoopShooterGame
+[2018.11.26-06.47.06:283][137]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,5697 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.47.06:287][137]Warning: Starting HotReload took  0.0s.
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:47:10 PM
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: STrackerBot.cpp
+[2018.11.26-06.47.10:433][619]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-5697.dll
+[2018.11.26-06.47.10:434][619]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-5697.lib
+[2018.11.26-06.47.10:434][619]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-5697.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-5697.exp
+[2018.11.26-06.47.10:434][619]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-5697.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-5697.suppressed.exp
+[2018.11.26-06.47.10:434][619]CompilerResultsLog: Total build time: 3.98 seconds (Local executor: 2.83 seconds)
+[2018.11.26-06.47.10:435][619]LogMainFrame: MainFrame: Module compiling took 4.189 seconds
+[2018.11.26-06.47.10:468][619]LogClass: Could not find existing class STrackerBot in package /Script/CoopShooterGame for HotReload, assuming new class
+[2018.11.26-06.47.10:468][619]LogClass: Function HandleTakeDamage is new.
+[2018.11.26-06.47.10:468][619]LogClass: HitScanTrace HotReload.
+[2018.11.26-06.47.10:474][619]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2018.11.26-06.47.10:476][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001967a992aa0, Size=4
+[2018.11.26-06.47.10:476][619]LogUObjectGlobals: Created PersistentFrame Addr=0x000001967a992aa0, Size=4, BP_TrackerBot_C_116 Function /Engine/Transient.REINST_BP_TrackerBot_C_188:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.47.10:477][619]LogUObjectGlobals: Created PersistentFrame Addr=0x000001967a9924a0, Size=4, Default__BP_TrackerBot_C Function /Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.47.11:002][619]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 8 classes and 4 folders.
+[2018.11.26-06.47.11:006][619]Display: HotReload successful (10 functions remapped  1 scriptstructs remapped)
+[2018.11.26-06.47.11:237][619]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2462 classes and 566 folders.
+[2018.11.26-06.47.11:238][619]Display: HotReload took  5.0s.
+[2018.11.26-06.47.15:526][780]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.47.15:549][780]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.47.15:550][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.47.15:550][780]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:47:15 PM)
+[2018.11.26-06.47.15:550][780]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.47.15:555][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004212s)
+[2018.11.26-06.47.15:556][780]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.47.15:556][780]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2018.11.26-06.47.15:556][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006107s)
+[2018.11.26-06.47.15:628][780]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.47.15:637][780]LogInit: FAudioDevice initialized.
+[2018.11.26-06.47.15:669][780]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.47.15:671][780]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.47.15
+[2018.11.26-06.47.15:672][780]LogWorld: Bringing up level for play took: 0.001899
+[2018.11.26-06.47.15:674][780]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.204
+[2018.11.26-06.47.15:674][780]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.47.18:438][108]LogTemp: Health Changed: 80.0
+[2018.11.26-06.47.18:439][108]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.47.18:930][167]LogTemp: Health Changed: 60.0
+[2018.11.26-06.47.18:930][167]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.47.19:430][227]LogTemp: Health Changed: 40.0
+[2018.11.26-06.47.19:430][227]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.47.19:929][287]LogTemp: Health Changed: 20.0
+[2018.11.26-06.47.19:930][287]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.47.20:430][347]LogTemp: Health Changed: 0.0
+[2018.11.26-06.47.20:430][347]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.47.20:497][355]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.47.20:531][355]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.47.25:842][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.48.49:655][ 66]BlueprintLog: New page: Compile BP_TrackerBot
+[2018.11.26-06.48.49:657][ 66]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001967a9924a0, Size=4
+[2018.11.26-06.48.49:657][ 66]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960afa2f78, Size=4, BP_TrackerBot_C_118 Function /Engine/Transient.REINST_BP_TrackerBot_C_192:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.48.49:658][ 66]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960afa2f58, Size=4, Default__BP_TrackerBot_C Function /Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.48.50:276][ 66]LogSavePackage: Save=10.63ms
+[2018.11.26-06.48.50:276][ 66]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBotF6E08E914AC4BCAC8D22C89BE675B61E.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2018.11.26-06.48.50:280][ 66]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2018.11.26-06.48.53:013][320]LogSavePackage: Save=5.26ms
+[2018.11.26-06.48.53:013][320]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/BP_TrackerBotB3DF96814E869FEF9A667DB1397D8A05.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset'
+[2018.11.26-06.48.53:015][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/BP_TrackerBot.uasset
+[2018.11.26-06.48.58:502][871]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.48.58:526][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.48.58:527][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.48.58:528][871]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:48:58 PM)
+[2018.11.26-06.48.58:528][871]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.48.58:532][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003797s)
+[2018.11.26-06.48.58:533][871]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.48.58:534][871]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2018.11.26-06.48.58:534][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005284s)
+[2018.11.26-06.48.58:577][871]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.48.58:585][871]LogInit: FAudioDevice initialized.
+[2018.11.26-06.48.58:618][871]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.48.58:621][871]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.48.58
+[2018.11.26-06.48.58:621][871]LogWorld: Bringing up level for play took: 0.001960
+[2018.11.26-06.48.58:623][871]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.847
+[2018.11.26-06.48.58:624][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.02:312][235]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.02:312][235]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.02:322][236]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.02:322][236]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.02:453][250]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.02:454][250]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.02:807][288]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.02:807][288]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.02:816][289]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.02:816][289]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.02:948][303]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.02:948][303]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.03:307][341]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.03:307][341]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.03:316][342]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.03:316][342]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.03:451][356]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.03:452][356]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.03:806][393]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.03:806][393]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.03:816][394]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.03:816][394]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.03:948][408]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.03:948][408]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.04:308][446]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.04:308][446]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.04:309][446]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.04:309][446]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.04:309][446]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.04:309][446]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.04:320][447]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.04:320][447]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.04:320][447]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.05:287][550]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.05:323][550]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.15:504][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.49.15:504][656]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.49.15:528][656]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.15:528][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.49.15:529][656]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:49:15 PM)
+[2018.11.26-06.49.15:529][656]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.49.15:533][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003960s)
+[2018.11.26-06.49.15:534][656]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.49.15:535][656]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2018.11.26-06.49.15:535][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005906s)
+[2018.11.26-06.49.15:576][656]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.49.15:585][656]LogInit: FAudioDevice initialized.
+[2018.11.26-06.49.15:619][656]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.49.15:621][656]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.49.15
+[2018.11.26-06.49.15:622][656]LogWorld: Bringing up level for play took: 0.001683
+[2018.11.26-06.49.15:624][656]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.153
+[2018.11.26-06.49.15:624][656]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.18:283][935]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.18:283][935]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.18:774][988]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.18:775][988]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.19:281][ 45]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.19:281][ 45]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.19:781][101]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.19:781][101]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.19:790][102]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.19:790][102]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.19:817][105]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.19:817][105]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.20:276][156]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.20:276][156]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.20:276][156]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.20:277][156]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.20:277][156]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.20:277][156]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.20:277][156]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.20:287][157]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.20:287][157]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.20:315][160]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.20:315][160]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.20:787][211]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.20:787][211]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.20:787][211]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.20:787][211]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.20:787][211]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.20:787][211]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.20:787][211]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.20:787][211]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.22:198][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.22:235][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.26:385][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.49.26:530][807]Candidate modules for hot reload:
+[2018.11.26-06.49.26:530][807]  CoopShooterGame
+[2018.11.26-06.49.26:530][807]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,9479 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.49.26:534][807]Warning: Starting HotReload took  0.0s.
+[2018.11.26-06.49.27:792][915]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:49:27 PM
+[2018.11.26-06.49.27:792][915]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.49.27:792][915]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.49.27:792][915]CompilerResultsLog: Target is up to date
+[2018.11.26-06.49.27:793][915]CompilerResultsLog: Total build time: 1.09 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.11.26-06.49.27:793][915]LogMainFrame: MainFrame: Module compiling took 1.295 seconds
+[2018.11.26-06.49.28:018][915]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2462 classes and 566 folders.
+[2018.11.26-06.49.28:018][915]Display: HotReload took  1.5s.
+[2018.11.26-06.49.29:565][ 71]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.49.29:588][ 71]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.29:588][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.49.29:588][ 71]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:49:29 PM)
+[2018.11.26-06.49.29:588][ 71]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.49.29:592][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003580s)
+[2018.11.26-06.49.29:593][ 71]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.49.29:593][ 71]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.11.26-06.49.29:593][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004579s)
+[2018.11.26-06.49.29:654][ 71]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.49.29:660][ 71]LogInit: FAudioDevice initialized.
+[2018.11.26-06.49.29:690][ 71]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.49.29:692][ 71]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.49.29
+[2018.11.26-06.49.29:693][ 71]LogWorld: Bringing up level for play took: 0.001653
+[2018.11.26-06.49.29:694][ 71]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.224
+[2018.11.26-06.49.29:695][ 71]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.32:752][388]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.32:752][388]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.33:253][442]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.33:253][442]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.33:340][450]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.33:340][450]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.33:746][490]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.33:746][490]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.33:830][498]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.33:830][498]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.34:245][542]LogTemp: Health Changed: 20.0
+[2018.11.26-06.49.34:245][542]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.34:329][551]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.34:329][551]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.34:429][561]LogTemp: Health Changed: 80.0
+[2018.11.26-06.49.34:429][561]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.34:743][593]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.34:743][593]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.34:743][593]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.34:743][593]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.49.34:744][593]LogTemp: Health Changed: 0.0
+[2018.11.26-06.49.34:744][593]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.49.34:922][611]LogTemp: Health Changed: 60.0
+[2018.11.26-06.49.34:922][611]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.35:418][665]LogTemp: Health Changed: 40.0
+[2018.11.26-06.49.35:418][665]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.49.35:913][719]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.49.35:946][719]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.50.07:352][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.50.10:082][122]LogSavePackage: Save=113.76ms
+[2018.11.26-06.50.10:083][122]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default3AD3FEAC4893EE3AEA23B5A3BB84F03D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.26-06.50.10:086][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.26-06.50.10:168][122]LogSavePackage: Save=18.79ms
+[2018.11.26-06.50.10:168][122]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData4958D58646A5FCE5DE160181CA5007E5.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.26-06.50.10:171][122]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.26-06.50.24:055][685]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.50.24:082][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.50.24:082][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.50.24:082][685]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:50:24 PM)
+[2018.11.26-06.50.24:083][685]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.50.24:087][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003952s)
+[2018.11.26-06.50.24:087][685]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.50.24:087][685]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2018.11.26-06.50.24:087][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004924s)
+[2018.11.26-06.50.24:106][685]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001960afa2f78, Size=4
+[2018.11.26-06.50.24:106][685]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001967a992aa0, Size=4
+[2018.11.26-06.50.24:129][685]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.50.24:136][685]LogInit: FAudioDevice initialized.
+[2018.11.26-06.50.24:167][685]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.50.24:169][685]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.50.24
+[2018.11.26-06.50.24:170][685]LogWorld: Bringing up level for play took: 0.001673
+[2018.11.26-06.50.24:171][685]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.701
+[2018.11.26-06.50.24:172][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.50.27:652][ 55]LogTemp: Health Changed: 80.0
+[2018.11.26-06.50.27:652][ 55]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.27:726][ 63]LogTemp: Health Changed: 80.0
+[2018.11.26-06.50.27:726][ 63]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.50.28:148][110]LogTemp: Health Changed: 60.0
+[2018.11.26-06.50.28:148][110]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.28:220][118]LogTemp: Health Changed: 60.0
+[2018.11.26-06.50.28:221][118]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.50.28:651][165]LogTemp: Health Changed: 40.0
+[2018.11.26-06.50.28:652][165]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.28:723][173]LogTemp: Health Changed: 80.0
+[2018.11.26-06.50.28:723][173]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.50.28:723][173]LogTemp: Health Changed: 40.0
+[2018.11.26-06.50.28:723][173]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.50.29:148][220]LogTemp: Health Changed: 20.0
+[2018.11.26-06.50.29:148][220]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.29:220][228]LogTemp: Health Changed: 60.0
+[2018.11.26-06.50.29:220][228]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.50.29:221][228]LogTemp: Health Changed: 20.0
+[2018.11.26-06.50.29:221][228]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.50.29:646][275]LogTemp: Health Changed: 0.0
+[2018.11.26-06.50.29:646][275]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.29:646][275]LogTemp: Health Changed: 0.0
+[2018.11.26-06.50.29:647][275]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.50.29:647][275]LogTemp: Health Changed: 0.0
+[2018.11.26-06.50.29:647][275]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.29:647][275]LogTemp: Health Changed: 20.0
+[2018.11.26-06.50.29:647][275]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.50.29:647][275]LogTemp: Health Changed: 0.0
+[2018.11.26-06.50.29:647][275]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.50.29:647][275]LogTemp: Health Changed: 0.0
+[2018.11.26-06.50.29:647][275]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.50.34:431][811]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.50.34:468][811]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.12:833][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-06.51.12:877][246]Candidate modules for hot reload:
+[2018.11.26-06.51.12:877][246]  CoopShooterGame
+[2018.11.26-06.51.12:877][246]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,2373 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.51.12:881][246]Warning: Starting HotReload took  0.0s.
+[2018.11.26-06.51.17:155][607]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:51:17 PM
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: STrackerBot.cpp
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-2373.dll
+[2018.11.26-06.51.17:156][607]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-2373.lib
+[2018.11.26-06.51.17:156][607]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2373.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2373.exp
+[2018.11.26-06.51.17:157][607]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2373.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-2373.suppressed.exp
+[2018.11.26-06.51.17:157][607]CompilerResultsLog: Total build time: 4.08 seconds (Local executor: 2.92 seconds)
+[2018.11.26-06.51.17:157][607]LogMainFrame: MainFrame: Module compiling took 4.316 seconds
+[2018.11.26-06.51.17:189][607]LogClass: HitScanTrace HotReload.
+[2018.11.26-06.51.17:192][607]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2018.11.26-06.51.17:193][607]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001960afa2f58, Size=4
+[2018.11.26-06.51.17:194][607]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960c2c1a20, Size=4, BP_TrackerBot_C_120 Function /Engine/Transient.REINST_BP_TrackerBot_C_200:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.51.17:194][607]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960c2c3af0, Size=4, Default__BP_TrackerBot_C Function /Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.51.17:722][607]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 8 classes and 4 folders.
+[2018.11.26-06.51.17:725][607]Display: HotReload successful (11 functions remapped  1 scriptstructs remapped)
+[2018.11.26-06.51.17:944][607]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2462 classes and 566 folders.
+[2018.11.26-06.51.17:944][607]Display: HotReload took  5.1s.
+[2018.11.26-06.51.20:540][838]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.51.20:564][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.20:564][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.51.20:565][838]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:51:20 PM)
+[2018.11.26-06.51.20:565][838]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.51.20:569][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004288s)
+[2018.11.26-06.51.20:570][838]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.51.20:570][838]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2018.11.26-06.51.20:570][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005518s)
+[2018.11.26-06.51.20:636][838]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.51.20:644][838]LogInit: FAudioDevice initialized.
+[2018.11.26-06.51.20:673][838]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.51.20:675][838]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.51.20
+[2018.11.26-06.51.20:675][838]LogWorld: Bringing up level for play took: 0.001670
+[2018.11.26-06.51.20:677][838]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.794
+[2018.11.26-06.51.20:677][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.21:911][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.21:948][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.38:350][640]Candidate modules for hot reload:
+[2018.11.26-06.51.38:350][640]  CoopShooterGame
+[2018.11.26-06.51.38:350][640]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe CoopShooterGame -ModuleWithSuffix=CoopShooterGame,3250 Win64 Development -editorrecompile -canskiplink "C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/CoopShooterGame.uproject" ]
+[2018.11.26-06.51.38:353][640]Warning: Starting HotReload took  0.0s.
+[2018.11.26-06.51.42:433][994]CompilerResultsLog: New page: Compilation - Nov 25, 2018, 6:51:42 PM
+[2018.11.26-06.51.42:433][994]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.11.26-06.51.42:434][994]CompilerResultsLog: Compiling game modules for hot reload
+[2018.11.26-06.51.42:434][994]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2018.11.26-06.51.42:434][994]CompilerResultsLog: STrackerBot.cpp
+[2018.11.26-06.51.42:434][994]CompilerResultsLog: [2/3] Link UE4Editor-CoopShooterGame-3250.dll
+[2018.11.26-06.51.42:434][994]CompilerResultsLog: [3/3] Link UE4Editor-CoopShooterGame-3250.lib
+[2018.11.26-06.51.42:434][994]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-3250.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-3250.exp
+[2018.11.26-06.51.42:434][994]CompilerResultsLog:    Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-3250.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame-3250.suppressed.exp
+[2018.11.26-06.51.42:435][994]CompilerResultsLog: Total build time: 3.92 seconds (Local executor: 2.83 seconds)
+[2018.11.26-06.51.42:435][994]LogMainFrame: MainFrame: Module compiling took 4.117 seconds
+[2018.11.26-06.51.42:467][994]LogClass: HitScanTrace HotReload.
+[2018.11.26-06.51.42:471][994]LogHotReload: Re-instancing STrackerBot after hot-reload.
+[2018.11.26-06.51.42:472][994]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001960c2c3af0, Size=4
+[2018.11.26-06.51.42:472][994]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960c2c3af0, Size=4, BP_TrackerBot_C_122 Function /Engine/Transient.REINST_BP_TrackerBot_C_204:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.51.42:473][994]LogUObjectGlobals: Created PersistentFrame Addr=0x000001960c2c2f40, Size=4, Default__BP_TrackerBot_C Function /Game/TrackerBot/BP_TrackerBot.BP_TrackerBot_C:ExecuteUbergraph_BP_TrackerBot
+[2018.11.26-06.51.43:054][994]LogContentBrowser: Native class hierarchy updated for 'CoopShooterGame' in 0.0013 seconds. Added 8 classes and 4 folders.
+[2018.11.26-06.51.43:057][994]Display: HotReload successful (11 functions remapped  1 scriptstructs remapped)
+[2018.11.26-06.51.43:270][994]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2462 classes and 566 folders.
+[2018.11.26-06.51.43:270][994]Display: HotReload took  5.0s.
+[2018.11.26-06.51.44:050][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-06.51.44:073][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.44:074][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-06.51.44:074][ 70]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 6:51:44 PM)
+[2018.11.26-06.51.44:074][ 70]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-06.51.44:077][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003831s)
+[2018.11.26-06.51.44:078][ 70]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-06.51.44:078][ 70]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.11.26-06.51.44:078][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005062s)
+[2018.11.26-06.51.44:144][ 70]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-06.51.44:151][ 70]LogInit: FAudioDevice initialized.
+[2018.11.26-06.51.44:183][ 70]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-06.51.44:185][ 70]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-00.51.44
+[2018.11.26-06.51.44:185][ 70]LogWorld: Bringing up level for play took: 0.001630
+[2018.11.26-06.51.44:187][ 70]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.716
+[2018.11.26-06.51.44:187][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.47:130][372]LogTemp: Health Changed: 80.0
+[2018.11.26-06.51.47:130][372]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.51.47:168][376]LogTemp: Health Changed: 80.0
+[2018.11.26-06.51.47:169][376]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.47:620][424]LogTemp: Health Changed: 60.0
+[2018.11.26-06.51.47:620][424]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.51.47:666][429]LogTemp: Health Changed: 60.0
+[2018.11.26-06.51.47:666][429]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.47:749][438]LogTemp: Health Changed: 80.0
+[2018.11.26-06.51.47:749][438]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.51.48:129][478]LogTemp: Health Changed: 40.0
+[2018.11.26-06.51.48:129][478]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.51.48:167][482]LogTemp: Health Changed: 40.0
+[2018.11.26-06.51.48:167][482]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.48:244][490]LogTemp: Health Changed: 60.0
+[2018.11.26-06.51.48:244][490]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.51.48:632][529]LogTemp: Health Changed: 20.0
+[2018.11.26-06.51.48:632][529]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.51.48:666][532]LogTemp: Health Changed: 20.0
+[2018.11.26-06.51.48:666][532]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.48:749][540]LogTemp: Health Changed: 40.0
+[2018.11.26-06.51.48:750][540]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.51.49:127][575]LogTemp: Health Changed: 0.0
+[2018.11.26-06.51.49:127][575]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-06.51.49:167][579]LogTemp: Health Changed: 0.0
+[2018.11.26-06.51.49:167][579]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.49:167][579]LogTemp: Health Changed: 0.0
+[2018.11.26-06.51.49:167][579]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-06.51.49:167][579]LogTemp: Health Changed: 0.0
+[2018.11.26-06.51.49:167][579]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-06.51.51:115][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.51.51:150][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-06.59.56:829][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.26-07.00.28:516][618]LogSavePackage: Save=2.23ms
+[2018.11.26-07.00.28:516][618]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/TrackerBotAttenuation2A12351647A4709925CE7BB706C49A0F.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/TrackerBotAttenuation.uasset'
+[2018.11.26-07.00.28:520][618]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/TrackerBotAttenuation.uasset
+[2018.11.26-07.00.48:341][762]LogSavePackage: Save=2.92ms
+[2018.11.26-07.00.48:341][762]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/tracker_warning60CE26A74488A8040039CF91E7B764A3.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/tracker_warning.uasset'
+[2018.11.26-07.00.48:344][762]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/tracker_warning.uasset
+[2018.11.26-07.00.50:580][981]LogSavePackage: Save=3.07ms
+[2018.11.26-07.00.50:580][981]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/tracker_explosion6C6A4B4E4E8840FDD4311987FA27A60D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/tracker_explosion.uasset'
+[2018.11.26-07.00.50:583][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/tracker_explosion.uasset
+[2018.11.26-07.00.58:339][845]LogSavePackage: Save=123.49ms
+[2018.11.26-07.00.58:339][845]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default11866C254B2540B3353C4CAA9322CC29.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.11.26-07.00.58:343][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.11.26-07.00.58:429][845]LogSavePackage: Save=19.01ms
+[2018.11.26-07.00.58:429][845]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Minimal_Default_BuiltData841C7257431974CC3D9258A7CD02813F.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.11.26-07.00.58:431][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.11.26-07.01.01:031][934]LogSlate: Window 'Save Content' being destroyed
+[2018.11.26-07.01.01:096][934]LogSavePackage: Save=4.10ms
+[2018.11.26-07.01.01:096][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_01gE3D7087245F170FC20A201AFF9E6EF42.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_01g.uasset'
+[2018.11.26-07.01.01:099][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_01g.uasset
+[2018.11.26-07.01.01:123][934]LogSavePackage: Save=4.54ms
+[2018.11.26-07.01.01:123][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_02_loop2FE44B584C1A3649E82A99B1343A8209.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_02_loop.uasset'
+[2018.11.26-07.01.01:126][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_02_loop.uasset
+[2018.11.26-07.01.01:141][934]LogSavePackage: Save=4.41ms
+[2018.11.26-07.01.01:141][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_03_loopA9A0501E4BA8036136E908841770240D.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_03_loop.uasset'
+[2018.11.26-07.01.01:144][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_03_loop.uasset
+[2018.11.26-07.01.01:158][934]LogSavePackage: Save=3.50ms
+[2018.11.26-07.01.01:158][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/ball_roll_04_loopF68F820C4C21B9F204EDD68FE490EFC2.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_04_loop.uasset'
+[2018.11.26-07.01.01:161][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/ball_roll_04_loop.uasset
+[2018.11.26-07.01.01:174][934]LogSavePackage: Save=3.53ms
+[2018.11.26-07.01.01:174][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_explodewarning4D3D6EB24CC4B7574941A2A90E21126B.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning.uasset'
+[2018.11.26-07.01.01:178][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_explodewarning.uasset
+[2018.11.26-07.01.01:189][934]LogSavePackage: Save=3.25ms
+[2018.11.26-07.01.01:189][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_idleDE21A6C742088891412E88AB2A946221.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_idle.uasset'
+[2018.11.26-07.01.01:192][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_idle.uasset
+[2018.11.26-07.01.01:204][934]LogSavePackage: Save=3.26ms
+[2018.11.26-07.01.01:204][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/DroneTracker_spotted3BA30D204166472ED3E542A91A71B4C7.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_spotted.uasset'
+[2018.11.26-07.01.01:207][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/DroneTracker_spotted.uasset
+[2018.11.26-07.01.01:220][934]LogSavePackage: Save=3.27ms
+[2018.11.26-07.01.01:220][934]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Explosion0199EE12CA4C6F9B136F0AD39C6155D79B.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/Explosion01.uasset'
+[2018.11.26-07.01.01:223][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/TrackerBot/TrackerBotSounds/Explosion01.uasset
+[2018.11.26-07.01.02:793][105]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.26-07.01.02:816][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-07.01.02:816][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.26-07.01.02:816][105]PIE: New page: PIE session: Minimal_Default (Nov 25, 2018, 7:01:02 PM)
+[2018.11.26-07.01.02:817][105]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.26-07.01.02:821][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003880s)
+[2018.11.26-07.01.02:821][105]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.26-07.01.02:822][105]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.11.26-07.01.02:822][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005142s)
+[2018.11.26-07.01.02:860][105]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.26-07.01.02:867][105]LogInit: FAudioDevice initialized.
+[2018.11.26-07.01.02:896][105]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.26-07.01.02:898][105]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.26-01.01.02
+[2018.11.26-07.01.02:898][105]LogWorld: Bringing up level for play took: 0.001832
+[2018.11.26-07.01.02:900][105]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.57
+[2018.11.26-07.01.02:901][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-07.01.05:744][416]LogTemp: Health Changed: 80.0
+[2018.11.26-07.01.05:744][416]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot3
+[2018.11.26-07.01.06:235][474]LogTemp: Health Changed: 60.0
+[2018.11.26-07.01.06:235][474]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot3
+[2018.11.26-07.01.06:624][519]LogTemp: Health Changed: 80.0
+[2018.11.26-07.01.06:625][519]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot_5
+[2018.11.26-07.01.06:736][532]LogTemp: Health Changed: 40.0
+[2018.11.26-07.01.06:737][532]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot3
+[2018.11.26-07.01.07:122][577]LogTemp: Health Changed: 60.0
+[2018.11.26-07.01.07:122][577]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot_5
+[2018.11.26-07.01.07:235][590]LogTemp: Health Changed: 20.0
+[2018.11.26-07.01.07:236][590]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot3
+[2018.11.26-07.01.07:616][634]LogTemp: Health Changed: 40.0
+[2018.11.26-07.01.07:616][634]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot_5
+[2018.11.26-07.01.07:736][648]LogTemp: Health Changed: 0.0
+[2018.11.26-07.01.07:736][648]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot3
+[2018.11.26-07.01.08:116][692]LogTemp: Health Changed: 20.0
+[2018.11.26-07.01.08:116][692]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot_5
+[2018.11.26-07.01.08:618][750]LogTemp: Health Changed: 0.0
+[2018.11.26-07.01.08:618][750]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot_5
+[2018.11.26-07.01.12:302][176]LogTemp: Health Changed: 80.0
+[2018.11.26-07.01.12:302][176]LogTemp: Trackerbot Hit: Health 80.0 for pawn: BP_TrackerBot2
+[2018.11.26-07.01.12:404][188]LogTemp: Health Changed: 60.0
+[2018.11.26-07.01.12:404][188]LogTemp: Trackerbot Hit: Health 60.0 for pawn: BP_TrackerBot2
+[2018.11.26-07.01.12:499][199]LogTemp: Health Changed: 40.0
+[2018.11.26-07.01.12:499][199]LogTemp: Trackerbot Hit: Health 40.0 for pawn: BP_TrackerBot2
+[2018.11.26-07.01.12:602][211]LogTemp: Health Changed: 20.0
+[2018.11.26-07.01.12:602][211]LogTemp: Trackerbot Hit: Health 20.0 for pawn: BP_TrackerBot2
+[2018.11.26-07.01.12:704][223]LogTemp: Health Changed: 0.0
+[2018.11.26-07.01.12:704][223]LogTemp: Trackerbot Hit: Health 0.0 for pawn: BP_TrackerBot2
+[2018.11.26-07.01.13:689][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.26-07.01.13:723][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
