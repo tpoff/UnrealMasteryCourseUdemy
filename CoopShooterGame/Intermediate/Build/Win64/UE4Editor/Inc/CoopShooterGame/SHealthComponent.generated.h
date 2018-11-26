@@ -53,6 +53,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 		P_NATIVE_BEGIN; \
 		P_THIS->handleTakeAnyDamage(Z_Param_damagedActor,Z_Param_damage,Z_Param_damageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Health) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_oldHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Health(Z_Param_oldHealth); \
+		P_NATIVE_END; \
 	}
 
 
@@ -68,6 +77,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->handleTakeAnyDamage(Z_Param_damagedActor,Z_Param_damage,Z_Param_damageType,Z_Param_instigatedBy,Z_Param_damageCauser); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Health) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_oldHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Health(Z_Param_oldHealth); \
 		P_NATIVE_END; \
 	}
 

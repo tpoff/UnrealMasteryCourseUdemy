@@ -105,6 +105,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTrackerBot); \
 	FORCEINLINE static uint32 __PPO__explosionEffect() { return STRUCT_OFFSET(ASTrackerBot, explosionEffect); } \
 	FORCEINLINE static uint32 __PPO__explosionRadius() { return STRUCT_OFFSET(ASTrackerBot, explosionRadius); } \
 	FORCEINLINE static uint32 __PPO__explosionDamage() { return STRUCT_OFFSET(ASTrackerBot, explosionDamage); } \
+	FORCEINLINE static uint32 __PPO__selfDamageInterval() { return STRUCT_OFFSET(ASTrackerBot, selfDamageInterval); } \
 	FORCEINLINE static uint32 __PPO__selfDestructSound() { return STRUCT_OFFSET(ASTrackerBot, selfDestructSound); } \
 	FORCEINLINE static uint32 __PPO__explosionSound() { return STRUCT_OFFSET(ASTrackerBot, explosionSound); }
 

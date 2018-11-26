@@ -121,6 +121,13 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_selfDestructSound = { UE4CodeGen_Private::EPropertyClass::Object, "selfDestructSound", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, selfDestructSound), Z_Construct_UClass_USoundCue_NoRegister, METADATA_PARAMS(NewProp_selfDestructSound_MetaData, ARRAY_COUNT(NewProp_selfDestructSound_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_selfDamageInterval_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_selfDamageInterval = { UE4CodeGen_Private::EPropertyClass::Float, "selfDamageInterval", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, selfDamageInterval), METADATA_PARAMS(NewProp_selfDamageInterval_MetaData, ARRAY_COUNT(NewProp_selfDamageInterval_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionDamage_MetaData[] = {
 				{ "Category", "TrackerBot" },
 				{ "ModuleRelativePath", "Public/STrackerBot.h" },
@@ -190,6 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionSound,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_selfDestructSound,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_selfDamageInterval,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionDamage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionRadius,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionEffect,
@@ -218,7 +226,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 2354262214);
+	IMPLEMENT_CLASS(ASTrackerBot, 3565342004);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

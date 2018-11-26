@@ -1,11 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-3587.dll".
-  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-3587.pdb".
-  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-9905.dll".
-  Deleting old hot reload file: "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Binaries\Win64\UE4Editor-CoopShooterGame-9905.pdb".
-  Performing 2 actions (9 in parallel)
-  [1/2] Link UE4Editor-CoopShooterGame.dll
-  [2/2] Link UE4Editor-CoopShooterGame.lib
-     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.exp
-     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.exp
-  Total build time: 2.08 seconds (Local executor: 0.81 seconds)
+  Creating makefile for hot reloading CoopShooterGameEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Parsing headers for CoopShooterGameEditor
+    Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/Components/SHealthComponent.h(25) : LogCompile: Error: Unknown variable specifier 'RepliactedUsing'
+C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/Components/SHealthComponent.h(28): error : Function return type: Missing variable type
+EXEC : error : UnrealHeaderTool failed for target 'CoopShooterGameEditor' (platform: Win64, module info: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" CoopShooterGameEditor Win64 Development "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
