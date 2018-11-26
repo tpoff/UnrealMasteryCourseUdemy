@@ -8,6 +8,7 @@
 
 class USHealthComponent;
 class UStaticMeshComponent;
+class USphereComponent;
 
 UCLASS()
 class COOPSHOOTERGAME_API ASTrackerBot : public APawn
@@ -34,6 +35,9 @@ protected:
 
 	FVector nextPathPoint;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Components")
+	USphereComponent* sphereComponent;
+
 	UPROPERTY(EditDefaultsOnly, Category="TrackerBot")
 	float movementForce;
 
@@ -54,6 +58,7 @@ protected:
 	UParticleSystem* explosionEffect;
 
 	bool bExploded;
+	bool bStartedSelfDestruction;
 
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
 		float explosionRadius;
@@ -62,10 +67,14 @@ protected:
 
 	void SelfDestruct();
 
+	FTimerHandle timerHandle_selfDamage;
+	void damageSelf();
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
+	virtual void NotifyActorBeginOverlap(AActor* otherActor) override;
 	
 };

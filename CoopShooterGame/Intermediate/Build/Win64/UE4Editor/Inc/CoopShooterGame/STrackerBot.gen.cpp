@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	COOPSHOOTERGAME_API UClass* Z_Construct_UClass_USHealthComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void ASTrackerBot::StaticRegisterNativesASTrackerBot()
@@ -148,6 +149,14 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_movementForce = { UE4CodeGen_Private::EPropertyClass::Float, "movementForce", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, movementForce), METADATA_PARAMS(NewProp_movementForce_MetaData, ARRAY_COUNT(NewProp_movementForce_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sphereComponent_MetaData[] = {
+				{ "Category", "Components" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_sphereComponent = { UE4CodeGen_Private::EPropertyClass::Object, "sphereComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000090009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, sphereComponent), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(NewProp_sphereComponent_MetaData, ARRAY_COUNT(NewProp_sphereComponent_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_healthComponent_MetaData[] = {
 				{ "Category", "Components" },
 				{ "EditInline", "true" },
@@ -170,6 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bUseVelocityChange,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_requiredDistanceToTarget,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_movementForce,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_sphereComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_healthComponent,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_meshComponent,
 			};
@@ -191,7 +201,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 2740178700);
+	IMPLEMENT_CLASS(ASTrackerBot, 478801642);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

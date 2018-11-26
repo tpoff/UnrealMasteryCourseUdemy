@@ -8,6 +8,8 @@
 #include "GameFramework//Character.h"
 #include "DrawDebugHelpers.h"
 #include"../Public/Components/SHealthComponent.h"
+#include "../Public/SCharacter.h"
+#include "Components/SphereComponent.h"
 
 
 // Sets default values
@@ -19,6 +21,13 @@ ASTrackerBot::ASTrackerBot()
 	meshComponent->SetCanEverAffectNavigation(false);
 	meshComponent->SetSimulatePhysics(true);
 	RootComponent = meshComponent;
+
+	sphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("sphereComponent"));
+	sphereComponent->SetSphereRadius(200);
+	sphereComponent->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
+	sphereComponent->SetCollisionResponseToAllChannels(ECR_Ignore);
+	sphereComponent->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
+	sphereComponent->SetupAttachment(RootComponent);
 
 	healthComponent = CreateDefaultSubobject<USHealthComponent>(TEXT("healthComponent"));
 	healthComponent->onHealthChanged.AddDynamic(this, &ASTrackerBot::HandleTakeDamage);
@@ -36,6 +45,8 @@ void ASTrackerBot::BeginPlay()
 	Super::BeginPlay();
 	nextPathPoint =getNextPathPoint();
 	bExploded = false;
+	bStartedSelfDestruction = false;
+
 }
 
 FVector ASTrackerBot::getNextPathPoint()
@@ -93,6 +104,11 @@ void ASTrackerBot::SelfDestruct()
 	}
 }
 
+void ASTrackerBot::damageSelf()
+{
+	UGameplayStatics::ApplyDamage(this, 20, GetInstigatorController(), this, nullptr);
+}
+
 // Called every frame
 void ASTrackerBot::Tick(float DeltaTime)
 {
@@ -114,6 +130,18 @@ void ASTrackerBot::Tick(float DeltaTime)
 
 	DrawDebugSphere(GetWorld(), nextPathPoint, 20, 12, FColor::Yellow, false, 4.0f, 1.0f);
 	
+}
+
+void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor)
+{
+	ASCharacter* playerPawn = Cast<ASCharacter>(otherActor);
+	if (playerPawn && bStartedSelfDestruction == false) {
+		//we overlapped with player.
+
+		//start self destruction sequence. 
+		GetWorldTimerManager().SetTimer(timerHandle_selfDamage, this, &ASTrackerBot::damageSelf, 0.5f, true, 0.0f);
+		bStartedSelfDestruction = true;
+	}
 }
 
 
