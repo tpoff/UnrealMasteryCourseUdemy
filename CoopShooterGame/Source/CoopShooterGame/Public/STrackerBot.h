@@ -81,10 +81,23 @@ protected:
 	USoundCue* explosionSound;
 
 
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	bool enableGroupDamageMultiplier;
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	float max_group_multiplier;
+
+
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+	int max_group_size;
+
+	int current_group_size;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void NotifyActorBeginOverlap(AActor* otherActor) override;
+	virtual void NotifyActorEndOverlap(AActor* otherActor) override;
 	
 };

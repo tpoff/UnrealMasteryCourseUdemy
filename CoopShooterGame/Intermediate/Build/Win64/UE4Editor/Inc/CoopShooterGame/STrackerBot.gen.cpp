@@ -107,6 +107,28 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_max_group_size_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_max_group_size = { UE4CodeGen_Private::EPropertyClass::Int, "max_group_size", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, max_group_size), METADATA_PARAMS(NewProp_max_group_size_MetaData, ARRAY_COUNT(NewProp_max_group_size_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_max_group_multiplier_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_max_group_multiplier = { UE4CodeGen_Private::EPropertyClass::Float, "max_group_multiplier", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, max_group_multiplier), METADATA_PARAMS(NewProp_max_group_multiplier_MetaData, ARRAY_COUNT(NewProp_max_group_multiplier_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_enableGroupDamageMultiplier_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			auto NewProp_enableGroupDamageMultiplier_SetBit = [](void* Obj){ ((ASTrackerBot*)Obj)->enableGroupDamageMultiplier = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_enableGroupDamageMultiplier = { UE4CodeGen_Private::EPropertyClass::Bool, "enableGroupDamageMultiplier", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ASTrackerBot), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_enableGroupDamageMultiplier_SetBit)>::SetBit, METADATA_PARAMS(NewProp_enableGroupDamageMultiplier_MetaData, ARRAY_COUNT(NewProp_enableGroupDamageMultiplier_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_explosionSound_MetaData[] = {
 				{ "Category", "TrackerBot" },
 				{ "ModuleRelativePath", "Public/STrackerBot.h" },
@@ -195,6 +217,9 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000b0009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, meshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_max_group_size,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_max_group_multiplier,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_enableGroupDamageMultiplier,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_explosionSound,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_selfDestructSound,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_selfDamageInterval,
@@ -226,7 +251,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 3565342004);
+	IMPLEMENT_CLASS(ASTrackerBot, 4220821658);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -40,6 +40,14 @@ ASTrackerBot::ASTrackerBot()
 	explosionRadius = 200;
 
 	selfDamageInterval = 0.25f;
+
+
+
+	max_group_multiplier = 2.0f;
+	max_group_size = 5;
+	current_group_size = 0;
+
+	enableGroupDamageMultiplier = true;
 }
 
 // Called when the game starts or when spawned
@@ -106,7 +114,14 @@ void ASTrackerBot::SelfDestruct()
 
 			TArray<AActor*> ignoredActors;
 			ignoredActors.Add(this);
-			UGameplayStatics::ApplyRadialDamage(this, explosionDamage, GetActorLocation(), explosionRadius, nullptr, ignoredActors, this, GetInstigatorController(), true);
+
+			float damageToApply = explosionDamage;
+			if (enableGroupDamageMultiplier == true) {
+				damageToApply += explosionDamage*(max_group_multiplier*(current_group_size / max_group_size));
+
+			}
+
+			UGameplayStatics::ApplyRadialDamage(this, damageToApply, GetActorLocation(), explosionRadius, nullptr, ignoredActors, this, GetInstigatorController(), true);
 
 			DrawDebugSphere(GetWorld(), GetActorLocation(), explosionRadius, 12, FColor::Red, false, 2.0f, 0, 1.0f);
 
@@ -153,21 +168,51 @@ void ASTrackerBot::Tick(float DeltaTime)
 	
 }
 
-void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor)
-{
-	ASCharacter* playerPawn = Cast<ASCharacter>(otherActor);
-	if (playerPawn && bStartedSelfDestruction == false && !bExploded) {
-		//we overlapped with player.
+void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor){
+	UE_LOG(LogTemp, Log, TEXT("actor overlapped"));
+	if ( !bExploded) {
 
-		if (Role == ROLE_Authority) {
-			//start self destruction sequence. 
-			GetWorldTimerManager().SetTimer(timerHandle_selfDamage, this, &ASTrackerBot::damageSelf, selfDamageInterval, true, 0.0f);
+
+		ASCharacter* playerPawn = Cast<ASCharacter>(otherActor);
+		if (bStartedSelfDestruction == false && playerPawn) {
+			//we overlapped with player.
+
+			if (Role == ROLE_Authority) {
+				//start self destruction sequence. 
+				GetWorldTimerManager().SetTimer(timerHandle_selfDamage, this, &ASTrackerBot::damageSelf, selfDamageInterval, true, 0.0f);
+			}
+
+			bStartedSelfDestruction = true;
+
+			UGameplayStatics::SpawnSoundAttached(selfDestructSound, RootComponent);
 		}
-
-		bStartedSelfDestruction = true;
-
-		UGameplayStatics::SpawnSoundAttached(selfDestructSound, RootComponent);
+		ASTrackerBot* otherTracker = Cast<ASTrackerBot>(otherActor);
+		if (otherTracker) {
+			current_group_size++;
+			if (current_group_size > max_group_size) {
+				current_group_size = max_group_size;
+			}
+			UE_LOG(LogTemp, Log, TEXT("group size: %s"), *FString::SanitizeFloat(current_group_size));
+		}
+		
 	}
+}
+
+void ASTrackerBot::NotifyActorEndOverlap(AActor* otherActor) {
+	UE_LOG(LogTemp, Log, TEXT("actor end overlapped"));
+
+	if (!bExploded) {
+
+		ASTrackerBot* otherTracker = Cast<ASTrackerBot>(otherActor);
+		if (otherTracker) {
+			current_group_size--;
+			if (current_group_size <0) {
+				current_group_size = 0;
+			}
+			UE_LOG(LogTemp, Log, TEXT("group size: %s"), *FString::SanitizeFloat(current_group_size));
+		}
+	}
+
 }
 
 
