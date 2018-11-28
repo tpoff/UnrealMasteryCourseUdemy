@@ -32,6 +32,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category = "Components")
 	USHealthComponent* healthComponent; 
 
+	void findNextPathPoint();
 	FVector getNextPathPoint();
 
 	FVector nextPathPoint;
@@ -72,6 +73,7 @@ protected:
 	void SelfDestruct();
 
 	FTimerHandle timerHandle_selfDamage;
+	FTimerHandle timerCheckPath;
 	FTimerHandle checkGroupSize;
 	void damageSelf();
 
@@ -93,6 +95,8 @@ protected:
 		float max_group_size;
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
 		float checkGroupInterval;
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+		float checkPathInterval;
 
 	float current_group_size;
 

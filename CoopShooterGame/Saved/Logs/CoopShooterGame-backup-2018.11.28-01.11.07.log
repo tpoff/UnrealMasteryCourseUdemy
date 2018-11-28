@@ -1,0 +1,2347 @@
+﻿Log file open, 11/28/18 01:10:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CoopShooterGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(700391376) SRandInit(700391376).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.404812
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.095s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Binaries/Win64/UE4Editor-CoopShooterGame-9129.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-4VFF8DG (192.168.99.1:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.28-07.10.13:185][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-07.10.13:185][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.28-07.10.13:193][  0]LogInit: Computer: DESKTOP-4VFF8DG
+[2018.11.28-07.10.13:193][  0]LogInit: User: Tyler
+[2018.11.28-07.10.13:193][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.11.28-07.10.13:193][  0]LogInit: High frequency timer resolution =3.609380 MHz
+[2018.11.28-07.10.13:193][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.28-07.10.13:193][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.28-07.10.13:193][  0]LogMemory: Process Physical Memory: 275.32 MB used, 275.32 MB peak
+[2018.11.28-07.10.13:193][  0]LogMemory: Process Virtual Memory: 279.90 MB used, 279.90 MB peak
+[2018.11.28-07.10.13:193][  0]LogMemory: Physical Memory: 6352.11 MB used,  9955.23 MB free, 16307.34 MB total
+[2018.11.28-07.10.13:193][  0]LogMemory: Virtual Memory: 4823.90 MB used,  9955.23 MB free, 134217728.00 MB total
+[2018.11.28-07.10.13:210][  0]LogInit: Using OS detected language (en-US).
+[2018.11.28-07.10.13:210][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.28-07.10.13:213][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.28-07.10.13:541][  0]LogStreaming: Display: Took  0.331s to EndInitTextLocalization.
+[2018.11.28-07.10.13:541][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.28-07.10.13:609][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.28-07.10.13:609][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.28-07.10.13:794][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.28-07.10.13:837][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.11.28-07.10.13:837][  0]LogD3D11RHI:       11127/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2018.11.28-07.10.13:839][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.28-07.10.13:839][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.28-07.10.13:839][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.28-07.10.13:845][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.28-07.10.13:845][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.28-07.10.13:845][  0]LogWindows: EnumDisplayDevices:
+[2018.11.28-07.10.13:845][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.11.28-07.10.13:845][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.28-07.10.13:846][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.28-07.10.13:846][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.11.28-07.10.13:846][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.11.28-07.10.13:846][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.11.28-07.10.13:846][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.11.28-07.10.13:846][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.11.28-07.10.13:846][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.11.28-07.10.13:872][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.11.28-07.10.13:872][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.11.28-07.10.13:872][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.28-07.10.13:888][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.28-07.10.14:080][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Intermediate/Shaders/WorkingDirectory/19364/).
+[2018.11.28-07.10.14:080][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tyler/AppData/Local/Temp/UnrealShaderWorkingDir/B32B76B54A606B1E84717BA3945DE58A/'.
+[2018.11.28-07.10.14:260][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.28-07.10.14:271][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.28-07.10.14:283][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.28-07.10.14:294][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.28-07.10.14:306][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.28-07.10.14:317][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.28-07.10.14:329][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.28-07.10.14:340][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.28-07.10.14:346][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.28-07.10.14:356][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.11.28-07.10.14:366][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.11.28-07.10.14:376][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.11.28-07.10.14:386][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.11.28-07.10.14:396][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.11.28-07.10.14:406][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.11.28-07.10.14:427][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.11.28-07.10.14:427][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.11.28-07.10.14:442][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-07.10.14:443][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.28-07.10.14:483][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-07.10.14:496][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-07.10.14:508][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.28-07.10.14:518][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.28-07.10.14:528][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.28-07.10.14:538][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.28-07.10.14:538][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.28-07.10.14:649][  0]LogXGEController: Cleaning working directory: C:/Users/Tyler/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.28-07.10.14:649][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.28-07.10.14:649][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.28-07.10.14:649][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.28-07.10.15:246][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.28-07.10.15:312][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.28-07.10.15:324][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.28-07.10.15:336][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.28-07.10.15:336][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.28-07.10.15:336][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.28-07.10.15:344][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.28-07.10.15:344][  0]LogSlate: Using Freetype 2.6.0
+[2018.11.28-07.10.15:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-07.10.15:345][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-07.10.15:456][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.11.28-07.10.15:706][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-07.10.15:764][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.28-07.10.15:767][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.28-07.10.15:767][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.28-07.10.15:767][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.28-07.10.15:767][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.11.28-07.10.15:767][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.11.28-07.10.15:874][  0]LogNetVersion: CoopShooterGame , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4095294733)
+[2018.11.28-07.10.16:227][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.064882 seconds
+[2018.11.28-07.10.16:232][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.11.28-07.10.16:232][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.11.28-07.10.16:232][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.28-07.10.17:588][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.28-07.10.17:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.28-07.10.17:981][  0]SourceControl: Source control is disabled
+[2018.11.28-07.10.17:981][  0]SourceControl: Source control is disabled
+[2018.11.28-07.10.17:998][  0]SourceControl: Source control is disabled
+[2018.11.28-07.10.18:016][  0]SourceControl: Source control is disabled
+[2018.11.28-07.10.18:485][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.28-07.10.18:669][  0]LogOcInput: OculusInput pre-init called
+[2018.11.28-07.10.18:767][  0]LogEngine: Initializing Engine...
+[2018.11.28-07.10.18:768][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-07.10.18:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-07.10.18:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-07.10.18:967][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.28-07.10.19:017][  0]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-07.10.19:028][  0]LogInit: FAudioDevice initialized.
+[2018.11.28-07.10.19:104][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.11.28-07.10.19:117][  0]LogInit: Texture streaming: Enabled
+[2018.11.28-07.10.19:134][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.28-07.10.19:134][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FC23B628-4C77-6E28-50F5-43AEE04CBE75}
+[2018.11.28-07.10.19:147][  0]LogInit: Transaction tracking system initialized
+[2018.11.28-07.10.19:168][  0]BlueprintLog: New page: Editor Load
+[2018.11.28-07.10.19:236][  0]LocalizationService: Localization service is disabled
+[2018.11.28-07.10.19:347][  0]LogConsoleResponse: Display: 
+[2018.11.28-07.10.19:472][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.28-07.10.19:472][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.28-07.10.19:472][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.28-07.10.19:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-07.10.19:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-07.10.19:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/' took 0.02s
+[2018.11.28-07.10.19:825][  0]SourceControl: Source control is disabled
+[2018.11.28-07.10.19:825][  0]LightingResults: New page: Lighting Build
+[2018.11.28-07.10.19:827][  0]MapCheck: New page: Map Check
+[2018.11.28-07.10.19:828][  0]LightingResults: New page: Lighting Build
+[2018.11.28-07.10.19:867][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d660c0880, Size=28, Default__TrackerBot_C Function /Game/TrackerBot/TrackerBot.TrackerBot_C:ExecuteUbergraph_TrackerBot
+[2018.11.28-07.10.19:869][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d660c0880, Size=28
+[2018.11.28-07.10.19:869][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d660c0880, Size=28, Default__TrackerBot_C Function /Engine/Transient.REINST_TrackerBot_C_1:ExecuteUbergraph_TrackerBot
+[2018.11.28-07.10.19:870][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d660c0c20, Size=28, Default__TrackerBot_C Function /Game/TrackerBot/TrackerBot.TrackerBot_C:ExecuteUbergraph_TrackerBot
+[2018.11.28-07.10.19:971][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c883b00, Size=608, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.28-07.10.19:974][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c883b00, Size=608
+[2018.11.28-07.10.19:974][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c883b00, Size=608, Default__BP_TargetDummy_C Function /Engine/Transient.REINST_BP_TargetDummy_C_7:ExecuteUbergraph_BP_TargetDummy
+[2018.11.28-07.10.19:976][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c881a80, Size=608, Default__BP_TargetDummy_C Function /Game/BluePrints/BP_TargetDummy.BP_TargetDummy_C:ExecuteUbergraph_BP_TargetDummy
+[2018.11.28-07.10.20:003][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d483330b0, Size=104, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.28-07.10.20:012][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d483330b0, Size=104
+[2018.11.28-07.10.20:012][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c3f3740, Size=104, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Engine/Transient.REINST_UE4ASP_HeroTPP_AnimBlueprint_C_0:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.28-07.10.20:023][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c306010, Size=104, Default__UE4ASP_HeroTPP_AnimBlueprint_C Function /Game/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.UE4ASP_HeroTPP_AnimBlueprint_C:ExecuteUbergraph_UE4ASP_HeroTPP_AnimBlueprint
+[2018.11.28-07.10.20:078][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c307f20, Size=112, Default__WBP_HealthIndicator_C Function /Game/UI/WBP_HealthIndicator.WBP_HealthIndicator_C:ExecuteUbergraph_WBP_HealthIndicator
+[2018.11.28-07.10.20:080][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c307f20, Size=112
+[2018.11.28-07.10.20:080][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c307f20, Size=112, Default__WBP_HealthIndicator_C Function /Engine/Transient.REINST_WBP_HealthIndicator_C_1:ExecuteUbergraph_WBP_HealthIndicator
+[2018.11.28-07.10.20:082][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c33ea90, Size=112, Default__WBP_HealthIndicator_C Function /Game/UI/WBP_HealthIndicator.WBP_HealthIndicator_C:ExecuteUbergraph_WBP_HealthIndicator
+[2018.11.28-07.10.20:084][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c876e58, Size=40, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.28-07.10.20:087][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c876e58, Size=40
+[2018.11.28-07.10.20:087][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c876e58, Size=40, Default__PlayerPawn_C Function /Engine/Transient.REINST_PlayerPawn_C_12:ExecuteUbergraph_PlayerPawn
+[2018.11.28-07.10.20:088][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027d4c875760, Size=40, Default__PlayerPawn_C Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+[2018.11.28-07.10.20:272][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [3.212186ms] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2018.11.28-07.10.20:297][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.513002ms] /Game/Weapons/SK_Rifle.SK_Rifle
+[2018.11.28-07.10.20:422][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.28-07.10.20:431][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-07.10.20:441][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d660c0880, Size=28
+[2018.11.28-07.10.20:441][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c883b00, Size=608
+[2018.11.28-07.10.20:441][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c3f3740, Size=104
+[2018.11.28-07.10.20:441][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c307f20, Size=112
+[2018.11.28-07.10.20:441][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027d4c876e58, Size=40
+[2018.11.28-07.10.20:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-07.10.20:513][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.864ms to complete.
+[2018.11.28-07.10.20:513][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.689
+[2018.11.28-07.10.20:725][  0]LogCollectionManager: Loaded 0 collections in 0.001702 seconds
+[2018.11.28-07.10.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Collections/' took 0.01s
+[2018.11.28-07.10.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Developers/Tyler/Collections/' took 0.01s
+[2018.11.28-07.10.20:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Collections/' took 0.01s
+[2018.11.28-07.10.20:789][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.28-07.10.20:797][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2460 classes and 562 folders.
+[2018.11.28-07.10.20:805][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.11.28-07.10.20:850][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.11.28-07.10.20:857][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.11.28-07.10.20:915][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.28-07.10.20:917][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.28-07.10.20:921][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.28-07.10.20:993][  0]LogRenderer: Reallocating scene render targets to support 1240x592 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-07.10.21:047][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-07.10.21:124][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.11.28-07.10.21:124][  0]LogLoad: (Engine Initialization) Total time: 11.12 seconds
+[2018.11.28-07.10.21:125][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.28-07.10.21:134][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.28-07.10.21:150][  0]LogAssetRegistry: Asset discovery search completed in 5.7164 seconds
+[2018.11.28-07.10.21:152][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.28-07.10.21:152][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2018.11.28-07.10.21:155][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.28-07.10.22:185][ 98]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-07.10.28:016][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-07.10.28:116][723]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-07.10.28:136][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.28:137][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-07.10.28:137][723]PIE: New page: PIE session: Minimal_Default (Nov 27, 2018, 7:10:28 PM)
+[2018.11.28-07.10.28:137][723]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.28-07.10.28:144][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006415s)
+[2018.11.28-07.10.28:144][723]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.28-07.10.28:144][723]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.11.28-07.10.28:144][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007222s)
+[2018.11.28-07.10.28:174][723]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-07.10.28:181][723]LogInit: FAudioDevice initialized.
+[2018.11.28-07.10.28:227][723]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.28-07.10.28:229][723]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.28-01.10.28
+[2018.11.28-07.10.28:230][723]LogWorld: Bringing up level for play took: 0.002047
+[2018.11.28-07.10.28:234][723]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.11.28-07.10.28:235][723]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:235][723]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:235][723]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:235][723]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:236][723]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.639
+[2018.11.28-07.10.28:236][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.28:304][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:304][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:305][724]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:327][726]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:327][726]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:327][726]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:327][726]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:369][731]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:369][731]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:369][731]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:369][731]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:419][737]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:419][737]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:419][737]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:419][737]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:470][743]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:470][743]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:470][743]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:470][743]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:520][749]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:520][749]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:520][749]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:520][749]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:568][755]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:568][755]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:568][755]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:569][755]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:619][761]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:619][761]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:619][761]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:619][761]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:669][767]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:669][767]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:669][767]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:669][767]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:719][773]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:719][773]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:719][773]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:719][773]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:769][779]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:769][779]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:769][779]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:769][779]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:819][785]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:819][785]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:819][785]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:819][785]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:870][791]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:870][791]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:870][791]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:870][791]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:920][797]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:920][797]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:920][797]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:920][797]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:969][803]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:970][803]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:970][803]LogTemp: POWER: 1.0
+[2018.11.28-07.10.28:970][803]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:020][809]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:020][809]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:020][809]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:020][809]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:070][815]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:070][815]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:070][815]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:070][815]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:120][821]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:120][821]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:120][821]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:120][821]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:170][827]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:170][827]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:170][827]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:170][827]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:219][833]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:219][833]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:220][833]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:220][833]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:270][839]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:270][839]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:270][839]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:270][839]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:320][845]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:320][845]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:320][845]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:321][845]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:370][851]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:370][851]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:370][851]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:371][851]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:420][857]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:420][857]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:420][857]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:420][857]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:470][863]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:470][863]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:470][863]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:470][863]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:520][869]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:520][869]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:520][869]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:520][869]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:569][875]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:570][875]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:570][875]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:570][875]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:620][881]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:620][881]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:620][881]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:620][881]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:670][887]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:670][887]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:670][887]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:670][887]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:720][893]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:720][893]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:720][893]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:720][893]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:770][899]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:770][899]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:770][899]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:770][899]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:820][905]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:820][905]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:820][905]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:820][905]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:870][911]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:871][911]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:871][911]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:871][911]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:920][917]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:920][917]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:920][917]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:920][917]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:970][923]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:970][923]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:970][923]LogTemp: POWER: 1.0
+[2018.11.28-07.10.29:970][923]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:020][929]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:020][929]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:020][929]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:020][929]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:070][935]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:070][935]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:070][935]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:070][935]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:120][941]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:121][941]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:121][941]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:121][941]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:170][947]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:170][947]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:170][947]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:170][947]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:219][953]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:220][953]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:220][953]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:220][953]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:228][954]LogTemp: actor overlapped
+[2018.11.28-07.10.30:269][959]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:270][959]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:270][959]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:270][959]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:319][965]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:320][965]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:320][965]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:320][965]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:370][971]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:371][971]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:371][971]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:371][971]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:420][977]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:420][977]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:420][977]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:420][977]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:470][983]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:470][983]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:470][983]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:470][983]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:520][989]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:520][989]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:520][989]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:520][989]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:570][995]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:571][995]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:571][995]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:571][995]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:619][  1]LogTemp: actor overlapped
+[2018.11.28-07.10.30:620][  1]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:620][  1]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:620][  1]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:620][  1]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:670][  7]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:670][  7]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:670][  7]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:670][  7]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:720][ 13]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:720][ 13]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:720][ 13]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:720][ 13]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:770][ 19]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:770][ 19]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:770][ 19]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:770][ 19]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:778][ 20]LogTemp: actor overlapped
+[2018.11.28-07.10.30:820][ 25]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:820][ 25]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:820][ 25]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:820][ 25]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:870][ 31]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:870][ 31]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:870][ 31]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:870][ 31]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:920][ 37]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:921][ 37]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:921][ 37]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:921][ 37]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:970][ 43]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:970][ 43]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:970][ 43]LogTemp: POWER: 1.0
+[2018.11.28-07.10.30:970][ 43]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:012][ 48]LogTemp: actor overlapped
+[2018.11.28-07.10.31:020][ 49]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.31:020][ 49]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.31:020][ 49]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:020][ 49]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:020][ 49]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:020][ 49]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:070][ 55]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:070][ 55]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:070][ 55]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:070][ 55]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:086][ 57]LogTemp: actor overlapped
+[2018.11.28-07.10.31:095][ 58]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.31:095][ 58]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot4
+[2018.11.28-07.10.31:120][ 61]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:120][ 61]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:120][ 61]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:120][ 61]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:170][ 67]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:170][ 67]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:170][ 67]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:170][ 67]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:220][ 73]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:220][ 73]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:220][ 73]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:220][ 73]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:228][ 74]LogTemp: actor overlapped
+[2018.11.28-07.10.31:237][ 75]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.31:237][ 75]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot3
+[2018.11.28-07.10.31:262][ 78]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.31:262][ 78]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.31:270][ 79]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:270][ 79]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:270][ 79]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:270][ 79]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:320][ 85]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:320][ 85]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:320][ 85]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:320][ 85]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:337][ 87]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.31:337][ 87]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot4
+[2018.11.28-07.10.31:370][ 91]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:371][ 91]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:371][ 91]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:371][ 91]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:420][ 97]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:420][ 97]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:420][ 97]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:420][ 97]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:470][103]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:471][103]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:471][103]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:471][103]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:478][104]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.31:478][104]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot3
+[2018.11.28-07.10.31:511][108]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.31:511][108]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.31:521][109]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:521][109]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:521][109]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:521][109]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:570][115]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:570][115]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:570][115]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:570][115]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:587][117]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.31:587][117]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot4
+[2018.11.28-07.10.31:620][121]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:620][121]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:620][121]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:621][121]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:671][127]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:671][127]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:671][127]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:671][127]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:720][133]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:720][133]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:720][133]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:720][133]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:728][134]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.31:728][134]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot3
+[2018.11.28-07.10.31:762][138]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.31:762][138]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.31:770][139]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:770][139]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:770][139]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:770][139]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:821][145]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:821][145]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:821][145]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:821][145]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:836][147]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.31:836][147]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot4
+[2018.11.28-07.10.31:870][151]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:870][151]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:870][151]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:870][151]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:920][157]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:920][157]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:920][157]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:920][157]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:970][163]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:970][163]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:970][163]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:970][163]LogTemp: POWER: 1.0
+[2018.11.28-07.10.31:978][164]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.31:978][164]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot3
+[2018.11.28-07.10.32:012][168]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:012][168]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.32:012][168]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_78.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:012][168]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_78.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:021][169]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:021][169]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:021][169]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:021][169]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:071][175]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:071][175]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:071][175]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:071][175]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:089][177]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:089][177]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.32:090][177]PIE: Warning: Invalid Simulate Options: Body (TrackerBot4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:090][177]PIE: Warning: Invalid Simulate Options: Body (TrackerBot4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:124][181]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:124][181]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:124][181]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:124][181]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:174][187]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:174][187]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:174][187]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:174][187]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:224][193]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:224][193]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:224][193]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:224][193]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:233][194]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:233][194]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.32:233][194]PIE: Warning: Invalid Simulate Options: Body (TrackerBot3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:233][194]PIE: Warning: Invalid Simulate Options: Body (TrackerBot3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.32:266][198]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:266][198]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.32:273][199]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:273][199]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:273][199]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:274][199]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:324][205]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:324][205]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:324][205]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:324][205]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:341][207]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:341][207]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.32:373][211]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:373][211]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:373][211]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:373][211]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:424][217]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:424][217]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:424][217]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:424][217]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:474][223]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:474][223]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:474][223]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:474][223]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:482][224]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:482][224]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.32:516][228]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:516][228]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.32:524][229]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:524][229]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:524][229]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:524][229]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:574][235]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:574][235]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:574][235]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:574][235]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:591][237]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:591][237]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.32:625][241]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:625][241]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:625][241]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:625][241]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:675][247]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:675][247]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:675][247]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:675][247]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:724][253]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:724][253]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:724][253]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:724][253]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:732][254]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:732][254]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.32:766][258]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:766][258]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.32:773][259]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:774][259]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:774][259]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:774][259]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:824][265]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:824][265]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:824][265]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:824][265]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:840][267]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:840][267]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.32:874][271]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:874][271]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:874][271]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:874][271]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:924][277]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.32:924][277]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:924][277]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:924][277]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.32:974][283]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.32:974][283]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.32:974][283]LogTemp: POWER: 1.0
+[2018.11.28-07.10.32:974][283]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.32:982][284]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.32:982][284]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.33:016][288]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:016][288]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.33:024][289]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:024][289]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:024][289]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:024][289]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:074][295]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:074][295]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:074][295]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:074][295]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:090][297]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:090][297]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.33:124][301]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:124][301]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:124][301]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:124][301]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:174][307]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:174][307]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:174][307]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:174][307]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:224][313]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:224][313]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:224][313]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:224][313]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:233][314]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:233][314]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.33:266][318]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:266][318]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.33:275][319]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:275][319]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:275][319]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:275][319]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:324][325]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:324][325]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:324][325]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:324][325]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:340][327]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:340][327]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.33:374][331]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:374][331]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:374][331]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:374][331]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:424][337]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:424][337]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:424][337]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:424][337]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:474][343]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:474][343]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:474][343]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:474][343]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:482][344]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:482][344]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.33:516][348]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:516][348]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.33:524][349]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:524][349]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:524][349]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:524][349]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:574][355]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:574][355]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:574][355]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:574][355]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:591][357]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:591][357]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.33:624][361]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:624][361]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:624][361]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:624][361]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:675][367]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:675][367]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:675][367]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:675][367]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:724][373]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:724][373]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:724][373]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:724][373]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:732][374]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:732][374]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.33:765][378]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:765][378]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.33:774][379]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:774][379]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:774][379]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:774][379]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:824][385]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:824][385]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:824][385]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:824][385]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:840][387]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:840][387]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.33:874][391]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:874][391]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:874][391]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:874][391]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:924][397]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:924][397]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:924][397]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:924][397]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:974][403]LogTemp: POWER: 0.0
+[2018.11.28-07.10.33:974][403]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:974][403]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:974][403]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.33:982][404]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.33:982][404]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.34:016][408]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.34:016][408]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.34:024][409]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:024][409]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:024][409]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:074][415]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:074][415]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:074][415]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:091][417]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.34:091][417]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.34:124][421]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:124][421]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:174][427]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:174][427]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:224][433]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:224][433]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:233][434]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.34:233][434]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.34:274][439]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:324][445]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:374][451]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:424][457]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:474][463]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:524][469]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:574][475]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:624][481]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:674][487]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:724][493]LogTemp: POWER: 0.0
+[2018.11.28-07.10.34:741][495]LogTemp: actor overlapped
+[2018.11.28-07.10.34:774][499]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:824][505]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:873][511]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:924][517]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.34:974][523]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:024][529]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:074][535]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:124][541]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:174][547]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:224][553]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:274][559]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:324][565]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:374][571]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:424][577]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:474][583]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:524][589]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:574][595]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.35:583][596]LogTemp: actor overlapped
+[2018.11.28-07.10.35:591][597]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.35:591][597]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot2
+[2018.11.28-07.10.35:624][601]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:674][607]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:724][613]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:774][619]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:824][625]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:832][626]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.35:833][626]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot2
+[2018.11.28-07.10.35:874][631]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:924][637]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.35:974][643]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:024][649]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:074][655]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:083][656]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.36:083][656]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot2
+[2018.11.28-07.10.36:125][661]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:174][667]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:224][673]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:274][679]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:324][685]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:333][686]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.36:333][686]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot2
+[2018.11.28-07.10.36:374][691]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:424][697]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:474][703]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:524][709]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:574][715]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:583][716]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.36:583][716]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.36:583][716]PIE: Warning: Invalid Simulate Options: Body (TrackerBot2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.36:583][716]PIE: Warning: Invalid Simulate Options: Body (TrackerBot2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.36:583][716]LogTemp: Health Changed: 6.666664
+[2018.11.28-07.10.36:624][721]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:674][727]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:724][733]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:774][739]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:823][745]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:832][746]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.36:832][746]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.36:874][751]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:924][757]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.36:974][763]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:024][769]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:074][775]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:083][776]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.37:083][776]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.37:124][781]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:174][787]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:224][793]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:274][799]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:324][805]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:332][806]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.37:333][806]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.37:374][811]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:424][817]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:474][823]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:524][829]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:574][835]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:582][836]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.37:582][836]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.37:624][841]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:674][847]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:724][853]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:774][859]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:824][865]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:833][866]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.37:833][866]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.37:874][871]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:924][877]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.37:974][883]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:024][889]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:074][895]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:083][896]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.38:083][896]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.38:124][901]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:174][907]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:224][913]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:274][919]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:324][925]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:332][926]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.38:333][926]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.38:374][931]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:424][937]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:474][943]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.38:483][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.38:517][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.40:179][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-07.10.40:279][143]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-07.10.40:298][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.40:299][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-07.10.40:299][143]PIE: New page: PIE session: Minimal_Default (Nov 27, 2018, 7:10:40 PM)
+[2018.11.28-07.10.40:299][143]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.28-07.10.40:305][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005672s)
+[2018.11.28-07.10.40:305][143]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.28-07.10.40:305][143]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2018.11.28-07.10.40:305][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006293s)
+[2018.11.28-07.10.40:335][143]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-07.10.40:343][143]LogInit: FAudioDevice initialized.
+[2018.11.28-07.10.40:373][143]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.28-07.10.40:375][143]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.28-01.10.40
+[2018.11.28-07.10.40:376][143]LogWorld: Bringing up level for play took: 0.002114
+[2018.11.28-07.10.40:377][143]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:377][143]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:378][143]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:378][143]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:378][143]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.781
+[2018.11.28-07.10.40:378][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.40:412][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:412][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:412][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:413][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:437][147]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:437][147]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:437][147]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:437][147]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:486][153]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:486][153]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:486][153]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:487][153]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:537][159]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:537][159]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:537][159]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:537][159]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:587][165]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:587][165]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:587][165]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:587][165]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:636][171]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:636][171]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:636][171]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:636][171]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:688][177]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:688][177]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:688][177]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:688][177]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:738][183]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:738][183]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:738][183]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:738][183]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:787][189]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:788][189]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:788][189]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:788][189]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:839][195]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:839][195]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:839][195]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:839][195]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:887][201]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:887][201]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:887][201]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:887][201]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:937][207]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:937][207]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:937][207]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:937][207]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:987][213]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:988][213]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:988][213]LogTemp: POWER: 1.0
+[2018.11.28-07.10.40:988][213]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:038][219]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:038][219]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:038][219]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:038][219]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:088][225]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:088][225]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:088][225]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:088][225]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:138][231]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:138][231]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:138][231]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:138][231]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:188][237]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:188][237]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:188][237]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:188][237]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:237][243]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:237][243]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:237][243]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:237][243]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:287][249]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:287][249]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:287][249]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:287][249]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:338][255]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:338][255]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:338][255]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:338][255]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:388][261]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:388][261]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:388][261]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:388][261]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:438][267]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:438][267]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:438][267]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:438][267]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:488][273]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:488][273]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:488][273]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:488][273]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:538][279]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:538][279]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:538][279]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:538][279]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:587][285]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:588][285]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:588][285]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:588][285]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:637][291]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:637][291]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:637][291]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:637][291]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:687][297]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:687][297]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:687][297]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:687][297]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:738][303]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:738][303]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:738][303]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:738][303]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:788][309]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:788][309]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:788][309]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:788][309]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:838][315]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:838][315]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:838][315]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:838][315]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:888][321]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:888][321]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:888][321]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:888][321]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:937][327]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:937][327]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:937][327]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:937][327]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:987][333]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:988][333]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:988][333]LogTemp: POWER: 1.0
+[2018.11.28-07.10.41:988][333]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:037][339]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:038][339]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:038][339]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:038][339]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:088][345]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:088][345]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:088][345]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:088][345]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:138][351]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:138][351]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:138][351]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:138][351]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:187][357]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:187][357]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:187][357]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:187][357]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:237][363]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:238][363]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:238][363]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:238][363]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:287][369]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:287][369]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:287][369]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:287][369]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:337][375]LogTemp: actor overlapped
+[2018.11.28-07.10.42:337][375]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:337][375]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:337][375]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:338][375]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:387][381]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:387][381]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:387][381]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:388][381]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:437][387]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:437][387]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:437][387]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:437][387]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:487][393]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:487][393]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:487][393]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:487][393]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:537][399]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:538][399]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:538][399]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:538][399]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:588][405]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:588][405]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:588][405]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:588][405]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:638][411]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:638][411]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:638][411]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:638][411]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:687][417]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:687][417]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:687][417]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:687][417]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:737][423]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:737][423]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:737][423]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:737][423]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:787][429]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:787][429]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:788][429]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:788][429]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:838][435]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:838][435]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:838][435]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:838][435]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:887][441]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:887][441]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:887][441]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:887][441]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:938][447]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:938][447]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:938][447]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:938][447]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:988][453]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:988][453]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:988][453]LogTemp: POWER: 1.0
+[2018.11.28-07.10.42:988][453]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:037][459]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:037][459]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:037][459]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:037][459]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:087][465]LogTemp: actor overlapped
+[2018.11.28-07.10.43:087][465]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:087][465]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:088][465]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:088][465]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:137][471]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:137][471]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:138][471]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:138][471]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:187][477]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:187][477]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:187][477]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:187][477]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:237][483]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:237][483]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:237][483]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:237][483]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:287][489]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:288][489]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:288][489]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:288][489]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:338][495]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:338][495]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:338][495]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:338][495]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:388][501]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:388][501]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:388][501]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:388][501]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:438][507]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:438][507]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:438][507]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:438][507]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:488][513]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:488][513]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:488][513]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:488][513]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:537][519]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:537][519]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:537][519]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:537][519]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:588][525]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:588][525]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:588][525]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:588][525]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:637][531]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:638][531]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:638][531]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:638][531]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:688][537]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:688][537]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:688][537]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:688][537]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:738][543]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:738][543]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:738][543]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:738][543]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:787][549]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:787][549]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:787][549]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:787][549]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:837][555]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:837][555]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:837][555]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:837][555]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:887][561]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:888][561]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:888][561]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:888][561]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:938][567]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:938][567]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:938][567]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:938][567]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:988][573]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:988][573]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.43:988][573]LogTemp: POWER: 1.0
+[2018.11.28-07.10.43:988][573]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:037][579]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:037][579]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:037][579]LogTemp: POWER: 1.0
+[2018.11.28-07.10.44:037][579]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:087][585]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:088][585]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:088][585]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:088][585]LogTemp: POWER: 1.0
+[2018.11.28-07.10.44:138][591]LogTemp: POWER: 1.0
+[2018.11.28-07.10.44:138][591]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:138][591]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:138][591]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:188][597]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:188][597]LogTemp: POWER: 1.0
+[2018.11.28-07.10.44:188][597]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:188][597]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:238][603]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:238][603]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:238][603]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:238][603]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:287][609]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:287][609]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:287][609]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:287][609]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:338][615]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:338][615]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:338][615]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:338][615]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:387][621]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:388][621]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:388][621]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:388][621]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:438][627]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:438][627]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:438][627]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:438][627]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:488][633]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:488][633]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:488][633]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:488][633]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:538][639]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:538][639]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:538][639]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:538][639]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:588][645]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:588][645]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:588][645]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:588][645]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:638][651]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:638][651]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:638][651]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:638][651]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:688][657]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:688][657]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:688][657]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:688][657]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:738][663]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:738][663]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:738][663]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:738][663]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:755][665]LogTemp: actor overlapped
+[2018.11.28-07.10.44:755][665]LogTemp: actor overlapped
+[2018.11.28-07.10.44:763][666]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.44:763][666]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot4
+[2018.11.28-07.10.44:763][666]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.44:763][666]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.44:788][669]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:788][669]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:788][669]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:788][669]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:838][675]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:838][675]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:838][675]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:838][675]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:871][679]LogTemp: actor overlapped
+[2018.11.28-07.10.44:880][680]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.44:880][680]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot3
+[2018.11.28-07.10.44:888][681]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:888][681]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:888][681]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:888][681]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:937][687]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:938][687]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.44:938][687]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:938][687]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:987][693]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:987][693]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.44:988][693]LogTemp: POWER: 0.0
+[2018.11.28-07.10.44:988][693]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:004][695]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.45:004][695]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.45:004][695]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.45:004][695]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot4
+[2018.11.28-07.10.45:038][699]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.45:038][699]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:038][699]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:038][699]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:088][705]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:088][705]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:088][705]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.45:088][705]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:122][709]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.45:122][709]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot3
+[2018.11.28-07.10.45:138][711]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:138][711]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:138][711]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:139][711]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:187][717]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:187][717]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:187][717]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:188][717]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:238][723]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:238][723]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:238][723]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:238][723]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:254][725]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.45:254][725]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot4
+[2018.11.28-07.10.45:254][725]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.45:254][725]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.45:288][729]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:288][729]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:288][729]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:288][729]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:337][735]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:338][735]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:338][735]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:338][735]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:371][739]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.45:371][739]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot3
+[2018.11.28-07.10.45:387][741]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:387][741]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:387][741]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:387][741]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:437][747]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:438][747]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:438][747]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:438][747]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:488][753]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:488][753]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:488][753]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:488][753]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:504][755]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.45:504][755]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot4
+[2018.11.28-07.10.45:504][755]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.45:504][755]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.45:537][759]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:537][759]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:537][759]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:537][759]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:587][765]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:587][765]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:587][765]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:587][765]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:621][769]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.45:621][769]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot3
+[2018.11.28-07.10.45:638][771]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:638][771]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:638][771]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:638][771]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:688][777]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:688][777]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:688][777]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:688][777]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:738][783]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:738][783]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:738][783]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:738][783]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:755][785]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.45:755][785]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.45:755][785]PIE: Warning: Invalid Simulate Options: Body (TrackerBot4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:755][785]PIE: Warning: Invalid Simulate Options: Body (TrackerBot4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:755][785]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.45:755][785]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.45:755][785]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_78.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:755][785]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_78.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:788][789]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:788][789]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:788][789]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:788][789]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:838][795]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:838][795]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:838][795]LogTemp: POWER: 0.0
+[2018.11.28-07.10.45:838][795]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:871][799]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.45:871][799]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.45:872][799]PIE: Warning: Invalid Simulate Options: Body (TrackerBot3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:872][799]PIE: Warning: Invalid Simulate Options: Body (TrackerBot3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.45:888][801]LogTemp: actor overlapped
+[2018.11.28-07.10.45:888][801]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:888][801]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:888][801]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:888][801]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:937][807]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:937][807]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:937][807]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:937][807]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:987][813]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:987][813]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:987][813]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.45:987][813]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:004][815]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:004][815]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.46:004][815]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:004][815]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.46:037][819]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:038][819]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:038][819]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:038][819]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:088][825]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:088][825]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:088][825]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:088][825]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:121][829]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:121][829]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.46:138][831]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:138][831]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:138][831]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:138][831]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:187][837]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:187][837]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:187][837]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:187][837]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:237][843]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:237][843]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:237][843]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:237][843]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:254][845]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:254][845]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.46:254][845]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:254][845]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.46:287][849]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:288][849]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:288][849]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:288][849]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:338][855]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:338][855]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:338][855]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:338][855]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:371][859]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:371][859]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.46:388][861]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:388][861]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:388][861]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:388][861]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:438][867]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:438][867]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:438][867]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:438][867]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:488][873]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:488][873]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:488][873]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:488][873]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:504][875]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:505][875]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.46:505][875]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:505][875]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.46:538][879]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:538][879]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:538][879]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:538][879]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:588][885]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:588][885]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:588][885]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:588][885]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:621][889]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:621][889]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.46:638][891]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:638][891]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:638][891]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:638][891]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:688][897]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:688][897]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:688][897]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:688][897]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:738][903]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:738][903]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:738][903]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:738][903]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:754][905]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:754][905]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.46:754][905]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:754][905]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.46:788][909]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:788][909]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:788][909]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:788][909]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:838][915]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:838][915]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:838][915]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:838][915]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:871][919]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.46:871][919]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.46:888][921]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:888][921]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:888][921]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:888][921]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:938][927]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:938][927]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:938][927]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:938][927]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:988][933]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:988][933]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:988][933]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.46:988][933]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:004][935]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:005][935]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.47:005][935]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:005][935]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.47:038][939]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:038][939]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:038][939]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:038][939]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:088][945]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:088][945]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:088][945]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:088][945]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:121][949]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:121][949]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.47:138][951]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:138][951]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:138][951]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:138][951]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:187][957]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:187][957]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:187][957]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:187][957]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:237][963]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:237][963]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:237][963]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:238][963]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:254][965]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:254][965]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.47:254][965]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:254][965]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.47:288][969]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:288][969]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:288][969]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:288][969]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:338][975]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:338][975]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:338][975]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:338][975]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:371][979]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:371][979]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.47:388][981]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:388][981]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:388][981]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:388][981]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:437][987]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:437][987]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:437][987]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:437][987]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:487][993]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:487][993]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:488][993]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:488][993]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:504][995]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:504][995]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.47:504][995]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:504][995]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.47:538][999]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:538][999]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:538][999]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:538][999]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:588][  5]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:588][  5]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:588][  5]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:588][  5]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:621][  9]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:621][  9]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.47:638][ 11]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:638][ 11]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:638][ 11]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:638][ 11]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:688][ 17]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:688][ 17]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:688][ 17]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:688][ 17]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:738][ 23]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:738][ 23]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:738][ 23]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:738][ 23]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.47:755][ 25]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:755][ 25]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot4
+[2018.11.28-07.10.47:755][ 25]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:755][ 25]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_78
+[2018.11.28-07.10.47:788][ 29]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:788][ 29]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:837][ 35]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:837][ 35]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:871][ 39]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.47:871][ 39]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot3
+[2018.11.28-07.10.47:887][ 41]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:937][ 47]LogTemp: POWER: 0.0
+[2018.11.28-07.10.47:988][ 53]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:038][ 59]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:087][ 65]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:138][ 71]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:187][ 77]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:238][ 83]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:288][ 89]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:337][ 95]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:388][101]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:438][107]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:488][113]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:537][119]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:587][125]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:638][131]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:688][137]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:738][143]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:787][149]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:838][155]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:855][157]LogTemp: actor overlapped
+[2018.11.28-07.10.48:863][158]LogTemp: Health Changed: 80.0
+[2018.11.28-07.10.48:863][158]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot2
+[2018.11.28-07.10.48:888][161]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:938][167]LogTemp: POWER: 0.0
+[2018.11.28-07.10.48:987][173]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:038][179]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:088][185]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:105][187]LogTemp: Health Changed: 60.0
+[2018.11.28-07.10.49:105][187]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot2
+[2018.11.28-07.10.49:138][191]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:188][197]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:238][203]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:287][209]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:337][215]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:354][217]LogTemp: Health Changed: 40.0
+[2018.11.28-07.10.49:354][217]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot2
+[2018.11.28-07.10.49:388][221]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:438][227]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:488][233]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:538][239]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:588][245]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:604][247]LogTemp: Health Changed: 20.0
+[2018.11.28-07.10.49:604][247]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot2
+[2018.11.28-07.10.49:638][251]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:688][257]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:738][263]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:788][269]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:829][274]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:854][277]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.49:854][277]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.49:854][277]PIE: Warning: Invalid Simulate Options: Body (TrackerBot2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.49:854][277]PIE: Warning: Invalid Simulate Options: Body (TrackerBot2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.11.28-07.10.49:879][280]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:930][286]LogTemp: POWER: 0.0
+[2018.11.28-07.10.49:980][292]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:029][298]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:079][304]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:104][307]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.50:104][307]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.50:129][310]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:180][316]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:230][322]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:279][328]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:329][334]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:355][337]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.50:355][337]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.50:380][340]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:429][346]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:479][352]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:530][358]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:579][364]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:604][367]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.50:604][367]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.50:629][370]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:679][376]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:729][382]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:780][388]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:829][394]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:854][397]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.50:854][397]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.50:879][400]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:930][406]LogTemp: POWER: 0.0
+[2018.11.28-07.10.50:979][412]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:029][418]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:080][424]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:105][427]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.51:105][427]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.51:130][430]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:180][436]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:230][442]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:280][448]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:330][454]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:354][457]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.51:354][457]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.51:379][460]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:430][466]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:480][472]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:530][478]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:580][484]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:604][487]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.51:604][487]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.51:629][490]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:680][496]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:730][502]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:779][508]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:829][514]LogTemp: POWER: 0.0
+[2018.11.28-07.10.51:854][517]LogTemp: Health Changed: 0.0
+[2018.11.28-07.10.51:854][517]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot2
+[2018.11.28-07.10.52:247][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.52:282][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.53:904][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-07.10.53:987][756]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.28-07.10.54:007][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.54:007][756]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-07.10.54:007][756]PIE: New page: PIE session: Minimal_Default (Nov 27, 2018, 7:10:54 PM)
+[2018.11.28-07.10.54:007][756]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.11.28-07.10.54:013][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005617s)
+[2018.11.28-07.10.54:013][756]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.11.28-07.10.54:013][756]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2018.11.28-07.10.54:013][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006232s)
+[2018.11.28-07.10.54:044][756]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.28-07.10.54:052][756]LogInit: FAudioDevice initialized.
+[2018.11.28-07.10.54:081][756]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.11.28-07.10.54:083][756]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.11.28-01.10.54
+[2018.11.28-07.10.54:084][756]LogWorld: Bringing up level for play took: 0.001938
+[2018.11.28-07.10.54:085][756]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:085][756]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:085][756]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:085][756]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:086][756]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.489
+[2018.11.28-07.10.54:086][756]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:115][757]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:140][760]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:140][760]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:140][760]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:140][760]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:190][766]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:190][766]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:190][766]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:190][766]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:241][772]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:241][772]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:241][772]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:241][772]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:291][778]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:291][778]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:291][778]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:291][778]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:340][784]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:341][784]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:341][784]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:341][784]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:392][790]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:392][790]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:392][790]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:392][790]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:441][796]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:441][796]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:441][796]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:441][796]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:491][802]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:491][802]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:491][802]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:491][802]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:541][808]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:541][808]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:541][808]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:541][808]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:591][814]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:591][814]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:591][814]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:591][814]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:641][820]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:642][820]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:642][820]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:642][820]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:690][826]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:690][826]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:690][826]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:690][826]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:740][832]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:741][832]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:741][832]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:741][832]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:791][838]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:791][838]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:791][838]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:791][838]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:841][844]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:841][844]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:841][844]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:841][844]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:891][850]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:891][850]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:891][850]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:891][850]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:941][856]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:941][856]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:941][856]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:941][856]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:991][862]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:991][862]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:991][862]LogTemp: POWER: 1.0
+[2018.11.28-07.10.54:991][862]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:041][868]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:042][868]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:042][868]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:042][868]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:091][874]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:091][874]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:091][874]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:091][874]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:142][880]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:142][880]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:142][880]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:142][880]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:192][886]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:192][886]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:192][886]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:192][886]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:241][892]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:242][892]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:242][892]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:242][892]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:291][898]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:291][898]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:291][898]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:291][898]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:341][904]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:341][904]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:341][904]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:341][904]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:391][910]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:391][910]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:391][910]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:391][910]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:441][916]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:441][916]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:441][916]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:441][916]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:491][922]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:491][922]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:491][922]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:491][922]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:541][928]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:541][928]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:541][928]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:541][928]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:591][934]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:591][934]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:591][934]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:591][934]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:642][940]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:642][940]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:642][940]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:642][940]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:691][946]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:691][946]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:691][946]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:691][946]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:741][952]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:741][952]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:741][952]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:741][952]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:791][958]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:791][958]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:791][958]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:791][958]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:841][964]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:841][964]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:841][964]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:841][964]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:891][970]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:891][970]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:891][970]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:891][970]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:941][976]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:941][976]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:941][976]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:941][976]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:966][979]LogTemp: actor overlapped
+[2018.11.28-07.10.55:991][982]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:992][982]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:992][982]LogTemp: POWER: 1.0
+[2018.11.28-07.10.55:992][982]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:041][988]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:041][988]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:041][988]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:041][988]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:091][994]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:091][994]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:091][994]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:091][994]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:142][  0]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:142][  0]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:142][  0]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:142][  0]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:191][  6]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:191][  6]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:191][  6]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:191][  6]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:241][ 12]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:241][ 12]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:241][ 12]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:241][ 12]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:291][ 18]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:291][ 18]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:291][ 18]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:291][ 18]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:308][ 20]LogTemp: actor overlapped
+[2018.11.28-07.10.56:342][ 24]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:342][ 24]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:342][ 24]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:342][ 24]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:391][ 30]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:391][ 30]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:391][ 30]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:391][ 30]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:441][ 36]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:441][ 36]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:442][ 36]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:442][ 36]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:491][ 42]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:491][ 42]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:491][ 42]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:491][ 42]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:541][ 48]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:541][ 48]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:541][ 48]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:541][ 48]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:591][ 54]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:591][ 54]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:591][ 54]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:591][ 54]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:642][ 60]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:642][ 60]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:642][ 60]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:642][ 60]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:658][ 62]LogTemp: actor overlapped
+[2018.11.28-07.10.56:691][ 66]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:691][ 66]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:691][ 66]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:691][ 66]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:741][ 72]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:741][ 72]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:741][ 72]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:741][ 72]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:791][ 78]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:791][ 78]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:791][ 78]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:791][ 78]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:841][ 84]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:841][ 84]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:841][ 84]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:841][ 84]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:890][ 90]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:890][ 90]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:891][ 90]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:891][ 90]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:941][ 96]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:941][ 96]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:941][ 96]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:941][ 96]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:991][102]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:991][102]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:991][102]LogTemp: POWER: 1.0
+[2018.11.28-07.10.56:991][102]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:041][108]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:041][108]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:041][108]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:041][108]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:091][114]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:091][114]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:091][114]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:091][114]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:141][120]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:141][120]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:141][120]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:141][120]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:191][126]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:191][126]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:191][126]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:191][126]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:241][132]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:241][132]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:242][132]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:242][132]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:291][138]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:291][138]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:291][138]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:291][138]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:341][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:341][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:341][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:341][144]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:366][147]LogTemp: actor overlapped
+[2018.11.28-07.10.57:366][147]LogTemp: actor overlapped
+[2018.11.28-07.10.57:374][148]LogTemp: actor overlapped
+[2018.11.28-07.10.57:374][148]LogTemp: actor overlapped
+[2018.11.28-07.10.57:382][149]LogTemp: actor overlapped
+[2018.11.28-07.10.57:382][149]LogTemp: actor overlapped
+[2018.11.28-07.10.57:391][150]LogTemp: actor overlapped
+[2018.11.28-07.10.57:391][150]LogTemp: actor overlapped
+[2018.11.28-07.10.57:391][150]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:391][150]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:391][150]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:391][150]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:441][156]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:441][156]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:441][156]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:441][156]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:491][162]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:491][162]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:491][162]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:491][162]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:541][168]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:541][168]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:541][168]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:541][168]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:591][174]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:591][174]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:592][174]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:592][174]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:600][175]LogTemp: actor overlapped
+[2018.11.28-07.10.57:640][180]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:641][180]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:641][180]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:641][180]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:691][186]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:691][186]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:691][186]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.57:691][186]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:741][192]LogTemp: actor overlapped
+[2018.11.28-07.10.57:741][192]LogTemp: actor overlapped
+[2018.11.28-07.10.57:741][192]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:741][192]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:741][192]LogTemp: POWER: 0.333333
+[2018.11.28-07.10.57:741][192]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:749][193]LogTemp: actor overlapped
+[2018.11.28-07.10.57:749][193]LogTemp: actor overlapped
+[2018.11.28-07.10.57:791][198]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:791][198]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:791][198]LogTemp: POWER: 1.0
+[2018.11.28-07.10.57:791][198]LogTemp: POWER: 0.0
+[2018.11.28-07.10.57:841][204]LogTemp: POWER: 0.0
+[2018.11.28-07.10.57:841][204]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:841][204]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:841][204]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:891][210]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:891][210]LogTemp: POWER: 0.0
+[2018.11.28-07.10.57:891][210]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:891][210]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:941][216]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:942][216]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:942][216]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:942][216]LogTemp: POWER: 0.0
+[2018.11.28-07.10.57:991][222]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:991][222]LogTemp: POWER: 0.0
+[2018.11.28-07.10.57:991][222]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.57:991][222]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.58:041][228]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.58:041][228]LogTemp: POWER: 0.0
+[2018.11.28-07.10.58:041][228]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.58:041][228]LogTemp: POWER: 0.666667
+[2018.11.28-07.10.58:092][234]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.11.28-07.10.58:762][234]LogWindows: Error: === Critical error: ===
+[2018.11.28-07.10.58:762][234]LogWindows: Error: 
+[2018.11.28-07.10.58:762][234]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 610] 
+[2018.11.28-07.10.58:762][234]LogWindows: Error: Array index out of bounds: 1 from an array of size 0
+[2018.11.28-07.10.58:762][234]LogWindows: Error: 
+[2018.11.28-07.10.58:762][234]LogWindows: Error: 
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000006244A388 KERNELBASE.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000046487884 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000002A3F6D9B UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000002A331949 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x00000000FCC1B4B1 UE4Editor-CoopShooterGame-9129.dll!ASTrackerBot::getNextPathPoint() [c:\users\tyler\desktop\repository_files\unrealmasterycourseudemy\coopshootergame\source\coopshootergame\private\strackerbot.cpp:88]
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x00000000FCC1B2D3 UE4Editor-CoopShooterGame-9129.dll!ASTrackerBot::findNextPathPoint() [c:\users\tyler\desktop\repository_files\unrealmasterycourseudemy\coopshootergame\source\coopshootergame\private\strackerbot.cpp:73]
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000001307911F UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x00000000130AE9EC UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000012908363 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000010AAD781 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000011349626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000000A7D5EAC UE4Editor.exe!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000000A7E6BD0 UE4Editor.exe!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000000A7E6C4A UE4Editor.exe!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000000A7F4177 UE4Editor.exe!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x000000000A7F5B87 UE4Editor.exe!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000063643034 KERNEL32.DLL!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000065CA1471 ntdll.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: [Callstack] 0x0000000065CA1471 ntdll.dll!UnknownFunction []
+[2018.11.28-07.10.58:762][234]LogWindows: Error: 
+[2018.11.28-07.10.58:775][234]LogExit: Executing StaticShutdownAfterError
+[2018.11.28-07.10.58:777][234]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.11.28-07.10.58:777][234]Log file closed, 11/28/18 01:10:58

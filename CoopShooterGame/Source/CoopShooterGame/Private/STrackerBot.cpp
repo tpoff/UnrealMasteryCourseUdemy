@@ -40,6 +40,7 @@ ASTrackerBot::ASTrackerBot()
 	explosionRadius = 200;
 
 	selfDamageInterval = 0.25f;
+	checkPathInterval = 0.25f;
 
 
 	checkGroupInterval = .05f;
@@ -64,22 +65,30 @@ void ASTrackerBot::BeginPlay()
 
 
 	GetWorldTimerManager().SetTimer(checkGroupSize, this, &ASTrackerBot::calculateGroupSize, checkGroupInterval, true, 0.0f);
+	GetWorldTimerManager().SetTimer(timerCheckPath, this, &ASTrackerBot::findNextPathPoint, checkGroupInterval, true, 0.0f);
+
+}
+
+void ASTrackerBot::findNextPathPoint() {
+	nextPathPoint = getNextPathPoint();
+
 
 }
 
 FVector ASTrackerBot::getNextPathPoint()
 {
 	ACharacter* playerPawn = UGameplayStatics::GetPlayerCharacter(this, 0);
+	if (playerPawn) {
+		UNavigationPath* navPath = UNavigationSystem::FindPathToActorSynchronously(this, GetActorLocation(), playerPawn);
 
-	UNavigationPath* navPath = UNavigationSystem::FindPathToActorSynchronously(this, GetActorLocation(), playerPawn);
 
+		if (navPath->PathPoints.Num() > 1) {
+			return navPath->PathPoints[1];
+		}
 
-	if (navPath->PathPoints.Num() > 1) {
-		return navPath->PathPoints[1];
 	}
-	navPath->PathPoints[1];
 
-	return navPath->PathPoints[0];
+	return GetActorLocation();
 }
 
 void ASTrackerBot::HandleTakeDamage(USHealthComponent * OwningHealthComponent, float health, float healthDelta, const UDamageType * damageType, AController * instigatedBy, AActor * damageCauser)
@@ -130,6 +139,10 @@ void ASTrackerBot::SelfDestruct()
 
 			DrawDebugSphere(GetWorld(), GetActorLocation(), explosionRadius, 12, FColor::Red, false, 2.0f, 0, 1.0f);
 
+
+			//clear timers?
+			GetWorld()->GetTimerManager().ClearTimer(timerCheckPath);
+			GetWorld()->GetTimerManager().ClearTimer(checkGroupSize);
 
 			SetLifeSpan(2.0f);
 			//Destroy();//don't use destroy in multiplayer, can't gurantee effects will spawn
