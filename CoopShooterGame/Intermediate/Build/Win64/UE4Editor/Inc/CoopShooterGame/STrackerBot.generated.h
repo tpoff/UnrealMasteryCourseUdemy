@@ -110,7 +110,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTrackerBot); \
 	FORCEINLINE static uint32 __PPO__explosionSound() { return STRUCT_OFFSET(ASTrackerBot, explosionSound); } \
 	FORCEINLINE static uint32 __PPO__enableGroupDamageMultiplier() { return STRUCT_OFFSET(ASTrackerBot, enableGroupDamageMultiplier); } \
 	FORCEINLINE static uint32 __PPO__max_group_multiplier() { return STRUCT_OFFSET(ASTrackerBot, max_group_multiplier); } \
-	FORCEINLINE static uint32 __PPO__max_group_size() { return STRUCT_OFFSET(ASTrackerBot, max_group_size); }
+	FORCEINLINE static uint32 __PPO__max_group_size() { return STRUCT_OFFSET(ASTrackerBot, max_group_size); } \
+	FORCEINLINE static uint32 __PPO__checkGroupInterval() { return STRUCT_OFFSET(ASTrackerBot, checkGroupInterval); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_STrackerBot_h_14_PROLOG

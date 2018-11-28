@@ -42,6 +42,7 @@ ASTrackerBot::ASTrackerBot()
 	selfDamageInterval = 0.25f;
 
 
+	checkGroupInterval = .05f;
 
 	max_group_multiplier = 2.0f;
 	max_group_size = 5;
@@ -59,6 +60,10 @@ void ASTrackerBot::BeginPlay()
 	}
 	bExploded = false;
 	bStartedSelfDestruction = false;
+	calculateGroupSize();
+
+
+	GetWorldTimerManager().SetTimer(checkGroupSize, this, &ASTrackerBot::calculateGroupSize, checkGroupInterval, true, 0.0f);
 
 }
 
@@ -186,33 +191,40 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor){
 
 			UGameplayStatics::SpawnSoundAttached(selfDestructSound, RootComponent);
 		}
-		ASTrackerBot* otherTracker = Cast<ASTrackerBot>(otherActor);
-		if (otherTracker) {
-			current_group_size++;
-			if (current_group_size > max_group_size) {
-				current_group_size = max_group_size;
-			}
-			UE_LOG(LogTemp, Log, TEXT("group size: %s"), *FString::SanitizeFloat(current_group_size));
-		}
 		
 	}
 }
 
-void ASTrackerBot::NotifyActorEndOverlap(AActor* otherActor) {
-	UE_LOG(LogTemp, Log, TEXT("actor end overlapped"));
 
-	if (!bExploded) {
+void ASTrackerBot::calculateGroupSize()
+{
+	TArray<AActor*> group;
 
-		ASTrackerBot* otherTracker = Cast<ASTrackerBot>(otherActor);
-		if (otherTracker) {
-			current_group_size--;
-			if (current_group_size <0) {
-				current_group_size = 0;
-			}
-			UE_LOG(LogTemp, Log, TEXT("group size: %s"), *FString::SanitizeFloat(current_group_size));
-		}
-	}
-
+	GetOverlappingActors(group, TSubclassOf<ASTrackerBot>());
+	setGroupSize(group.Num()-1);
 }
 
+
+void ASTrackerBot::setGroupSize(int newGroupSize) {
+
+	current_group_size= newGroupSize;
+	if (current_group_size < 0) {
+		current_group_size = 0;
+	}
+
+	if (current_group_size > max_group_size) {
+		current_group_size = max_group_size;
+	}
+
+
+
+	if (matInst == nullptr) {
+		matInst = meshComponent->CreateAndSetMaterialInstanceDynamicFromMaterial(0, meshComponent->GetMaterial(0));
+	}
+	if (matInst != nullptr) {
+		float powerAlpha = (current_group_size / max_group_size);
+		UE_LOG(LogTemp, Log, TEXT("POWER: %s"), *FString::SanitizeFloat(powerAlpha));
+		matInst->SetScalarParameterValue("PowerLevelAlpha", powerAlpha);
+	}
+}
 

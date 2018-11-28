@@ -72,6 +72,7 @@ protected:
 	void SelfDestruct();
 
 	FTimerHandle timerHandle_selfDamage;
+	FTimerHandle checkGroupSize;
 	void damageSelf();
 
 
@@ -89,15 +90,20 @@ protected:
 
 
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
-	int max_group_size;
+		float max_group_size;
+	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
+		float checkGroupInterval;
 
-	int current_group_size;
+	float current_group_size;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	virtual void NotifyActorBeginOverlap(AActor* otherActor) override;
-	virtual void NotifyActorEndOverlap(AActor* otherActor) override;
+
+	void calculateGroupSize();
+
+	void setGroupSize(int newGroupSize);
 	
 };
