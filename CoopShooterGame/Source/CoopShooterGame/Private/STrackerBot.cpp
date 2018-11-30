@@ -11,6 +11,7 @@
 #include "../Public/SCharacter.h"
 #include "Components/SphereComponent.h"
 #include "Sound/SoundCue.h"
+#include "Net/UnrealNetwork.h"
 
 
 // Sets default values
@@ -57,15 +58,14 @@ void ASTrackerBot::BeginPlay()
 {
 	Super::BeginPlay();
 	if (Role == ROLE_Authority) {
-		nextPathPoint = getNextPathPoint();
+		GetWorldTimerManager().SetTimer(checkGroupSize, this, &ASTrackerBot::calculateGroupSize, checkGroupInterval, true, 0.0f);
+		GetWorldTimerManager().SetTimer(timerCheckPath, this, &ASTrackerBot::findNextPathPoint, checkGroupInterval, true, 0.0f);
+
 	}
 	bExploded = false;
 	bStartedSelfDestruction = false;
 	calculateGroupSize();
 
-
-	GetWorldTimerManager().SetTimer(checkGroupSize, this, &ASTrackerBot::calculateGroupSize, checkGroupInterval, true, 0.0f);
-	GetWorldTimerManager().SetTimer(timerCheckPath, this, &ASTrackerBot::findNextPathPoint, checkGroupInterval, true, 0.0f);
 
 }
 
@@ -158,6 +158,19 @@ void ASTrackerBot::damageSelf()
 	UGameplayStatics::ApplyDamage(this, 20, GetInstigatorController(), this, nullptr);
 }
 
+void ASTrackerBot::onCurrentGroupSizeChange(float old_group_value)
+{
+
+	if (matInst == nullptr) {
+		matInst = meshComponent->CreateAndSetMaterialInstanceDynamicFromMaterial(0, meshComponent->GetMaterial(0));
+	}
+	if (matInst != nullptr) {
+		float powerAlpha = (current_group_size / max_group_size);
+		UE_LOG(LogTemp, Log, TEXT("POWER: %s"), *FString::SanitizeFloat(powerAlpha));
+		matInst->SetScalarParameterValue("PowerLevelAlpha", powerAlpha);
+	}
+}
+
 // Called every frame
 void ASTrackerBot::Tick(float DeltaTime)
 {
@@ -214,6 +227,7 @@ void ASTrackerBot::calculateGroupSize()
 	TArray<AActor*> group;
 
 	GetOverlappingActors(group, TSubclassOf<ASTrackerBot>());
+
 	setGroupSize(group.Num()-1);
 }
 
@@ -231,13 +245,12 @@ void ASTrackerBot::setGroupSize(int newGroupSize) {
 
 
 
-	if (matInst == nullptr) {
-		matInst = meshComponent->CreateAndSetMaterialInstanceDynamicFromMaterial(0, meshComponent->GetMaterial(0));
-	}
-	if (matInst != nullptr) {
-		float powerAlpha = (current_group_size / max_group_size);
-		UE_LOG(LogTemp, Log, TEXT("POWER: %s"), *FString::SanitizeFloat(powerAlpha));
-		matInst->SetScalarParameterValue("PowerLevelAlpha", powerAlpha);
-	}
 }
 
+
+void ASTrackerBot::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps)const {
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+
+	DOREPLIFETIME(ASTrackerBot, current_group_size);
+}

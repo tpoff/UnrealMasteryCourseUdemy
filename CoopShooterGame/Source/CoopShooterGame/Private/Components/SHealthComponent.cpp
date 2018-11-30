@@ -55,7 +55,4 @@ void USHealthComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 
 
 	DOREPLIFETIME(USHealthComponent, health);
-
-
-
 }

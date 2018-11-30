@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	COOPSHOOTERGAME_API UClass* Z_Construct_UClass_USHealthComponent_NoRegister();
+	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASTrackerBot_onCurrentGroupSizeChange();
 	ENGINE_API UClass* Z_Construct_UClass_USoundCue_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
@@ -32,6 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		UClass* Class = ASTrackerBot::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HandleTakeDamage", &ASTrackerBot::execHandleTakeDamage },
+			{ "onCurrentGroupSizeChange", &ASTrackerBot::execonCurrentGroupSizeChange },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -83,6 +85,29 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_ASTrackerBot_onCurrentGroupSizeChange()
+	{
+		struct STrackerBot_eventonCurrentGroupSizeChange_Parms
+		{
+			float old_group_value;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_old_group_value = { UE4CodeGen_Private::EPropertyClass::Float, "old_group_value", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(STrackerBot_eventonCurrentGroupSizeChange_Parms, old_group_value), METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_old_group_value,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ASTrackerBot, "onCurrentGroupSizeChange", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, sizeof(STrackerBot_eventonCurrentGroupSizeChange_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ASTrackerBot_NoRegister()
 	{
 		return ASTrackerBot::StaticClass();
@@ -98,6 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_ASTrackerBot_HandleTakeDamage, "HandleTakeDamage" }, // 3348690878
+				{ &Z_Construct_UFunction_ASTrackerBot_onCurrentGroupSizeChange, "onCurrentGroupSizeChange" }, // 3666721818
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
@@ -106,6 +132,13 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 				{ "ModuleRelativePath", "Public/STrackerBot.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_current_group_size_MetaData[] = {
+				{ "Category", "TrackerBot" },
+				{ "ModuleRelativePath", "Public/STrackerBot.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_current_group_size = { UE4CodeGen_Private::EPropertyClass::Float, "current_group_size", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080100010021, 1, "onCurrentGroupSizeChange", STRUCT_OFFSET(ASTrackerBot, current_group_size), METADATA_PARAMS(NewProp_current_group_size_MetaData, ARRAY_COUNT(NewProp_current_group_size_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_checkPathInterval_MetaData[] = {
 				{ "Category", "TrackerBot" },
@@ -231,6 +264,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000b0009, 1, nullptr, STRUCT_OFFSET(ASTrackerBot, meshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_current_group_size,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_checkPathInterval,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_checkGroupInterval,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_max_group_size,
@@ -267,7 +301,7 @@ void EmptyLinkFunctionForGeneratedCodeSTrackerBot() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTrackerBot, 1818036727);
+	IMPLEMENT_CLASS(ASTrackerBot, 1412595891);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASTrackerBot(Z_Construct_UClass_ASTrackerBot, &ASTrackerBot::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASTrackerBot"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASTrackerBot);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

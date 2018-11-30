@@ -98,7 +98,12 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "TrackerBot")
 		float checkPathInterval;
 
+	
+	UPROPERTY(ReplicatedUsing = onCurrentGroupSizeChange, EditDefaultsOnly, Category = "TrackerBot")
 	float current_group_size;
+
+	UFUNCTION()
+		void onCurrentGroupSizeChange(float old_group_value);
 
 public:	
 	// Called every frame
