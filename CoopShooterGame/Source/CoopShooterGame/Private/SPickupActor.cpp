@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "../Public/SPickupActor.h"
 #include "Components/SphereComponent.h"
 #include "Components/DecalComponent.h"
-#include "../Public/SPickupActor.h"
 
 // Sets default values
 ASPickupActor::ASPickupActor()
