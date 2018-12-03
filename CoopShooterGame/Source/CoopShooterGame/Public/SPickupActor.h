@@ -8,6 +8,8 @@
 
 class USphereComponent;
 class UDecalComponent;
+class ASPowerupActor;
+
 
 UCLASS()
 class COOPSHOOTERGAME_API ASPickupActor : public AActor
@@ -29,6 +31,20 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, Category = "Components")
 	UDecalComponent* decalComponent; 
+
+
+	UPROPERTY(EditDefaultsOnly, Category = "PickupActor")
+	TSubclassOf<ASPowerupActor> powerupClass;
+
+	ASPowerupActor* powerupInstance;
+
+	UPROPERTY(EditDefaultsOnly, Category = "PickupActor")
+	float coolDownDuration;
+
+	FTimerHandle respawnPowerTimer;
+
+	UFUNCTION()
+	void respawnPowerup();
 
 public:
 	virtual void NotifyActorBeginOverlap(AActor* otherActor) override;

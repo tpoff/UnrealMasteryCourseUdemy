@@ -13,9 +13,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COOPSHOOTERGAME_SPickupActor_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_RPC_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execrespawnPowerup) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->respawnPowerup(); \
+		P_NATIVE_END; \
+	}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execrespawnPowerup) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->respawnPowerup(); \
+		P_NATIVE_END; \
+	}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASPickupActor(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASPickupActor(); \
@@ -25,7 +45,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesASPickupActor(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASPickupActor(); \
@@ -35,7 +55,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASPickupActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASPickupActor) \
@@ -48,7 +68,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASPickupActor(ASPickupActor&&); \
@@ -59,30 +79,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASPickupActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASPickupActor)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_PRIVATE_PROPERTY_OFFSET \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__sphereComponent() { return STRUCT_OFFSET(ASPickupActor, sphereComponent); } \
-	FORCEINLINE static uint32 __PPO__decalComponent() { return STRUCT_OFFSET(ASPickupActor, decalComponent); }
+	FORCEINLINE static uint32 __PPO__decalComponent() { return STRUCT_OFFSET(ASPickupActor, decalComponent); } \
+	FORCEINLINE static uint32 __PPO__powerupClass() { return STRUCT_OFFSET(ASPickupActor, powerupClass); } \
+	FORCEINLINE static uint32 __PPO__coolDownDuration() { return STRUCT_OFFSET(ASPickupActor, coolDownDuration); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_12_PROLOG
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_14_PROLOG
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_15_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SPickupActor_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
