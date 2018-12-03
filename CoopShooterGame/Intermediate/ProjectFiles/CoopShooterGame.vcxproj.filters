@@ -78,6 +78,9 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\STrackerBot.h">
       <Filter>Source\CoopShooterGame\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPickupActor.h">
+      <Filter>Source\CoopShooterGame\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp">
@@ -99,6 +102,9 @@
       <Filter>Source\CoopShooterGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\STrackerBot.cpp">
+      <Filter>Source\CoopShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPickupActor.cpp">
       <Filter>Source\CoopShooterGame\Private</Filter>
     </ClCompile>
   </ItemGroup>

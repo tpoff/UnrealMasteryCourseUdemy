@@ -200,6 +200,8 @@ void ASTrackerBot::Tick(float DeltaTime)
 }
 
 void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor){
+	Super::NotifyActorBeginOverlap(otherActor);
+
 	UE_LOG(LogTemp, Log, TEXT("actor overlapped"));
 	if ( !bExploded) {
 

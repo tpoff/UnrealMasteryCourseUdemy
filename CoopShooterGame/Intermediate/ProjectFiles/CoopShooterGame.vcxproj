@@ -411,6 +411,7 @@
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\Projectile.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SCharacter.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SGrenadeLauncher.cpp" />
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPickupActor.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\STrackerBot.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SWeapon.cpp" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\Components\SHealthComponent.h" />
@@ -418,6 +419,7 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\Projectile.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SCharacter.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SGrenadeLauncher.h" />
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPickupActor.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\STrackerBot.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SWeapon.h" />
     <None Include="..\..\CoopShooterGame.uproject" />
