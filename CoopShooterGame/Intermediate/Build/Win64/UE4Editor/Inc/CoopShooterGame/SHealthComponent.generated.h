@@ -42,6 +42,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_Components_SHealthComponent_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execaddHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_healAmount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->addHealth(Z_Param_healAmount); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(exechandleTakeAnyDamage) \
 	{ \
 		P_GET_OBJECT(AActor,Z_Param_damagedActor); \
@@ -66,6 +75,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_Components_SHealthComponent_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execaddHealth) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_healAmount); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->addHealth(Z_Param_healAmount); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(exechandleTakeAnyDamage) \
 	{ \

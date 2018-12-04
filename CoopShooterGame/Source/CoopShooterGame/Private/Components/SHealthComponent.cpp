@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "SHealthComponent.h"
 #include "../../Public/Components/SHealthComponent.h"
 #include "Net/UnrealNetwork.h"
 
@@ -48,6 +47,14 @@ void USHealthComponent::handleTakeAnyDamage(AActor * damagedActor, float damage,
 
 	UE_LOG(LogTemp, Log, TEXT("Health Changed: %s"), *FString::SanitizeFloat(health));
 	onHealthChanged.Broadcast(this, health, damage, damageType, instigatedBy, damageCauser);
+}
+
+void USHealthComponent::addHealth(float healAmount)
+{
+	if (healAmount >= 0.0f && health >0.0f) {
+		health = FMath::Clamp(health+healAmount, 0.0f, defaultHealth);
+		onHealthChanged.Broadcast(this, health, -healAmount, nullptr, nullptr, nullptr);
+	}
 }
 
 void USHealthComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps)const {

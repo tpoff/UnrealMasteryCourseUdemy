@@ -33,12 +33,12 @@ protected:
 	UDecalComponent* decalComponent; 
 
 
-	UPROPERTY(EditDefaultsOnly, Category = "PickupActor")
+	UPROPERTY(EditInstanceOnly, Category = "PickupActor")
 	TSubclassOf<ASPowerupActor> powerupClass;
 
 	ASPowerupActor* powerupInstance;
 
-	UPROPERTY(EditDefaultsOnly, Category = "PickupActor")
+	UPROPERTY(EditInstanceOnly, Category = "PickupActor")
 	float coolDownDuration;
 
 	FTimerHandle respawnPowerTimer;
