@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeSPickupActor() {}
 				{ "ModuleRelativePath", "Public/SPickupActor.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_coolDownDuration = { UE4CodeGen_Private::EPropertyClass::Float, "coolDownDuration", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASPickupActor, coolDownDuration), METADATA_PARAMS(NewProp_coolDownDuration_MetaData, ARRAY_COUNT(NewProp_coolDownDuration_MetaData)) };
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_coolDownDuration = { UE4CodeGen_Private::EPropertyClass::Float, "coolDownDuration", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000000801, 1, nullptr, STRUCT_OFFSET(ASPickupActor, coolDownDuration), METADATA_PARAMS(NewProp_coolDownDuration_MetaData, ARRAY_COUNT(NewProp_coolDownDuration_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_powerupClass_MetaData[] = {
 				{ "Category", "PickupActor" },
@@ -122,7 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeSPickupActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASPickupActor, 733613413);
+	IMPLEMENT_CLASS(ASPickupActor, 2918712564);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASPickupActor(Z_Construct_UClass_ASPickupActor, &ASPickupActor::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASPickupActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASPickupActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

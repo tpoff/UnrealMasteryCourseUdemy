@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execOnRep_PowerupActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_PowerupActive(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execonTickPowerup) \
 	{ \
 		P_FINISH; \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnRep_PowerupActive) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_PowerupActive(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execonTickPowerup) \
 	{ \
 		P_FINISH; \
@@ -35,7 +51,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_EVENT_PARMS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_EVENT_PARMS \
+	struct SPowerupActor_eventonPowerupStateChanged_Parms \
+	{ \
+		bool bNewIsActive; \
+	};
+
+
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_CALLBACK_WRAPPERS
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -44,7 +66,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerupActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerupActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_INCLASS \
@@ -54,7 +77,8 @@ private: \
 public: \
 	DECLARE_CLASS(ASPowerupActor, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/CoopShooterGame"), NO_API) \
 	DECLARE_SERIALIZER(ASPowerupActor) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC}; \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_STANDARD_CONSTRUCTORS \
@@ -83,7 +107,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASPowerupActor); \
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__powerupInterval() { return STRUCT_OFFSET(ASPowerupActor, powerupInterval); } \
-	FORCEINLINE static uint32 __PPO__totalNumberOfTicks() { return STRUCT_OFFSET(ASPowerupActor, totalNumberOfTicks); }
+	FORCEINLINE static uint32 __PPO__totalNumberOfTicks() { return STRUCT_OFFSET(ASPowerupActor, totalNumberOfTicks); } \
+	FORCEINLINE static uint32 __PPO__bIsPowerupActive() { return STRUCT_OFFSET(ASPowerupActor, bIsPowerupActive); }
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SPowerupActor_h_9_PROLOG \
