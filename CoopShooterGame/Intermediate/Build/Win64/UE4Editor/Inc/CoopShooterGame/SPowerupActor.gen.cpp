@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeSPowerupActor() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_CoopShooterGame();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASPowerupActor_onActivated();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASPowerupActor_onExpired();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASPowerupActor_onPowerupStateChanged();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASPowerupActor_onPowerupTicked();
@@ -25,9 +26,11 @@ void EmptyLinkFunctionForGeneratedCodeSPowerupActor() {}
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_ASPowerupActor_onTickPowerup();
 // End Cross Module References
 	static FName NAME_ASPowerupActor_onActivated = FName(TEXT("onActivated"));
-	void ASPowerupActor::onActivated()
+	void ASPowerupActor::onActivated(AActor* activeFor)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_ASPowerupActor_onActivated),NULL);
+		SPowerupActor_eventonActivated_Parms Parms;
+		Parms.activeFor=activeFor;
+		ProcessEvent(FindFunctionChecked(NAME_ASPowerupActor_onActivated),&Parms);
 	}
 	static FName NAME_ASPowerupActor_onExpired = FName(TEXT("onExpired"));
 	void ASPowerupActor::onExpired()
@@ -60,13 +63,17 @@ void EmptyLinkFunctionForGeneratedCodeSPowerupActor() {}
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_activeFor = { UE4CodeGen_Private::EPropertyClass::Object, "activeFor", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SPowerupActor_eventonActivated_Parms, activeFor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_activeFor,
+			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 				{ "Category", "Powerups" },
 				{ "ModuleRelativePath", "Public/SPowerupActor.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ASPowerupActor, "onActivated", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_ASPowerupActor, "onActivated", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x08020800, sizeof(SPowerupActor_eventonActivated_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
 		}
 		return ReturnFunction;
@@ -168,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeSPowerupActor() {}
 				(UObject* (*)())Z_Construct_UPackage__Script_CoopShooterGame,
 			};
 			static const FClassFunctionLinkInfo FuncInfo[] = {
-				{ &Z_Construct_UFunction_ASPowerupActor_onActivated, "onActivated" }, // 2408744842
+				{ &Z_Construct_UFunction_ASPowerupActor_onActivated, "onActivated" }, // 1160968470
 				{ &Z_Construct_UFunction_ASPowerupActor_onExpired, "onExpired" }, // 511613073
 				{ &Z_Construct_UFunction_ASPowerupActor_onPowerupStateChanged, "onPowerupStateChanged" }, // 1674298527
 				{ &Z_Construct_UFunction_ASPowerupActor_onPowerupTicked, "onPowerupTicked" }, // 4114985869
@@ -227,7 +234,7 @@ void EmptyLinkFunctionForGeneratedCodeSPowerupActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASPowerupActor, 3899365066);
+	IMPLEMENT_CLASS(ASPowerupActor, 2323252745);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASPowerupActor(Z_Construct_UClass_ASPowerupActor, &ASPowerupActor::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASPowerupActor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASPowerupActor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
