@@ -16,6 +16,7 @@ class COOPSHOOTERGAME_API ASHordeGameMode : public AGameModeBase
 	
 protected:
 	FTimerHandle timerHandle_botSpawner;
+	FTimerHandle TimerHandle_NextWaveStart;
 	
 
 	int32 numberOfBotsToSpawn;
@@ -43,8 +44,12 @@ protected:
 	void prepareForNextWave(); 
 
 
+	void checkWaveState();
+
 public:
 	ASHordeGameMode();
 
 	virtual void StartPlay() override;
+
+	virtual void Tick(float DeltaSeconds)override;
 };
