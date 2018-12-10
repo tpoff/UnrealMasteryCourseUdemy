@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "../Public/SHordeGameMode.h"
+#include "../Public/SHordeGameState.h"
 #include "TimerManager.h"
 #include "../Public/Components/SHealthComponent.h"
 
@@ -10,6 +11,8 @@ ASHordeGameMode::ASHordeGameMode()
 
 	PrimaryActorTick.bCanEverTick = true;
 	PrimaryActorTick.TickInterval = 1;
+
+	GameStateClass = ASHordeGameState::StaticClass();
 }
 
 void ASHordeGameMode::StartPlay() {
@@ -23,10 +26,12 @@ void ASHordeGameMode::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 
 	checkWaveState();
+	checkAnyPlayerAlive();
 }
 
 void ASHordeGameMode::startWave()
 {
+	setWaveState(EWaveState::waveInProgress);
 	waveCount++;
 
 
@@ -37,6 +42,7 @@ void ASHordeGameMode::startWave()
 
 void ASHordeGameMode::endWave()
 {
+	setWaveState(EWaveState::waitingToComplete);
 	GetWorldTimerManager().ClearTimer(timerHandle_botSpawner);
 
 	
@@ -44,7 +50,49 @@ void ASHordeGameMode::endWave()
 
 void ASHordeGameMode::prepareForNextWave()
 {
+	setWaveState(EWaveState::waitingToStart);
 	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &ASHordeGameMode::startWave, timeBetweenWaves, false);
+}
+
+
+void ASHordeGameMode::checkAnyPlayerAlive() {
+	for (FConstPlayerControllerIterator it = GetWorld()->GetPlayerControllerIterator(); it; it++) {
+
+		APlayerController* pc = it->Get();
+
+		if (pc && pc->GetPawn())
+		{
+			APawn* myPawn = pc->GetPawn();
+			USHealthComponent* healthComponent = Cast<USHealthComponent>(myPawn->GetComponentByClass(USHealthComponent::StaticClass()));
+			if (ensure(healthComponent)) {
+				if (healthComponent->getHealth() > 0) {
+					//player still alive, so stop checking
+					return; 
+				}
+			}
+		}
+	}
+
+	//we make it here, there is no player alive, so we end the game. 
+	gameOver();
+}
+
+void ASHordeGameMode::setWaveState(EWaveState newState)
+{
+	ASHordeGameState* gs = GetGameState<ASHordeGameState>();
+
+	if (ensureAlways(gs)) {
+		gs->setWaveState(newState);
+	}
+
+}
+
+void ASHordeGameMode::gameOver() {
+	setWaveState(EWaveState::gameOver);
+	endWave();
+
+	//add the rest of the game over code. 
+	UE_LOG(LogTemp, Log, TEXT("GAME OVER!"));
 }
 
 void ASHordeGameMode::checkWaveState()
@@ -73,6 +121,7 @@ void ASHordeGameMode::checkWaveState()
 	}
 
 	if (anyBotAlive==false) {
+		setWaveState(EWaveState::waveComplete);
 		prepareForNextWave();
 	}
 

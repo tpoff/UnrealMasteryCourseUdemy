@@ -6,6 +6,8 @@
 #include "GameFramework/GameModeBase.h"
 #include "SHordeGameMode.generated.h"
 
+enum class EWaveState : uint8;
+
 /**
  * 
  */
@@ -40,11 +42,16 @@ protected:
 	void endWave();
 
 
+	void gameOver();
+
 	//set timer for next startwave
 	void prepareForNextWave(); 
 
 
 	void checkWaveState();
+	void checkAnyPlayerAlive();
+
+	void setWaveState(EWaveState newState);
 
 public:
 	ASHordeGameMode();
