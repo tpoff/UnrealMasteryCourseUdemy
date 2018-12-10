@@ -15,6 +15,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_RPC_WRAPPERS
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_EVENT_PARMS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_CALLBACK_WRAPPERS
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASHordeGameMode(); \
@@ -37,7 +39,7 @@ public: \
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASHordeGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ASHordeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASHordeGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASHordeGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASHordeGameMode); \
@@ -49,8 +51,6 @@ public:
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ASHordeGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASHordeGameMode(ASHordeGameMode&&); \
@@ -58,16 +58,23 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ASHordeGameMode); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASHordeGameMode); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASHordeGameMode)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASHordeGameMode)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_PRIVATE_PROPERTY_OFFSET
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_12_PROLOG
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__timeBetweenWaves() { return STRUCT_OFFSET(ASHordeGameMode, timeBetweenWaves); }
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_12_PROLOG \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_EVENT_PARMS
+
+
 #define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_CALLBACK_WRAPPERS \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_INCLASS \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_STANDARD_CONSTRUCTORS \
 public: \
@@ -79,6 +86,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_CALLBACK_WRAPPERS \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_INCLASS_NO_PURE_DECLS \
 	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
