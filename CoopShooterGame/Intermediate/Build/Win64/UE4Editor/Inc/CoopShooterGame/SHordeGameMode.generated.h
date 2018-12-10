@@ -8,16 +8,35 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class AController;
 #ifdef COOPSHOOTERGAME_SHordeGameMode_generated_h
 #error "SHordeGameMode.generated.h already included, missing '#pragma once' in SHordeGameMode.h"
 #endif
 #define COOPSHOOTERGAME_SHordeGameMode_generated_h
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_RPC_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_EVENT_PARMS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_CALLBACK_WRAPPERS
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_INCLASS_NO_PURE_DECLS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_12_DELEGATE \
+struct _Script_CoopShooterGame_eventOnActorKilled_Parms \
+{ \
+	AActor* victimActor; \
+	AActor* killerActor; \
+	AController* killerController; \
+}; \
+static inline void FOnActorKilled_DelegateWrapper(const FMulticastScriptDelegate& OnActorKilled, AActor* victimActor, AActor* killerActor, AController* killerController) \
+{ \
+	_Script_CoopShooterGame_eventOnActorKilled_Parms Parms; \
+	Parms.victimActor=victimActor; \
+	Parms.killerActor=killerActor; \
+	Parms.killerController=killerController; \
+	OnActorKilled.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_RPC_WRAPPERS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_EVENT_PARMS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_CALLBACK_WRAPPERS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASHordeGameMode(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASHordeGameMode(); \
@@ -27,7 +46,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_INCLASS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesASHordeGameMode(); \
 	friend COOPSHOOTERGAME_API class UClass* Z_Construct_UClass_ASHordeGameMode(); \
@@ -37,7 +56,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_STANDARD_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASHordeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASHordeGameMode) \
@@ -50,7 +69,7 @@ private: \
 public:
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_ENHANCED_CONSTRUCTORS \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASHordeGameMode(ASHordeGameMode&&); \
@@ -61,34 +80,34 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASHordeGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASHordeGameMode)
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__timeBetweenWaves() { return STRUCT_OFFSET(ASHordeGameMode, timeBetweenWaves); }
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_14_PROLOG \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_EVENT_PARMS
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_PROLOG \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_EVENT_PARMS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_GENERATED_BODY_LEGACY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_RPC_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_CALLBACK_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_INCLASS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_STANDARD_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_RPC_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_CALLBACK_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_INCLASS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_GENERATED_BODY \
+#define CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_PRIVATE_PROPERTY_OFFSET \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_CALLBACK_WRAPPERS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_INCLASS_NO_PURE_DECLS \
-	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_17_ENHANCED_CONSTRUCTORS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_PRIVATE_PROPERTY_OFFSET \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_CALLBACK_WRAPPERS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_INCLASS_NO_PURE_DECLS \
+	CoopShooterGame_Source_CoopShooterGame_Public_SHordeGameMode_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

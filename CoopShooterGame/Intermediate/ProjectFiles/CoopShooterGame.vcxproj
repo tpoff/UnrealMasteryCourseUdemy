@@ -425,6 +425,7 @@
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SHordeGameMode.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SHordeGameState.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPickupActor.cpp" />
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPlayerState.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPowerupActor.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\STrackerBot.cpp" />
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SWeapon.cpp" />
@@ -436,6 +437,7 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SHordeGameMode.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SHordeGameState.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPickupActor.h" />
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPlayerState.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPowerupActor.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\STrackerBot.h" />
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SWeapon.h" />

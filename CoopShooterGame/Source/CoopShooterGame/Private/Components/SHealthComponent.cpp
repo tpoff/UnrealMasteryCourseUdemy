@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "../../Public/Components/SHealthComponent.h"
+#include "../../Public/SHordeGameMode.h"
 #include "Net/UnrealNetwork.h"
 
 
@@ -11,6 +12,7 @@ USHealthComponent::USHealthComponent(){
 	defaultHealth = 100;
 
 	SetIsReplicated(true);
+	bIsDead = false;
 }
 
 
@@ -47,6 +49,15 @@ void USHealthComponent::handleTakeAnyDamage(AActor * damagedActor, float damage,
 
 	UE_LOG(LogTemp, Log, TEXT("Health Changed: %s"), *FString::SanitizeFloat(health));
 	onHealthChanged.Broadcast(this, health, damage, damageType, instigatedBy, damageCauser);
+
+	if (health <= 0 && bIsDead == false) {
+		bIsDead = true;
+		ASHordeGameMode* gm =Cast<ASHordeGameMode>( GetWorld()->GetAuthGameMode());
+		if (gm) {
+			gm->OnActorKilled.Broadcast(GetOwner(), damageCauser, instigatedBy);
+		}
+
+	}
 }
 
 void USHealthComponent::addHealth(float healAmount)

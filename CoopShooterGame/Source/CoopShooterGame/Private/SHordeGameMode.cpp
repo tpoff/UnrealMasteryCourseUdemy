@@ -2,6 +2,7 @@
 
 #include "../Public/SHordeGameMode.h"
 #include "../Public/SHordeGameState.h"
+#include "../Public/SPlayerState.h"
 #include "TimerManager.h"
 #include "../Public/Components/SHealthComponent.h"
 
@@ -13,6 +14,8 @@ ASHordeGameMode::ASHordeGameMode()
 	PrimaryActorTick.TickInterval = 1;
 
 	GameStateClass = ASHordeGameState::StaticClass();
+
+	PlayerStateClass = ASPlayerState::StaticClass();
 }
 
 void ASHordeGameMode::StartPlay() {
@@ -137,3 +140,5 @@ void ASHordeGameMode::spawnBotTimerElapsed()
 		endWave();
 	}
 }
+
+

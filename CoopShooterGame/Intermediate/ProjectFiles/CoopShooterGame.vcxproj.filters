@@ -121,9 +121,15 @@
     <ClInclude Include="..\..\Source\CoopShooterGame\Public\SHordeGameState.h">
       <Filter>Source\CoopShooterGame\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\CoopShooterGame\Public\SPlayerState.h">
+      <Filter>Source\CoopShooterGame\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\CoopShooterGame\Private\SHordeGameState.cpp">
+      <Filter>Source\CoopShooterGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CoopShooterGame\Private\SPlayerState.cpp">
       <Filter>Source\CoopShooterGame\Private</Filter>
     </ClCompile>
   </ItemGroup>

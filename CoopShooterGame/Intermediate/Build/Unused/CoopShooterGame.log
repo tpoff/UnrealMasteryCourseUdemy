@@ -1,9 +1,48 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading CoopShooterGameEditor (modules to compile have changed)
-  Compiling game modules for hot reload
+﻿  Cleaning CoopShooterGameEditor Binaries...
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for CoopShooterGameEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Parsing headers for CoopShooterGameEditor
     Running UnrealHeaderTool "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/Components/SHealthComponent.h(25) : LogCompile: Error: Unknown variable specifier 'RepliactedUsing'
-C:/Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Source/CoopShooterGame/Public/Components/SHealthComponent.h(28): error : Function return type: Missing variable type
-EXEC : error : UnrealHeaderTool failed for target 'CoopShooterGameEditor' (platform: Win64, module info: C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\CoopShooterGameEditor\Development\CoopShooterGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" CoopShooterGameEditor Win64 Development "C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\CoopShooterGame.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Reflection code generated for CoopShooterGameEditor in 6.3784914 seconds
+  Performing 33 actions (9 in parallel)
+  [2/33] Resource PCLaunch.rc
+  [3/33] Resource ModuleVersionResource.rc.inl
+  SharedPCH.Engine.cpp
+  SGrenadeLauncher.gen.cpp
+  SCharacter.gen.cpp
+  SPlayerState.gen.cpp
+  CoopShooterGame.init.gen.cpp
+  SPowerupActor.gen.cpp
+  SPickupActor.gen.cpp
+  SHordeGameMode.gen.cpp
+  SHealthComponent.gen.cpp
+  SHordeGameState.gen.cpp
+  Projectile.gen.cpp
+  ExplosiveBarrel.gen.cpp
+  CoopShooterGameGameModeBase.gen.cpp
+  STrackerBot.cpp
+  SHealthComponent.cpp
+  SWeapon.cpp
+  SPowerupActor.cpp
+  SPlayerState.cpp
+  SPickupActor.cpp
+  SHordeGameMode.cpp
+  SHordeGameState.cpp
+  SGrenadeLauncher.cpp
+  Projectile.cpp
+  SCharacter.cpp
+  ExplosiveBarrel.cpp
+  CoopShooterGameGameModeBase.cpp
+  CoopShooterGame.cpp
+  STrackerBot.gen.cpp
+  SWeapon.gen.cpp
+C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Source\CoopShooterGame\Private\Projectile.cpp(37): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(641): note: see declaration of 'USceneComponent::AttachTo'
+  [32/33] Link UE4Editor-CoopShooterGame.dll
+  [33/33] Link UE4Editor-CoopShooterGame.lib
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.exp
+     Creating library C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.lib and object C:\Users\Tyler\Desktop\Repository_Files\UnrealMasteryCourseUdemy\CoopShooterGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoopShooterGame.suppressed.exp
+  Deploying CoopShooterGameEditor Win64 Development...
+  Total build time: 31.72 seconds (Local executor: 19.15 seconds)
