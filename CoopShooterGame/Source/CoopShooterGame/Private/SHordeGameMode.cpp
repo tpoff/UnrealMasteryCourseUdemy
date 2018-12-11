@@ -55,6 +55,10 @@ void ASHordeGameMode::prepareForNextWave()
 {
 	setWaveState(EWaveState::waitingToStart);
 	GetWorldTimerManager().SetTimer(TimerHandle_NextWaveStart, this, &ASHordeGameMode::startWave, timeBetweenWaves, false);
+	restartDeadPlayers();
+
+
+
 }
 
 
@@ -87,6 +91,21 @@ void ASHordeGameMode::setWaveState(EWaveState newState)
 	if (ensureAlways(gs)) {
 		gs->setWaveState(newState);
 	}
+
+}
+
+void ASHordeGameMode::restartDeadPlayers()
+{
+	for (FConstPlayerControllerIterator it = GetWorld()->GetPlayerControllerIterator(); it; it++) {
+
+		APlayerController* pc = it->Get();
+
+		if (pc && pc->GetPawn()==nullptr) {
+			RestartPlayer(pc);
+		}
+	}
+
+
 
 }
 
