@@ -147,6 +147,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASWeapon); \
 	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(ASWeapon, baseDamage); } \
 	FORCEINLINE static uint32 __PPO__loopFire() { return STRUCT_OFFSET(ASWeapon, loopFire); } \
 	FORCEINLINE static uint32 __PPO__rateOfFire() { return STRUCT_OFFSET(ASWeapon, rateOfFire); } \
+	FORCEINLINE static uint32 __PPO__bulletSpread() { return STRUCT_OFFSET(ASWeapon, bulletSpread); } \
 	FORCEINLINE static uint32 __PPO__hitScanTrace() { return STRUCT_OFFSET(ASWeapon, hitScanTrace); }
 
 

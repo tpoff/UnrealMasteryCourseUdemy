@@ -57,7 +57,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 		UParticleSystem* muzzleFlashEffect;
 
-
+	
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 		UParticleSystem* defaultImpactEffect;
@@ -101,6 +101,9 @@ protected:
 	//rpm - bullets per minute. 
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	float rateOfFire;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon", meta=(ClampMin=0.0f))
+		float bulletSpread;
 
 	//to be calculated from rate of fire. 
 	float timeBetweenShots;

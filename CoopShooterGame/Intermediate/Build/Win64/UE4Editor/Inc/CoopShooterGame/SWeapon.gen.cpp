@@ -190,6 +190,14 @@ static struct FScriptStruct_CoopShooterGame_StaticRegisterNativesFHitScanTrace
 #endif
 			static const UE4CodeGen_Private::FStructPropertyParams NewProp_hitScanTrace = { UE4CodeGen_Private::EPropertyClass::Struct, "hitScanTrace", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080100000020, 1, "OnRep_HitScanTrace", STRUCT_OFFSET(ASWeapon, hitScanTrace), Z_Construct_UScriptStruct_FHitScanTrace, METADATA_PARAMS(NewProp_hitScanTrace_MetaData, ARRAY_COUNT(NewProp_hitScanTrace_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletSpread_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ClampMin", "0.000000" },
+				{ "ModuleRelativePath", "Public/SWeapon.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_bulletSpread = { UE4CodeGen_Private::EPropertyClass::Float, "bulletSpread", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ASWeapon, bulletSpread), METADATA_PARAMS(NewProp_bulletSpread_MetaData, ARRAY_COUNT(NewProp_bulletSpread_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rateOfFire_MetaData[] = {
 				{ "Category", "Weapon" },
 				{ "ModuleRelativePath", "Public/SWeapon.h" },
@@ -278,6 +286,7 @@ static struct FScriptStruct_CoopShooterGame_StaticRegisterNativesFHitScanTrace
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_meshComponent = { UE4CodeGen_Private::EPropertyClass::Object, "meshComponent", RF_Public|RF_Transient|RF_MarkAsNative, 0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(ASWeapon, meshComponent), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_meshComponent_MetaData, ARRAY_COUNT(NewProp_meshComponent_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_hitScanTrace,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bulletSpread,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_rateOfFire,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_loopFire,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_baseDamage,
@@ -309,7 +318,7 @@ static struct FScriptStruct_CoopShooterGame_StaticRegisterNativesFHitScanTrace
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASWeapon, 3341798622);
+	IMPLEMENT_CLASS(ASWeapon, 1425593309);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ASWeapon(Z_Construct_UClass_ASWeapon, &ASWeapon::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("ASWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ASWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

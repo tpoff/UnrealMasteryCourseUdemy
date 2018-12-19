@@ -32,6 +32,8 @@ ASWeapon::ASWeapon()
 	rateOfFire = 600;
 
 	SetReplicates(true);
+
+	bulletSpread = 2.0f;
 }
 void ASWeapon::BeginPlay()
 {
@@ -67,6 +69,10 @@ void ASWeapon::Fire()
 		owner->GetActorEyesViewPoint(eyeLocation, eyeRotation);
 
 		FVector shotDirection = eyeRotation.Vector();
+
+		float halfRad = FMath::DegreesToRadians(bulletSpread);
+		shotDirection = FMath::VRandCone(shotDirection, halfRad, halfRad);
+
 		FVector traceEnd = eyeLocation + (shotDirection * 10000);
 
 		FCollisionQueryParams queryParams;
