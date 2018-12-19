@@ -846,3 +846,705 @@ LogInit: Object subsystem initialized
 [2018.12.19-07.06.17:483][688]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
 [2018.12.19-07.06.17:486][688]LogExit: GameNetDriver None shut down
 [2018.12.19-07.06.17:486][688]LogExit: GameNetDriver None shut down
+[2018.12.19-07.07.22:212][537]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 116 classes and 0 folders.
+[2018.12.19-07.07.22:427][537]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e12d781370, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.12.19-07.07.22:427][537]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e12d781368, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.12.19-07.07.22:704][537]LogSlate: Took 0.005757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.12.19-07.07.22:747][538]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.12.19-07.49.05:459][752]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e132e1edf8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.14:195][ 19]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e132e1edf8, Size=4
+[2018.12.19-07.52.14:196][ 19]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e0869871b8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_52:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.14:197][ 19]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e0869858f8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.23:702][987]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.19-07.52.24:970][114]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e0869858f8, Size=4
+[2018.12.19-07.52.24:970][114]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e0869858f8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_54:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.24:972][114]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086986e30, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.33:615][898]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086986e30, Size=4
+[2018.12.19-07.52.33:615][898]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086986e30, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_56:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.33:616][898]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086986fe0, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.59:584][229]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086986fe0, Size=4
+[2018.12.19-07.52.59:584][229]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086986fe0, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_58:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.52.59:585][229]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086985b18, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.53.04:448][732]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086985b18, Size=4
+[2018.12.19-07.53.04:448][732]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086985b18, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_60:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.53.04:450][732]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086987d00, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.53.10:552][306]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086987d00, Size=4
+[2018.12.19-07.53.10:552][306]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086987d00, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_62:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.53.10:554][306]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e086987c30, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.54.37:298][954]BlueprintLog: New page: Compile Service_SelectTargetActor
+[2018.12.19-07.54.37:303][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086987c30, Size=4
+[2018.12.19-07.54.37:303][954]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e09f8bc0e8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_64:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.54.37:308][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e097cf9710, Size=72
+[2018.12.19-07.54.37:308][954]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e09bef2480, Size=72, Default__Service_SelectTargetActor_C Function /Engine/Transient.REINST_Service_SelectTargetActor_C_66:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.54.37:311][954]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e136975b20, Size=144, Default__Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.54.37:384][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e0869871b8, Size=4
+[2018.12.19-07.54.37:384][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e0869858f8, Size=4
+[2018.12.19-07.54.37:385][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086986e30, Size=4
+[2018.12.19-07.54.37:385][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086986fe0, Size=4
+[2018.12.19-07.54.37:385][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086985b18, Size=4
+[2018.12.19-07.54.37:385][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e086987d00, Size=4
+[2018.12.19-07.54.37:385][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e09f8bc0e8, Size=4
+[2018.12.19-07.54.37:485][954]LogSavePackage: Save=19.14ms
+[2018.12.19-07.54.37:485][954]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Service_SelectTargetActor5C0298474FEC6E34F2D9549B0ABBF1F1.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/AdvancedAi/Service_SelectTargetActor.uasset'
+[2018.12.19-07.54.37:489][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/AdvancedAi/Service_SelectTargetActor.uasset
+[2018.12.19-07.55.07:638][991]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e09f8bfcd8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.SKEL_Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.55.16:605][897]BlueprintLog: New page: Compile Service_SelectTargetActor
+[2018.12.19-07.55.16:610][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e09f8bfcd8, Size=4
+[2018.12.19-07.55.16:610][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e106a9ffc8, Size=4, Default__SKEL_Service_SelectTargetActor_C Function /Engine/Transient.REINST_SKEL_Service_SelectTargetActor_C_70:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.55.16:615][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e136975b20, Size=144
+[2018.12.19-07.55.16:615][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e13956e520, Size=144, Service_SelectTargetActor_C_0 Function /Engine/Transient.REINST_Service_SelectTargetActor_C_72:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.55.16:617][897]LogUObjectGlobals: Created PersistentFrame Addr=0x000002e137ca3a60, Size=136, Default__Service_SelectTargetActor_C Function /Game/AdvancedAi/Service_SelectTargetActor.Service_SelectTargetActor_C:ExecuteUbergraph_Service_SelectTargetActor
+[2018.12.19-07.55.16:688][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e09bef2480, Size=72
+[2018.12.19-07.55.16:688][897]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e106a9ffc8, Size=4
+[2018.12.19-07.55.16:775][897]LogSavePackage: Save=17.30ms
+[2018.12.19-07.55.16:775][897]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/Service_SelectTargetActor1726BC0C4E80E6E0987D10A70E967AEB.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/AdvancedAi/Service_SelectTargetActor.uasset'
+[2018.12.19-07.55.16:778][897]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/AdvancedAi/Service_SelectTargetActor.uasset
+[2018.12.19-07.56.00:227][229]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.12.19-07.56.00:252][229]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/default_map.default_map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/default_map.default_map:PersistentLevel.default_map' with GeneratedClass '/Game/Maps/default_map.default_map_C' with ClassGeneratedBy '/Game/Maps/default_map.default_map:PersistentLevel.default_map'
+[2018.12.19-07.56.00:252][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.19-07.56.00:283][229]PIE: New page: PIE session: default_map (Dec 18, 2018, 7:56:00 PM)
+[2018.12.19-07.56.00:283][229]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_default_map
+[2018.12.19-07.56.00:292][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008983s)
+[2018.12.19-07.56.00:292][229]LogAIModule: Creating AISystem for world default_map
+[2018.12.19-07.56.00:292][229]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.12.19-07.56.00:293][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/default_map.default_map to /Game/Maps/UEDPIE_1_default_map.default_map (0.009778s)
+[2018.12.19-07.56.00:309][229]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002e13956e520, Size=144
+[2018.12.19-07.56.00:328][229]LogInit: XAudio2 using 'MStar Demo (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.12.19-07.56.00:337][229]LogInit: FAudioDevice initialized.
+[2018.12.19-07.56.00:493][229]LogLoad: Game class is 'BP_TestGameMode_C'
+[2018.12.19-07.56.00:496][229]LogWorld: Bringing World /Game/Maps/UEDPIE_1_default_map.default_map up for play (max tick rate 0) at 2018.12.19-01.56.00
+[2018.12.19-07.56.00:497][229]LogWorld: Bringing up level for play took: 0.002686
+[2018.12.19-07.56.00:498][229]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.19-07.56.00:498][229]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2018.12.19-07.56.00:498][229]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.19-07.56.00:498][229]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.12.19-07.56.00:498][229]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.19-07.56.00:498][229]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2018.12.19-07.56.00:500][229]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Start
+[2018.12.19-07.56.00:505][229]PIE: Play in editor start time for /Game/Maps/UEDPIE_1_default_map -0.329
+[2018.12.19-07.56.00:538][229]PIE: New page: PIE session: default_map (Dec 18, 2018, 7:56:00 PM)
+[2018.12.19-07.56.00:581][229]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.12.19-07.56.00:685][229]LogNet: Browse: 127.0.0.1:17777//Game/StarterContent/Maps/Minimal_Default
+[2018.12.19-07.56.00:685][229]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.19-07.56.00:685][229]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2018.12.19-07.56.00:685][229]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.12.19-07.56.00:685][229]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.12.19-07.56.00:685][229]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.19-07.56.00:685][229]LogNet: Game client on port 17777, rate 10000
+[2018.12.19-07.56.00:691][229]PIE: Play in editor start time for /Game/StarterContent/Maps/Minimal_Default -0.143
+[2018.12.19-07.56.00:732][229]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/default_map.default_map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/default_map.default_map:PersistentLevel.default_map' with GeneratedClass '/Game/Maps/default_map.default_map_C' with ClassGeneratedBy '/Game/Maps/default_map.default_map:PersistentLevel.default_map'
+[2018.12.19-07.56.00:732][229]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52686
+[2018.12.19-07.56.00:732][229]LogHandshake: SendConnectChallenge. Timestamp: 0.019160, Cookie: 232231214148237106177072025041113045092047077049025108063208
+[2018.12.19-07.56.00:733][229]LogHandshake: SendChallengeResponse. Timestamp: 0.019160, Cookie: 232231214148237106177072025041113045092047077049025108063208
+[2018.12.19-07.56.00:867][230]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52686
+[2018.12.19-07.56.00:869][230]LogHandshake: SendChallengeAck. InCookie: 232231214148237106177072025041113045092047077049025108063208
+[2018.12.19-07.56.00:869][230]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52686
+[2018.12.19-07.56.00:869][230]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.12.19-07.56.00:869][230]LogNet: NotifyAcceptedConnection: Name: default_map, TimeStamp: 12/19/18 01:56:00, [UNetConnection] RemoteAddr: 127.0.0.1:52686, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.19-07.56.00:869][230]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52686, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.19-07.56.00:870][230]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.12.19-07.56.00:893][231]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_default_map.default_map: Accepted
+[2018.12.19-07.56.00:893][231]LogNet: Remote platform little endian=1
+[2018.12.19-07.56.00:893][231]LogNet: This platform little endian=1
+[2018.12.19-07.56.00:920][232]LogNet: Login request: /Game/StarterContent/Maps/Minimal_Default userId: Invalid
+[2018.12.19-07.56.00:921][232]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_default_map, Game: /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C)
+[2018.12.19-07.56.00:941][232]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_1_default_map?game=/Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C
+[2018.12.19-07.56.00:965][232]LogAIModule: Creating AISystem for world default_map
+[2018.12.19-07.56.00:965][232]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.12.19-07.56.00:967][232]LogWorld: Bringing World /Game/Maps/UEDPIE_2_default_map.default_map up for play (max tick rate 0) at 2018.12.19-01.56.00
+[2018.12.19-07.56.00:967][232]LogWorld: Bringing up level for play took: 0.002171
+[2018.12.19-07.56.00:967][232]LogLoad: Took 0.026845 seconds to LoadMap(/Game/Maps/UEDPIE_1_default_map)
+[2018.12.19-07.56.00:990][233]LogNet: Client netspeed is 10000
+[2018.12.19-07.56.00:990][233]LogNet: Join request: /Game/StarterContent/Maps/Minimal_Default?SplitscreenCount=1
+[2018.12.19-07.56.00:992][233]LogNet: Join succeeded: 259
+[2018.12.19-07.56.01:141][241]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_2
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.01:142][241]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.02:470][325]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Wave in Progress
+[2018.12.19-07.56.02:488][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:488][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:488][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:489][326]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.02:489][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:489][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:489][326]LogTemp: actor overlapped
+[2018.12.19-07.56.02:522][328]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Wave in Progress
+[2018.12.19-07.56.03:485][391]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Complete
+[2018.12.19-07.56.03:486][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:486][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:486][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:486][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:486][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:487][391]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.03:487][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:487][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:487][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:487][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:487][391]LogTemp: actor overlapped
+[2018.12.19-07.56.03:503][392]LogTemp: POWER: 0.2
+[2018.12.19-07.56.03:521][393]LogTemp: POWER: 0.2
+[2018.12.19-07.56.03:569][396]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Waiting to Complete
+[2018.12.19-07.56.03:949][421]LogTemp: POWER: 0.0
+[2018.12.19-07.56.03:949][421]LogTemp: POWER: 0.0
+[2018.12.19-07.56.04:009][425]LogTemp: actor overlapped
+[2018.12.19-07.56.04:024][426]LogTemp: actor overlapped
+[2018.12.19-07.56.04:039][427]LogTemp: POWER: 0.2
+[2018.12.19-07.56.04:539][459]LogTemp: actor overlapped
+[2018.12.19-07.56.04:554][460]LogTemp: actor overlapped
+[2018.12.19-07.56.04:555][460]LogTemp: POWER: 0.4
+[2018.12.19-07.56.04:616][464]LogTemp: actor overlapped
+[2018.12.19-07.56.04:632][465]LogTemp: actor overlapped
+[2018.12.19-07.56.04:647][466]LogTemp: POWER: 0.2
+[2018.12.19-07.56.04:758][473]LogTemp: POWER: 0.2
+[2018.12.19-07.56.04:817][477]LogTemp: POWER: 0.0
+[2018.12.19-07.56.05:226][503]LogTemp: actor overlapped
+[2018.12.19-07.56.05:240][504]LogTemp: actor overlapped
+[2018.12.19-07.56.05:241][504]LogTemp: POWER: 0.4
+[2018.12.19-07.56.05:501][521]LogTemp: POWER: 0.2
+[2018.12.19-07.56.05:566][525]LogTemp: POWER: 0.0
+[2018.12.19-07.56.07:598][658]LogTemp: actor overlapped
+[2018.12.19-07.56.07:598][658]LogTemp: actor overlapped
+[2018.12.19-07.56.07:612][659]LogTemp: actor overlapped
+[2018.12.19-07.56.07:613][659]LogTemp: actor overlapped
+[2018.12.19-07.56.07:613][659]LogTemp: actor overlapped
+[2018.12.19-07.56.07:613][659]LogTemp: actor overlapped
+[2018.12.19-07.56.07:627][660]LogTemp: actor overlapped
+[2018.12.19-07.56.07:627][660]LogTemp: actor overlapped
+[2018.12.19-07.56.07:643][661]LogTemp: POWER: 0.2
+[2018.12.19-07.56.07:643][661]LogTemp: POWER: 0.2
+[2018.12.19-07.56.08:118][691]LogTemp: actor overlapped
+[2018.12.19-07.56.08:133][692]LogTemp: actor overlapped
+[2018.12.19-07.56.08:149][693]LogTemp: POWER: 0.4
+[2018.12.19-07.56.08:750][733]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.08:796][736]LogTemp: actor overlapped
+[2018.12.19-07.56.08:810][737]LogTemp: actor overlapped
+[2018.12.19-07.56.08:840][739]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.08:854][740]LogTemp: POWER: 0.4
+[2018.12.19-07.56.08:942][746]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.09:033][752]LogTemp: actor overlapped
+[2018.12.19-07.56.09:033][752]LogTemp: actor overlapped
+[2018.12.19-07.56.09:048][753]LogTemp: actor overlapped
+[2018.12.19-07.56.09:048][753]LogTemp: actor overlapped
+[2018.12.19-07.56.09:048][753]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.09:049][753]LogTemp: POWER: 0.2
+[2018.12.19-07.56.09:049][753]LogTemp: actor overlapped
+[2018.12.19-07.56.09:049][753]LogTemp: actor overlapped
+[2018.12.19-07.56.09:063][754]LogTemp: actor overlapped
+[2018.12.19-07.56.09:063][754]LogTemp: actor overlapped
+[2018.12.19-07.56.09:063][754]LogTemp: POWER: 0.2
+[2018.12.19-07.56.09:137][759]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.09:137][759]LogBlueprintUserMessages: [BP_TestGameMode_C_0] Server: 20.0
+[2018.12.19-07.56.09:233][765]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.09:337][772]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.09:715][797]LogTemp: POWER: 0.0
+[2018.12.19-07.56.10:245][832]LogTemp: POWER: 0.0
+[2018.12.19-07.56.11:456][913]LogTemp: actor overlapped
+[2018.12.19-07.56.11:469][914]LogTemp: actor overlapped
+[2018.12.19-07.56.11:485][915]LogTemp: actor overlapped
+[2018.12.19-07.56.11:499][916]LogTemp: actor overlapped
+[2018.12.19-07.56.11:499][916]LogTemp: POWER: 0.4
+[2018.12.19-07.56.11:961][947]LogTemp: POWER: 0.2
+[2018.12.19-07.56.12:070][954]LogTemp: actor overlapped
+[2018.12.19-07.56.12:085][955]LogTemp: actor overlapped
+[2018.12.19-07.56.12:086][955]LogTemp: POWER: 0.2
+[2018.12.19-07.56.12:102][956]LogTemp: actor overlapped
+[2018.12.19-07.56.12:116][957]LogTemp: actor overlapped
+[2018.12.19-07.56.12:149][959]LogTemp: POWER: 0.4
+[2018.12.19-07.56.12:370][973]LogTemp: actor overlapped
+[2018.12.19-07.56.12:370][973]LogTemp: actor overlapped
+[2018.12.19-07.56.12:384][974]LogTemp: actor overlapped
+[2018.12.19-07.56.12:385][974]LogTemp: actor overlapped
+[2018.12.19-07.56.12:385][974]LogTemp: actor overlapped
+[2018.12.19-07.56.12:386][974]LogTemp: actor overlapped
+[2018.12.19-07.56.12:399][975]LogTemp: actor overlapped
+[2018.12.19-07.56.12:399][975]LogTemp: actor overlapped
+[2018.12.19-07.56.12:400][975]LogTemp: POWER: 0.6
+[2018.12.19-07.56.12:415][976]LogTemp: POWER: 0.4
+[2018.12.19-07.56.12:764][999]LogTemp: POWER: 0.4
+[2018.12.19-07.56.12:810][  2]LogTemp: POWER: 0.2
+[2018.12.19-07.56.13:222][ 30]LogTemp: actor overlapped
+[2018.12.19-07.56.13:236][ 31]LogTemp: actor overlapped
+[2018.12.19-07.56.13:236][ 31]LogTemp: POWER: 0.4
+[2018.12.19-07.56.13:237][ 31]LogTemp: actor overlapped
+[2018.12.19-07.56.13:250][ 32]LogTemp: actor overlapped
+[2018.12.19-07.56.13:266][ 33]LogTemp: POWER: 0.6
+[2018.12.19-07.56.13:266][ 33]LogTemp: actor overlapped
+[2018.12.19-07.56.13:280][ 34]LogTemp: actor overlapped
+[2018.12.19-07.56.13:309][ 36]LogTemp: POWER: 0.6
+[2018.12.19-07.56.13:714][ 64]LogTemp: POWER: 0.4
+[2018.12.19-07.56.13:802][ 70]LogTemp: POWER: 0.2
+[2018.12.19-07.56.13:831][ 72]LogTemp: actor overlapped
+[2018.12.19-07.56.13:833][ 72]LogTemp: actor overlapped
+[2018.12.19-07.56.13:847][ 73]LogTemp: POWER: 0.4
+[2018.12.19-07.56.13:933][ 79]LogTemp: actor overlapped
+[2018.12.19-07.56.13:946][ 80]LogTemp: actor overlapped
+[2018.12.19-07.56.14:035][ 86]LogTemp: POWER: 0.4
+[2018.12.19-07.56.14:143][ 93]LogTemp: POWER: 0.2
+[2018.12.19-07.56.14:245][100]LogTemp: POWER: 0.2
+[2018.12.19-07.56.14:260][101]LogTemp: POWER: 0.0
+[2018.12.19-07.56.14:457][114]LogTemp: POWER: 0.0
+[2018.12.19-07.56.15:011][150]LogTemp: actor overlapped
+[2018.12.19-07.56.15:026][151]LogTemp: actor overlapped
+[2018.12.19-07.56.15:041][152]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.15:041][152]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:059][153]LogTemp: POWER: 0.2
+[2018.12.19-07.56.15:059][153]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:060][153]LogTemp: actor overlapped
+[2018.12.19-07.56.15:073][154]LogTemp: actor overlapped
+[2018.12.19-07.56.15:090][155]LogTemp: POWER: 0.4
+[2018.12.19-07.56.15:287][168]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.15:287][168]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:287][168]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:334][171]LogTemp: actor overlapped
+[2018.12.19-07.56.15:348][172]LogTemp: actor overlapped
+[2018.12.19-07.56.15:349][172]LogTemp: POWER: 0.2
+[2018.12.19-07.56.15:499][182]LogTemp: POWER: 0.0
+[2018.12.19-07.56.15:530][184]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.15:530][184]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:547][185]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:783][200]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.15:783][200]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:799][201]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.15:970][212]LogTemp: actor overlapped
+[2018.12.19-07.56.15:970][212]LogTemp: actor overlapped
+[2018.12.19-07.56.15:985][213]LogTemp: actor overlapped
+[2018.12.19-07.56.15:985][213]LogTemp: actor overlapped
+[2018.12.19-07.56.16:001][214]LogTemp: POWER: 0.2
+[2018.12.19-07.56.16:017][215]LogTemp: POWER: 0.2
+[2018.12.19-07.56.16:032][216]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.16:032][216]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.16:032][216]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_1.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.16:032][216]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_1.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.16:032][216]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.16:032][216]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.16:032][216]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.16:032][216]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.16:033][216]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.16:276][232]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.16:276][232]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.16:353][237]LogTemp: POWER: 0.0
+[2018.12.19-07.56.16:538][249]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.16:538][249]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.16:785][265]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.16:785][265]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.17:040][282]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.17:040][282]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.17:084][285]LogTemp: actor overlapped
+[2018.12.19-07.56.17:097][286]LogTemp: actor overlapped
+[2018.12.19-07.56.17:113][287]LogTemp: POWER: 0.2
+[2018.12.19-07.56.17:281][298]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.17:281][298]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.17:491][312]LogTemp: POWER: 0.0
+[2018.12.19-07.56.17:506][313]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.17:506][313]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.17:521][314]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.17:534][315]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.17:534][315]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.17:778][331]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.17:778][331]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.17:902][339]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.17:902][339]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.17:918][340]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.18:040][348]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.18:040][348]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_1
+[2018.12.19-07.56.18:951][408]LogTemp: actor overlapped
+[2018.12.19-07.56.18:953][408]LogTemp: actor overlapped
+[2018.12.19-07.56.18:967][409]LogTemp: POWER: 0.2
+[2018.12.19-07.56.18:998][411]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.18:998][411]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.18:998][411]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.20:243][495]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.20:243][495]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.20:257][496]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.20:551][516]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.20:551][516]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.20:551][516]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_0.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.20:551][516]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_0.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.20:551][516]LogBlueprintUserMessages: [BP_TestGameMode_C_0] Server: 40.0
+[2018.12.19-07.56.20:551][516]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_0
+[2018.12.19-07.56.20:566][517]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Wave Complete
+[2018.12.19-07.56.20:566][517]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Start
+[2018.12.19-07.56.20:641][522]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Waiting to Start
+[2018.12.19-07.56.22:573][653]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Wave in Progress
+[2018.12.19-07.56.22:590][654]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_C_0
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.22:590][654]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.22:590][654]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Wave in Progress
+[2018.12.19-07.56.23:579][721]LogTemp: actor overlapped
+[2018.12.19-07.56.23:579][721]LogTemp: actor overlapped
+[2018.12.19-07.56.23:579][721]LogTemp: actor overlapped
+[2018.12.19-07.56.23:580][721]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.23:580][721]LogTemp: actor overlapped
+[2018.12.19-07.56.23:580][721]LogTemp: actor overlapped
+[2018.12.19-07.56.23:580][721]LogTemp: actor overlapped
+[2018.12.19-07.56.24:583][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:583][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:583][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:583][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:583][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:584][789]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.24:584][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:584][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:584][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:584][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:584][789]LogTemp: actor overlapped
+[2018.12.19-07.56.24:599][790]LogTemp: POWER: 0.2
+[2018.12.19-07.56.24:656][794]LogTemp: POWER: 0.2
+[2018.12.19-07.56.24:734][799]LogTemp: POWER: 0.0
+[2018.12.19-07.56.24:734][799]LogTemp: POWER: 0.0
+[2018.12.19-07.56.24:749][800]LogTemp: actor overlapped
+[2018.12.19-07.56.24:749][800]LogTemp: actor overlapped
+[2018.12.19-07.56.25:201][830]LogTemp: actor overlapped
+[2018.12.19-07.56.25:216][831]LogTemp: actor overlapped
+[2018.12.19-07.56.25:230][832]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.25:230][832]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:231][832]LogTemp: POWER: 0.2
+[2018.12.19-07.56.25:231][832]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:466][848]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.25:466][848]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:482][849]LogTemp: POWER: 0.0
+[2018.12.19-07.56.25:482][849]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:586][856]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Complete
+[2018.12.19-07.56.25:587][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:587][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:587][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:588][856]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.25:588][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:588][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:588][856]LogTemp: actor overlapped
+[2018.12.19-07.56.25:665][861]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Waiting to Complete
+[2018.12.19-07.56.25:725][865]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.25:726][865]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:726][865]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:977][881]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.25:978][881]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:978][881]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.25:979][881]LogTemp: actor overlapped
+[2018.12.19-07.56.25:994][882]LogTemp: actor overlapped
+[2018.12.19-07.56.25:994][882]LogTemp: POWER: 0.2
+[2018.12.19-07.56.25:995][882]LogTemp: actor overlapped
+[2018.12.19-07.56.25:995][882]LogTemp: actor overlapped
+[2018.12.19-07.56.26:009][883]LogTemp: actor overlapped
+[2018.12.19-07.56.26:009][883]LogTemp: actor overlapped
+[2018.12.19-07.56.26:026][884]LogTemp: actor overlapped
+[2018.12.19-07.56.26:026][884]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.26:026][884]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:027][884]LogTemp: actor overlapped
+[2018.12.19-07.56.26:042][885]LogTemp: POWER: 0.2
+[2018.12.19-07.56.26:042][885]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:042][885]LogTemp: POWER: 0.4
+[2018.12.19-07.56.26:151][892]LogTemp: POWER: 0.2
+[2018.12.19-07.56.26:197][895]LogTemp: POWER: 0.0
+[2018.12.19-07.56.26:229][897]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.26:229][897]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.26:229][897]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.26:229][897]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_2.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.26:229][897]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.26:229][897]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.26:229][897]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.26:229][897]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.26:230][897]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.26:261][899]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.26:261][899]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:277][900]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:292][901]LogTemp: POWER: 0.0
+[2018.12.19-07.56.26:475][913]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.26:475][913]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.26:520][916]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.26:520][916]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:521][916]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:719][929]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.26:719][929]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.26:767][932]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.26:767][932]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:783][933]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.26:896][940]LogTemp: actor overlapped
+[2018.12.19-07.56.26:896][940]LogTemp: actor overlapped
+[2018.12.19-07.56.26:909][941]LogTemp: actor overlapped
+[2018.12.19-07.56.26:909][941]LogTemp: actor overlapped
+[2018.12.19-07.56.26:940][943]LogTemp: POWER: 0.2
+[2018.12.19-07.56.26:971][945]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.26:971][945]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.27:017][948]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:017][948]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.27:017][948]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.27:017][948]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_3.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.27:017][948]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.27:018][948]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.27:018][948]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.27:018][948]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.27:018][948]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.27:224][961]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:224][961]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.27:269][964]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:269][964]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.27:347][969]LogTemp: actor overlapped
+[2018.12.19-07.56.27:364][970]LogTemp: actor overlapped
+[2018.12.19-07.56.27:380][971]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.27:380][971]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:380][971]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:396][972]LogTemp: POWER: 0.2
+[2018.12.19-07.56.27:474][977]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:474][977]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.27:519][980]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:519][980]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.27:553][982]LogTemp: POWER: 0.0
+[2018.12.19-07.56.27:613][986]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.27:613][986]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:614][986]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:721][993]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:721][993]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.27:768][996]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:768][996]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.27:876][  3]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.27:876][  3]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:891][  4]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.27:967][  9]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.27:967][  9]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.27:999][ 11]LogTemp: actor overlapped
+[2018.12.19-07.56.28:014][ 12]LogTemp: actor overlapped
+[2018.12.19-07.56.28:014][ 12]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:014][ 12]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.28:049][ 14]LogTemp: POWER: 0.2
+[2018.12.19-07.56.28:081][ 16]LogTemp: actor overlapped
+[2018.12.19-07.56.28:081][ 16]LogTemp: actor overlapped
+[2018.12.19-07.56.28:098][ 17]LogTemp: actor overlapped
+[2018.12.19-07.56.28:098][ 17]LogTemp: actor overlapped
+[2018.12.19-07.56.28:114][ 18]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.28:114][ 18]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.28:114][ 18]LogTemp: POWER: 0.4
+[2018.12.19-07.56.28:114][ 18]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.28:190][ 23]LogTemp: actor overlapped
+[2018.12.19-07.56.28:190][ 23]LogTemp: actor overlapped
+[2018.12.19-07.56.28:205][ 24]LogTemp: actor overlapped
+[2018.12.19-07.56.28:205][ 24]LogTemp: actor overlapped
+[2018.12.19-07.56.28:221][ 25]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:221][ 25]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_2
+[2018.12.19-07.56.28:237][ 26]LogTemp: POWER: 0.2
+[2018.12.19-07.56.28:268][ 28]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:268][ 28]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.28:347][ 33]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.28:363][ 34]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:363][ 34]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.28:363][ 34]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.28:363][ 34]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_4.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.28:363][ 34]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.28:363][ 34]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.28:363][ 34]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.28:363][ 34]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.28:378][ 35]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.28:441][ 39]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.28:517][ 44]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:517][ 44]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.28:623][ 51]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:623][ 51]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.28:767][ 60]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:768][ 60]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.28:862][ 66]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.28:862][ 66]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.29:015][ 76]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:015][ 76]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_3
+[2018.12.19-07.56.29:030][ 77]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.29:119][ 83]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:119][ 83]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.29:243][ 91]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.29:366][ 99]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:366][ 99]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.29:622][116]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:622][116]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.29:636][117]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:637][117]LogBlueprintUserMessages: [BP_TestGameMode_C_0] Server: 60.0
+[2018.12.19-07.56.29:651][118]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Wave Complete
+[2018.12.19-07.56.29:651][118]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Start
+[2018.12.19-07.56.29:720][122]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Waiting to Start
+[2018.12.19-07.56.29:736][123]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:874][132]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.29:874][132]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.29:935][136]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.30:120][148]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.30:121][148]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.30:336][162]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.30:367][164]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.30:367][164]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_4
+[2018.12.19-07.56.31:654][250]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Wave in Progress
+[2018.12.19-07.56.31:655][250]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Wave in Progress
+[2018.12.19-07.56.31:670][251]LogTemp: actor overlapped
+[2018.12.19-07.56.31:670][251]LogTemp: actor overlapped
+[2018.12.19-07.56.31:670][251]LogTemp: actor overlapped
+[2018.12.19-07.56.31:671][251]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.31:671][251]LogTemp: actor overlapped
+[2018.12.19-07.56.31:671][251]LogTemp: actor overlapped
+[2018.12.19-07.56.31:671][251]LogTemp: actor overlapped
+[2018.12.19-07.56.32:666][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:666][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:666][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:667][317]LogTemp: Trackerbot Hit: Health 100.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.32:667][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:667][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:667][317]LogTemp: actor overlapped
+[2018.12.19-07.56.32:970][337]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.32:970][337]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.32:986][338]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.33:661][382]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_C_1
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.33:661][382]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.33:725][386]LogTemp: actor overlapped
+[2018.12.19-07.56.33:740][387]LogTemp: actor overlapped
+[2018.12.19-07.56.33:742][387]LogTemp: actor overlapped
+[2018.12.19-07.56.33:757][388]LogTemp: actor overlapped
+[2018.12.19-07.56.33:757][388]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.33:757][388]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.33:758][388]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.33:775][389]LogTemp: POWER: 0.2
+[2018.12.19-07.56.34:001][403]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.34:001][403]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:001][403]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:146][412]LogTemp: POWER: 0.0
+[2018.12.19-07.56.34:257][419]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.34:257][419]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:257][419]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:498][434]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.34:498][434]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:499][434]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_5.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.34:499][434]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_5.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.34:499][434]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.34:499][434]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.34:499][434]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.34:499][434]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.34:499][434]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.34:663][444]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_C_2
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.34:663][444]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.34:746][449]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.34:746][449]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.35:003][465]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.35:003][465]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.35:243][480]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.35:243][480]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.35:500][496]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.35:500][496]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.35:660][506]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_C_3
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.35:660][506]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.35:754][512]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.35:754][512]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.35:994][527]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.35:994][527]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.36:121][535]LogTemp: actor overlapped
+[2018.12.19-07.56.36:135][536]LogTemp: actor overlapped
+[2018.12.19-07.56.36:184][539]LogTemp: POWER: 0.2
+[2018.12.19-07.56.36:249][543]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.36:249][543]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.36:509][559]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.36:509][559]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_5
+[2018.12.19-07.56.36:665][569]LogBlueprintUserMessages: [BP_GameState_C_0] Server: Waiting to Complete
+[2018.12.19-07.56.36:668][569]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_AdvancedAi_C /Game/Maps/UEDPIE_2_default_map.default_map:PersistentLevel.BP_AdvancedAi_C_4
+	Function /Game/AdvancedAi/BP_AdvancedAi.BP_AdvancedAi_C:ExecuteUbergraph_BP_AdvancedAi:004C
+[2018.12.19-07.56.36:668][569]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetAIController_ReturnValue from function: 'ExecuteUbergraph_BP_AdvancedAi' from node: Run Behavior Tree in graph: EventGraph in object: BP_AdvancedAi with description: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+[2018.12.19-07.56.36:717][572]LogBlueprintUserMessages: [BP_GameState_C_0] Client 1: Waiting to Complete
+[2018.12.19-07.56.36:717][572]LogTemp: POWER: 0.0
+[2018.12.19-07.56.38:005][650]LogTemp: actor overlapped
+[2018.12.19-07.56.38:023][651]LogTemp: actor overlapped
+[2018.12.19-07.56.38:024][651]LogTemp: POWER: 0.2
+[2018.12.19-07.56.38:040][652]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.38:040][652]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:057][653]LogTemp: Trackerbot Hit: Health 80.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:074][654]LogTemp: POWER: 0.0
+[2018.12.19-07.56.38:233][664]LogCharacterMovement: BP_AdvancedAi_C_3 is stuck and failed to move! Velocity: X=-468.00 Y=-375.00 Z=0.00 Location: X=2265.87 Y=2795.96 Z=122.15 Normal: X=1.00 Y=0.04 Z=0.00 PenetrationDepth:15.289 Actor:BP_AdvancedAi_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2018.12.19-07.56.38:282][667]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.38:282][667]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:282][667]LogTemp: Trackerbot Hit: Health 60.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:535][683]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.38:535][683]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:551][684]LogTemp: Trackerbot Hit: Health 40.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:771][698]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.38:771][698]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.38:772][698]LogTemp: Trackerbot Hit: Health 20.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.39:029][714]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.39:030][714]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.39:030][714]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_6.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.39:030][714]PIE: Warning: Invalid Simulate Options: Body (TrackerBot_C_6.meshComponent TrackerModel) is set to simulate physics but Collision Enabled is incompatible
+[2018.12.19-07.56.39:030][714]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_killerController
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:06E7
+[2018.12.19-07.56.39:030][714]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_killerController from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property K2Node_CustomEvent_killerController
+[2018.12.19-07.56.39:030][714]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BP_TestGameMode_C /Game/Maps/UEDPIE_1_default_map.default_map:PersistentLevel.BP_TestGameMode_C_0
+	Function /Game/BluePrints/BP_TestGameMode.BP_TestGameMode_C:ExecuteUbergraph_BP_TestGameMode:0723
+[2018.12.19-07.56.39:030][714]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue from function: 'ExecuteUbergraph_BP_TestGameMode' from node: Cast To SPlayerState in graph: EventGraph in object: BP_TestGameMode with description: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+[2018.12.19-07.56.39:031][714]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.39:277][729]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.39:277][729]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.39:530][745]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.39:530][745]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.39:648][752]LogTemp: Health Changed: 90.0
+[2018.12.19-07.56.39:777][760]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.39:778][760]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.40:031][776]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.40:031][776]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.40:271][791]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.40:271][791]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.40:527][807]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.40:527][807]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.40:783][822]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.40:783][822]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.41:032][838]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.41:032][838]LogTemp: Trackerbot Hit: Health 0.0 for pawn: TrackerBot_C_6
+[2018.12.19-07.56.42:303][919]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.42:596][936]LogTemp: Health Changed: 70.0
+[2018.12.19-07.56.42:682][941]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.42:880][952]LogTemp: Health Changed: 50.0
+[2018.12.19-07.56.44:665][ 66]LogTemp: Health Changed: 40.0
+[2018.12.19-07.56.44:759][ 72]LogTemp: Health Changed: 30.0
+[2018.12.19-07.56.44:866][ 79]LogTemp: Health Changed: 20.0
+[2018.12.19-07.56.46:471][184]LogTemp: Health Changed: 10.0
+[2018.12.19-07.56.46:565][190]LogTemp: Health Changed: 0.0
+[2018.12.19-07.56.48:597][324]LogTemp: Health Changed: 90.0
+[2018.12.19-07.56.48:797][337]LogTemp: Health Changed: 80.0
+[2018.12.19-07.56.48:888][343]LogTemp: Health Changed: 70.0
+[2018.12.19-07.56.50:319][438]LogTemp: Health Changed: 60.0
+[2018.12.19-07.56.50:410][444]LogTemp: Health Changed: 50.0
+[2018.12.19-07.56.51:684][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/default_map.default_map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/default_map.default_map:PersistentLevel.default_map' with GeneratedClass '/Game/Maps/default_map.default_map_C' with ClassGeneratedBy '/Game/Maps/default_map.default_map:PersistentLevel.default_map'
+[2018.12.19-07.56.51:708][528]LogSlate: Window 'CoopShooterGame Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.19-07.56.51:765][528]LogSlate: Window 'CoopShooterGame Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.12.19-07.56.51:804][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/default_map.default_map:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/default_map.default_map:PersistentLevel.default_map' with GeneratedClass '/Game/Maps/default_map.default_map_C' with ClassGeneratedBy '/Game/Maps/default_map.default_map:PersistentLevel.default_map'
+[2018.12.19-07.56.51:817][528]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52686, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.12.19-07.56.51:817][528]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52686, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 10, Time: 2018.12.19-07.56.51
+[2018.12.19-07.56.51:817][528]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52686, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.12.19-07.56.51:817][528]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.12.19-07.56.51:817][528]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 10, Time: 2018.12.19-07.56.51
+[2018.12.19-07.56.51:817][528]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.12.19-07.56.51:820][528]LogExit: GameNetDriver None shut down
+[2018.12.19-07.56.51:821][528]LogExit: GameNetDriver None shut down
+[2018.12.19-07.58.13:758][850]LogSavePackage: Save=142.25ms
+[2018.12.19-07.58.13:759][850]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/default_mapCB6CE9B84227C19054D9D5B39C6ADB02.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Maps/default_map.umap'
+[2018.12.19-07.58.13:761][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Maps/default_map.umap
+[2018.12.19-07.58.13:848][850]LogSavePackage: Save=27.56ms
+[2018.12.19-07.58.13:848][850]LogSavePackage: Moving '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Saved/default_map_BuiltDataD34ED990423652466B1810BC7EDF2DF7.tmp' to '../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Maps/default_map_BuiltData.uasset'
+[2018.12.19-07.58.13:850][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Tyler/Desktop/Repository_Files/UnrealMasteryCourseUdemy/CoopShooterGame/Content/Maps/default_map_BuiltData.uasset
