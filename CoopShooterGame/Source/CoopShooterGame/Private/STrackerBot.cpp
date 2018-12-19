@@ -37,8 +37,8 @@ ASTrackerBot::ASTrackerBot()
 	bUseVelocityChange = true;
 	movementForce = 1000;
 	requiredDistanceToTarget = 100;
-	explosionDamage = 40;
-	explosionRadius = 200;
+	explosionDamage = 60;
+	explosionRadius = 400;
 
 	selfDamageInterval = 0.25f;
 	checkPathInterval = 0.25f;
@@ -77,15 +77,39 @@ void ASTrackerBot::findNextPathPoint() {
 
 FVector ASTrackerBot::getNextPathPoint()
 {
-	ACharacter* playerPawn = UGameplayStatics::GetPlayerCharacter(this, 0);
-	if (playerPawn) {
-		UNavigationPath* navPath = UNavigationSystem::FindPathToActorSynchronously(this, GetActorLocation(), playerPawn);
+	AActor* bestTarget=nullptr;
+	float nearestTargetDistance = 10000;
+	for (FConstPawnIterator it = GetWorld()->GetPawnIterator(); it; it++) {
+		APawn* testPawn = it->Get();
+		if (testPawn == nullptr || USHealthComponent::isFriendly(testPawn, this))
+		{
+			continue;
+		}
+		if (testPawn == this) {
+			continue;
+		}
+
+		USHealthComponent* testPawnHealthComponent = Cast<USHealthComponent>(testPawn->GetComponentByClass(USHealthComponent::StaticClass()));
+		if (testPawnHealthComponent) {
+			if (testPawnHealthComponent->getHealth() > 0) {
+				float distance = (testPawn->GetActorLocation() - GetActorLocation()).Size();
+				if (nearestTargetDistance > distance) {
+					nearestTargetDistance = distance;
+					bestTarget = testPawn;
+				}
+
+
+			}
+		}
+	}
+
+	if (bestTarget != nullptr) {
+		UNavigationPath* navPath = UNavigationSystem::FindPathToActorSynchronously(this, GetActorLocation(), bestTarget);
 
 
 		if (navPath->PathPoints.Num() > 1) {
 			return navPath->PathPoints[1];
 		}
-
 	}
 
 	return GetActorLocation();
@@ -207,7 +231,7 @@ void ASTrackerBot::NotifyActorBeginOverlap(AActor * otherActor){
 
 
 		ASCharacter* playerPawn = Cast<ASCharacter>(otherActor);
-		if (bStartedSelfDestruction == false && playerPawn) {
+		if (bStartedSelfDestruction == false && playerPawn && !USHealthComponent::isFriendly(otherActor, this)) {
 			//we overlapped with player.
 
 			if (Role == ROLE_Authority) {
