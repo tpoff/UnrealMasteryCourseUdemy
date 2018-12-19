@@ -66,8 +66,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category="Player")
 	FName weaponAttachSocketName;
 
-	void startFire();
-	void stopFire();
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
 	USHealthComponent* healthComponent; 
@@ -87,4 +86,12 @@ public:
 
 	
 	virtual FVector GetPawnViewLocation() const; 
+
+
+
+
+	UFUNCTION(BlueprintCallable, Category = "Player")
+		void startFire();
+	UFUNCTION(BlueprintCallable, Category = "Player")
+		void stopFire();
 };

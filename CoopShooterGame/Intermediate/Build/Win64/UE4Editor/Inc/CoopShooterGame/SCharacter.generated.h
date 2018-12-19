@@ -19,6 +19,22 @@ class AActor;
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execstopFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->stopFire(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execstartFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->startFire(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execonHealthChanged) \
 	{ \
 		P_GET_OBJECT(USHealthComponent,Z_Param_OwningHealthComponent); \
@@ -35,6 +51,22 @@ class AActor;
 
 
 #define CoopShooterGame_Source_CoopShooterGame_Public_SCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execstopFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->stopFire(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execstartFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->startFire(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execonHealthChanged) \
 	{ \
