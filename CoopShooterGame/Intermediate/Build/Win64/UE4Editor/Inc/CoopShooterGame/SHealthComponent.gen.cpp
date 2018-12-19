@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_USHealthComponent_addHealth();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_USHealthComponent_handleTakeAnyDamage();
+	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_USHealthComponent_isFriendly();
 	COOPSHOOTERGAME_API UFunction* Z_Construct_UFunction_USHealthComponent_OnRep_Health();
 // End Cross Module References
 	UFunction* Z_Construct_UDelegateFunction_CoopShooterGame_OnHealthChangedSignature__DelegateSignature()
@@ -79,6 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "addHealth", &USHealthComponent::execaddHealth },
 			{ "handleTakeAnyDamage", &USHealthComponent::exechandleTakeAnyDamage },
+			{ "isFriendly", &USHealthComponent::execisFriendly },
 			{ "OnRep_Health", &USHealthComponent::execOnRep_Health },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -147,6 +149,37 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 		}
 		return ReturnFunction;
 	}
+	UFunction* Z_Construct_UFunction_USHealthComponent_isFriendly()
+	{
+		struct SHealthComponent_eventisFriendly_Parms
+		{
+			AActor* actorA;
+			AActor* actorB;
+			bool ReturnValue;
+		};
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			auto NewProp_ReturnValue_SetBit = [](void* Obj){ ((SHealthComponent_eventisFriendly_Parms*)Obj)->ReturnValue = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(SHealthComponent_eventisFriendly_Parms), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_ReturnValue_SetBit)>::SetBit, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actorB = { UE4CodeGen_Private::EPropertyClass::Object, "actorB", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SHealthComponent_eventisFriendly_Parms, actorB), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actorA = { UE4CodeGen_Private::EPropertyClass::Object, "actorA", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000080, 1, nullptr, STRUCT_OFFSET(SHealthComponent_eventisFriendly_Parms, actorA), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ReturnValue,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_actorB,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_actorA,
+			};
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+				{ "Category", "HealthComponent" },
+				{ "ModuleRelativePath", "Public/Components/SHealthComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFunctionParams FuncParams = { (UObject*(*)())Z_Construct_UClass_USHealthComponent, "isFriendly", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x14022401, sizeof(SHealthComponent_eventisFriendly_Parms), PropPointers, ARRAY_COUNT(PropPointers), 0, 0, METADATA_PARAMS(Function_MetaDataParams, ARRAY_COUNT(Function_MetaDataParams)) };
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UFunction* Z_Construct_UFunction_USHealthComponent_OnRep_Health()
 	{
 		struct SHealthComponent_eventOnRep_Health_Parms
@@ -186,6 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 			static const FClassFunctionLinkInfo FuncInfo[] = {
 				{ &Z_Construct_UFunction_USHealthComponent_addHealth, "addHealth" }, // 1240797192
 				{ &Z_Construct_UFunction_USHealthComponent_handleTakeAnyDamage, "handleTakeAnyDamage" }, // 1087477917
+				{ &Z_Construct_UFunction_USHealthComponent_isFriendly, "isFriendly" }, // 1179865522
 				{ &Z_Construct_UFunction_USHealthComponent_OnRep_Health, "OnRep_Health" }, // 2084283160
 			};
 #if WITH_METADATA
@@ -217,10 +251,18 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_health = { UE4CodeGen_Private::EPropertyClass::Float, "health", RF_Public|RF_Transient|RF_MarkAsNative, 0x0020080100010035, 1, "OnRep_Health", STRUCT_OFFSET(USHealthComponent, health), METADATA_PARAMS(NewProp_health_MetaData, ARRAY_COUNT(NewProp_health_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_teamNum_MetaData[] = {
+				{ "Category", "HealthComponent" },
+				{ "ModuleRelativePath", "Public/Components/SHealthComponent.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FBytePropertyParams NewProp_teamNum = { UE4CodeGen_Private::EPropertyClass::Byte, "teamNum", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000010015, 1, nullptr, STRUCT_OFFSET(USHealthComponent, teamNum), nullptr, METADATA_PARAMS(NewProp_teamNum_MetaData, ARRAY_COUNT(NewProp_teamNum_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_onHealthChanged,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_defaultHealth,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_health,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_teamNum,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<USHealthComponent>::IsAbstract,
@@ -240,7 +282,7 @@ void EmptyLinkFunctionForGeneratedCodeSHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USHealthComponent, 1579329135);
+	IMPLEMENT_CLASS(USHealthComponent, 1532784056);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_USHealthComponent(Z_Construct_UClass_USHealthComponent, &USHealthComponent::StaticClass, TEXT("/Script/CoopShooterGame"), TEXT("USHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(USHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

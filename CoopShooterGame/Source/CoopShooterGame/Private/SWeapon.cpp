@@ -95,7 +95,7 @@ void ASWeapon::Fire()
 			}
 
 			//TODO: switch to server side.
-			UGameplayStatics::ApplyPointDamage(hitActor, damage, shotDirection, hit, owner->GetInstigatorController(), this, damageType);
+			UGameplayStatics::ApplyPointDamage(hitActor, damage, shotDirection, hit, owner->GetInstigatorController(), owner, damageType);
 			PlayImpactEffects(surfaceType, hit.ImpactPoint);
 
 			
